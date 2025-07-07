@@ -1,0 +1,79 @@
+{
+    "concept": "Synonyms and Antonyms",
+    "subject": "english",
+    "category": "Language Analysis",
+    "explanation": "Synonyms are words with similar meanings (big/large, happy/joyful). Antonyms are words with opposite meanings (hot/cold, fast/slow). Understanding these relationships helps with vocabulary building and reading comprehension. Context is important - some words can have different synonyms depending on how they're used. For example, 'bright' could mean intelligent (synonym: clever) or well-lit (synonym: illuminated).",
+    "examples": [
+        {
+            "question": "What is a synonym for 'enormous'?",
+            "solution": "Huge, massive, gigantic, colossal",
+            "explanation": "All these words mean very large in size, making them synonyms for 'enormous'."
+        },
+        {
+            "question": "What is an antonym for 'ancient'?",
+            "solution": "Modern, new, recent, contemporary",
+            "explanation": "These words all mean the opposite of 'ancient' (very old), referring to current or recent times."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Which word is a synonym for 'furious'?",
+            "options": [
+                "Calm",
+                "Angry",
+                "Happy",
+                "Sad"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Calm is an antonym (opposite) of furious, not a synonym.",
+                "Correct! Furious and angry both mean very mad or upset.",
+                "Happy is not related to furious in meaning.",
+                "Sad is a different emotion from furious."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Which word is an antonym for 'whisper'?",
+            "options": [
+                "Murmur",
+                "Speak",
+                "Shout",
+                "Talk"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "Murmur is similar to whisper (both quiet), so it's more of a synonym.",
+                "Speak is more neutral - not specifically loud or quiet.",
+                "Correct! Shout (loud) is the opposite of whisper (quiet).",
+                "Talk is more neutral - not specifically loud or quiet."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which words are synonyms for 'clever'?",
+            "options": [
+                "Intelligent",
+                "Stupid",
+                "Smart",
+                "Bright"
+            ],
+            "correct": [
+                0,
+                2,
+                3
+            ],
+            "feedback": [
+                "Correct! Intelligent means having good thinking ability, like clever.",
+                "Incorrect. Stupid is an antonym (opposite) of clever.",
+                "Correct! Smart means having good thinking ability, like clever.",
+                "Correct! Bright can mean intelligent, making it a synonym for clever."
+            ]
+        }
+    ]
+}

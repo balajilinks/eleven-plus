@@ -1,0 +1,80 @@
+{
+    "concept": "Inference",
+    "subject": "english",
+    "category": "Reading Comprehension",
+    "explanation": "Inference questions ask you to read between the lines and work out information that isn't directly stated in the text. You need to use clues from the text combined with your own knowledge to reach logical conclusions. Look for: descriptive language, character actions, dialogue, and context clues. Ask yourself: What can I work out from what the author has told me?",
+    "examples": [
+        {
+            "question": "Read this passage: 'Sarah glanced at her watch for the third time in five minutes. She tapped her foot impatiently and kept looking down the empty street. When she finally saw the familiar red car approaching, her shoulders relaxed and she smiled.' What can we infer about Sarah?",
+            "solution": "Sarah was waiting for someone to arrive and was getting anxious about them being late.",
+            "explanation": "We can infer this because: she keeps checking her watch (shows she's concerned about time), she's looking down the street (waiting for someone), she's tapping her foot (impatient), and she relaxes when she sees the car (relief that they've arrived)."
+        },
+        {
+            "question": "From the text: 'The old house creaked in the wind. Dust particles danced in the few rays of sunlight that managed to penetrate the boarded-up windows. Cobwebs hung like curtains in every corner.' What can we infer about this house?",
+            "solution": "The house has been abandoned for a long time and is in poor condition.",
+            "explanation": "Clues: 'boarded-up windows' suggests it's been closed up, 'dust particles' and 'cobwebs' indicate it hasn't been cleaned or lived in for a while, and 'creaked in the wind' suggests it's old and possibly not well-maintained."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Read this passage: 'Tom's hands trembled as he approached the microphone. His shirt was damp with sweat despite the cool auditorium. He cleared his throat twice before speaking his first words.' What can we infer about Tom?",
+            "options": [
+                "Tom is excited about performing",
+                "Tom is nervous about speaking publicly",
+                "Tom is ill and has a fever",
+                "Tom is angry about something"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "The trembling hands and sweating suggest nervousness, not excitement.",
+                "Correct! All the clues (trembling hands, sweating, clearing throat) point to nervousness about public speaking.",
+                "The context suggests nerves rather than illness - he's about to speak publicly.",
+                "There's no evidence of anger in the text."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Read: 'The children's laughter echoed through the empty playground. Swings moved gently in the breeze, and a forgotten sandwich lay on a bench, attracting a group of eager pigeons.' What can we infer?",
+            "options": [
+                "The children are still playing in the playground",
+                "The children have recently left the playground",
+                "The playground is permanently closed",
+                "It's very early in the morning"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "The playground is described as 'empty', so the children aren't there now.",
+                "Correct! The 'forgotten sandwich' and the fact that laughter 'echoed' (past tense) suggests children were recently there but have now left.",
+                "The evidence suggests recent use, not permanent closure.",
+                "The 'forgotten sandwich' suggests it's more likely to be later in the day."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Read: 'Maria packed her books into cardboard boxes, each one carefully labeled with her neat handwriting. The walls, once covered with certificates and photos, now stood bare. She took one last look around the room before switching off the light.' What can we infer about Maria?",
+            "options": [
+                "Maria is moving to a new place",
+                "Maria is very organized",
+                "Maria has been successful in her studies/career",
+                "Maria is sad about leaving"
+            ],
+            "correct": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "feedback": [
+                "Correct! Packing books and bare walls suggest she's moving.",
+                "Correct! 'Carefully labeled' and 'neat handwriting' show she's organized.",
+                "Correct! The 'certificates' on the walls suggest achievements.",
+                "Correct! 'One last look' suggests she's emotional about leaving."
+            ]
+        }
+    ]
+}

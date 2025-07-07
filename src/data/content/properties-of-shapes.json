@@ -1,0 +1,78 @@
+{
+    "concept": "Properties of Shapes",
+    "subject": "mathematics",
+    "category": "Geometry",
+    "explanation": "Different shapes have specific properties: lines of symmetry, rotational symmetry, parallel sides, equal sides, and diagonals. A kite has two pairs of adjacent equal sides and one line of symmetry. A rhombus has all sides equal and two lines of symmetry. A trapezium has one pair of parallel sides. A parallelogram has opposite sides equal and parallel, with no lines of symmetry but rotational symmetry of order 2.",
+    "examples": [
+        {
+            "question": "How many lines of symmetry does a rectangle have?",
+            "solution": "2",
+            "explanation": "A rectangle has 2 lines of symmetry: one horizontal through the center and one vertical through the center."
+        },
+        {
+            "question": "Which quadrilateral has exactly one pair of parallel sides?",
+            "solution": "Trapezium",
+            "explanation": "A trapezium (or trapezoid) is defined as having exactly one pair of parallel sides."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "How many lines of symmetry does a regular hexagon have?",
+            "options": [
+                "3",
+                "4",
+                "6",
+                "8"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "A regular hexagon has more lines of symmetry than a triangle.",
+                "That's how many a square has, not a hexagon.",
+                "Correct! A regular hexagon has 6 lines of symmetry.",
+                "That's too many for a hexagon."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which shapes have all sides equal?",
+            "options": [
+                "Square",
+                "Rectangle",
+                "Rhombus",
+                "Parallelogram"
+            ],
+            "correct": [
+                0,
+                2
+            ],
+            "feedback": [
+                "Correct! A square has all four sides equal.",
+                "Incorrect. A rectangle has opposite sides equal, but not all sides equal.",
+                "Correct! A rhombus has all four sides equal.",
+                "Incorrect. A parallelogram has opposite sides equal, but not necessarily all sides equal."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Which shape has rotational symmetry of order 4?",
+            "options": [
+                "Rectangle",
+                "Square",
+                "Rhombus",
+                "Kite"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "A rectangle has rotational symmetry of order 2, not 4.",
+                "Correct! A square looks the same after rotations of 90°, 180°, 270°, and 360°.",
+                "A rhombus has rotational symmetry of order 2, not 4.",
+                "Most kites have no rotational symmetry."
+            ]
+        }
+    ]
+}

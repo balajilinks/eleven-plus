@@ -1,0 +1,111 @@
+{
+    "concept": "Word Problem Quick Strategies",
+    "subject": "mathematics",
+    "category": "Quick Wins",
+    "explanation": "Word problems can be solved lightning-fast with the right strategies! The key is pattern recognition - most 11+ word problems follow just 6 main types. Learn to spot these patterns instantly: 1) Find the total (add), 2) Find the difference (subtract), 3) Equal sharing (divide), 4) Groups of items (multiply), 5) Parts of whole (fractions/percentages), 6) Before/after changes. Read, identify the pattern, solve!",
+    "examples": [
+        {
+            "question": "Tom has 3 times as many cards as Sam. Together they have 48 cards. How many does Tom have?",
+            "solution": "36 cards",
+            "explanation": "PATTERN: 'Times as many' + 'together' = ratio problem. If Sam has x, Tom has 3x. Total: x + 3x = 48, so 4x = 48, x = 12. Tom has 3 × 12 = 36. Quick method: Tom gets 3 parts out of 4 total parts, so 3/4 × 48 = 36!"
+        },
+        {
+            "question": "A shop reduces prices by 20%. A jacket now costs £32. What was the original price?",
+            "solution": "£40",
+            "explanation": "PATTERN: 'Reduced by %' = working backwards. £32 is 80% of original (100% - 20% = 80%). Quick method: If 80% = £32, then 10% = £4, so 100% = £40. Or: £32 ÷ 0.8 = £40"
+        },
+        {
+            "question": "A train travels 240km in 3 hours. How long for 400km at the same speed?",
+            "solution": "5 hours",
+            "explanation": "PATTERN: Speed-distance-time. Speed = 240 ÷ 3 = 80 km/h. Time for 400km = 400 ÷ 80 = 5 hours. Quick method: 400 ÷ 240 = 5/3, so time = 3 × 5/3 = 5 hours"
+        },
+        {
+            "question": "In a class of 30, the ratio of boys to girls is 2:3. How many boys?",
+            "solution": "12 boys",
+            "explanation": "PATTERN: Ratio problems. Total parts = 2 + 3 = 5. Boys get 2 parts out of 5. Quick method: 2/5 × 30 = 12 boys. Always find total parts first!"
+        },
+        {
+            "question": "Sarah saves £5 weekly. After how many weeks will she have at least £40?",
+            "solution": "8 weeks",
+            "explanation": "PATTERN: 'At least' means minimum. £40 ÷ £5 = 8 weeks exactly. So 8 weeks gives exactly £40, which satisfies 'at least £40'. Watch for 'at least', 'at most', 'more than'!"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Emma spends 2/5 of her money on books and has £18 left. How much did she start with?",
+            "options": [
+                "£30",
+                "£25",
+                "£35",
+                "£45"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! If 2/5 spent, then 3/5 left. 3/5 = £18, so 1/5 = £6, and 5/5 = £30",
+                "Check: 2/5 of £25 = £10 spent, leaving £15, not £18",
+                "Check: 2/5 of £35 = £14 spent, leaving £21, not £18",
+                "Check: 2/5 of £45 = £18 spent, leaving £27, not £18"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "A recipe for 4 people uses 300g flour. How much for 6 people?",
+            "options": [
+                "450g",
+                "400g",
+                "500g",
+                "360g"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 6/4 = 1.5 times recipe. 300g × 1.5 = 450g",
+                "This would be for 5.33 people, not 6",
+                "This would be for 6.67 people, not 6",
+                "This would be for 4.8 people, not 6"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "A car loses 15% of its value yearly. If worth £8500 now, what was it worth last year?",
+            "options": [
+                "£10,000",
+                "£9,500",
+                "£9,775",
+                "£11,000"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! £8500 is 85% of original. 85% = £8500, so 1% = £100, and 100% = £10,000",
+                "Check: 15% of £9500 = £1425, so £9500 - £1425 = £8075, not £8500",
+                "Too close - this gives about £8309 after 15% loss",
+                "Too high - this would give £9350 after 15% loss"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Jake runs at 8 mph. How long to run 6 miles?",
+            "options": [
+                "45 minutes",
+                "30 minutes",
+                "48 minutes",
+                "40 minutes"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Time = distance ÷ speed = 6 ÷ 8 = 0.75 hours = 45 minutes",
+                "This would be 4 miles at 8 mph",
+                "Close, but 0.75 hours = 45 minutes, not 48",
+                "This would be 5.33 miles at 8 mph"
+            ]
+        }
+    ]
+}

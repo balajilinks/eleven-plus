@@ -1,0 +1,177 @@
+{
+    "id": "ai-quick-practice-001",
+    "title": "AI Generated Quick Practice Test",
+    "subject": "mixed",
+    "description": "Short daily practice test covering both subjects",
+    "timeLimit": 15,
+    "totalQuestions": 10,
+    "difficulty": "medium",
+    "topics": [
+        "mixed"
+    ],
+    "generatedBy": "ai-offline",
+    "generatedDate": "2025-01-15",
+    "isQuickPractice": true,
+    "questions": [
+        {
+            "id": 1,
+            "question": "Calculate: 12 + 8 ÷ 4",
+            "type": "multiple-choice",
+            "options": [
+                "5",
+                "14",
+                "16",
+                "20"
+            ],
+            "correct": 1,
+            "explanation": "Following BODMAS: 8 ÷ 4 = 2, then 12 + 2 = 14",
+            "topic": "Order of Operations",
+            "difficulty": "medium",
+            "subject": "mathematics"
+        },
+        {
+            "id": 2,
+            "question": "Which word means the opposite of 'begin'?",
+            "type": "multiple-choice",
+            "options": [
+                "Start",
+                "End",
+                "Continue",
+                "Begin"
+            ],
+            "correct": 1,
+            "explanation": "End is the opposite of begin - they are antonyms",
+            "topic": "Vocabulary",
+            "difficulty": "easy",
+            "subject": "english"
+        },
+        {
+            "id": 3,
+            "question": "What is 40% of 50?",
+            "type": "multiple-choice",
+            "options": [
+                "15",
+                "20",
+                "25",
+                "30"
+            ],
+            "correct": 1,
+            "explanation": "40% of 50 = 40/100 × 50 = 20",
+            "topic": "Percentages",
+            "difficulty": "medium",
+            "subject": "mathematics"
+        },
+        {
+            "id": 4,
+            "question": "Which sentence has correct grammar?",
+            "type": "multiple-choice",
+            "options": [
+                "I have went to school",
+                "I have gone to school",
+                "I has gone to school",
+                "I gone to school"
+            ],
+            "correct": 1,
+            "explanation": "The correct past participle form with 'have' is 'gone'",
+            "topic": "Grammar",
+            "difficulty": "medium",
+            "subject": "english"
+        },
+        {
+            "id": 5,
+            "question": "A square has a perimeter of 20cm. What is its area?",
+            "type": "multiple-choice",
+            "options": [
+                "20 cm²",
+                "25 cm²",
+                "40 cm²",
+                "100 cm²"
+            ],
+            "correct": 1,
+            "explanation": "Side length = 20 ÷ 4 = 5cm. Area = 5 × 5 = 25 cm²",
+            "topic": "Area and Perimeter",
+            "difficulty": "medium",
+            "subject": "mathematics"
+        },
+        {
+            "id": 6,
+            "question": "What is the correct spelling?",
+            "type": "multiple-choice",
+            "options": [
+                "Seperate",
+                "Separate",
+                "Seperete",
+                "Seprate"
+            ],
+            "correct": 1,
+            "explanation": "The correct spelling is 'separate' with 'a' in the middle",
+            "topic": "Spelling",
+            "difficulty": "medium",
+            "subject": "english"
+        },
+        {
+            "id": 7,
+            "question": "If a = 4 and b = 3, what is a² - b²?",
+            "type": "multiple-choice",
+            "options": [
+                "1",
+                "7",
+                "12",
+                "25"
+            ],
+            "correct": 1,
+            "explanation": "a² - b² = 4² - 3² = 16 - 9 = 7",
+            "topic": "Algebra",
+            "difficulty": "medium",
+            "subject": "mathematics"
+        },
+        {
+            "id": 8,
+            "question": "What type of word is 'beautiful' in the sentence 'The flower is beautiful'?",
+            "type": "multiple-choice",
+            "options": [
+                "Noun",
+                "Verb",
+                "Adjective",
+                "Adverb"
+            ],
+            "correct": 2,
+            "explanation": "Beautiful describes the flower, making it an adjective",
+            "topic": "Parts of Speech",
+            "difficulty": "easy",
+            "subject": "english"
+        },
+        {
+            "id": 9,
+            "question": "What is the median of: 2, 5, 3, 8, 1?",
+            "type": "multiple-choice",
+            "options": [
+                "2",
+                "3",
+                "5",
+                "8"
+            ],
+            "correct": 1,
+            "explanation": "First arrange in order: 1, 2, 3, 5, 8. The middle value is 3",
+            "topic": "Statistics",
+            "difficulty": "medium",
+            "subject": "mathematics"
+        },
+        {
+            "id": 10,
+            "question": "Which punctuation mark is missing? 'Where are you going'",
+            "type": "multiple-choice",
+            "options": [
+                ".",
+                "!",
+                "?",
+                ","
+            ],
+            "correct": 2,
+            "explanation": "This is a question so it needs a question mark (?)",
+            "topic": "Punctuation",
+            "difficulty": "easy",
+            "subject": "english"
+        }
+    ]
+}

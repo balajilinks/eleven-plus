@@ -1,0 +1,697 @@
+{
+    "mathematics": {
+        "practice_test_1": {
+            "title": "Mathematics Practice Test 1",
+            "description": "Mixed topics covering arithmetic, geometry, and problem solving",
+            "timeLimit": 45,
+            "totalQuestions": 25,
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Calculate: 15 + 8 × 3 - 4",
+                    "type": "multiple-choice",
+                    "options": [
+                        "35",
+                        "39",
+                        "65",
+                        "31"
+                    ],
+                    "correct": 0,
+                    "explanation": "Following BODMAS: 8 × 3 = 24, then 15 + 24 - 4 = 35",
+                    "topic": "Order of Operations",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 2,
+                    "question": "What is 25% of 80?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "15",
+                        "20",
+                        "25",
+                        "30"
+                    ],
+                    "correct": 1,
+                    "explanation": "25% of 80 = 25/100 × 80 = 20",
+                    "topic": "Percentages",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 3,
+                    "question": "A rectangle has length 12 cm and width 7 cm. What is its area?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "19 cm²",
+                        "38 cm²",
+                        "84 cm²",
+                        "49 cm²"
+                    ],
+                    "correct": 2,
+                    "explanation": "Area = length × width = 12 × 7 = 84 cm²",
+                    "topic": "Area and Perimeter",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 4,
+                    "question": "What is the next number in the sequence: 2, 6, 18, 54, ?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "108",
+                        "162",
+                        "216",
+                        "270"
+                    ],
+                    "correct": 1,
+                    "explanation": "Each term is multiplied by 3: 54 × 3 = 162",
+                    "topic": "Sequences",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 5,
+                    "question": "If x + 7 = 15, what is x?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "6",
+                        "7",
+                        "8",
+                        "9"
+                    ],
+                    "correct": 2,
+                    "explanation": "x + 7 = 15, so x = 15 - 7 = 8",
+                    "topic": "Solving Equations",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 6,
+                    "question": "A train travels 180 km in 3 hours. What is its speed?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "50 km/h",
+                        "55 km/h",
+                        "60 km/h",
+                        "65 km/h"
+                    ],
+                    "correct": 2,
+                    "explanation": "Speed = Distance ÷ Time = 180 ÷ 3 = 60 km/h",
+                    "topic": "Speed Distance Time",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 7,
+                    "question": "What is the HCF of 24 and 36?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "6",
+                        "8",
+                        "12",
+                        "18"
+                    ],
+                    "correct": 2,
+                    "explanation": "Factors of 24: 1,2,3,4,6,8,12,24. Factors of 36: 1,2,3,4,6,9,12,18,36. HCF = 12",
+                    "topic": "HCF and LCM",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 8,
+                    "question": "A dice is rolled. What is the probability of getting an even number?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "1/6",
+                        "1/3",
+                        "1/2",
+                        "2/3"
+                    ],
+                    "correct": 2,
+                    "explanation": "Even numbers on a dice: 2,4,6. So P(even) = 3/6 = 1/2",
+                    "topic": "Probability",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 9,
+                    "question": "Round 7.468 to 2 decimal places",
+                    "type": "multiple-choice",
+                    "options": [
+                        "7.46",
+                        "7.47",
+                        "7.48",
+                        "7.5"
+                    ],
+                    "correct": 1,
+                    "explanation": "The third decimal place is 8, so round up: 7.47",
+                    "topic": "Rounding",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 10,
+                    "question": "In a right triangle, if two sides are 3 and 4, what is the hypotenuse?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "5",
+                        "6",
+                        "7",
+                        "8"
+                    ],
+                    "correct": 0,
+                    "explanation": "Using Pythagoras: c² = 3² + 4² = 9 + 16 = 25, so c = 5",
+                    "topic": "Pythagoras Theorem",
+                    "difficulty": "hard"
+                },
+                {
+                    "id": 11,
+                    "question": "What is -5 + 8 - 3?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "-6",
+                        "0",
+                        "6",
+                        "16"
+                    ],
+                    "correct": 1,
+                    "explanation": "-5 + 8 - 3 = 3 - 3 = 0",
+                    "topic": "Negative Numbers",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 12,
+                    "question": "If 3x = 21, what is x?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "6",
+                        "7",
+                        "8",
+                        "9"
+                    ],
+                    "correct": 1,
+                    "explanation": "3x = 21, so x = 21 ÷ 3 = 7",
+                    "topic": "Solving Equations",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 13,
+                    "question": "A circle has radius 5 cm. What is its area? (Use π = 3.14)",
+                    "type": "multiple-choice",
+                    "options": [
+                        "31.4 cm²",
+                        "62.8 cm²",
+                        "78.5 cm²",
+                        "157 cm²"
+                    ],
+                    "correct": 2,
+                    "explanation": "Area = πr² = 3.14 × 5² = 3.14 × 25 = 78.5 cm²",
+                    "topic": "Circle Properties",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 14,
+                    "question": "What is 3/4 as a percentage?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "70%",
+                        "75%",
+                        "80%",
+                        "85%"
+                    ],
+                    "correct": 1,
+                    "explanation": "3/4 = 0.75 = 75%",
+                    "topic": "Fractions and Percentages",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 15,
+                    "question": "A bag contains 4 red balls and 6 blue balls. What is the probability of picking a red ball?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "2/5",
+                        "3/5",
+                        "4/10",
+                        "6/10"
+                    ],
+                    "correct": 0,
+                    "explanation": "P(red) = 4/(4+6) = 4/10 = 2/5",
+                    "topic": "Probability",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 16,
+                    "question": "What is the mode of: 3, 7, 5, 3, 9, 7, 3, 1?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "3",
+                        "5",
+                        "7",
+                        "9"
+                    ],
+                    "correct": 0,
+                    "explanation": "3 appears 3 times, which is the most frequent",
+                    "topic": "Statistics",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 17,
+                    "question": "Calculate: (2 + 3)² × 4",
+                    "type": "multiple-choice",
+                    "options": [
+                        "40",
+                        "50",
+                        "80",
+                        "100"
+                    ],
+                    "correct": 3,
+                    "explanation": "(2 + 3)² × 4 = 5² × 4 = 25 × 4 = 100",
+                    "topic": "Order of Operations",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 18,
+                    "question": "A car travels 240 km in 4 hours. At this rate, how far will it travel in 6 hours?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "300 km",
+                        "320 km",
+                        "360 km",
+                        "400 km"
+                    ],
+                    "correct": 2,
+                    "explanation": "Speed = 240 ÷ 4 = 60 km/h. Distance in 6 hours = 60 × 6 = 360 km",
+                    "topic": "Speed Distance Time",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 19,
+                    "question": "What is 2.5 × 0.4?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "0.1",
+                        "1",
+                        "10",
+                        "100"
+                    ],
+                    "correct": 1,
+                    "explanation": "2.5 × 0.4 = 1.0 = 1",
+                    "topic": "Decimals",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 20,
+                    "question": "A rectangle has area 48 cm² and width 6 cm. What is its length?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "6 cm",
+                        "7 cm",
+                        "8 cm",
+                        "9 cm"
+                    ],
+                    "correct": 2,
+                    "explanation": "Area = length × width, so 48 = length × 6, therefore length = 48 ÷ 6 = 8 cm",
+                    "topic": "Area and Perimeter",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 21,
+                    "question": "What is the square root of 144?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "11",
+                        "12",
+                        "13",
+                        "14"
+                    ],
+                    "correct": 1,
+                    "explanation": "√144 = 12 because 12² = 144",
+                    "topic": "Square Numbers",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 22,
+                    "question": "If a = 3 and b = 4, what is a² + b²?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "7",
+                        "12",
+                        "25",
+                        "49"
+                    ],
+                    "correct": 2,
+                    "explanation": "a² + b² = 3² + 4² = 9 + 16 = 25",
+                    "topic": "Substitution",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 23,
+                    "question": "A shop reduces prices by 20%. If a item costs £50, what is the new price?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "£30",
+                        "£35",
+                        "£40",
+                        "£45"
+                    ],
+                    "correct": 2,
+                    "explanation": "20% of £50 = £10, so new price = £50 - £10 = £40",
+                    "topic": "Percentage Decrease",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 24,
+                    "question": "What is the perimeter of a square with side length 7 cm?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "14 cm",
+                        "21 cm",
+                        "28 cm",
+                        "49 cm"
+                    ],
+                    "correct": 2,
+                    "explanation": "Perimeter of square = 4 × side length = 4 × 7 = 28 cm",
+                    "topic": "Perimeter",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 25,
+                    "question": "If x + y = 10 and x - y = 2, what is x?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "4",
+                        "5",
+                        "6",
+                        "7"
+                    ],
+                    "correct": 2,
+                    "explanation": "Adding the equations: 2x = 12, so x = 6",
+                    "topic": "Simultaneous Equations",
+                    "difficulty": "hard"
+                }
+            ]
+        }
+    },
+    "english": {
+        "practice_test_1": {
+            "title": "English Practice Test 1",
+            "description": "Reading comprehension, vocabulary, and language skills",
+            "timeLimit": 50,
+            "totalQuestions": 20,
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Which word is a synonym for 'happy'?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Sad",
+                        "Joyful",
+                        "Angry",
+                        "Tired"
+                    ],
+                    "correct": 1,
+                    "explanation": "Joyful means the same as happy - both express positive emotions",
+                    "topic": "Synonyms and Antonyms",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 2,
+                    "question": "What is the past tense of 'run'?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Runs",
+                        "Running",
+                        "Ran",
+                        "Runned"
+                    ],
+                    "correct": 2,
+                    "explanation": "The past tense of 'run' is 'ran' - it's an irregular verb",
+                    "topic": "Grammar",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 3,
+                    "question": "Which sentence uses correct punctuation?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "What time is it?",
+                        "What time is it.",
+                        "What time is it!",
+                        "What time is it"
+                    ],
+                    "correct": 0,
+                    "explanation": "Questions end with a question mark (?)",
+                    "topic": "Punctuation",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 4,
+                    "question": "What does the word 'enormous' mean?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Very small",
+                        "Very large",
+                        "Very fast",
+                        "Very slow"
+                    ],
+                    "correct": 1,
+                    "explanation": "Enormous means extremely large or huge",
+                    "topic": "Vocabulary",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 5,
+                    "question": "Which word completes the sentence: 'The weather was _____ cold.'",
+                    "type": "multiple-choice",
+                    "options": [
+                        "extreme",
+                        "extremely",
+                        "extremes",
+                        "extremed"
+                    ],
+                    "correct": 1,
+                    "explanation": "We need an adverb to describe how cold it was - 'extremely' is the adverb form",
+                    "topic": "Grammar",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 6,
+                    "question": "What is the plural of 'child'?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Childs",
+                        "Children",
+                        "Childes",
+                        "Childrens"
+                    ],
+                    "correct": 1,
+                    "explanation": "Children is the irregular plural form of child",
+                    "topic": "Grammar",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 7,
+                    "question": "Which word is spelled correctly?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Recieve",
+                        "Receive",
+                        "Recive",
+                        "Receeve"
+                    ],
+                    "correct": 1,
+                    "explanation": "Remember the rule: 'i' before 'e' except after 'c' - receive",
+                    "topic": "Spelling",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 8,
+                    "question": "What type of word is 'quickly'?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Noun",
+                        "Verb",
+                        "Adjective",
+                        "Adverb"
+                    ],
+                    "correct": 3,
+                    "explanation": "Quickly is an adverb - it describes how an action is performed",
+                    "topic": "Parts of Speech",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 9,
+                    "question": "Which sentence is written in the past tense?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "She walks to school",
+                        "She walked to school",
+                        "She will walk to school",
+                        "She is walking to school"
+                    ],
+                    "correct": 1,
+                    "explanation": "Walked is the past tense form of walk",
+                    "topic": "Grammar",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 10,
+                    "question": "What is the opposite of 'ancient'?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Old",
+                        "Modern",
+                        "Historic",
+                        "Traditional"
+                    ],
+                    "correct": 1,
+                    "explanation": "Modern is the opposite of ancient - it refers to current or recent times",
+                    "topic": "Synonyms and Antonyms",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 11,
+                    "question": "Which word best completes: 'The cat sat _____ the mat'?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "in",
+                        "on",
+                        "at",
+                        "by"
+                    ],
+                    "correct": 1,
+                    "explanation": "On is the correct preposition - the cat sits on top of the mat",
+                    "topic": "Grammar",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 12,
+                    "question": "What does 'transparent' mean?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "You can see through it",
+                        "Very heavy",
+                        "Very light",
+                        "Very strong"
+                    ],
+                    "correct": 0,
+                    "explanation": "Transparent means clear or see-through",
+                    "topic": "Vocabulary",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 13,
+                    "question": "Which sentence uses capital letters correctly?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "we went to london on monday",
+                        "We went to London on Monday",
+                        "we went to London on monday",
+                        "We went to london on Monday"
+                    ],
+                    "correct": 1,
+                    "explanation": "Proper nouns (London) and the start of sentences need capital letters",
+                    "topic": "Capitalization",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 14,
+                    "question": "What is the comparative form of 'good'?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Gooder",
+                        "Better",
+                        "Best",
+                        "More good"
+                    ],
+                    "correct": 1,
+                    "explanation": "Better is the comparative form of good (good, better, best)",
+                    "topic": "Grammar",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 15,
+                    "question": "Which word is a homophone of 'there'?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Here",
+                        "Their",
+                        "Where",
+                        "Were"
+                    ],
+                    "correct": 1,
+                    "explanation": "Their sounds the same as there but has a different meaning and spelling",
+                    "topic": "Homophones",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 16,
+                    "question": "What type of sentence is: 'Close the door!'",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Statement",
+                        "Question",
+                        "Exclamation",
+                        "Command"
+                    ],
+                    "correct": 3,
+                    "explanation": "This is a command (imperative) - it tells someone to do something",
+                    "topic": "Sentence Types",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 17,
+                    "question": "Which word means 'to make bigger'?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Reduce",
+                        "Enlarge",
+                        "Shrink",
+                        "Minimize"
+                    ],
+                    "correct": 1,
+                    "explanation": "Enlarge means to make something bigger or larger",
+                    "topic": "Vocabulary",
+                    "difficulty": "easy"
+                },
+                {
+                    "id": 18,
+                    "question": "What is the superlative form of 'happy'?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Happier",
+                        "Happiest",
+                        "More happy",
+                        "Most happy"
+                    ],
+                    "correct": 1,
+                    "explanation": "Happiest is the superlative form (happy, happier, happiest)",
+                    "topic": "Grammar",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 19,
+                    "question": "Which sentence has correct subject-verb agreement?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "The dogs runs fast",
+                        "The dogs run fast",
+                        "The dog run fast",
+                        "The dogs running fast"
+                    ],
+                    "correct": 1,
+                    "explanation": "Plural subject (dogs) needs plural verb (run)",
+                    "topic": "Grammar",
+                    "difficulty": "medium"
+                },
+                {
+                    "id": 20,
+                    "question": "What does the prefix 'un-' mean in 'unhappy'?",
+                    "type": "multiple-choice",
+                    "options": [
+                        "Very",
+                        "Not",
+                        "Again",
+                        "Before"
+                    ],
+                    "correct": 1,
+                    "explanation": "The prefix 'un-' means 'not' - unhappy means not happy",
+                    "topic": "Prefixes and Suffixes",
+                    "difficulty": "easy"
+                }
+            ]
+        }
+    }
+}

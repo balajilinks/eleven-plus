@@ -1,0 +1,130 @@
+{
+    "concept": "Word Problems",
+    "subject": "mathematics",
+    "category": "Problem Solving",
+    "explanation": "Word problems require you to translate real-world situations into mathematical calculations. Key strategies: 1) Read carefully and identify what you're looking for, 2) Identify the given information, 3) Decide which operations to use, 4) Work step by step, 5) Check your answer makes sense in the context. Look for key words like 'total', 'difference', 'each', 'altogether', 'left', 'more than', 'less than'.",
+    "examples": [
+        {
+            "question": "A school has 480 students. 2/5 of them are girls. How many boys are there?",
+            "solution": "288 boys",
+            "explanation": "Girls: 2/5 of 480 = 480 × 2/5 = 192 girls. Boys: 480 - 192 = 288 boys. Or: 3/5 of 480 = 288 boys directly."
+        },
+        {
+            "question": "Tom saves £3.50 each week. How much will he have saved after 12 weeks?",
+            "solution": "£42.00",
+            "explanation": "Total savings = £3.50 × 12 = £42.00."
+        },
+        {
+            "question": "A train travels 180km in 2 hours 30 minutes. What is its average speed in km/h?",
+            "solution": "72 km/h",
+            "explanation": "Time = 2.5 hours (30 minutes = 0.5 hours). Speed = distance ÷ time = 180 ÷ 2.5 = 72 km/h"
+        },
+        {
+            "question": "Sarah has 3 times as many stickers as James. Together they have 84 stickers. How many does each have?",
+            "solution": "James: 21, Sarah: 63",
+            "explanation": "Let James have x stickers. Sarah has 3x. Total: x + 3x = 84, so 4x = 84, x = 21. James: 21, Sarah: 63"
+        },
+        {
+            "question": "A rectangle's length is 5cm more than its width. If the perimeter is 34cm, find the dimensions.",
+            "solution": "Width: 6cm, Length: 11cm",
+            "explanation": "Let width = w. Length = w + 5. Perimeter = 2w + 2(w + 5) = 34. So 4w + 10 = 34, 4w = 24, w = 6cm. Length = 11cm"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "A cinema has 24 rows with 18 seats in each row. If 3/4 of the seats are taken, how many seats are empty?",
+            "options": [
+                "108",
+                "324",
+                "432",
+                "18"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Total seats: 24 × 18 = 432. Taken: 3/4 × 432 = 324. Empty: 432 - 324 = 108.",
+                "This is the number of seats taken, not empty.",
+                "This is the total number of seats, not empty ones.",
+                "This is the number of seats per row, not empty seats."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "A recipe for 6 people needs 450g of flour. How much flour is needed for 8 people?",
+            "options": [
+                "500g",
+                "600g",
+                "650g",
+                "700g"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Too low - you need to scale up proportionally",
+                "Correct! 450g ÷ 6 = 75g per person. For 8 people: 75g × 8 = 600g",
+                "Too high - check your proportion calculation",
+                "Too high - the scaling isn't that much"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Jake buys 5 books for £35. Later he buys 3 more books at the same price. How much did he spend in total?",
+            "options": [
+                "£56",
+                "£38",
+                "£21",
+                "£53"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Price per book: £35 ÷ 5 = £7. Total books: 8. Total cost: 8 × £7 = £56",
+                "This is £35 + £3, which isn't correct",
+                "This is just the cost of 3 books, not the total",
+                "Close, but check your arithmetic carefully"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "A car park charges £2 for the first hour and £1.50 for each additional hour. How much to park for 5 hours?",
+            "options": [
+                "£8.00",
+                "£7.50",
+                "£9.50",
+                "£10.00"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! First hour: £2. Additional 4 hours: 4 × £1.50 = £6. Total: £2 + £6 = £8",
+                "You've calculated 5 × £1.50, but the first hour has different pricing",
+                "You might have added an extra hour somewhere",
+                "Too high - check the calculation again"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Two numbers have a sum of 45 and a difference of 13. What are the two numbers?",
+            "options": [
+                "16 and 29",
+                "19 and 26",
+                "15 and 30",
+                "20 and 25"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Let the numbers be x and y. x + y = 45, x - y = 13. Adding: 2x = 58, so x = 29, y = 16",
+                "Check: 19 + 26 = 45 ✓, but 26 - 19 = 7, not 13",
+                "Check: 15 + 30 = 45 ✓, but 30 - 15 = 15, not 13",
+                "Check: 20 + 25 = 45 ✓, but 25 - 20 = 5, not 13"
+            ]
+        }
+    ]
+}

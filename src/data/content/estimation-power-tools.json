@@ -1,0 +1,111 @@
+{
+    "concept": "Estimation Power Tools",
+    "subject": "mathematics",
+    "category": "Quick Wins",
+    "explanation": "Estimation is your secret weapon in 11+ exams! When exact calculation takes too long, smart estimation gives you the answer in seconds. Plus, estimation helps you check if your exact answers are reasonable. Master these tools: 1) Round to nearest 10/100, 2) Use benchmark numbers (25, 50, 75, 100), 3) Front-end estimation, 4) Compatible numbers, 5) Order of magnitude checks. Trust your estimates!",
+    "examples": [
+        {
+            "question": "Estimate 47 × 23 quickly",
+            "solution": "About 1000",
+            "explanation": "Round both: 47 ≈ 50, 23 ≈ 20. So 50 × 20 = 1000. (Exact answer is 1081, so very close!) Always round to numbers that multiply easily."
+        },
+        {
+            "question": "Estimate 897 ÷ 31 in seconds",
+            "solution": "About 30",
+            "explanation": "Round: 897 ≈ 900, 31 ≈ 30. So 900 ÷ 30 = 30. (Exact is 28.9, so excellent estimate!) Round divisor to factors of dividend when possible."
+        },
+        {
+            "question": "Quick estimate: 68% of 291",
+            "solution": "About 200",
+            "explanation": "68% ≈ 70%, 291 ≈ 300. So 70% of 300 = 0.7 × 300 = 210. Round to 200 for quick estimate. (Exact: 197.88)"
+        },
+        {
+            "question": "Estimate the sum: 187 + 234 + 156",
+            "solution": "About 580",
+            "explanation": "Front-end estimation: 100 + 200 + 100 = 400. Then adjust: 87 + 34 + 56 ≈ 180. Total: 400 + 180 = 580. (Exact: 577)"
+        },
+        {
+            "question": "Is 15² closer to 200 or 250?",
+            "solution": "Closer to 200",
+            "explanation": "15² = (10 + 5)² ≈ 10² + 2×10×5 = 100 + 100 = 200. (Exact: 225). Or think: 15 is halfway between 10 and 20, and 10²=100, 20²=400, so 15² ≈ 225, closer to 200."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Best estimate for 38 × 19",
+            "options": [
+                "800",
+                "600",
+                "1000",
+                "400"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 38 ≈ 40, 19 ≈ 20, so 40 × 20 = 800",
+                "This would be 30 × 20 = 600, but 38 is closer to 40",
+                "Too high - this would be 50 × 20",
+                "Too low - this would be 20 × 20"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Estimate 789 ÷ 19",
+            "options": [
+                "40",
+                "30",
+                "50",
+                "35"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 789 ≈ 800, 19 ≈ 20, so 800 ÷ 20 = 40",
+                "This would be 600 ÷ 20, but 789 is closer to 800",
+                "This would be 1000 ÷ 20, too high",
+                "This would be 700 ÷ 20, but 789 rounds to 800"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Quick estimate: 32% of 248",
+            "options": [
+                "80",
+                "100",
+                "60",
+                "120"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 32% ≈ 30%, 248 ≈ 250. 30% of 250 = 75 ≈ 80",
+                "This would be 40% of 250, too high",
+                "This would be 25% of 240, too low",
+                "This would be 50% of 240, way too high"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Estimate 156 + 287 + 194",
+            "options": [
+                "640",
+                "600",
+                "680",
+                "700"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 156≈160, 287≈290, 194≈190. 160+290+190=640",
+                "This rounds too much down - closer to 640",
+                "This adds about 40 too much",
+                "This is too high - would need numbers closer to 230 each"
+            ]
+        }
+    ]
+}

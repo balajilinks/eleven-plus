@@ -1,0 +1,79 @@
+{
+    "concept": "Range, Median, Mode",
+    "subject": "mathematics",
+    "category": "Number Properties",
+    "explanation": "Range is the difference between the highest and lowest values. Median is the middle value when numbers are arranged in order (or the average of the two middle values if there's an even number of values). Mode is the value that appears most frequently. These are measures of central tendency and spread in data sets.",
+    "examples": [
+        {
+            "question": "Find the range, median, and mode of: 7, 8, 15, 9, 8, 4, 14, -2, 2",
+            "solution": "Range = 17, Median = 8, Mode = 8",
+            "explanation": "First, arrange in order: -2, 2, 4, 7, 8, 8, 9, 14, 15. Range = 15 - (-2) = 17. Median = middle value = 8. Mode = 8 (appears twice)."
+        },
+        {
+            "question": "What is the median of: 3, 7, 2, 9, 5, 1?",
+            "solution": "4",
+            "explanation": "Arrange in order: 1, 2, 3, 5, 7, 9. With 6 numbers, median = average of 3rd and 4th values = (3 + 5) ÷ 2 = 4."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "What is the range of the data set: 12, 8, 15, 3, 11, 7, 9?",
+            "options": [
+                "9",
+                "12",
+                "15",
+                "18"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "That's the median, not the range.",
+                "Correct! Range = highest - lowest = 15 - 3 = 12.",
+                "That's the highest value, not the range.",
+                "Check your calculation: 15 - 3 = 12, not 18."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "What is the median of: 4, 7, 2, 9, 5?",
+            "options": [
+                "4",
+                "5",
+                "7",
+                "9"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "That's the first value when ordered, not the median.",
+                "Correct! Ordered: 2, 4, 5, 7, 9. The middle value is 5.",
+                "That's the 4th value, not the median.",
+                "That's the highest value, not the median."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "In the data set 3, 5, 3, 8, 5, 2, 5, which statements are true?",
+            "options": [
+                "The mode is 5",
+                "The range is 6",
+                "The median is 5",
+                "There are two modes"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ],
+            "feedback": [
+                "Correct! 5 appears three times, more than any other number.",
+                "Correct! Range = 8 - 2 = 6.",
+                "Correct! Ordered: 2, 3, 3, 5, 5, 5, 8. The middle value is 5.",
+                "Incorrect. Only 5 is the mode (appears 3 times). 3 appears only twice."
+            ]
+        }
+    ]
+}

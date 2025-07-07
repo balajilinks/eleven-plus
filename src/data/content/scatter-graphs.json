@@ -1,0 +1,61 @@
+{
+    "concept": "Scatter Graphs",
+    "subject": "mathematics",
+    "category": "Data Interpretation",
+    "explanation": "Scatter graphs show the relationship between two variables using dots plotted on a coordinate grid. Each dot represents one data point with x and y coordinates. Look for: positive correlation (as one increases, the other increases), negative correlation (as one increases, the other decreases), or no correlation (no clear pattern). Trends help predict values and identify outliers.",
+    "examples": [
+        {
+            "question": "A scatter graph shows height vs. shoe size. What type of correlation would you expect?",
+            "solution": "Positive correlation",
+            "explanation": "Generally, taller people have larger feet, so as height increases, shoe size tends to increase too. This is positive correlation."
+        },
+        {
+            "question": "In a scatter graph of swimming times vs. age for children, what correlation might you see?",
+            "solution": "Negative correlation",
+            "explanation": "As children get older, they usually get faster at swimming, so their times get shorter. This means as age increases, swimming time decreases - negative correlation."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "A scatter graph shows outdoor temperature vs. hot chocolate sales. What correlation would you expect?",
+            "options": [
+                "Positive correlation",
+                "Negative correlation",
+                "No correlation",
+                "Both positive and negative"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Think about when people buy more hot chocolate - in cold weather, not hot weather.",
+                "Correct! As temperature increases, hot chocolate sales decrease. People buy less hot chocolate when it's warm.",
+                "There is a relationship between temperature and hot chocolate sales.",
+                "The correlation is consistently negative, not mixed."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "What can you determine from a scatter graph?",
+            "options": [
+                "Whether there's a relationship between variables",
+                "The exact value of any data point",
+                "Whether the correlation is positive or negative",
+                "How many data points there are"
+            ],
+            "correct": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "feedback": [
+                "Correct! The pattern of dots shows if variables are related.",
+                "Correct! You can read the coordinates of each dot.",
+                "Correct! The slope of the general trend shows the type of correlation.",
+                "Correct! You can count the number of dots on the graph."
+            ]
+        }
+    ]
+}

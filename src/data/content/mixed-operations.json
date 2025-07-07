@@ -1,0 +1,77 @@
+{
+    "concept": "Mixed Operations",
+    "subject": "mathematics",
+    "category": "Arithmetic",
+    "explanation": "Mixed operations involve combining addition, subtraction, multiplication, and division in a single calculation. Remember the order of operations (BODMAS/PEMDAS): Brackets first, then Orders (powers), then Division and Multiplication (left to right), then Addition and Subtraction (left to right). Look for patterns that can make calculations easier, such as using the distributive property.",
+    "examples": [
+        {
+            "question": "Calculate: 14 × 49 + 14 × 51",
+            "solution": "14 × 49 + 14 × 51 = 14 × (49 + 51) = 14 × 100 = 1400",
+            "explanation": "We can factor out the common factor 14: 14 × (49 + 51) = 14 × 100 = 1400. This is much easier than calculating 14 × 49 = 686 and 14 × 51 = 714, then adding them."
+        },
+        {
+            "question": "Calculate: 140 ÷ 0.7",
+            "solution": "140 ÷ 0.7 = 1400 ÷ 7 = 200",
+            "explanation": "When dividing by a decimal, multiply both numbers by 10 to make the divisor a whole number: 140 ÷ 0.7 = 1400 ÷ 7 = 200."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "What is 499 × 3?",
+            "options": [
+                "1497",
+                "1487",
+                "1507",
+                "1477"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 499 × 3 = (500 - 1) × 3 = 1500 - 3 = 1497.",
+                "Check your calculation. Try thinking of 499 as 500 - 1.",
+                "Too high. You might have added instead of subtracting.",
+                "Too low. Check your arithmetic."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Calculate: 25 × 16 + 25 × 4",
+            "options": [
+                "400",
+                "500",
+                "600",
+                "700"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Try using the distributive property: 25 × (16 + 4).",
+                "Correct! 25 × 16 + 25 × 4 = 25 × (16 + 4) = 25 × 20 = 500.",
+                "Too high. Check your addition.",
+                "Much too high. Review the calculation."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "What is 19.7 - 3.03?",
+            "options": [
+                "16.67",
+                "16.7",
+                "16.97",
+                "17.03"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 19.7 - 3.03 = 19.70 - 3.03 = 16.67.",
+                "You forgot about the hundredths place.",
+                "Check your subtraction in the hundredths column.",
+                "You've added instead of subtracted."
+            ]
+        }
+    ]
+}

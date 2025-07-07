@@ -1,0 +1,245 @@
+{
+    "id": "ai-english-general-001",
+    "title": "AI Generated English Test",
+    "subject": "english",
+    "description": "Comprehensive English test covering key 11+ language skills",
+    "timeLimit": 40,
+    "totalQuestions": 15,
+    "difficulty": "mixed",
+    "topics": [
+        "grammar",
+        "vocabulary",
+        "reading-comprehension",
+        "spelling",
+        "punctuation"
+    ],
+    "generatedBy": "ai-offline",
+    "generatedDate": "2025-01-15",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which word is a synonym for 'happy'?",
+            "type": "multiple-choice",
+            "options": [
+                "Sad",
+                "Joyful",
+                "Angry",
+                "Tired"
+            ],
+            "correct": 1,
+            "explanation": "Joyful means the same as happy - both express positive emotions",
+            "topic": "Synonyms and Antonyms",
+            "difficulty": "easy"
+        },
+        {
+            "id": 2,
+            "question": "What is the past tense of 'run'?",
+            "type": "multiple-choice",
+            "options": [
+                "Runs",
+                "Running",
+                "Ran",
+                "Runned"
+            ],
+            "correct": 2,
+            "explanation": "The past tense of 'run' is 'ran' - it's an irregular verb",
+            "topic": "Grammar",
+            "difficulty": "easy"
+        },
+        {
+            "id": 3,
+            "question": "Which sentence uses correct punctuation?",
+            "type": "multiple-choice",
+            "options": [
+                "What time is it?",
+                "What time is it.",
+                "What time is it!",
+                "What time is it"
+            ],
+            "correct": 0,
+            "explanation": "Questions end with a question mark (?)",
+            "topic": "Punctuation",
+            "difficulty": "easy"
+        },
+        {
+            "id": 4,
+            "question": "What does the word 'enormous' mean?",
+            "type": "multiple-choice",
+            "options": [
+                "Very small",
+                "Very large",
+                "Very fast",
+                "Very slow"
+            ],
+            "correct": 1,
+            "explanation": "Enormous means extremely large or huge",
+            "topic": "Vocabulary",
+            "difficulty": "easy"
+        },
+        {
+            "id": 5,
+            "question": "Which word completes the sentence: 'The weather was _____ cold.'",
+            "type": "multiple-choice",
+            "options": [
+                "extreme",
+                "extremely",
+                "extremes",
+                "extremed"
+            ],
+            "correct": 1,
+            "explanation": "We need an adverb to describe how cold it was - 'extremely' is the adverb form",
+            "topic": "Grammar",
+            "difficulty": "medium"
+        },
+        {
+            "id": 6,
+            "question": "What is the plural of 'child'?",
+            "type": "multiple-choice",
+            "options": [
+                "Childs",
+                "Children",
+                "Childes",
+                "Childrens"
+            ],
+            "correct": 1,
+            "explanation": "Children is the irregular plural form of child",
+            "topic": "Grammar",
+            "difficulty": "easy"
+        },
+        {
+            "id": 7,
+            "question": "Which word is spelled correctly?",
+            "type": "multiple-choice",
+            "options": [
+                "Recieve",
+                "Receive",
+                "Recive",
+                "Receeve"
+            ],
+            "correct": 1,
+            "explanation": "Remember the rule: 'i' before 'e' except after 'c' - receive",
+            "topic": "Spelling",
+            "difficulty": "medium"
+        },
+        {
+            "id": 8,
+            "question": "What type of word is 'quickly'?",
+            "type": "multiple-choice",
+            "options": [
+                "Noun",
+                "Verb",
+                "Adjective",
+                "Adverb"
+            ],
+            "correct": 3,
+            "explanation": "Quickly is an adverb - it describes how an action is performed",
+            "topic": "Parts of Speech",
+            "difficulty": "medium"
+        },
+        {
+            "id": 9,
+            "question": "Which sentence is written in the past tense?",
+            "type": "multiple-choice",
+            "options": [
+                "She walks to school",
+                "She walked to school",
+                "She will walk to school",
+                "She is walking to school"
+            ],
+            "correct": 1,
+            "explanation": "Walked is the past tense form of walk",
+            "topic": "Grammar",
+            "difficulty": "easy"
+        },
+        {
+            "id": 10,
+            "question": "What is the opposite of 'ancient'?",
+            "type": "multiple-choice",
+            "options": [
+                "Old",
+                "Modern",
+                "Historic",
+                "Traditional"
+            ],
+            "correct": 1,
+            "explanation": "Modern is the opposite of ancient - it refers to current or recent times",
+            "topic": "Synonyms and Antonyms",
+            "difficulty": "medium"
+        },
+        {
+            "id": 11,
+            "question": "Which word best completes: 'The cat sat _____ the mat'?",
+            "type": "multiple-choice",
+            "options": [
+                "in",
+                "on",
+                "at",
+                "by"
+            ],
+            "correct": 1,
+            "explanation": "On is the correct preposition - the cat sits on top of the mat",
+            "topic": "Grammar",
+            "difficulty": "easy"
+        },
+        {
+            "id": 12,
+            "question": "What is the comparative form of 'good'?",
+            "type": "multiple-choice",
+            "options": [
+                "Gooder",
+                "Better",
+                "Best",
+                "More good"
+            ],
+            "correct": 1,
+            "explanation": "Better is the comparative form of good (good, better, best)",
+            "topic": "Grammar",
+            "difficulty": "medium"
+        },
+        {
+            "id": 13,
+            "question": "Which word is a homophone of 'there'?",
+            "type": "multiple-choice",
+            "options": [
+                "Here",
+                "Their",
+                "Where",
+                "Were"
+            ],
+            "correct": 1,
+            "explanation": "Their sounds the same as there but has a different meaning and spelling",
+            "topic": "Homophones",
+            "difficulty": "medium"
+        },
+        {
+            "id": 14,
+            "question": "What type of sentence is: 'Close the door!'",
+            "type": "multiple-choice",
+            "options": [
+                "Statement",
+                "Question",
+                "Exclamation",
+                "Command"
+            ],
+            "correct": 3,
+            "explanation": "This is a command (imperative) - it tells someone to do something",
+            "topic": "Sentence Types",
+            "difficulty": "medium"
+        },
+        {
+            "id": 15,
+            "question": "What does the prefix 'un-' mean in 'unhappy'?",
+            "type": "multiple-choice",
+            "options": [
+                "Very",
+                "Not",
+                "Again",
+                "Before"
+            ],
+            "correct": 1,
+            "explanation": "The prefix 'un-' means 'not' - unhappy means not happy",
+            "topic": "Prefixes and Suffixes",
+            "difficulty": "easy"
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+  "mathematics": {
+    "Quick Wins": [
+      "Mental Math Shortcuts",
+      "Percentage Quick Tricks",
+      "Fraction Speed Methods",
+      "Time-Saving Multiplication",
+      "Division Fast Techniques",
+      "Area and Perimeter Hacks",
+      "Word Problem Quick Strategies",
+      "Estimation Power Tools"
+    ],
+    "Arithmetic": [
+      "Whole Numbers Operations",
+      "Decimals and Fractions",
+      "Mixed Operations",
+      "Order of Operations (BODMAS)",
+      "Negative Numbers",
+      "Rounding and Approximation"
+    ],
+    "Number Properties": [
+      "Place Value in Millions",
+      "Prime, Square and Cube Numbers",
+      "Factors and Multiples",
+      "Divisibility Rules",
+      "Range, Median, Mode",
+      "Highest Common Factor (HCF)",
+      "Lowest Common Multiple (LCM)",
+      "Perfect Numbers",
+      "Fibonacci Sequences"
+    ],
+    "Percentages and Fractions": [
+      "Calculating Percentages",
+      "Fraction-Decimal-Percent Conversions",
+      "Fractions of Quantities",
+      "Percentage Increase and Decrease",
+      "Simple Interest",
+      "Ratio and Proportion",
+      "Direct and Inverse Proportion"
+    ],
+    "Algebra": [
+      "Solving Equations",
+      "Algebraic Expressions",
+      "nth Term Sequences",
+      "Substitution in Formulas",
+      "Linear Equations",
+      "Inequalities",
+      "Simultaneous Equations",
+      "Quadratic Expressions"
+    ],
+    "Geometry": [
+      "Area and Perimeter",
+      "Angles in Triangles",
+      "Properties of Shapes",
+      "Coordinates and Transformations",
+      "Volume of Cuboids",
+      "Pattern Identification",
+      "Circle Properties",
+      "Pythagoras Theorem",
+      "Similar Triangles",
+      "Compound Shapes",
+      "3D Shapes and Nets",
+      "Reflection and Rotation"
+    ],
+    "Time and Money": [
+      "Time Differences",
+      "Cost and Change Calculations",
+      "Unit Conversions",
+      "Speed Distance Time",
+      "Compound Interest",
+      "Profit and Loss",
+      "Tax and Discount Calculations"
+    ],
+    "Problem Solving": [
+      "Logic Puzzles",
+      "Word Problems",
+      "Multi-step Calculations",
+      "Mathematical Reasoning",
+      "Pattern Recognition",
+      "Optimization Problems",
+      "Combinatorics",
+      "Probability"
+    ],
+    "Data Interpretation": [
+      "Pie Charts",
+      "Bar Graphs",
+      "Scatter Graphs",
+      "Line Graphs",
+      "Histograms",
+      "Frequency Tables",
+      "Cumulative Frequency",
+      "Statistical Measures"
+    ],
+    "Advanced Topics": [
+      "Trigonometry Basics",
+      "Logarithms",
+      "Exponential Functions",
+      "Polynomial Operations",
+      "Graphing Functions",
+      "Matrix Operations",
+      "Calculus Introduction"
+    ]
+  },
+  "english": {
+    "Spelling": [
+      "Common Tricky Words",
+      "Spelling Patterns and Rules"
+    ],
+    "Reading Comprehension": [
+      "Direct Retrieval",
+      "Inference",
+      "Character Analysis",
+      "Authorial Intent",
+      "Vocabulary in Context"
+    ],
+    "Language Analysis": [
+      "Literary Techniques",
+      "Synonyms and Antonyms",
+      "Homophones"
+    ],
+    "Comparison of Texts": [
+      "Theme and Character Comparison",
+      "Style and Setting Comparison"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+    "concept": "Spelling Patterns and Rules",
+    "subject": "english",
+    "category": "Spelling",
+    "explanation": "English spelling follows certain patterns and rules, though there are exceptions. Key rules include: 'i before e except after c' (believe, receive), adding '-ing' (drop final 'e', double final consonant in short words), plurals (add 's' or 'es'), and prefix/suffix patterns. Learning these patterns helps with spelling unfamiliar words.",
+    "examples": [
+        {
+            "question": "How do you spell the word meaning 'a schedule or timetable'?",
+            "solution": "Calendar (not Calender)",
+            "explanation": "Remember: 'Calendar' has 'a' in the middle, not 'e'. Think of 'Cal-a-ndar' to remember the 'a'."
+        },
+        {
+            "question": "What's the correct spelling for 'a green vegetable'?",
+            "solution": "Broccoli (not Brocolli)",
+            "explanation": "Broccoli has double 'c' but single 'l'. Remember: broc-co-li."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Choose the correct spelling of the word meaning 'evil or malicious':",
+            "options": [
+                "Malevelent",
+                "Malevolent",
+                "Malevelant",
+                "Malevolant"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Close, but it should be 'malevolent' with 'o' not 'e'.",
+                "Correct! Malevolent is spelled with 'o' and ends in '-ent'.",
+                "Should be 'malevolent' - check the vowels.",
+                "Close, but it ends in '-ent' not '-ant'."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Choose the correct spelling:",
+            "options": [
+                "Liquorice",
+                "Liquorish",
+                "Licorish",
+                "Licquorice"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Liquorice is the British spelling.",
+                "This is closer to the American spelling 'licorice'.",
+                "Missing some letters - it's 'liquorice'.",
+                "Extra 'c' - it's 'liquorice'."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which words follow the 'i before e except after c' rule?",
+            "options": [
+                "Believe",
+                "Receive",
+                "Weird",
+                "Achieve"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ],
+            "feedback": [
+                "Correct! 'Believe' follows the rule (i before e).",
+                "Correct! 'Receive' follows the rule (e before i after c).",
+                "Incorrect. 'Weird' is an exception to the rule.",
+                "Correct! 'Achieve' follows the rule (i before e)."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,291 @@
+{
+    "id": "ai-math-geometry-003",
+    "title": "11+ Geometry Mastery",
+    "subject": "mathematics",
+    "description": "Comprehensive geometry test covering shapes, angles, area, and perimeter",
+    "timeLimit": 35,
+    "totalQuestions": 18,
+    "difficulty": "mixed",
+    "topics": [
+        "geometry",
+        "shapes",
+        "angles",
+        "area",
+        "perimeter",
+        "coordinates"
+    ],
+    "generatedBy": "ai-offline",
+    "generatedDate": "2025-01-15",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the area of a square with side length 7 cm?",
+            "type": "multiple-choice",
+            "options": [
+                "14 cm²",
+                "28 cm²",
+                "49 cm²",
+                "56 cm²"
+            ],
+            "correct": 2,
+            "explanation": "Area of a square = side × side = 7 × 7 = 49 cm²",
+            "topic": "Area",
+            "difficulty": "easy"
+        },
+        {
+            "id": 2,
+            "question": "How many sides does a hexagon have?",
+            "type": "multiple-choice",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correct": 1,
+            "explanation": "A hexagon is a polygon with 6 sides",
+            "topic": "Shapes",
+            "difficulty": "easy"
+        },
+        {
+            "id": 3,
+            "question": "What is the perimeter of a rectangle with length 8 cm and width 5 cm?",
+            "type": "multiple-choice",
+            "options": [
+                "13 cm",
+                "26 cm",
+                "40 cm",
+                "45 cm"
+            ],
+            "correct": 1,
+            "explanation": "Perimeter = 2(length + width) = 2(8 + 5) = 2(13) = 26 cm",
+            "topic": "Perimeter",
+            "difficulty": "easy"
+        },
+        {
+            "id": 4,
+            "question": "What is the sum of angles in a triangle?",
+            "type": "multiple-choice",
+            "options": [
+                "90°",
+                "180°",
+                "270°",
+                "360°"
+            ],
+            "correct": 1,
+            "explanation": "The sum of all angles in any triangle is always 180°",
+            "topic": "Angles",
+            "difficulty": "easy"
+        },
+        {
+            "id": 5,
+            "question": "If two angles in a triangle are 60° and 70°, what is the third angle?",
+            "type": "multiple-choice",
+            "options": [
+                "40°",
+                "50°",
+                "60°",
+                "70°"
+            ],
+            "correct": 1,
+            "explanation": "Third angle = 180° - 60° - 70° = 50°",
+            "topic": "Angles",
+            "difficulty": "medium"
+        },
+        {
+            "id": 6,
+            "question": "What is the area of a circle with radius 5 cm? (Use π = 3.14)",
+            "type": "multiple-choice",
+            "options": [
+                "31.4 cm²",
+                "78.5 cm²",
+                "15.7 cm²",
+                "62.8 cm²"
+            ],
+            "correct": 1,
+            "explanation": "Area = π × r² = 3.14 × 5² = 3.14 × 25 = 78.5 cm²",
+            "topic": "Area",
+            "difficulty": "medium"
+        },
+        {
+            "id": 7,
+            "question": "How many lines of symmetry does a regular pentagon have?",
+            "type": "multiple-choice",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correct": 2,
+            "explanation": "A regular pentagon has 5 lines of symmetry, one through each vertex",
+            "topic": "Shapes",
+            "difficulty": "medium"
+        },
+        {
+            "id": 8,
+            "question": "What is the circumference of a circle with diameter 10 cm? (Use π = 3.14)",
+            "type": "multiple-choice",
+            "options": [
+                "31.4 cm",
+                "62.8 cm",
+                "78.5 cm",
+                "314 cm"
+            ],
+            "correct": 0,
+            "explanation": "Circumference = π × diameter = 3.14 × 10 = 31.4 cm",
+            "topic": "Perimeter",
+            "difficulty": "medium"
+        },
+        {
+            "id": 9,
+            "question": "In a right-angled triangle, if one angle is 90° and another is 35°, what is the third angle?",
+            "type": "multiple-choice",
+            "options": [
+                "45°",
+                "55°",
+                "65°",
+                "75°"
+            ],
+            "correct": 1,
+            "explanation": "Third angle = 180° - 90° - 35° = 55°",
+            "topic": "Angles",
+            "difficulty": "medium"
+        },
+        {
+            "id": 10,
+            "question": "What is the area of a triangle with base 12 cm and height 8 cm?",
+            "type": "multiple-choice",
+            "options": [
+                "48 cm²",
+                "96 cm²",
+                "20 cm²",
+                "24 cm²"
+            ],
+            "correct": 0,
+            "explanation": "Area of triangle = ½ × base × height = ½ × 12 × 8 = 48 cm²",
+            "topic": "Area",
+            "difficulty": "medium"
+        },
+        {
+            "id": 11,
+            "question": "Which of these shapes has the most sides?",
+            "type": "multiple-choice",
+            "options": [
+                "hexagon",
+                "octagon",
+                "pentagon",
+                "heptagon"
+            ],
+            "correct": 1,
+            "explanation": "Octagon has 8 sides, hexagon has 6, heptagon has 7, pentagon has 5",
+            "topic": "Shapes",
+            "difficulty": "easy"
+        },
+        {
+            "id": 12,
+            "question": "What is the area of a parallelogram with base 9 cm and height 6 cm?",
+            "type": "multiple-choice",
+            "options": [
+                "15 cm²",
+                "30 cm²",
+                "54 cm²",
+                "108 cm²"
+            ],
+            "correct": 2,
+            "explanation": "Area of parallelogram = base × height = 9 × 6 = 54 cm²",
+            "topic": "Area",
+            "difficulty": "hard"
+        },
+        {
+            "id": 13,
+            "question": "If a square has an area of 64 cm², what is its perimeter?",
+            "type": "multiple-choice",
+            "options": [
+                "16 cm",
+                "32 cm",
+                "64 cm",
+                "256 cm"
+            ],
+            "correct": 1,
+            "explanation": "If area = 64 cm², then side = √64 = 8 cm. Perimeter = 4 × 8 = 32 cm",
+            "topic": "Area and Perimeter",
+            "difficulty": "hard"
+        },
+        {
+            "id": 14,
+            "question": "What type of angle is 125°?",
+            "type": "multiple-choice",
+            "options": [
+                "acute",
+                "right",
+                "obtuse",
+                "straight"
+            ],
+            "correct": 2,
+            "explanation": "An obtuse angle is greater than 90° but less than 180°",
+            "topic": "Angles",
+            "difficulty": "easy"
+        },
+        {
+            "id": 15,
+            "question": "In coordinate geometry, what is the distance between points (3, 4) and (6, 8)?",
+            "type": "multiple-choice",
+            "options": [
+                "5 units",
+                "7 units",
+                "9 units",
+                "11 units"
+            ],
+            "correct": 0,
+            "explanation": "Distance = √[(6-3)² + (8-4)²] = √[3² + 4²] = √[9 + 16] = √25 = 5 units",
+            "topic": "Coordinates",
+            "difficulty": "hard"
+        },
+        {
+            "id": 16,
+            "question": "What is the area of a trapezium with parallel sides 8 cm and 12 cm, and height 5 cm?",
+            "type": "multiple-choice",
+            "options": [
+                "40 cm²",
+                "50 cm²",
+                "60 cm²",
+                "100 cm²"
+            ],
+            "correct": 1,
+            "explanation": "Area of trapezium = ½ × (sum of parallel sides) × height = ½ × (8 + 12) × 5 = ½ × 20 × 5 = 50 cm²",
+            "topic": "Area",
+            "difficulty": "hard"
+        },
+        {
+            "id": 17,
+            "question": "How many faces does a cube have?",
+            "type": "multiple-choice",
+            "options": [
+                "4",
+                "6",
+                "8",
+                "12"
+            ],
+            "correct": 1,
+            "explanation": "A cube has 6 faces, all of which are squares",
+            "topic": "3D Shapes",
+            "difficulty": "easy"
+        },
+        {
+            "id": 18,
+            "question": "What is the volume of a cube with edge length 4 cm?",
+            "type": "multiple-choice",
+            "options": [
+                "12 cm³",
+                "16 cm³",
+                "48 cm³",
+                "64 cm³"
+            ],
+            "correct": 3,
+            "explanation": "Volume of cube = edge³ = 4³ = 64 cm³",
+            "topic": "Volume",
+            "difficulty": "medium"
+        }
+    ]
+}

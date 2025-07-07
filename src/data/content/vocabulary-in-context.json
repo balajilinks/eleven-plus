@@ -1,0 +1,79 @@
+{
+    "concept": "Vocabulary in Context",
+    "subject": "english",
+    "category": "Reading Comprehension",
+    "explanation": "Vocabulary in context questions test your ability to understand the meaning of words as they are used in a specific passage. The same word can have different meanings in different contexts. Use context clues: surrounding words, the general tone, and the overall meaning of the sentence or paragraph. Don't just rely on the most common meaning of a word.",
+    "examples": [
+        {
+            "question": "In the sentence 'The suspect's alibi was rather lame, full of holes that the detective could easily spot,' what does 'lame' mean?",
+            "solution": "Weak or unconvincing",
+            "explanation": "Here, 'lame' doesn't mean unable to walk. The context ('full of holes,' 'easily spot') shows it means weak or unconvincing."
+        },
+        {
+            "question": "In 'She spoke to him reproachfully, her voice full of disappointment,' what does 'reproachfully' mean?",
+            "solution": "In a way that shows disapproval or criticism",
+            "explanation": "The context clue 'full of disappointment' helps us understand that reproachfully means showing disapproval or criticism."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "In the sentence 'The prospective buyers toured the house, taking notes about what they might want to change,' what does 'prospective' mean?",
+            "options": [
+                "Wealthy",
+                "Potential",
+                "Previous",
+                "Professional"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "There's no indication of wealth in the context.",
+                "Correct! 'Prospective' means potential - they might buy the house.",
+                "The context suggests they haven't bought it yet, so not previous.",
+                "There's no indication they're professional buyers."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "In 'The team devised a clever plan to solve the problem,' what does 'devised' mean?",
+            "options": [
+                "Discovered",
+                "Created",
+                "Copied",
+                "Rejected"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "They didn't find an existing plan, they made one.",
+                "Correct! 'Devised' means created or invented.",
+                "The text suggests they made their own plan, not copied one.",
+                "They made a plan, they didn't reject one."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "In 'The red tape involved in getting permission was frustrating, with endless forms and bureaucratic delays,' what could 'red tape' refer to?",
+            "options": [
+                "Complicated official procedures",
+                "Actual red-colored tape",
+                "Bureaucratic obstacles",
+                "Endless paperwork"
+            ],
+            "correct": [
+                0,
+                2,
+                3
+            ],
+            "feedback": [
+                "Correct! Red tape refers to complicated official procedures.",
+                "Incorrect. This is figurative, not literal red tape.",
+                "Correct! It refers to bureaucratic obstacles and delays.",
+                "Correct! The context mentions 'endless forms' which is part of red tape."
+            ]
+        }
+    ]
+}

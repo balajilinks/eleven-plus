@@ -1,0 +1,111 @@
+{
+    "concept": "Mental Math Shortcuts",
+    "subject": "mathematics",
+    "category": "Quick Wins",
+    "explanation": "Master these lightning-fast mental math tricks to solve 11+ problems in seconds! These shortcuts work because they use number patterns and properties. Practice them until they become automatic - you'll save precious exam time and impress everyone with your speed. Remember: the goal is accuracy FIRST, then speed!",
+    "examples": [
+        {
+            "question": "Calculate 47 × 11 quickly",
+            "solution": "517",
+            "explanation": "The 11 trick: For 2-digit numbers, add the digits and put the sum in the middle. 4+7=11, so write down 4, then 1+1=2, then 7. Answer: 4(1+1)7 = 517. If middle sum ≥10, carry over!"
+        },
+        {
+            "question": "Find 25% of 84 instantly",
+            "solution": "21",
+            "explanation": "25% = 1/4. To find 1/4: divide by 4, OR divide by 2 twice. 84 ÷ 2 = 42, then 42 ÷ 2 = 21. Much faster than 84 × 0.25!"
+        },
+        {
+            "question": "Multiply 23 × 99 using shortcuts",
+            "solution": "2277",
+            "explanation": "99 = 100 - 1. So 23 × 99 = 23 × (100-1) = 23 × 100 - 23 × 1 = 2300 - 23 = 2277. Always look for numbers near 10, 100, 1000!"
+        },
+        {
+            "question": "Square 35 in your head",
+            "solution": "1225",
+            "explanation": "For numbers ending in 5: Take the first digit (3), multiply by the next number (4): 3×4=12. Then add 25 at the end: 1225. Works for 15²=225, 25²=625, 45²=2025!"
+        },
+        {
+            "question": "Calculate 18 × 15 quickly",
+            "solution": "270",
+            "explanation": "When one number ends in 5: 18 × 15 = 18 × 10 + 18 × 5 = 180 + 90 = 270. Or: 18 × 15 = 18 × (10+5) = 180 + (18÷2×10) = 180 + 90 = 270"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Using the 11 trick, what is 34 × 11?",
+            "options": [
+                "374",
+                "384",
+                "364",
+                "344"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 3+4=7, so put 7 in middle: 3_7_4 = 374",
+                "You might have calculated 3+4+1=8, but there's no carrying needed here",
+                "Check the 11 trick: add the digits and put sum in middle",
+                "This would be 34 × 10, not 34 × 11"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "What's the fastest way to find 75% of 60?",
+            "options": [
+                "45",
+                "40",
+                "50",
+                "55"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 75% = 3/4. Find 1/4 first: 60÷4=15. Then 3×15=45",
+                "This is 2/3 of 60, not 3/4",
+                "This is 5/6 of 60, not 3/4",
+                "Close, but 75% of 60 is exactly 45"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Using shortcuts, calculate 27 × 101",
+            "options": [
+                "2727",
+                "2700",
+                "2827",
+                "2777"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 101 = 100+1, so 27×101 = 27×100 + 27×1 = 2700+27 = 2727",
+                "This is just 27 × 100, you forgot to add the extra 27",
+                "You added 100 instead of 27",
+                "Check your addition: 2700 + 27 = 2727"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "What is 65² using the 'ending in 5' rule?",
+            "options": [
+                "4225",
+                "4025",
+                "4125",
+                "4325"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 6×7=42, then add 25: 4225",
+                "You calculated 6×6 instead of 6×7",
+                "Close! But 6×7=42, not 41",
+                "You calculated 6×8 instead of 6×7"
+            ]
+        }
+    ]
+}

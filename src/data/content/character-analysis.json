@@ -1,0 +1,79 @@
+{
+    "concept": "Character Analysis",
+    "subject": "english",
+    "category": "Reading Comprehension",
+    "explanation": "Character analysis involves examining what characters are like, how they feel, and why they act the way they do. Look for: direct descriptions by the author, character actions and dialogue, how other characters react to them, and the character's thoughts and feelings. Authors often show character traits through actions rather than telling us directly.",
+    "examples": [
+        {
+            "question": "Read this passage: 'When Jake saw the new student sitting alone at lunch, he immediately got up from his table of friends and walked over. \"Mind if I sit here?\" he asked with a warm smile. \"I'm Jake. What's your name?\"' What does this tell us about Jake's character?",
+            "solution": "Jake is kind, friendly, and considerate of others.",
+            "explanation": "Jake's actions show his character: he notices someone alone (observant), leaves his friends to help (selfless), and approaches with a warm smile (friendly and welcoming)."
+        },
+        {
+            "question": "From the text: 'Emma slammed her bedroom door and threw herself onto her bed. She buried her face in her pillow to muffle her sobs. The unfairness of it all made her chest feel tight with anger.' How is Emma feeling and why?",
+            "solution": "Emma is feeling angry and upset because she believes she's been treated unfairly.",
+            "explanation": "The physical actions (slamming door, throwing herself on bed) and the phrase 'unfairness of it all' combined with 'tight with anger' show both her emotional state and the reason for it."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Read: 'Sophie carefully counted out her pocket money three times before putting it in her purse. She had been saving for weeks to buy her little brother a birthday present, even though it meant she couldn't buy the book she wanted.' What does this reveal about Sophie?",
+            "options": [
+                "Sophie is bad at mathematics",
+                "Sophie is generous and caring",
+                "Sophie doesn't like her brother",
+                "Sophie is worried about losing money"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Counting carefully shows she's being responsible with money, not bad at maths.",
+                "Correct! She's sacrificing something she wants to buy her brother a present, showing generosity and care.",
+                "The opposite is true - she's saving her money for him.",
+                "She's being careful, but the main point is her generosity."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Read: 'Mr. Wilson frowned as he handed back the test papers. \"I'm disappointed in these results,\" he said quietly. \"I know you can all do better than this. We'll spend some extra time reviewing before the next test.\"' What can we infer about Mr. Wilson?",
+            "options": [
+                "He is angry and wants to punish the students",
+                "He cares about his students' success",
+                "He thinks the students are not clever",
+                "He doesn't want to teach anymore"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "He's disappointed but offers help, not punishment.",
+                "Correct! His disappointment combined with offering extra help shows he cares about their success.",
+                "He says 'I know you can all do better,' showing he believes in them.",
+                "He's offering extra help, showing commitment to teaching."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Read: 'Lisa always arrived at school early to help set up the classroom. She would sharpen pencils, clean the whiteboard, and organize the books without being asked. When other students needed help, she would quietly offer assistance.' What character traits does Lisa show?",
+            "options": [
+                "Helpful",
+                "Organized",
+                "Lazy",
+                "Responsible"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ],
+            "feedback": [
+                "Correct! She helps set up and offers assistance to others.",
+                "Correct! She organizes books and manages tasks systematically.",
+                "Incorrect. Her actions show the opposite - she's very hardworking.",
+                "Correct! She takes initiative and does tasks without being asked."
+            ]
+        }
+    ]
+}

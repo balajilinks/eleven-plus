@@ -1,0 +1,78 @@
+{
+    "concept": "Area and Perimeter",
+    "subject": "mathematics",
+    "category": "Geometry",
+    "explanation": "Area is the amount of space inside a shape (measured in square units like cm²). Perimeter is the distance around the outside of a shape (measured in linear units like cm). For rectangles: Area = length × width, Perimeter = 2 × (length + width). For irregular shapes, break them into simpler shapes or use the given measurements carefully.",
+    "examples": [
+        {
+            "question": "A rectangle has length 8 cm and width 5 cm. What is its area and perimeter?",
+            "solution": "Area = 8 × 5 = 40 cm². Perimeter = 2 × (8 + 5) = 2 × 13 = 26 cm.",
+            "explanation": "Area is length × width. Perimeter is the total distance around the outside, which is 2 × (length + width) for a rectangle."
+        },
+        {
+            "question": "An L-shaped garden can be split into two rectangles: one 6m × 4m and another 3m × 2m. What is the total area?",
+            "solution": "Area = (6 × 4) + (3 × 2) = 24 + 6 = 30 m²",
+            "explanation": "For irregular shapes, break them into simpler rectangles and add the areas together."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "A square has sides of length 7 cm. What is its perimeter?",
+            "options": [
+                "14 cm",
+                "21 cm",
+                "28 cm",
+                "49 cm"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "That's only 2 sides. A square has 4 equal sides.",
+                "That's 3 sides. A square has 4 equal sides.",
+                "Correct! Perimeter = 4 × 7 = 28 cm for a square.",
+                "That's the area (7²), not the perimeter."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "A rectangle has area 36 cm² and width 4 cm. What is its length?",
+            "options": [
+                "8 cm",
+                "9 cm",
+                "12 cm",
+                "32 cm"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Check: 8 × 4 = 32, not 36.",
+                "Correct! Length = Area ÷ width = 36 ÷ 4 = 9 cm.",
+                "Check: 12 × 4 = 48, not 36.",
+                "That would be the perimeter if length was 12 cm."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "A rectangle has length 12 cm and width 8 cm. Which statements are correct?",
+            "options": [
+                "The area is 96 cm²",
+                "The perimeter is 40 cm",
+                "The area is 20 cm²",
+                "The perimeter is 96 cm"
+            ],
+            "correct": [
+                0,
+                1
+            ],
+            "feedback": [
+                "Correct! Area = 12 × 8 = 96 cm².",
+                "Correct! Perimeter = 2 × (12 + 8) = 2 × 20 = 40 cm.",
+                "Incorrect. This would be length + width, not area.",
+                "Incorrect. This is the area, not the perimeter."
+            ]
+        }
+    ]
+}

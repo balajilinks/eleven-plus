@@ -1,0 +1,58 @@
+{
+    "concept": "Logic Puzzles",
+    "subject": "mathematics",
+    "category": "Problem Solving",
+    "explanation": "Logic puzzles require systematic thinking and careful analysis of given information. Common types include: counting problems (heads and legs), sequence problems, and constraint satisfaction. Key strategies: organize information clearly, work step by step, check your answer makes sense, and use elimination to narrow down possibilities. Draw diagrams or tables if helpful.",
+    "examples": [
+        {
+            "question": "In a yard, there are chickens and cats. There are 20 heads and 54 legs in total. How many chickens and how many cats are there?",
+            "solution": "13 chickens and 7 cats",
+            "explanation": "Each animal has 1 head. Chickens have 2 legs, cats have 4 legs. If all were chickens: 20 × 2 = 40 legs. We need 54 - 40 = 14 more legs. Each cat gives 2 extra legs, so 14 ÷ 2 = 7 cats. Therefore: 7 cats and 13 chickens."
+        },
+        {
+            "question": "Three friends have ages that are consecutive even numbers. Their ages sum to 60. How old are they?",
+            "solution": "18, 20, and 22 years old",
+            "explanation": "Let the ages be n, n+2, n+4. Then n + (n+2) + (n+4) = 60, so 3n + 6 = 60, so 3n = 54, so n = 18. Ages are 18, 20, 22."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "In a field, there are sheep and chickens. There are 25 heads and 70 legs. How many sheep are there?",
+            "options": [
+                "10",
+                "15",
+                "20",
+                "25"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 25 heads total. If all were chickens: 50 legs. Need 20 more legs. Each sheep adds 2 legs, so 10 sheep and 15 chickens.",
+                "Check: 15 sheep (60 legs) + 10 chickens (20 legs) = 80 legs, not 70.",
+                "Check: 20 sheep (80 legs) + 5 chickens (10 legs) = 90 legs, not 70.",
+                "If all 25 were sheep, there would be 100 legs, not 70."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "I think of a number, multiply by 3, then subtract 7. The result is 20. What was my original number?",
+            "options": [
+                "6",
+                "7",
+                "9",
+                "11"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "Check: 6 × 3 - 7 = 18 - 7 = 11, not 20.",
+                "Check: 7 × 3 - 7 = 21 - 7 = 14, not 20.",
+                "Correct! 9 × 3 - 7 = 27 - 7 = 20 ✓",
+                "Check: 11 × 3 - 7 = 33 - 7 = 26, not 20."
+            ]
+        }
+    ]
+}

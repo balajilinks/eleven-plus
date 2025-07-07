@@ -1,0 +1,80 @@
+{
+    "title": "Negative Numbers",
+    "explanation": "Negative numbers are numbers less than zero. They are written with a minus sign (-) in front. Think of them as being on the left side of zero on a number line. They are useful for representing things like temperatures below freezing, depths below sea level, or debts.",
+    "examples": [
+        {
+            "question": "What is -5 + 3?",
+            "solution": "-5 + 3 = -2",
+            "explanation": "Start at -5 on the number line and move 3 places to the right (positive direction). You end up at -2."
+        },
+        {
+            "question": "What is -4 - 6?",
+            "solution": "-4 - 6 = -10",
+            "explanation": "Start at -4 and move 6 places to the left (negative direction). You end up at -10."
+        },
+        {
+            "question": "What is -3 × 4?",
+            "solution": "-3 × 4 = -12",
+            "explanation": "When multiplying a negative by a positive, the result is negative. Think of it as -3 added 4 times: -3 + (-3) + (-3) + (-3) = -12."
+        }
+    ],
+    "exercises": [
+        {
+            "question": "Calculate: -7 + 4",
+            "type": "multiple-choice",
+            "options": [
+                "-3",
+                "3",
+                "-11",
+                "11"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Start at -7 and move 4 places right to get -3",
+                "Incorrect. The result should be negative.",
+                "Incorrect. You're subtracting instead of adding.",
+                "Incorrect. Check the signs carefully."
+            ]
+        },
+        {
+            "question": "Calculate: -2 × -5",
+            "type": "multiple-choice",
+            "options": [
+                "-10",
+                "10",
+                "-7",
+                "7"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Incorrect. Remember: negative × negative = positive",
+                "Correct! When multiplying two negatives, the result is positive: -2 × -5 = 10",
+                "Incorrect. This would be -2 + (-5).",
+                "Incorrect. This would be -2 - (-5)."
+            ]
+        },
+        {
+            "question": "Which temperature is colder: -8°C or -3°C?",
+            "type": "multiple-choice",
+            "options": [
+                "-8°C",
+                "-3°C",
+                "They are the same",
+                "Cannot tell"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! -8°C is further left on the number line, so it's colder",
+                "Incorrect. -8 is less than -3, so it's colder",
+                "Incorrect. These temperatures are different.",
+                "Incorrect. We can compare negative numbers."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "concept": "Direct Retrieval",
+    "subject": "english",
+    "category": "Reading Comprehension",
+    "explanation": "Direct retrieval questions ask you to find and copy information directly from the text. Look for keywords in the question to help you find the answer quickly.",
+    "examples": [
+        {
+            "question": "Text: 'The cat sat on the mat.'\nQuestion: Where did the cat sit?",
+            "solution": "The answer is 'on the mat'."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Text: 'Finn’s dad opened the door.'\nWhere did Finn’s dad go?",
+            "options": [
+                "To the window",
+                "To the door",
+                "To the car",
+                "To the shop"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Not in the text.",
+                "Correct! The text says he opened the door.",
+                "Not in the text.",
+                "Not in the text."
+            ]
+        }
+    ]
+}

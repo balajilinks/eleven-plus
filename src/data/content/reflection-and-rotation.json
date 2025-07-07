@@ -1,0 +1,34 @@
+{
+    "concept": "Reflection and Rotation",
+    "subject": "mathematics",
+    "category": "Geometry",
+    "explanation": "This is the Reflection and Rotation concept in mathematics. This module helps students understand and practice reflection and rotation through interactive exercises and examples.",
+    "examples": [
+        {
+            "question": "Sample question about reflection and rotation",
+            "solution": "Sample answer",
+            "explanation": "Step-by-step explanation for reflection and rotation"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Practice question about reflection and rotation",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is not correct. Try again.",
+                "Correct! Well done.",
+                "This is not the right answer.",
+                "Incorrect. Review the concept and try again."
+            ]
+        }
+    ]
+}

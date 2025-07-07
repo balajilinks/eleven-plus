@@ -1,0 +1,58 @@
+{
+    "concept": "Simple Interest",
+    "subject": "mathematics",
+    "category": "Percentages and Fractions",
+    "explanation": "Simple interest is calculated using the formula: Interest = Principal × Rate × Time. Principal is the original amount, Rate is the percentage per year (as a decimal), and Time is in years. Simple interest doesn't compound - it's calculated only on the original amount. Total amount = Principal + Interest.",
+    "examples": [
+        {
+            "question": "Calculate the simple interest on £500 at 4% per year for 3 years.",
+            "solution": "£60",
+            "explanation": "Interest = £500 × 0.04 × 3 = £60. Total amount = £500 + £60 = £560."
+        },
+        {
+            "question": "How much interest is earned on £200 at 5% per year for 2 years?",
+            "solution": "£20",
+            "explanation": "Interest = £200 × 0.05 × 2 = £20. Total amount = £220."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "What is the simple interest on £300 at 6% per year for 4 years?",
+            "options": [
+                "£60",
+                "£72",
+                "£18",
+                "£24"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This would be 6% for only 2 years: £300 × 0.06 × 2 = £36.",
+                "Correct! Interest = £300 × 0.06 × 4 = £72.",
+                "This is 6% for only 1 year: £300 × 0.06 × 1 = £18.",
+                "This is too low - check your calculation."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "If £400 earns £48 simple interest in 3 years, what is the annual rate?",
+            "options": [
+                "3%",
+                "4%",
+                "5%",
+                "6%"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is too low. Try: Interest ÷ (Principal × Time) = Rate.",
+                "Correct! £48 ÷ (£400 × 3) = 0.04 = 4%.",
+                "This is too high for the given interest amount.",
+                "This rate would give £72 interest, not £48."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "concept": "Bar Graphs",
+    "subject": "mathematics",
+    "category": "Data Interpretation",
+    "explanation": "Bar graphs (or bar charts) use rectangular bars to show data. The height or length of each bar represents the value or frequency. Key features: title, axis labels, scale, and bars. To read: find the bar, read across to the scale. To compare: look at bar heights. Pay attention to the scale - it might not start at zero or might go up in steps other than 1.",
+    "examples": [
+        {
+            "question": "A bar graph shows pet ownership. The bar for dogs reaches 15 on the vertical scale. If the scale represents 'number of children', how many children have dogs?",
+            "solution": "15 children",
+            "explanation": "Read directly from the scale where the bar ends. The bar reaches 15, so 15 children have dogs."
+        },
+        {
+            "question": "In a bar graph of favorite colors, blue has 12 votes and red has 8 votes. How many more children chose blue than red?",
+            "solution": "4 more children",
+            "explanation": "Difference = 12 - 8 = 4 more children chose blue than red."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "A bar graph shows heights of children in cm. If the scale goes up in steps of 5, and a bar reaches the 6th mark, what height does this represent?",
+            "options": [
+                "6 cm",
+                "25 cm",
+                "30 cm",
+                "35 cm"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "This doesn't account for the scale going up in steps of 5.",
+                "This would be if the scale started at 0 and went up in 5s, but 6th mark would be 30.",
+                "Correct! 6th mark with steps of 5: 0, 5, 10, 15, 20, 25, 30. The 6th mark is 30 cm.",
+                "This would be the 7th mark, not the 6th."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Looking at a bar graph of favorite subjects, which information can you find directly?",
+            "options": [
+                "Which subject is most popular",
+                "How many children chose each subject",
+                "The total number of children surveyed",
+                "The percentage who chose math"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ],
+            "feedback": [
+                "Correct! The tallest bar shows the most popular subject.",
+                "Correct! Read the height of each bar against the scale.",
+                "Correct! Add up all the bars to get the total.",
+                "You need to calculate this from the numbers - it's not directly shown."
+            ]
+        }
+    ]
+}

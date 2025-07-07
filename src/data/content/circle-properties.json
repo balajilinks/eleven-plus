@@ -1,0 +1,58 @@
+{
+    "concept": "Circle Properties",
+    "subject": "mathematics",
+    "category": "Geometry",
+    "explanation": "A circle is a round shape where every point is the same distance from the center. The radius is the distance from center to edge. Diameter = 2 × radius. Circumference (perimeter) = π × diameter = 2 × π × radius. Area = π × radius². Use π ≈ 3.14 or 22/7 for calculations.",
+    "examples": [
+        {
+            "question": "A circular pizza has radius 15cm. What is its circumference?",
+            "solution": "94.2cm (or 30π cm)",
+            "explanation": "Circumference = 2 × π × radius = 2 × 3.14 × 15 = 94.2cm"
+        },
+        {
+            "question": "A circular garden has diameter 14m. What is its area?",
+            "solution": "154m² (or 49π m²)",
+            "explanation": "Radius = 14 ÷ 2 = 7m. Area = π × radius² = 22/7 × 7² = 22/7 × 49 = 154m²"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "A wheel has radius 10cm. What is its diameter?",
+            "options": [
+                "20cm",
+                "5cm",
+                "31.4cm",
+                "314cm²"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Diameter = 2 × radius = 2 × 10 = 20cm",
+                "This is half the radius, not the diameter",
+                "This is the circumference, not diameter",
+                "This is the area, not diameter"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "A circular pond has radius 7m. What is its area? (Use π = 22/7)",
+            "options": [
+                "154m²",
+                "44m²",
+                "49m²",
+                "98m²"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Area = π × r² = 22/7 × 7² = 22/7 × 49 = 154m²",
+                "This is the circumference, not area",
+                "This is radius squared, but you forgot π",
+                "This is 2πr, which is circumference, not area"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+node_modules
+./SampleTests
+./package-lock.json

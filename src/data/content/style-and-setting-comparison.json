@@ -1,0 +1,60 @@
+{
+    "concept": "Style and Setting Comparison",
+    "subject": "english",
+    "category": "Comparison of Texts",
+    "explanation": "When comparing style and setting across texts, examine: writing style (formal/informal, descriptive/simple, first/third person), tone (serious/humorous, dark/light), setting (time period, location, atmosphere), and how these elements affect the mood and meaning. Look for similarities and differences in how authors create atmosphere, develop settings, and use language techniques.",
+    "examples": [
+        {
+            "question": "Compare the writing styles of a diary entry and a newspaper article about the same event.",
+            "solution": "The diary entry would be personal, informal, and emotional, while the newspaper article would be objective, formal, and factual.",
+            "explanation": "Diary entries use first person, personal opinions, and informal language. Newspaper articles use third person, present facts objectively, and use formal language."
+        },
+        {
+            "question": "How do the settings of 'The Secret Garden' and 'Harry Potter' both contribute to the mysterious atmosphere?",
+            "solution": "Both use large, old buildings with hidden areas and secrets that create an atmosphere of mystery and discovery.",
+            "explanation": "Misselthwaite Manor has secret passages and a hidden garden, while Hogwarts has moving staircases and hidden rooms. Both settings encourage exploration and discovery."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Which writing style difference would you expect between a fairy tale and a science textbook?",
+            "options": [
+                "Fairy tales use more technical vocabulary",
+                "Science textbooks use more descriptive language",
+                "Fairy tales use more imaginative language",
+                "Science textbooks use more dialogue"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "Science textbooks use technical vocabulary, not fairy tales.",
+                "Fairy tales are more descriptive, especially for creating magical worlds.",
+                "Correct! Fairy tales use imaginative, creative language to create magical worlds, while science textbooks use precise, factual language.",
+                "Fairy tales use more dialogue, not science textbooks."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which elements of setting can authors use to create atmosphere?",
+            "options": [
+                "Time of day",
+                "Weather",
+                "Location",
+                "Character's age"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ],
+            "feedback": [
+                "Correct! Night time can create mystery, daytime can feel safe.",
+                "Correct! Storms can create tension, sunshine can feel happy.",
+                "Correct! A castle feels different from a cozy cottage.",
+                "Character's age is about character, not setting."
+            ]
+        }
+    ]
+}

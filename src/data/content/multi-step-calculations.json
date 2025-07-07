@@ -1,0 +1,58 @@
+{
+    "concept": "Multi-step Calculations",
+    "subject": "mathematics",
+    "category": "Problem Solving",
+    "explanation": "Multi-step calculations require several operations to reach the answer. Key strategies: 1) Break the problem into smaller steps, 2) Work through each step carefully, 3) Use the answer from one step in the next step, 4) Check each step makes sense, 5) Verify your final answer. Remember the order of operations (BODMAS) and consider whether to work with exact values or round at the end.",
+    "examples": [
+        {
+            "question": "A box contains 144 chocolates arranged in 12 rows. If 3/4 of the chocolates are milk chocolate, how many white chocolates are there?",
+            "solution": "36 white chocolates",
+            "explanation": "Step 1: Find total chocolates = 144. Step 2: Find milk chocolates = 3/4 × 144 = 108. Step 3: Find white chocolates = 144 - 108 = 36."
+        },
+        {
+            "question": "A shop sells books for £8.50 each. If someone buys 3 books and pays with two £20 notes, how much change do they get?",
+            "solution": "£14.50",
+            "explanation": "Step 1: Cost of 3 books = 3 × £8.50 = £25.50. Step 2: Amount paid = 2 × £20 = £40. Step 3: Change = £40 - £25.50 = £14.50."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "A rectangle has length 12 cm and width 8 cm. It is enlarged so its area becomes 384 cm². What is the scale factor?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "8"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Original area = 12 × 8 = 96 cm². New area = 384 cm². Scale factor² = 384 ÷ 96 = 4, so scale factor = 2.",
+                "If scale factor was 3, new area would be 9 × 96 = 864 cm².",
+                "This is the area scale factor, not the length scale factor.",
+                "This is too large for the area given."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "A train travels 180 km in 2.5 hours, then 120 km in 1.5 hours. What is its average speed for the whole journey?",
+            "options": [
+                "60 km/h",
+                "72 km/h",
+                "75 km/h",
+                "80 km/h"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "This is just the speed for the first part of the journey.",
+                "This is the speed for the second part, not the average.",
+                "Correct! Total distance = 180 + 120 = 300 km. Total time = 2.5 + 1.5 = 4 hours. Average speed = 300 ÷ 4 = 75 km/h.",
+                "This is too fast for the average speed."
+            ]
+        }
+    ]
+}

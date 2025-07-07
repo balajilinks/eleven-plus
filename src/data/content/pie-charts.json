@@ -1,0 +1,79 @@
+{
+    "concept": "Pie Charts",
+    "subject": "mathematics",
+    "category": "Data Interpretation",
+    "explanation": "Pie charts show data as parts of a whole circle. The whole circle represents 100% or 360°. Each sector (slice) represents a fraction or percentage of the total. To find the angle for a sector: (value ÷ total) × 360°. To find the number represented by a sector: (angle ÷ 360°) × total. Colors are often used to represent different categories.",
+    "examples": [
+        {
+            "question": "In a pie chart showing favorite colors, blue takes up 90° of the circle. If 200 children were surveyed, how many chose blue?",
+            "solution": "50 children",
+            "explanation": "90° out of 360° = 90/360 = 1/4 of the circle. 1/4 of 200 children = 50 children chose blue."
+        },
+        {
+            "question": "A pie chart shows that 3/8 of students like math. What angle does this represent?",
+            "solution": "135°",
+            "explanation": "3/8 of 360° = 3/8 × 360° = 135°"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "In a pie chart, a sector has an angle of 72°. What fraction of the whole does this represent?",
+            "options": [
+                "1/5",
+                "1/4",
+                "1/3",
+                "2/5"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 72° ÷ 360° = 1/5 of the whole circle.",
+                "1/4 would be 90°, not 72°.",
+                "1/3 would be 120°, not 72°.",
+                "2/5 would be 144°, not 72°."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "A pie chart shows data for 180 students. If a sector represents 60°, how many students does it represent?",
+            "options": [
+                "20",
+                "30",
+                "45",
+                "60"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "60° ÷ 360° = 1/6, and 1/6 of 180 = 30, not 20.",
+                "Correct! 60° ÷ 360° = 1/6, and 1/6 of 180 = 30 students.",
+                "This would be 1/4 of 180, but 60° is 1/6 of 360°.",
+                "This is just the angle measure, not the number of students."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "A pie chart shows favorite pets. Which statements could be true?",
+            "options": [
+                "Dogs: 180°, Cats: 90°, Birds: 90°",
+                "Dogs: 50%, Cats: 30%, Birds: 20%",
+                "Dogs: 120°, Cats: 120°, Birds: 60°, Fish: 60°",
+                "Dogs: 40%, Cats: 40%, Birds: 30%"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ],
+            "feedback": [
+                "Correct! 180° + 90° + 90° = 360° ✓",
+                "Correct! 50% + 30% + 20% = 100% ✓",
+                "Correct! 120° + 120° + 60° + 60° = 360° ✓",
+                "Incorrect. 40% + 40% + 30% = 110%, which is more than 100%."
+            ]
+        }
+    ]
+}

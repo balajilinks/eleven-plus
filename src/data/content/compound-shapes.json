@@ -1,0 +1,60 @@
+{
+    "concept": "Compound Shapes",
+    "subject": "mathematics",
+    "category": "Geometry",
+    "explanation": "Compound shapes are made from two or more simple shapes joined together. To find area: break the shape into rectangles, triangles, circles, etc., find each area separately, then add them up. To find perimeter: add up all the outside edges. Draw lines to help you see the simple shapes!",
+    "examples": [
+        {
+            "question": "Find the area of an L-shape made from a 6×4 rectangle with a 2×2 square cut from one corner.",
+            "solution": "20 square units",
+            "explanation": "Large rectangle area = 6 × 4 = 24. Small square area = 2 × 2 = 4. Compound area = 24 - 4 = 20 square units.",
+            "image": "l-shape.svg",
+            "imageAlt": "L-shaped compound figure showing 6×4 rectangle with 2×2 cutout"
+        },
+        {
+            "question": "A shape is made from a 5×3 rectangle with a semicircle (radius 1.5) on top. Find the area.",
+            "solution": "18.54 square units",
+            "explanation": "Rectangle area = 5 × 3 = 15. Semicircle area = ½ × π × 1.5² = ½ × 3.14 × 2.25 = 3.54. Total = 15 + 3.54 = 18.54"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "A compound shape is made from a 4×3 rectangle with a 2×1 rectangle attached. What is the total area?",
+            "options": [
+                "14 square units",
+                "12 square units",
+                "10 square units",
+                "16 square units"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Large rectangle = 4×3 = 12, small rectangle = 2×1 = 2. Total = 14",
+                "This is just the large rectangle - don't forget to add the small one",
+                "Too low - you need to add both rectangle areas",
+                "Too high - check your calculation of 4×3 + 2×1"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "An L-shape is made from a 5×4 rectangle with a 2×2 square removed. What's the area?",
+            "options": [
+                "16 square units",
+                "20 square units",
+                "24 square units",
+                "14 square units"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Total rectangle = 5×4 = 20, removed square = 2×2 = 4. Area = 20-4 = 16",
+                "This is the original rectangle area before removing the square",
+                "This would be if you added instead of subtracted the square",
+                "Check your calculation - 20 - 4 = 16, not 14"
+            ]
+        }
+    ]
+}

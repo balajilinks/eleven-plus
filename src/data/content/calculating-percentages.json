@@ -1,0 +1,78 @@
+{
+    "concept": "Calculating Percentages",
+    "subject": "mathematics",
+    "category": "Percentages and Fractions",
+    "explanation": "A percentage is a way of expressing a number as a part of 100. To find a percentage of a number, you can use two methods: 1) Convert the percentage to a decimal by dividing by 100, then multiply by the number. 2) Use the formula: (percentage ÷ 100) × number. Remember: 'percent' means 'per hundred', so 25% means 25 out of every 100.",
+    "examples": [
+        {
+            "question": "What is 35% of £8.00?",
+            "solution": "35% = 35 ÷ 100 = 0.35. Then: 0.35 × 8 = £2.80.",
+            "explanation": "We convert 35% to a decimal (0.35) and multiply by the amount."
+        },
+        {
+            "question": "What is 95% of 860?",
+            "solution": "95% = 95 ÷ 100 = 0.95. Then: 0.95 × 860 = 817.",
+            "explanation": "Another way: 95% = 100% - 5%, so 860 - (5% of 860) = 860 - 43 = 817."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "What is 95% of 860?",
+            "options": [
+                "81.7",
+                "817",
+                "86.0",
+                "8170"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Not quite. Try multiplying 860 by 0.95.",
+                "Correct! 860 × 0.95 = 817.",
+                "That's about 10% of 860, not 95%.",
+                "You've moved the decimal point the wrong way."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "What is 12% of 250?",
+            "options": [
+                "20",
+                "25",
+                "30",
+                "35"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "Too low. Remember: 12% = 0.12.",
+                "Close, but that's 10% of 250.",
+                "Correct! 250 × 0.12 = 30.",
+                "Too high. Check your calculation."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which of these calculations will give you 20% of 150?",
+            "options": [
+                "150 × 0.2",
+                "150 × 0.02",
+                "150 ÷ 5",
+                "150 × 20"
+            ],
+            "correct": [
+                0,
+                2
+            ],
+            "feedback": [
+                "Correct! 20% as a decimal is 0.2.",
+                "This would give 2%, not 20%.",
+                "Correct! Dividing by 5 is the same as finding 20% (since 100 ÷ 5 = 20).",
+                "This would give 3000, which is far too large."
+            ]
+        }
+    ]
+}

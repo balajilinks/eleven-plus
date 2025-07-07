@@ -1,0 +1,58 @@
+{
+    "concept": "Pattern Recognition",
+    "subject": "mathematics",
+    "category": "Problem Solving",
+    "explanation": "Patterns are regular sequences or arrangements that repeat or follow a rule. Look for: what increases/decreases, by how much, what stays the same. Number patterns can involve +, -, ×, ÷, or squaring. Shape patterns might rotate, flip, or change size/color. Finding the rule helps predict what comes next!",
+    "examples": [
+        {
+            "question": "Find the next term in the sequence: 2, 6, 18, 54, ?",
+            "solution": "162",
+            "explanation": "Each term is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, so 54×3=162"
+        },
+        {
+            "question": "What's the pattern in: 1, 4, 9, 16, 25, ?",
+            "solution": "36 (square numbers)",
+            "explanation": "These are square numbers: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, so next is 6²=36"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Find the next number in the sequence: 3, 7, 15, 31, ?",
+            "options": [
+                "63",
+                "47",
+                "39",
+                "55"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Pattern: ×2 then +1. So 31×2+1=63",
+                "This doesn't follow the doubling plus 1 pattern",
+                "Close, but check the pattern: each term doubles and adds 1",
+                "This doesn't match the established pattern"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "What comes next: 100, 90, 81, 73, 66, ?",
+            "options": [
+                "60",
+                "59",
+                "58",
+                "61"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Differences: -10, -9, -8, -7, so next is -6, giving 66-6=60",
+                "Close, but the pattern shows decreasing by 6, not 7",
+                "The difference should be 6, not 8",
+                "Too high - the differences are decreasing: 10,9,8,7,6"
+            ]
+        }
+    ]
+}

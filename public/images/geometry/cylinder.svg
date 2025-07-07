@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <style>
+      .cylinder { fill: #dbeafe; stroke: #2563eb; stroke-width: 2; }
+      .top-ellipse { fill: #bfdbfe; }
+      .bottom-ellipse { fill: #93c5fd; }
+      .hidden-edge { stroke: #2563eb; stroke-width: 1; stroke-dasharray: 3,3; opacity: 0.6; fill: none; }
+      .label { font-family: Arial; font-size: 12; fill: #374151; text-anchor: middle; }
+      .dimension { font-family: Arial; font-size: 10; fill: #ef4444; }
+    </style>
+  </defs>
+  
+  <!-- Cylinder -->
+  <!-- Side surface -->
+  <rect x="60" y="50" width="80" height="100" class="cylinder"/>
+  
+  <!-- Bottom ellipse (full) -->
+  <ellipse cx="100" cy="150" rx="40" ry="15" class="bottom-ellipse"/>
+  
+  <!-- Top ellipse (visible part) -->
+  <ellipse cx="100" cy="50" rx="40" ry="15" class="top-ellipse"/>
+  
+  <!-- Hidden part of top ellipse (back edge) -->
+  <path d="M 60 50 Q 100 35, 140 50" class="hidden-edge"/>
+  
+  <!-- Dimension lines and labels -->
+  <line x1="145" y1="50" x2="145" y2="150" stroke="#ef4444" stroke-width="1"/>
+  <line x1="142" y1="50" x2="148" y2="50" stroke="#ef4444" stroke-width="1"/>
+  <line x1="142" y1="150" x2="148" y2="150" stroke="#ef4444" stroke-width="1"/>
+  <text x="155" y="105" class="dimension" transform="rotate(90 155 105)">Height: h</text>
+  
+  <line x1="60" y1="165" x2="140" y2="165" stroke="#ef4444" stroke-width="1"/>
+  <line x1="60" y1="162" x2="60" y2="168" stroke="#ef4444" stroke-width="1"/>
+  <line x1="140" y1="162" x2="140" y2="168" stroke="#ef4444" stroke-width="1"/>
+  <text x="100" y="180" class="dimension">Diameter: d (radius: r)</text>
+  
+  <!-- Title and properties -->
+  <text x="100" y="20" class="label" font-size="14" fill="#2563eb">Cylinder</text>
+  <text x="100" y="195" class="label" font-size="11">2 circular faces + 1 curved surface</text>
+</svg>

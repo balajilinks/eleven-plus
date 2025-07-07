@@ -1,0 +1,98 @@
+{
+    "concept": "Common Tricky Words",
+    "subject": "english",
+    "category": "Spelling",
+    "explanation": "Some words are commonly misspelled because they don't follow typical spelling patterns or because they contain silent letters, double letters, or unusual letter combinations. Learning these words requires memorization and understanding of specific spelling rules. Pay attention to prefixes, suffixes, and root words to help you remember the correct spelling.",
+    "examples": [
+        {
+            "question": "Which is the correct spelling of the word meaning 'able to be accepted'?",
+            "solution": "Acceptable (not Acceptible)",
+            "explanation": "This word ends in '-able' not '-ible'. Most words ending in '-able' can have the suffix removed to leave a complete word (accept + able = acceptable)."
+        },
+        {
+            "question": "Which is the correct spelling of the word meaning 'happening from time to time'?",
+            "solution": "Occasionally (not Occassionally)",
+            "explanation": "This word has a double 'c' but only one 's'. Remember: occasion + ally = occasionally."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Choose the correct spelling:",
+            "options": [
+                "Embarassment",
+                "Embarrassment",
+                "Embarrasment",
+                "Embarasment"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Close! But you need two r's and two s's: embarrassment.",
+                "Correct! Embarrassment has double r and double s.",
+                "You need two r's: embarrassment.",
+                "You need two r's and two s's: embarrassment."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Choose the correct spelling:",
+            "options": [
+                "Independant",
+                "Independent",
+                "Independant",
+                "Independint"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "The ending is '-ent' not '-ant'.",
+                "Correct! Independent ends in '-ent'.",
+                "The ending is '-ent' not '-ant'.",
+                "The ending is '-ent' not '-int'."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which of these words are spelled correctly?",
+            "options": [
+                "Vocabulary",
+                "Mischievous",
+                "Calender",
+                "Referred"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ],
+            "feedback": [
+                "Correct! Vocabulary is spelled correctly.",
+                "Correct! Mischievous is spelled correctly.",
+                "Incorrect. The correct spelling is 'Calendar' with an 'a'.",
+                "Correct! Referred is spelled correctly (double r)."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Choose the correct spelling of the word meaning 'having great ambition':",
+            "options": [
+                "Ambicious",
+                "Ambitious",
+                "Ambitous",
+                "Ambisions"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "You're missing the 't'. The correct spelling is 'ambitious'.",
+                "Correct! Ambitious is spelled with 'tious' at the end.",
+                "You need an 'i' after the 'b'. The correct spelling is 'ambitious'.",
+                "This isn't even close to the correct spelling."
+            ]
+        }
+    ]
+}

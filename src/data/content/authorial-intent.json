@@ -1,0 +1,79 @@
+{
+    "concept": "Authorial Intent",
+    "subject": "english",
+    "category": "Reading Comprehension",
+    "explanation": "Authorial intent questions ask you to consider why an author chose specific words, phrases, or techniques. Authors make deliberate choices to create effects such as: creating atmosphere, showing character emotions, emphasizing points, or engaging the reader. Look for: word choice, sentence structure, literary devices, and punctuation choices. Consider the effect these choices have on the reader.",
+    "examples": [
+        {
+            "question": "In the sentence 'The door creaked ominously as Sarah pushed it open,' why did the author use the word 'ominously'?",
+            "solution": "To create a sense of foreboding and suggest something bad might happen.",
+            "explanation": "The author chose 'ominously' to create tension and suggest danger, making the reader feel worried about what Sarah might find."
+        },
+        {
+            "question": "Why might an author use ellipses (...) in dialogue like 'I thought you were... never mind'?",
+            "solution": "To show hesitation, trailing off, or that the character is leaving something unsaid.",
+            "explanation": "Ellipses show that the character stops speaking, suggesting they're uncertain, don't want to finish their thought, or are being interrupted."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "In 'The wind howled like a banshee through the empty streets,' why did the author use the word 'howled'?",
+            "options": [
+                "To show the wind was loud",
+                "To create a threatening, supernatural atmosphere",
+                "To describe the wind's direction",
+                "To show it was nighttime"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "While 'howled' suggests loudness, the main effect is more dramatic.",
+                "Correct! 'Howled like a banshee' creates a spooky, threatening atmosphere.",
+                "'Howled' describes sound, not direction.",
+                "The word doesn't specifically indicate time of day."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "An author writes: 'What was the point? What was the point of any of it?' Why use repetition here?",
+            "options": [
+                "The author made a mistake",
+                "To emphasize the character's despair and confusion",
+                "To make the text longer",
+                "To show the character is asking two different questions"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is deliberate repetition, not a mistake.",
+                "Correct! Repetition emphasizes the character's overwhelming sense of despair.",
+                "Authors don't add words just to make text longer.",
+                "It's the same question repeated for emphasis."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "An author describes a character as 'shuffling slowly down the corridor.' What effects might this create?",
+            "options": [
+                "Shows the character is tired or unwell",
+                "Creates a slow, heavy mood",
+                "Suggests the character is reluctant to go somewhere",
+                "Shows the character is excited"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ],
+            "feedback": [
+                "Correct! 'Shuffling slowly' suggests physical weakness or exhaustion.",
+                "Correct! The slow movement creates a heavy, perhaps sad mood.",
+                "Correct! Slow, reluctant movement suggests the character doesn't want to go.",
+                "Incorrect. Excited characters would move more quickly and energetically."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "concept": "Homophones",
+    "subject": "english",
+    "category": "Language Analysis",
+    "explanation": "Homophones are words that sound the same but have different meanings and often different spellings. Common examples include: there/their/they're, to/too/two, hear/here, write/right, know/no, and where/wear. Understanding homophones is crucial for spelling and comprehension. Context helps determine which homophone to use.",
+    "examples": [
+        {
+            "question": "Choose the correct homophone: 'I can (hear/here) the music playing.'",
+            "solution": "hear",
+            "explanation": "'Hear' means to perceive sound with your ears. 'Here' refers to this place or location."
+        },
+        {
+            "question": "Complete the sentence: 'They went to (their/there/they're) house.'",
+            "solution": "their",
+            "explanation": "'Their' shows possession (belonging to them). 'There' refers to a place. 'They're' is short for 'they are'."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Which sentence uses the correct homophone?",
+            "options": [
+                "I no the answer to that question.",
+                "I know the answer to that question.",
+                "I now the answer to that question.",
+                "I knew the answer to that question."
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "'No' means the opposite of yes, not 'know'.",
+                "Correct! 'Know' means to have knowledge or information about something.",
+                "'Now' refers to the present time, not 'know'.",
+                "While grammatically correct, this changes the tense to past."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Choose the correct sentence:",
+            "options": [
+                "Your going to love this book.",
+                "You're going to love this book.",
+                "Youre going to love this book.",
+                "Yore going to love this book."
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "'Your' shows possession, but we need 'you are' here.",
+                "Correct! 'You're' is the contraction of 'you are'.",
+                "Missing the apostrophe in the contraction.",
+                "'Yore' is an archaic word meaning 'long ago'."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which pairs are homophones?",
+            "options": [
+                "write / right",
+                "where / wear",
+                "to / too / two",
+                "big / large"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ],
+            "feedback": [
+                "Correct! 'Write' (to make letters) and 'right' (correct) sound the same.",
+                "Correct! 'Where' (what place) and 'wear' (to have on) sound the same.",
+                "Correct! 'To' (towards), 'too' (also/excessive), and 'two' (number) all sound the same.",
+                "Incorrect. 'Big' and 'large' are synonyms, not homophones."
+            ]
+        }
+    ]
+}

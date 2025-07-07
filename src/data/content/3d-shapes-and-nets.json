@@ -1,0 +1,71 @@
+{
+    "concept": "3D Shapes and Nets",
+    "subject": "mathematics",
+    "category": "Geometry",
+    "explanation": "3D shapes are solid objects with length, width, and height. A net is a 2D pattern that can be folded to make a 3D shape. Common 3D shapes: cube (6 square faces), cuboid (6 rectangular faces), pyramid (triangle faces meeting at a point), cylinder (2 circles + curved surface), sphere (perfectly round ball).",
+    "examples": [
+        {
+            "question": "How many faces does a triangular pyramid have?",
+            "solution": "4 faces",
+            "explanation": "A triangular pyramid has 1 triangular base + 3 triangular sides = 4 faces total. It also has 4 vertices and 6 edges.",
+            "image": "triangular-pyramid.svg",
+            "imageAlt": "Triangular pyramid showing 4 faces"
+        },
+        {
+            "question": "Which net can fold to make a cube: 6 squares in a cross shape, or 6 triangles?",
+            "solution": "6 squares in a cross shape",
+            "explanation": "A cube has 6 square faces, so its net must have 6 squares. 6 triangles would make a different shape, not a cube.",
+            "image": "cube-net.svg",
+            "imageAlt": "Net of a cube showing 6 squares in cross pattern"
+        },
+        {
+            "question": "What is a cube and how many edges does it have?",
+            "solution": "A cube is a 3D shape with 12 edges",
+            "explanation": "A cube has 6 square faces, 8 vertices (corners), and 12 edges. All faces are identical squares and all edges are equal length.",
+            "image": "cube.svg",
+            "imageAlt": "3D cube showing faces, vertices and edges"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "A cuboid has dimensions 4cm × 3cm × 2cm. How many edges does it have?",
+            "options": [
+                "12 edges",
+                "8 edges",
+                "6 edges",
+                "24 edges"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! All cuboids have 12 edges (4 on top, 4 on bottom, 4 vertical)",
+                "This is the number of vertices (corners), not edges",
+                "This is the number of faces, not edges",
+                "Too many - a cuboid has 12 edges, not 24"
+            ],
+            "image": "cuboid.svg",
+            "imageAlt": "Cuboid showing dimensions and edges"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Which shape has exactly 1 face, 1 edge, and 0 vertices?",
+            "options": [
+                "Cylinder",
+                "Sphere",
+                "Cone",
+                "Circle"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "A cylinder has 3 faces (2 circular + 1 curved), 2 edges",
+                "Correct! A sphere has 1 curved face, 1 edge (the curve), and 0 vertices",
+                "A cone has 2 faces (1 circular base + 1 curved), 1 edge, 1 vertex",
+                "A circle is 2D, not 3D"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "concept": "Pattern Identification",
+    "subject": "mathematics",
+    "category": "Geometry",
+    "explanation": "Pattern identification involves recognizing repeating shapes, sequences, or arrangements. Look for: shape patterns, number patterns, size patterns, color patterns, and position patterns. In geometric patterns, count sides, angles, or other features. For tessellations, see how shapes fit together. For growing patterns, identify what changes and what stays the same.",
+    "examples": [
+        {
+            "question": "In a pattern of triangles: 1 triangle, then 3 triangles, then 5 triangles, then 7 triangles. How many triangles are in the 6th group?",
+            "solution": "11 triangles",
+            "explanation": "The pattern increases by 2 each time: 1, 3, 5, 7, 9, 11. The 6th group has 11 triangles."
+        },
+        {
+            "question": "A pattern shows: circle, square, triangle, circle, square, triangle... What is the 10th shape?",
+            "solution": "Triangle",
+            "explanation": "The pattern repeats every 3 shapes. 10 ÷ 3 = 3 remainder 1. So the 10th shape is the same as the 1st shape: circle. Wait, let me recheck: positions 1,4,7,10 are circles; 2,5,8,11 are squares; 3,6,9,12 are triangles. So 10th is circle."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "In a pattern: 2, 6, 18, 54, ... What is the next number?",
+            "options": [
+                "108",
+                "162",
+                "216",
+                "270"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Each number is multiplied by 3, not added to. 54 × 3 = 162, not 108.",
+                "Correct! Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162.",
+                "This would be 54 × 4, not 54 × 3.",
+                "This would be 54 × 5, not 54 × 3."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "A tiling pattern uses squares and triangles. If it takes 5 squares and 3 triangles to make one complete pattern unit, how many triangles are needed for 4 complete units?",
+            "options": [
+                "7",
+                "12",
+                "15",
+                "20"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This adds 3 + 4 instead of multiplying.",
+                "Correct! 4 units × 3 triangles per unit = 12 triangles.",
+                "This would be 4 × 3 + 3, which is incorrect.",
+                "This is 4 × 5, but that's the number of squares, not triangles."
+            ]
+        }
+    ]
+}

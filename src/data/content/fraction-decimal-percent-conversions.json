@@ -1,0 +1,79 @@
+{
+    "concept": "Fraction-Decimal-Percent Conversions",
+    "subject": "mathematics",
+    "category": "Percentages and Fractions",
+    "explanation": "Fractions, decimals, and percentages are different ways of expressing the same value. To convert: Fraction to decimal: divide the numerator by the denominator. Decimal to percentage: multiply by 100. Percentage to fraction: write as a fraction over 100, then simplify. Remember common equivalents: 1/2 = 0.5 = 50%, 1/4 = 0.25 = 25%, 3/4 = 0.75 = 75%.",
+    "examples": [
+        {
+            "question": "Convert 0.0125 to a fraction in its simplest form.",
+            "solution": "0.0125 = 1.25/100 = 125/10000 = 1/80",
+            "explanation": "0.0125 = 1.25/100. To remove decimals, multiply by 100: 125/10000. Then simplify by dividing both by 125: 1/80."
+        },
+        {
+            "question": "What is 3/8 as a decimal and percentage?",
+            "solution": "3/8 = 0.375 = 37.5%",
+            "explanation": "Divide 3 by 8 to get 0.375. Multiply by 100 to get 37.5%."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "What is 0.6 as a fraction in its simplest form?",
+            "options": [
+                "6/10",
+                "3/5",
+                "60/100",
+                "6/100"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is correct but not in simplest form. Simplify by dividing by 2.",
+                "Correct! 0.6 = 6/10 = 3/5 in simplest form.",
+                "This is correct but not in simplest form.",
+                "This would be 0.06, not 0.6."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "What is 7/20 as a percentage?",
+            "options": [
+                "7%",
+                "20%",
+                "35%",
+                "70%"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "This would be 7/100, not 7/20.",
+                "This would be 1/5 or 20/100.",
+                "Correct! 7/20 = 0.35 = 35%.",
+                "This would be 7/10, not 7/20."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which of these are equivalent to 1/4?",
+            "options": [
+                "0.25",
+                "25%",
+                "2/8",
+                "0.4"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ],
+            "feedback": [
+                "Correct! 1/4 = 0.25.",
+                "Correct! 1/4 = 25%.",
+                "Correct! 2/8 = 1/4 when simplified.",
+                "Incorrect. 0.4 = 2/5, not 1/4."
+            ]
+        }
+    ]
+}

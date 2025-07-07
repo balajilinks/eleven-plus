@@ -1,0 +1,79 @@
+{
+    "concept": "Angles in Triangles",
+    "subject": "mathematics",
+    "category": "Geometry",
+    "explanation": "The angles in any triangle always add up to 180°. Special triangles include: Equilateral (all angles 60°), Isosceles (two equal angles), Right-angled (one 90° angle), and Scalene (all angles different). In an isosceles triangle, the two base angles are equal. In a right-angled triangle, the other two angles add up to 90°.",
+    "examples": [
+        {
+            "question": "In a triangle, two angles are 45° and 65°. What is the third angle?",
+            "solution": "70°",
+            "explanation": "All angles in a triangle sum to 180°. Third angle = 180° - 45° - 65° = 70°."
+        },
+        {
+            "question": "In an isosceles triangle, one angle is 40°. What are the other two angles?",
+            "solution": "Either 40° and 100°, or both 70°",
+            "explanation": "If the 40° angle is one of the equal angles, the other equal angle is also 40°, and the third is 180° - 40° - 40° = 100°. If 40° is the different angle, the other two are each (180° - 40°) ÷ 2 = 70°."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "In a right-angled triangle, one angle is 35°. What is the third angle?",
+            "options": [
+                "45°",
+                "55°",
+                "65°",
+                "90°"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Remember: one angle is 90°, another is 35°, so the third is 180° - 90° - 35° = 55°.",
+                "Correct! In a right-angled triangle: 90° + 35° + third angle = 180°, so third angle = 55°.",
+                "Check your calculation: 180° - 90° - 35° = 55°.",
+                "90° is the right angle, but that's already given."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "What type of triangle has angles of 60°, 60°, and 60°?",
+            "options": [
+                "Scalene",
+                "Isosceles",
+                "Equilateral",
+                "Right-angled"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "Scalene triangles have all different angles.",
+                "Isosceles triangles have two equal angles, but this has three equal angles.",
+                "Correct! An equilateral triangle has all angles equal to 60°.",
+                "Right-angled triangles have one 90° angle."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which could be the angles in an isosceles triangle?",
+            "options": [
+                "50°, 50°, 80°",
+                "45°, 45°, 90°",
+                "30°, 75°, 75°",
+                "60°, 60°, 60°"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ],
+            "feedback": [
+                "Correct! Two angles are equal (50°) and all add to 180°.",
+                "Correct! Two angles are equal (45°) and all add to 180°. This is also right-angled.",
+                "Correct! Two angles are equal (75°) and all add to 180°.",
+                "This is equilateral, not just isosceles (though equilateral triangles are also isosceles)."
+            ]
+        }
+    ]
+}

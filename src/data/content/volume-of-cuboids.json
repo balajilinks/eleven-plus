@@ -1,0 +1,79 @@
+{
+    "concept": "Volume of Cuboids",
+    "subject": "mathematics",
+    "category": "Geometry",
+    "explanation": "Volume is the amount of space inside a 3D shape, measured in cubic units (cm³, m³). For a cuboid (rectangular prism), Volume = length × width × height. For a cube, Volume = side³. Always check the units in your answer - if measurements are in cm, volume will be in cm³. Volume tells you how much liquid or material could fit inside the shape.",
+    "examples": [
+        {
+            "question": "What is the volume of a cuboid with length 6 cm, width 4 cm, and height 3 cm?",
+            "solution": "72 cm³",
+            "explanation": "Volume = length × width × height = 6 × 4 × 3 = 72 cm³"
+        },
+        {
+            "question": "A cube has sides of 5 cm. What is its volume?",
+            "solution": "125 cm³",
+            "explanation": "Volume = side³ = 5³ = 5 × 5 × 5 = 125 cm³"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "What is the volume of a cuboid measuring 8 cm × 3 cm × 2 cm?",
+            "options": [
+                "13 cm³",
+                "26 cm³",
+                "48 cm³",
+                "96 cm³"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "That's the sum of the dimensions, not the volume.",
+                "That's the perimeter calculation, not volume.",
+                "Correct! Volume = 8 × 3 × 2 = 48 cm³",
+                "Check your multiplication: 8 × 3 × 2 = 48, not 96."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "A cube has a volume of 64 cm³. What is the length of each side?",
+            "options": [
+                "4 cm",
+                "8 cm",
+                "16 cm",
+                "21.3 cm"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! If side³ = 64, then side = 4 cm (because 4³ = 64).",
+                "Check: 8³ = 512, not 64.",
+                "Check: 16³ = 4096, not 64.",
+                "This is 64 ÷ 3, but you need the cube root of 64."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which cuboids have a volume of 24 cm³?",
+            "options": [
+                "2 cm × 3 cm × 4 cm",
+                "1 cm × 6 cm × 4 cm",
+                "2 cm × 2 cm × 6 cm",
+                "3 cm × 3 cm × 3 cm"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ],
+            "feedback": [
+                "Correct! 2 × 3 × 4 = 24 cm³",
+                "Correct! 1 × 6 × 4 = 24 cm³",
+                "Correct! 2 × 2 × 6 = 24 cm³",
+                "Incorrect. 3 × 3 × 3 = 27 cm³, not 24 cm³"
+            ]
+        }
+    ]
+}

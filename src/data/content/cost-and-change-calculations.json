@@ -1,0 +1,80 @@
+{
+    "concept": "Cost and Change Calculations",
+    "subject": "mathematics",
+    "category": "Time and Money",
+    "explanation": "Money calculations involve addition, subtraction, multiplication, and division with decimal numbers. Key skills: calculating total costs, finding change, working with different prices, and handling discounts. Remember: pounds have 100 pence, always work to 2 decimal places for money, and check your answers make sense in real-world contexts.",
+    "examples": [
+        {
+            "question": "7 books cost £2.99 each. What is the total cost?",
+            "solution": "£20.93",
+            "explanation": "7 × £2.99 = £20.93. You can calculate this as 7 × 3 = 21, then subtract 7 × 0.01 = 0.07, giving £21.00 - £0.07 = £20.93."
+        },
+        {
+            "question": "Cinema tickets cost £8.50 for adults and £5.25 for children. What is the total cost for 2 adults and 3 children?",
+            "solution": "£32.75",
+            "explanation": "2 adults: 2 × £8.50 = £17.00. 3 children: 3 × £5.25 = £15.75. Total: £17.00 + £15.75 = £32.75."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "A packet of crisps costs 65p. How much do 8 packets cost?",
+            "options": [
+                "£4.80",
+                "£5.20",
+                "£5.40",
+                "£5.60"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Check: 8 × 65p = 520p = £5.20, not £4.80.",
+                "Correct! 8 × 65p = 520p = £5.20.",
+                "This would be 8 × 67.5p, not 8 × 65p.",
+                "This would be 8 × 70p, not 8 × 65p."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "You buy items costing £3.25, £1.75, and £2.50. You pay with a £10 note. How much change do you get?",
+            "options": [
+                "£2.50",
+                "£2.75",
+                "£3.00",
+                "£3.25"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Total cost: £3.25 + £1.75 + £2.50 = £7.50. Change: £10.00 - £7.50 = £2.50.",
+                "Check your addition: £3.25 + £1.75 + £2.50 = £7.50, not £7.25.",
+                "The total cost is £7.50, not £7.00.",
+                "The total cost is £7.50, not £6.75."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which calculations give the correct total for 5 items at £1.25 each?",
+            "options": [
+                "5 × £1.25",
+                "£1.25 + £1.25 + £1.25 + £1.25 + £1.25",
+                "5 × 125p",
+                "£6.25"
+            ],
+            "correct": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "feedback": [
+                "Correct! This is the direct multiplication method.",
+                "Correct! This is repeated addition, which gives the same result.",
+                "Correct! 5 × 125p = 625p = £6.25.",
+                "Correct! This is the answer to the calculation."
+            ]
+        }
+    ]
+}

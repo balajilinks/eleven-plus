@@ -1,0 +1,58 @@
+{
+    "concept": "Combinatorics",
+    "subject": "mathematics",
+    "category": "Problem Solving",
+    "explanation": "Combinatorics is about counting arrangements and combinations. When arranging objects in order, multiply the choices: 3 books can be arranged in 3 × 2 × 1 = 6 ways. When choosing groups without order mattering, use combinations. Think systematically and list possibilities when numbers are small!",
+    "examples": [
+        {
+            "question": "In how many ways can 4 friends sit in a row of 4 chairs?",
+            "solution": "24 ways",
+            "explanation": "1st chair: 4 choices, 2nd chair: 3 choices, 3rd chair: 2 choices, 4th chair: 1 choice. Total: 4 × 3 × 2 × 1 = 24 ways"
+        },
+        {
+            "question": "How many different 3-letter codes can you make using the letters A, B, C, D (without repeating letters)?",
+            "solution": "24 codes",
+            "explanation": "1st letter: 4 choices, 2nd letter: 3 choices, 3rd letter: 2 choices. Total: 4 × 3 × 2 = 24 codes"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "A football team has 5 different coloured shirts. In how many ways can they choose 3 shirts?",
+            "options": [
+                "10 ways",
+                "15 ways",
+                "60 ways",
+                "125 ways"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! This is choosing 3 from 5: (5×4×3)÷(3×2×1) = 10 ways",
+                "Close, but check the combination formula",
+                "This would be if order mattered (arrangement)",
+                "This is 5³, which is different from choosing 3 from 5"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "How many 2-digit numbers can be formed using digits 1, 2, 3, 4 without repetition?",
+            "options": [
+                "12",
+                "16",
+                "8",
+                "24"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 1st digit: 4 choices, 2nd digit: 3 choices. Total: 4 × 3 = 12",
+                "This would be 4² (with repetition allowed)",
+                "Too low - you have more choices available",
+                "This would be for 3-digit numbers: 4 × 3 × 2"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "concept": "Quadratic Expressions",
+    "subject": "mathematics",
+    "category": "Algebra",
+    "explanation": "Quadratic expressions have the form ax² + bx + c, where a ≠ 0. They can be factored, expanded, or solved. To expand brackets like (x+2)(x+3), use FOIL: First, Outer, Inner, Last. To factor, look for common factors first, then try to find two numbers that multiply to give 'ac' and add to give 'b'.",
+    "examples": [
+        {
+            "question": "Expand (x + 3)(x + 5)",
+            "solution": "x² + 8x + 15",
+            "explanation": "Using FOIL: First: x×x = x², Outer: x×5 = 5x, Inner: 3×x = 3x, Last: 3×5 = 15. Combine: x² + 5x + 3x + 15 = x² + 8x + 15"
+        },
+        {
+            "question": "Factor x² + 7x + 12",
+            "solution": "(x + 3)(x + 4)",
+            "explanation": "Need two numbers that multiply to 12 and add to 7. These are 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4)"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Expand (x + 2)(x + 6)",
+            "options": [
+                "x² + 8x + 12",
+                "x² + 6x + 12",
+                "x² + 12x + 8",
+                "x² + 4x + 8"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! (x + 2)(x + 6) = x² + 6x + 2x + 12 = x² + 8x + 12",
+                "You forgot to add the outer and inner terms: 6x + 2x = 8x",
+                "The middle term should be 8x, not 12x",
+                "Check your expansion - both the middle and last terms are incorrect"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Factor x² + 9x + 20",
+            "options": [
+                "(x + 4)(x + 5)",
+                "(x + 2)(x + 10)",
+                "(x + 1)(x + 20)",
+                "(x + 3)(x + 7)"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 4 + 5 = 9 and 4 × 5 = 20",
+                "Check: 2 + 10 = 12, not 9",
+                "Check: 1 + 20 = 21, not 9",
+                "Check: 3 × 7 = 21, not 20"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "concept": "Literary Techniques",
+    "subject": "english",
+    "category": "Language Analysis",
+    "explanation": "Literary techniques are methods writers use to create effects and convey meaning. Common techniques include: Alliteration (repeating initial sounds), Simile (comparing using 'like' or 'as'), Metaphor (direct comparison), Personification (giving human qualities to non-human things), Hyperbole (exaggeration), Onomatopoeia (words that sound like their meaning), and Repetition (repeating words for emphasis).",
+    "examples": [
+        {
+            "question": "Identify the literary technique in: 'The wind whispered through the trees.'",
+            "solution": "Personification",
+            "explanation": "The wind is given the human ability to whisper, which is personification - giving human characteristics to non-human things."
+        },
+        {
+            "question": "What technique is used in: 'Peter Piper picked a peck of pickled peppers'?",
+            "solution": "Alliteration",
+            "explanation": "This repeats the 'p' sound at the beginning of most words, which is alliteration."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "What literary technique is used in: 'Her smile was as bright as the sun'?",
+            "options": [
+                "Metaphor",
+                "Simile",
+                "Personification",
+                "Alliteration"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This uses 'as...as' to compare, which makes it a simile, not a metaphor.",
+                "Correct! The comparison using 'as bright as' makes this a simile.",
+                "Nothing is given human qualities here.",
+                "There's no repetition of initial sounds."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Identify the technique in: 'The classroom was a zoo during break time.'",
+            "options": [
+                "Simile",
+                "Metaphor",
+                "Hyperbole",
+                "Alliteration"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This doesn't use 'like' or 'as' - it's a direct comparison.",
+                "Correct! This directly compares the classroom to a zoo without using 'like' or 'as'.",
+                "While it might be exaggerated, the main technique is the direct comparison.",
+                "There's no repetition of initial sounds."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which examples show personification?",
+            "options": [
+                "The stars danced in the sky",
+                "The car roared like a lion",
+                "The flowers nodded in the breeze",
+                "Time crawled by slowly"
+            ],
+            "correct": [
+                0,
+                2,
+                3
+            ],
+            "feedback": [
+                "Correct! Stars can't actually dance - they're given human ability.",
+                "This is a simile comparing the car to a lion, not personification.",
+                "Correct! Flowers can't actually nod - they're given human ability.",
+                "Correct! Time can't actually crawl - it's given human ability."
+            ]
+        }
+    ]
+}

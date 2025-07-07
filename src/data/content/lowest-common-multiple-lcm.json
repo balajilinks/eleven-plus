@@ -1,0 +1,34 @@
+{
+    "concept": "Lowest Common Multiple (LCM)",
+    "subject": "mathematics",
+    "category": "Number Properties",
+    "explanation": "This is the Lowest Common Multiple (LCM) concept in mathematics. This module helps students understand and practice lowest common multiple (lcm) through interactive exercises and examples.",
+    "examples": [
+        {
+            "question": "Sample question about lowest common multiple (lcm)",
+            "solution": "Sample answer",
+            "explanation": "Step-by-step explanation for lowest common multiple (lcm)"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Practice question about lowest common multiple (lcm)",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is not correct. Try again.",
+                "Correct! Well done.",
+                "This is not the right answer.",
+                "Incorrect. Review the concept and try again."
+            ]
+        }
+    ]
+}

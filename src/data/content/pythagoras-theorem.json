@@ -1,0 +1,80 @@
+{
+    "title": "Pythagoras Theorem",
+    "explanation": "Pythagoras Theorem states that in a right-angled triangle, the square of the hypotenuse (the longest side, opposite the right angle) is equal to the sum of the squares of the other two sides. The formula is: a² + b² = c², where c is the hypotenuse and a and b are the other two sides.",
+    "examples": [
+        {
+            "question": "Find the hypotenuse of a right triangle with sides 3 and 4",
+            "solution": "c² = 3² + 4² = 9 + 16 = 25, so c = 5",
+            "explanation": "Using a² + b² = c²: 3² + 4² = 9 + 16 = 25. Taking the square root: √25 = 5. The hypotenuse is 5."
+        },
+        {
+            "question": "Find the missing side of a right triangle with hypotenuse 13 and one side 5",
+            "solution": "b² = 13² - 5² = 169 - 25 = 144, so b = 12",
+            "explanation": "Rearranging a² + b² = c² to find b: b² = c² - a² = 13² - 5² = 169 - 25 = 144. Taking the square root: √144 = 12."
+        },
+        {
+            "question": "Is a triangle with sides 5, 12, and 13 a right triangle?",
+            "solution": "Yes, because 5² + 12² = 25 + 144 = 169 = 13²",
+            "explanation": "Check if a² + b² = c²: 5² + 12² = 25 + 144 = 169, and 13² = 169. Since they're equal, it's a right triangle."
+        }
+    ],
+    "exercises": [
+        {
+            "question": "Find the hypotenuse of a right triangle with sides 6 and 8",
+            "type": "multiple-choice",
+            "options": [
+                "10",
+                "12",
+                "14",
+                "16"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 6² + 8² = 36 + 64 = 100, so c = √100 = 10",
+                "Incorrect. Check your calculation: 6² + 8² = ?",
+                "Incorrect. Remember to use the Pythagoras formula.",
+                "Incorrect. Square the sides first, then add."
+            ]
+        },
+        {
+            "question": "A right triangle has hypotenuse 15 and one side 9. What is the other side?",
+            "type": "multiple-choice",
+            "options": [
+                "12",
+                "10",
+                "8",
+                "6"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 15² - 9² = 225 - 81 = 144, so b = √144 = 12",
+                "Incorrect. Use the formula: b² = c² - a²",
+                "Incorrect. Check your subtraction.",
+                "Incorrect. Remember to take the square root at the end."
+            ]
+        },
+        {
+            "question": "Which set of sides can form a right triangle?",
+            "type": "multiple-choice",
+            "options": [
+                "3, 4, 6",
+                "5, 12, 13",
+                "7, 8, 9",
+                "2, 3, 4"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Incorrect. 3² + 4² = 9 + 16 = 25, but 6² = 36",
+                "Correct! 5² + 12² = 25 + 144 = 169 = 13²",
+                "Incorrect. 7² + 8² = 49 + 64 = 113, but 9² = 81",
+                "Incorrect. 2² + 3² = 4 + 9 = 13, but 4² = 16"
+            ]
+        }
+    ]
+}

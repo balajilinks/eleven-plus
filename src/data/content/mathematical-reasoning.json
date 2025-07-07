@@ -1,0 +1,58 @@
+{
+    "concept": "Mathematical Reasoning",
+    "subject": "mathematics",
+    "category": "Problem Solving",
+    "explanation": "Mathematical reasoning means thinking logically to solve problems step by step. Look for patterns, make connections, and justify your answers. Ask: 'Does this make sense?' Break complex problems into smaller parts. Use what you know to figure out what you don't know. Always check your answer!",
+    "examples": [
+        {
+            "question": "Tom has £20. He buys 3 items costing £4, £7, and £6. Does he have enough money left to buy a £5 chocolate bar?",
+            "solution": "No, he needs £2 more",
+            "explanation": "Cost of 3 items: £4 + £7 + £6 = £17. Money left: £20 - £17 = £3. Chocolate costs £5, but he only has £3, so he needs £2 more."
+        },
+        {
+            "question": "Sarah says 'I'm thinking of a number. If I double it and add 7, I get 23.' What's her number?",
+            "solution": "8",
+            "explanation": "Work backwards: 23 - 7 = 16, then 16 ÷ 2 = 8. Check: 8 × 2 + 7 = 16 + 7 = 23 ✓"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "A bus starts with 12 passengers. At stop 1, 5 get off and 8 get on. At stop 2, 3 get off and 2 get on. How many passengers are now on the bus?",
+            "options": [
+                "14 passengers",
+                "16 passengers",
+                "12 passengers",
+                "18 passengers"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! Start: 12, then 12-5+8=15, then 15-3+2=14 passengers",
+                "Check your calculation - don't forget some got off at each stop",
+                "This is the starting number, but passengers got on and off",
+                "Too high - remember passengers got off as well as on"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Jake's age plus his sister's age equals 25. Jake is 3 years older than his sister. How old is Jake?",
+            "options": [
+                "14 years old",
+                "11 years old",
+                "12 years old",
+                "13 years old"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! If sister is 11, then Jake is 14. Check: 11+14=25 and 14-11=3 ✓",
+                "This would be the sister's age, not Jake's age",
+                "Close, but check: if Jake is 12, sister is 9, and 12+9=21, not 25",
+                "If Jake is 13, sister is 10, and 13+10=23, not 25"
+            ]
+        }
+    ]
+}

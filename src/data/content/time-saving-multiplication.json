@@ -1,0 +1,111 @@
+{
+    "concept": "Time-Saving Multiplication",
+    "subject": "mathematics",
+    "category": "Quick Wins",
+    "explanation": "Multiplication shortcuts can save you minutes in 11+ exams! These tricks work by breaking numbers into easier parts or using special patterns. Key strategies: 1) Multiply by 10, 100, 1000 (just add zeros), 2) Double and halve method, 3) Break numbers into tens and units, 4) Use distributive property. Practice until these become automatic!",
+    "examples": [
+        {
+            "question": "Calculate 16 × 25 using shortcuts",
+            "solution": "400",
+            "explanation": "Remember: 4 × 25 = 100. Since 16 = 4 × 4, we get 16 × 25 = 4 × 4 × 25 = 4 × 100 = 400. Or: 25 = 100/4, so 16 × 25 = 16 × 100/4 = 1600/4 = 400"
+        },
+        {
+            "question": "Multiply 18 × 50 quickly",
+            "solution": "900",
+            "explanation": "50 = 100/2. So 18 × 50 = 18 × 100/2 = 1800/2 = 900. Or think: 18 × 50 = 18 × 5 × 10 = 90 × 10 = 900"
+        },
+        {
+            "question": "Use doubling/halving for 14 × 15",
+            "solution": "210",
+            "explanation": "Double one, halve the other: 14 × 15 = 28 × 7.5. Hmm, that's harder! Try: 14 × 15 = 7 × 30 = 210. Or: 14 × 15 = 14 × 10 + 14 × 5 = 140 + 70 = 210"
+        },
+        {
+            "question": "Calculate 23 × 9 using the 'subtract 1' trick",
+            "solution": "207",
+            "explanation": "To multiply by 9: multiply by 10, then subtract the original number. 23 × 10 = 230. Then 230 - 23 = 207. Works because 9 = 10 - 1!"
+        },
+        {
+            "question": "Find 37 × 21 by breaking down",
+            "solution": "777",
+            "explanation": "Break 21 into 20 + 1: 37 × 21 = 37 × 20 + 37 × 1 = 740 + 37 = 777. Always break numbers into friendly parts like 10, 20, 100!"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Using shortcuts, calculate 24 × 25",
+            "options": [
+                "600",
+                "550",
+                "650",
+                "500"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 24 × 25 = 6 × 4 × 25 = 6 × 100 = 600 (since 4 × 25 = 100)",
+                "Close, but check: 4 × 25 = 100, so 24 × 25 = 6 × 100",
+                "Too high - remember 4 × 25 = 100",
+                "Too low - this would be 20 × 25"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Quick method for 17 × 9",
+            "options": [
+                "153",
+                "143",
+                "163",
+                "173"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 17 × 10 = 170, then 170 - 17 = 153",
+                "You subtracted too much: should be 170 - 17",
+                "You added instead of subtracted",
+                "This would be 17 × 10 + 3, not 17 × 9"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Using breaking down, find 43 × 11",
+            "options": [
+                "473",
+                "463",
+                "483",
+                "453"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 43 × 11 = 43 × 10 + 43 × 1 = 430 + 43 = 473",
+                "You calculated 43 × 10 + 33 instead of 43 × 10 + 43",
+                "Too high - check your addition",
+                "Too low - make sure you add 43, not 23"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Fastest way to calculate 32 × 50",
+            "options": [
+                "1600",
+                "1500",
+                "1700",
+                "1400"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 32 × 50 = 32 × 100/2 = 3200/2 = 1600",
+                "This would be 30 × 50, not 32 × 50",
+                "Too high - check your calculation",
+                "Too low - this would be 28 × 50"
+            ]
+        }
+    ]
+}

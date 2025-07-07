@@ -1,0 +1,111 @@
+{
+    "concept": "Percentage Quick Tricks",
+    "subject": "mathematics",
+    "category": "Quick Wins",
+    "explanation": "Percentages appear everywhere in 11+ exams! Master these quick tricks and you'll solve percentage problems in seconds instead of minutes. The secret is knowing that percentages are just fractions in disguise. Learn these key percentages as fractions: 10%=1/10, 20%=1/5, 25%=1/4, 50%=1/2, 75%=3/4. Then use mental math tricks!",
+    "examples": [
+        {
+            "question": "Find 15% of 80 in 3 seconds",
+            "solution": "12",
+            "explanation": "15% = 10% + 5%. First find 10%: move decimal left (80→8). Then 5% = half of 10%: 8÷2=4. So 15% = 8+4 = 12. Super fast!"
+        },
+        {
+            "question": "What's 37% of 200 quickly?",
+            "solution": "74",
+            "explanation": "With nice round numbers like 200, just multiply the percentage by the hundreds digit: 37 × 2 = 74. Works because 37% of 200 = 37 × 200/100 = 37 × 2."
+        },
+        {
+            "question": "Calculate 250% of 24",
+            "solution": "60",
+            "explanation": "250% = 2.5 times. To multiply by 2.5: double it, then add half. 24×2=48. Half of 24=12. So 48+12=60. Much easier than 24×2.5!"
+        },
+        {
+            "question": "Find what percentage 18 is of 24",
+            "solution": "75%",
+            "explanation": "Quick method: 18/24 = 3/4 (divide both by 6). And 3/4 = 75%. Always look for common factors to simplify fractions first!"
+        },
+        {
+            "question": "Increase 60 by 25% instantly",
+            "solution": "75",
+            "explanation": "25% = 1/4. So 25% of 60 = 60÷4 = 15. Adding 25% means 60+15 = 75. Or think: 125% of 60 = 1.25×60 = 60 + 60/4 = 75"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Using quick tricks, find 35% of 60",
+            "options": [
+                "21",
+                "18",
+                "24",
+                "27"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 35% = 30% + 5%. 30% of 60 = 18, 5% of 60 = 3, so 18+3 = 21",
+                "This is 30% of 60, but you need to add 5% more",
+                "This is 40% of 60, too high",
+                "This is 45% of 60, much too high"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "What's 12.5% of 80 using the fraction method?",
+            "options": [
+                "10",
+                "8",
+                "12",
+                "15"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 12.5% = 1/8. So 80 ÷ 8 = 10",
+                "This is 10% of 80, not 12.5%",
+                "This is 15% of 80, not 12.5%",
+                "This is 18.75% of 80, not 12.5%"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Decrease 120 by 20% quickly",
+            "options": [
+                "96",
+                "100",
+                "90",
+                "108"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 20% of 120 = 24 (120÷5). So 120-24 = 96",
+                "You calculated 120 - 20 instead of 120 - (20% of 120)",
+                "This would be a 25% decrease",
+                "This would be a 10% decrease"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Using shortcuts, what percentage is 16 out of 64?",
+            "options": [
+                "25%",
+                "20%",
+                "30%",
+                "15%"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! 16/64 = 1/4 = 25% (divide both by 16)",
+                "Check: 20% of 64 would be 12.8, not 16",
+                "Check: 30% of 64 would be 19.2, not 16",
+                "Check: 15% of 64 would be 9.6, not 16"
+            ]
+        }
+    ]
+}

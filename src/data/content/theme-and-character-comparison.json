@@ -1,0 +1,60 @@
+{
+    "concept": "Theme and Character Comparison",
+    "subject": "english",
+    "category": "Comparison of Texts",
+    "explanation": "When comparing themes and characters across texts, look for similarities and differences in: character traits, motivations, and development; themes like friendship, family, growing up, or overcoming challenges; how characters face similar situations; and the lessons or messages in each text. Use specific examples from both texts to support your comparisons.",
+    "examples": [
+        {
+            "question": "Compare the characters of Harry Potter and Matilda. How are they similar?",
+            "solution": "Both are intelligent children with special abilities who face challenges from adults who don't understand them.",
+            "explanation": "Both characters are gifted (Harry with magic, Matilda with intelligence and telekinesis), both have difficult family situations, and both find their true potential when they find people who believe in them."
+        },
+        {
+            "question": "How is the theme of friendship similar in 'Charlotte's Web' and 'The Lion, the Witch and the Wardrobe'?",
+            "solution": "Both show how friendship involves sacrifice and loyalty, with characters willing to help each other despite danger.",
+            "explanation": "Charlotte sacrifices her life to save Wilbur, while the Pevensie children risk everything to help Narnia and each other."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "What theme is common to both 'The Ugly Duckling' and 'Harry Potter'?",
+            "options": [
+                "The importance of money",
+                "Finding where you belong",
+                "The danger of technology",
+                "The need for exercise"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Neither story focuses on money as a main theme.",
+                "Correct! Both characters start as outsiders and eventually find their true place and identity.",
+                "Technology is not a theme in either story.",
+                "Exercise is not a theme in either story."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which character traits do both Hermione Granger and Matilda Wormwood share?",
+            "options": [
+                "Intelligence",
+                "Love of reading",
+                "Magical abilities",
+                "Difficult family relationships"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ],
+            "feedback": [
+                "Correct! Both are exceptionally intelligent for their age.",
+                "Correct! Both love books and reading.",
+                "Only Hermione has traditional magical abilities (Matilda has telekinesis).",
+                "Correct! Both have families who don't appreciate or understand them."
+            ]
+        }
+    ]
+}

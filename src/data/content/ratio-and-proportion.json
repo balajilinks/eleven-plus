@@ -1,0 +1,58 @@
+{
+    "concept": "Ratio and Proportion",
+    "subject": "mathematics",
+    "category": "Percentages and Fractions",
+    "explanation": "A ratio compares quantities and is written as a:b or a/b. Ratios should be simplified to lowest terms. Proportion means ratios are equal (a:b = c:d). To solve proportion problems: cross multiply or use equivalent fractions. In problems, look for key words like 'for every', 'to every', or 'ratio of'.",
+    "examples": [
+        {
+            "question": "Simplify the ratio 12:18",
+            "solution": "2:3",
+            "explanation": "Find the highest common factor: HCF(12,18) = 6. Divide both by 6: 12÷6 = 2, 18÷6 = 3. So 12:18 = 2:3"
+        },
+        {
+            "question": "If 3 pens cost £4.50, how much do 8 pens cost?",
+            "solution": "£12",
+            "explanation": "Set up proportion: 3 pens : £4.50 = 8 pens : £x. Cross multiply: 3x = 8 × 4.50 = 36, so x = £12"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Simplify the ratio 20:35",
+            "options": [
+                "4:7",
+                "5:6",
+                "2:5",
+                "4:5"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! HCF(20,35) = 5, so 20:35 = 4:7",
+                "Check your division - this doesn't equal 20:35",
+                "This would be 8:20, not 20:35",
+                "This would be 16:20, not 20:35"
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "If the ratio of boys to girls is 3:4, and there are 12 boys, how many girls are there?",
+            "options": [
+                "9",
+                "16",
+                "15",
+                "18"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This would be if the ratio was 4:3, not 3:4",
+                "Correct! If 3 parts = 12 boys, then 1 part = 4, so 4 parts = 16 girls",
+                "Check your calculation - 3:4 with 12 boys gives 16 girls",
+                "This is too many - the ratio is 3:4, not 2:3"
+            ]
+        }
+    ]
+}

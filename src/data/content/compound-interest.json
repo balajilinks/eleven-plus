@@ -1,0 +1,80 @@
+{
+    "title": "Compound Interest",
+    "explanation": "Compound interest is interest calculated on the initial principal plus all previously earned interest. The formula is A = P(1 + r/n)^(nt), where A is the final amount, P is the principal, r is the annual interest rate (as a decimal), n is the number of times interest is compounded per year, and t is the number of years. For simple annual compounding, A = P(1 + r)^t.",
+    "examples": [
+        {
+            "question": "£1000 is invested at 5% compound interest annually. What is the amount after 2 years?",
+            "solution": "A = 1000(1 + 0.05)² = 1000(1.05)² = 1000 × 1.1025 = £1102.50",
+            "explanation": "Using A = P(1 + r)^t: P = £1000, r = 0.05, t = 2. So A = 1000(1.05)² = £1102.50"
+        },
+        {
+            "question": "£500 grows to £605 in 2 years with compound interest. What was the annual interest rate?",
+            "solution": "r = 10%",
+            "explanation": "Using A = P(1 + r)^t: 605 = 500(1 + r)². Dividing: 1.21 = (1 + r)². Taking square root: 1.1 = 1 + r. So r = 0.1 = 10%"
+        },
+        {
+            "question": "What's the difference between simple and compound interest on £800 at 6% for 3 years?",
+            "solution": "Compound: £953.24, Simple: £944, Difference: £9.24",
+            "explanation": "Compound: 800(1.06)³ = £953.24. Simple: 800 + (800 × 0.06 × 3) = £944. Difference: £953.24 - £944 = £9.24"
+        }
+    ],
+    "exercises": [
+        {
+            "question": "£2000 is invested at 4% compound interest annually. What is the amount after 2 years?",
+            "type": "multiple-choice",
+            "options": [
+                "£2160",
+                "£2163.20",
+                "£2080",
+                "£2200"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Incorrect. This looks like simple interest calculation.",
+                "Correct! A = 2000(1.04)² = 2000 × 1.0816 = £2163.20",
+                "Incorrect. This is only one year of interest.",
+                "Incorrect. Check your calculation."
+            ]
+        },
+        {
+            "question": "£1500 grows to £1815 in 2 years. What was the annual compound interest rate?",
+            "type": "multiple-choice",
+            "options": [
+                "8%",
+                "10%",
+                "12%",
+                "15%"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Incorrect. Try: 1815 = 1500(1 + r)²",
+                "Correct! 1815/1500 = 1.21, so (1 + r)² = 1.21, therefore 1 + r = 1.1, so r = 10%",
+                "Incorrect. Check your square root calculation.",
+                "Incorrect. This rate is too high."
+            ]
+        },
+        {
+            "question": "After 3 years, £1000 becomes £1331 with compound interest. What was the annual rate?",
+            "type": "multiple-choice",
+            "options": [
+                "9%",
+                "10%",
+                "11%",
+                "12%"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "Incorrect. Try calculating (1331/1000)^(1/3)",
+                "Incorrect. This would give £1331 after 3 years with a different rate.",
+                "Correct! 1331/1000 = 1.331, so (1 + r)³ = 1.331, therefore 1 + r = 1.11, so r = 11%",
+                "Incorrect. Check your cube root calculation."
+            ]
+        }
+    ]
+}

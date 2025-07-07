@@ -1,0 +1,319 @@
+{
+    "id": "ai-english-vocab-002",
+    "title": "11+ Vocabulary Challenge",
+    "subject": "english",
+    "description": "Advanced vocabulary test focusing on synonyms, antonyms, and word meanings",
+    "timeLimit": 25,
+    "totalQuestions": 20,
+    "difficulty": "medium",
+    "topics": [
+        "vocabulary",
+        "synonyms",
+        "antonyms",
+        "word-meanings"
+    ],
+    "generatedBy": "ai-offline",
+    "generatedDate": "2025-01-15",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which word is closest in meaning to 'elaborate'?",
+            "type": "multiple-choice",
+            "options": [
+                "simple",
+                "detailed",
+                "quick",
+                "boring"
+            ],
+            "correct": 1,
+            "explanation": "Elaborate means detailed or complicated in design and planning",
+            "topic": "Synonyms",
+            "difficulty": "medium"
+        },
+        {
+            "id": 2,
+            "question": "What is the opposite of 'scarce'?",
+            "type": "multiple-choice",
+            "options": [
+                "rare",
+                "abundant",
+                "tiny",
+                "expensive"
+            ],
+            "correct": 1,
+            "explanation": "Scarce means in short supply; abundant means existing in large quantities",
+            "topic": "Antonyms",
+            "difficulty": "easy"
+        },
+        {
+            "id": 3,
+            "question": "Which word means 'to make something less severe'?",
+            "type": "multiple-choice",
+            "options": [
+                "aggravate",
+                "mitigate",
+                "complicate",
+                "ignore"
+            ],
+            "correct": 1,
+            "explanation": "Mitigate means to make something less severe, serious, or painful",
+            "topic": "Word Meanings",
+            "difficulty": "hard"
+        },
+        {
+            "id": 4,
+            "question": "Choose the word that is most similar to 'meticulous':",
+            "type": "multiple-choice",
+            "options": [
+                "careless",
+                "thorough",
+                "fast",
+                "simple"
+            ],
+            "correct": 1,
+            "explanation": "Meticulous means showing great attention to detail; being very careful and precise",
+            "topic": "Synonyms",
+            "difficulty": "medium"
+        },
+        {
+            "id": 5,
+            "question": "What is the antonym of 'obstinate'?",
+            "type": "multiple-choice",
+            "options": [
+                "stubborn",
+                "flexible",
+                "difficult",
+                "determined"
+            ],
+            "correct": 1,
+            "explanation": "Obstinate means stubbornly refusing to change; flexible means willing to change",
+            "topic": "Antonyms",
+            "difficulty": "hard"
+        },
+        {
+            "id": 6,
+            "question": "Which word means 'existing everywhere at the same time'?",
+            "type": "multiple-choice",
+            "options": [
+                "ubiquitous",
+                "rare",
+                "ancient",
+                "modern"
+            ],
+            "correct": 0,
+            "explanation": "Ubiquitous means present, appearing, or found everywhere",
+            "topic": "Word Meanings",
+            "difficulty": "hard"
+        },
+        {
+            "id": 7,
+            "question": "Choose the synonym for 'tranquil':",
+            "type": "multiple-choice",
+            "options": [
+                "noisy",
+                "peaceful",
+                "busy",
+                "excited"
+            ],
+            "correct": 1,
+            "explanation": "Tranquil means free from disturbance; calm and peaceful",
+            "topic": "Synonyms",
+            "difficulty": "easy"
+        },
+        {
+            "id": 8,
+            "question": "What is the opposite of 'frigid'?",
+            "type": "multiple-choice",
+            "options": [
+                "cold",
+                "freezing",
+                "scorching",
+                "cool"
+            ],
+            "correct": 2,
+            "explanation": "Frigid means extremely cold; scorching means extremely hot",
+            "topic": "Antonyms",
+            "difficulty": "medium"
+        },
+        {
+            "id": 9,
+            "question": "Which word means 'to praise enthusiastically'?",
+            "type": "multiple-choice",
+            "options": [
+                "criticize",
+                "extol",
+                "ignore",
+                "question"
+            ],
+            "correct": 1,
+            "explanation": "Extol means to praise enthusiastically",
+            "topic": "Word Meanings",
+            "difficulty": "hard"
+        },
+        {
+            "id": 10,
+            "question": "Choose the word closest in meaning to 'peculiar':",
+            "type": "multiple-choice",
+            "options": [
+                "normal",
+                "strange",
+                "beautiful",
+                "large"
+            ],
+            "correct": 1,
+            "explanation": "Peculiar means strange or odd; unusual",
+            "topic": "Synonyms",
+            "difficulty": "easy"
+        },
+        {
+            "id": 11,
+            "question": "What is the antonym of 'diminish'?",
+            "type": "multiple-choice",
+            "options": [
+                "reduce",
+                "increase",
+                "stay",
+                "disappear"
+            ],
+            "correct": 1,
+            "explanation": "Diminish means to make or become less; increase means to make or become greater",
+            "topic": "Antonyms",
+            "difficulty": "medium"
+        },
+        {
+            "id": 12,
+            "question": "Which word means 'impossible to understand'?",
+            "type": "multiple-choice",
+            "options": [
+                "clear",
+                "comprehensible",
+                "simple",
+                "incomprehensible"
+            ],
+            "correct": 3,
+            "explanation": "Incomprehensible means impossible to understand",
+            "topic": "Word Meanings",
+            "difficulty": "medium"
+        },
+        {
+            "id": 13,
+            "question": "Choose the synonym for 'voracious':",
+            "type": "multiple-choice",
+            "options": [
+                "tiny",
+                "insatiable",
+                "satisfied",
+                "slow"
+            ],
+            "correct": 1,
+            "explanation": "Voracious means having a very eager approach to something; insatiable",
+            "topic": "Synonyms",
+            "difficulty": "hard"
+        },
+        {
+            "id": 14,
+            "question": "What is the opposite of 'condemn'?",
+            "type": "multiple-choice",
+            "options": [
+                "praise",
+                "criticize",
+                "ignore",
+                "punish"
+            ],
+            "correct": 0,
+            "explanation": "Condemn means to express complete disapproval; praise means to express approval",
+            "topic": "Antonyms",
+            "difficulty": "medium"
+        },
+        {
+            "id": 15,
+            "question": "Which word means 'to make something clear by giving more details'?",
+            "type": "multiple-choice",
+            "options": [
+                "confuse",
+                "hide",
+                "clarify",
+                "complicate"
+            ],
+            "correct": 2,
+            "explanation": "Clarify means to make something clear or easier to understand",
+            "topic": "Word Meanings",
+            "difficulty": "easy"
+        },
+        {
+            "id": 16,
+            "question": "Choose the word most similar to 'benevolent':",
+            "type": "multiple-choice",
+            "options": [
+                "kind",
+                "cruel",
+                "angry",
+                "sad"
+            ],
+            "correct": 0,
+            "explanation": "Benevolent means well-meaning and kindly",
+            "topic": "Synonyms",
+            "difficulty": "medium"
+        },
+        {
+            "id": 17,
+            "question": "What is the antonym of 'artificial'?",
+            "type": "multiple-choice",
+            "options": [
+                "fake",
+                "natural",
+                "plastic",
+                "manufactured"
+            ],
+            "correct": 1,
+            "explanation": "Artificial means made by humans rather than occurring naturally; natural is the opposite",
+            "topic": "Antonyms",
+            "difficulty": "easy"
+        },
+        {
+            "id": 18,
+            "question": "Which word means 'to spread negative information about someone'?",
+            "type": "multiple-choice",
+            "options": [
+                "praise",
+                "defame",
+                "help",
+                "support"
+            ],
+            "correct": 1,
+            "explanation": "Defame means to damage someone's reputation by saying bad things about them",
+            "topic": "Word Meanings",
+            "difficulty": "hard"
+        },
+        {
+            "id": 19,
+            "question": "Choose the synonym for 'pristine':",
+            "type": "multiple-choice",
+            "options": [
+                "dirty",
+                "immaculate",
+                "broken",
+                "old"
+            ],
+            "correct": 1,
+            "explanation": "Pristine means in its original condition; unspoiled. Immaculate means perfectly clean",
+            "topic": "Synonyms",
+            "difficulty": "medium"
+        },
+        {
+            "id": 20,
+            "question": "What is the opposite of 'concise'?",
+            "type": "multiple-choice",
+            "options": [
+                "brief",
+                "verbose",
+                "clear",
+                "simple"
+            ],
+            "correct": 1,
+            "explanation": "Concise means brief and clear; verbose means using more words than necessary",
+            "topic": "Antonyms",
+            "difficulty": "medium"
+        }
+    ]
+}

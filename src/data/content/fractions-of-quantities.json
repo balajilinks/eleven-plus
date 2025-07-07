@@ -1,0 +1,79 @@
+{
+    "concept": "Fractions of Quantities",
+    "subject": "mathematics",
+    "category": "Percentages and Fractions",
+    "explanation": "To find a fraction of a quantity, multiply the quantity by the fraction. For example, 1/4 of 20 = 20 × 1/4 = 5. You can also divide by the denominator and multiply by the numerator. For more complex fractions like 'a fraction of a fraction', multiply the fractions together first, then multiply by the quantity.",
+    "examples": [
+        {
+            "question": "What is 3/4 of 60?",
+            "solution": "45",
+            "explanation": "3/4 of 60 = 60 × 3/4 = (60 × 3) ÷ 4 = 180 ÷ 4 = 45. Or: 1/4 of 60 = 15, so 3/4 = 3 × 15 = 45."
+        },
+        {
+            "question": "What is 1/4 of 1/4?",
+            "solution": "1/16",
+            "explanation": "1/4 of 1/4 = 1/4 × 1/4 = 1/16. This means taking a quarter of a quarter."
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "What is 2/5 of 35?",
+            "options": [
+                "7",
+                "14",
+                "21",
+                "28"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "That's 1/5 of 35, not 2/5.",
+                "Correct! 2/5 of 35 = 35 × 2/5 = 70/5 = 14.",
+                "That's 3/5 of 35, not 2/5.",
+                "That's 4/5 of 35, not 2/5."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "What is 1/3 of 1/2?",
+            "options": [
+                "1/5",
+                "1/6",
+                "2/5",
+                "2/6"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "When multiplying fractions, multiply numerators together and denominators together.",
+                "Correct! 1/3 × 1/2 = 1/6.",
+                "This would be 1/3 + 1/2, not 1/3 of 1/2.",
+                "This simplifies to 1/3, which is not correct."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which calculations give the same result as 3/8 of 24?",
+            "options": [
+                "24 × 3/8",
+                "24 ÷ 8 × 3",
+                "3 × 24 ÷ 8",
+                "8 × 24 ÷ 3"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ],
+            "feedback": [
+                "Correct! This is the direct calculation.",
+                "Correct! Divide by denominator, multiply by numerator.",
+                "Correct! Another way to arrange the same calculation.",
+                "Incorrect. This would give 64, not 9."
+            ]
+        }
+    ]
+}
