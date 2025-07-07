@@ -1,0 +1,395 @@
+{
+    "id": "ai-math-test-001",
+    "title": "AI Generated Mathematics Test",
+    "subject": "mathematics",
+    "description": "Comprehensive mathematics test covering key 11+ topics",
+    "timeLimit": 45,
+    "totalQuestions": 25,
+    "difficulty": "mixed",
+    "topics": [
+        "arithmetic",
+        "algebra",
+        "geometry",
+        "statistics",
+        "probability"
+    ],
+    "generatedBy": "ai-offline",
+    "generatedDate": "2025-01-15",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Calculate: 15 + 8 × 3 - 4",
+            "type": "multiple-choice",
+            "options": [
+                "35",
+                "39",
+                "65",
+                "31"
+            ],
+            "correct": 0,
+            "explanation": "Following BODMAS: 8 × 3 = 24, then 15 + 24 - 4 = 35",
+            "topic": "Order of Operations",
+            "difficulty": "medium"
+        },
+        {
+            "id": 2,
+            "question": "What is 5/8 of 56?",
+            "type": "multiple-choice",
+            "options": [
+                "35",
+                "45",
+                "25",
+                "30"
+            ],
+            "correct": 0,
+            "explanation": "5/8 of 56 = (5 × 56) / 8 = 280 / 8 = 35",
+            "topic": "Fractions",
+            "difficulty": "easy"
+        },
+        {
+            "id": 3,
+            "question": "Find the perimeter of a rectangle with length 12 cm and width 5 cm.",
+            "type": "multiple-choice",
+            "options": [
+                "34 cm",
+                "30 cm",
+                "26 cm",
+                "24 cm"
+            ],
+            "correct": 0,
+            "explanation": "Perimeter of rectangle = 2 × (length + width) = 2 × (12 + 5) = 2 × 17 = 34 cm",
+            "topic": "Area and Perimeter",
+            "difficulty": "easy"
+        },
+        {
+            "id": 4,
+            "question": "Solve for x: 3x + 5 = 20",
+            "type": "multiple-choice",
+            "options": [
+                "5",
+                "3",
+                "7",
+                "15"
+            ],
+            "correct": 0,
+            "explanation": "3x + 5 = 20, subtract 5 from both sides: 3x = 15. Then divide both sides by 3: x = 5",
+            "topic": "Solving Simple Equations",
+            "difficulty": "easy"
+        },
+        {
+            "id": 5,
+            "question": "What is 25% of 80?",
+            "type": "multiple-choice",
+            "options": [
+                "10",
+                "20",
+                "30",
+                "40"
+            ],
+            "correct": 1,
+            "explanation": "25% of 80 = 80 × 0.25 = 20",
+            "topic": "Percentages",
+            "difficulty": "medium"
+        },
+        {
+            "id": 6,
+            "question": "The sum of two numbers is 48. One number is 14. What is the other number?",
+            "type": "multiple-choice",
+            "options": [
+                "28",
+                "34",
+                "18",
+                "32"
+            ],
+            "correct": 2,
+            "explanation": "Other number = 48 - 14 = 34",
+            "topic": "Word Problem",
+            "difficulty": "medium"
+        },
+        {
+            "id": 7,
+            "question": "Calculate the area of a triangle with base 10 cm and height 6 cm.",
+            "type": "multiple-choice",
+            "options": [
+                "30 cm²",
+                "60 cm²",
+                "20 cm²",
+                "15 cm²"
+            ],
+            "correct": 0,
+            "explanation": "Area of triangle = 1/2 × base × height = 1/2 × 10 × 6 = 30 cm²",
+            "topic": "Geometry",
+            "difficulty": "medium"
+        },
+        {
+            "id": 8,
+            "question": "Find the median of the following set of numbers: 3, 9, 7, 5, 11",
+            "type": "multiple-choice",
+            "options": [
+                "5",
+                "7",
+                "9",
+                "8"
+            ],
+            "correct": 1,
+            "explanation": "Arrange the numbers in ascending order: 3, 5, 7, 9, 11. The median is the middle number: 7",
+            "topic": "Statistics",
+            "difficulty": "medium"
+        },
+        {
+            "id": 9,
+            "question": "Solve for x: 4x - 6 = 14",
+            "type": "multiple-choice",
+            "options": [
+                "5",
+                "7",
+                "6",
+                "8"
+            ],
+            "correct": 0,
+            "explanation": "4x - 6 = 14, add 6 to both sides: 4x = 20. Then divide both sides by 4: x = 5",
+            "topic": "Solving Simple Equations",
+            "difficulty": "medium"
+        },
+        {
+            "id": 10,
+            "question": "Find the mode of this data set: 4, 8, 9, 4, 6, 4, 7",
+            "type": "multiple-choice",
+            "options": [
+                "4",
+                "7",
+                "9",
+                "6"
+            ],
+            "correct": 0,
+            "explanation": "The mode is the number that occurs most frequently. Here, 4 appears three times.",
+            "topic": "Statistics",
+            "difficulty": "medium"
+        },
+        {
+            "id": 11,
+            "question": "A coin is flipped. What is the probability of getting heads?",
+            "type": "multiple-choice",
+            "options": [
+                "1/2",
+                "1/4",
+                "1/3",
+                "1/6"
+            ],
+            "correct": 0,
+            "explanation": "There are 2 outcomes: heads or tails. The probability of heads is 1/2.",
+            "topic": "Probability",
+            "difficulty": "medium"
+        },
+        {
+            "id": 12,
+            "question": "The number 35 is 5% of what number?",
+            "type": "multiple-choice",
+            "options": [
+                "700",
+                "350",
+                "1500",
+                "1000"
+            ],
+            "correct": 0,
+            "explanation": "5% of x = 35. So, x = 35 / 0.05 = 700",
+            "topic": "Percentages",
+            "difficulty": "medium"
+        },
+        {
+            "id": 13,
+            "question": "A shop sells pens for £1.20 each. How much will 8 pens cost?",
+            "type": "multiple-choice",
+            "options": [
+                "£8.60",
+                "£9.60",
+                "£10.60",
+                "£11.60"
+            ],
+            "correct": 1,
+            "explanation": "8 pens × £1.20 = £9.60",
+            "topic": "Time and Money",
+            "difficulty": "medium"
+        },
+        {
+            "id": 14,
+            "question": "Find the area of a circle with radius 7 cm. (Use π = 3.14)",
+            "type": "multiple-choice",
+            "options": [
+                "153.86 cm²",
+                "154 cm²",
+                "142 cm²",
+                "100 cm²"
+            ],
+            "correct": 0,
+            "explanation": "Area = π × r² = 3.14 × 7² = 3.14 × 49 = 153.86 cm²",
+            "topic": "Geometry",
+            "difficulty": "medium"
+        },
+        {
+            "id": 15,
+            "question": "Calculate: 16 ÷ 4 + 3 × 2",
+            "type": "multiple-choice",
+            "options": [
+                "14",
+                "10",
+                "18",
+                "12"
+            ],
+            "correct": 1,
+            "explanation": "Following BODMAS: 16 ÷ 4 = 4, 3 × 2 = 6, then 4 + 6 = 10",
+            "topic": "Order of Operations",
+            "difficulty": "medium"
+        },
+        {
+            "id": 16,
+            "question": "A box contains 3 red, 4 blue, and 5 green balls. What is the probability of picking a red ball?",
+            "type": "multiple-choice",
+            "options": [
+                "3/12",
+                "1/4",
+                "1/3",
+                "3/4"
+            ],
+            "correct": 0,
+            "explanation": "The total number of balls is 3 + 4 + 5 = 12. Probability of red = 3/12 = 1/4",
+            "topic": "Probability",
+            "difficulty": "medium"
+        },
+        {
+            "id": 17,
+            "question": "Solve for x: 5x + 3 = 23",
+            "type": "multiple-choice",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "correct": 0,
+            "explanation": "5x + 3 = 23, subtract 3 from both sides: 5x = 20. Then divide both sides by 5: x = 4",
+            "topic": "Solving Simple Equations",
+            "difficulty": "medium"
+        },
+        {
+            "id": 18,
+            "question": "Find the area of a square with side length 6 cm.",
+            "type": "multiple-choice",
+            "options": [
+                "36 cm²",
+                "30 cm²",
+                "24 cm²",
+                "18 cm²"
+            ],
+            "correct": 0,
+            "explanation": "Area of square = side × side = 6 × 6 = 36 cm²",
+            "topic": "Geometry",
+            "difficulty": "easy"
+        },
+        {
+            "id": 19,
+            "question": "Calculate the value of x in the equation 2x = 10",
+            "type": "multiple-choice",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "correct": 1,
+            "explanation": "2x = 10, divide both sides by 2: x = 5",
+            "topic": "Algebra",
+            "difficulty": "easy"
+        },
+        {
+            "id": 20,
+            "question": "How many sides does a regular hexagon have?",
+            "type": "multiple-choice",
+            "options": [
+                "4",
+                "6",
+                "8",
+                "10"
+            ],
+            "correct": 1,
+            "explanation": "A regular hexagon has 6 sides.",
+            "topic": "Geometry",
+            "difficulty": "easy"
+        },
+        {
+            "id": 21,
+            "question": "If a train travels 60 miles in 1 hour, how far will it travel in 4 hours?",
+            "type": "multiple-choice",
+            "options": [
+                "120 miles",
+                "240 miles",
+                "200 miles",
+                "150 miles"
+            ],
+            "correct": 1,
+            "explanation": "Speed = 60 miles per hour, so in 4 hours, it will travel 60 × 4 = 240 miles.",
+            "topic": "Problem Solving",
+            "difficulty": "medium"
+        },
+        {
+            "id": 22,
+            "question": "Solve the following problem: A box contains 10 red balls, 5 blue balls, and 8 green balls. What is the probability of picking a blue ball?",
+            "type": "multiple-choice",
+            "options": [
+                "5/23",
+                "5/10",
+                "5/20",
+                "5/23"
+            ],
+            "correct": 0,
+            "explanation": "The total number of balls is 10 + 5 + 8 = 23. Probability of blue = 5/23",
+            "topic": "Probability",
+            "difficulty": "medium"
+        },
+        {
+            "id": 23,
+            "question": "Find the volume of a cube with side length 4 cm.",
+            "type": "multiple-choice",
+            "options": [
+                "64 cm³",
+                "48 cm³",
+                "16 cm³",
+                "12 cm³"
+            ],
+            "correct": 0,
+            "explanation": "Volume of cube = side³ = 4³ = 64 cm³",
+            "topic": "Geometry",
+            "difficulty": "hard"
+        },
+        {
+            "id": 24,
+            "question": "The total sum of five numbers is 150. If four of them are 20, 30, 40, and 50, what is the fifth number?",
+            "type": "multiple-choice",
+            "options": [
+                "10",
+                "20",
+                "25",
+                "30"
+            ],
+            "correct": 0,
+            "explanation": "Total sum = 150, sum of the first four numbers = 20 + 30 + 40 + 50 = 140, so the fifth number is 150 - 140 = 10.",
+            "topic": "Problem Solving",
+            "difficulty": "medium"
+        },
+        {
+            "id": 25,
+            "question": "Solve for x: 7x - 12 = 18",
+            "type": "multiple-choice",
+            "options": [
+                "5",
+                "4",
+                "6",
+                "3"
+            ],
+            "correct": 1,
+            "explanation": "7x - 12 = 18, add 12 to both sides: 7x = 30. Then divide both sides by 7: x = 4",
+            "topic": "Solving Simple Equations",
+            "difficulty": "medium"
+        }
+    ]
+}

@@ -4,6 +4,7 @@ import aiEnglishGeneral001 from '../data/ai-tests/ai-english-general-001.json';
 import aiQuickPractice001 from '../data/ai-tests/ai-quick-practice-001.json';
 import aiEnglishVocab002 from '../data/ai-tests/ai-english-vocab-002.json';
 import aiMathGeometry003 from '../data/ai-tests/ai-math-geometry-003.json';
+import aiEnglishComprehension001 from '../data/ai-tests/ai-english-comprehension-001.json';
 // Import additional test files as they are added
 
 class PreGeneratedTestsService {
@@ -22,6 +23,7 @@ class PreGeneratedTestsService {
             // English tests  
             { id: 'ai-english-general-001', data: this.safeImport(aiEnglishGeneral001) },
             { id: 'ai-english-vocab-002', data: this.safeImport(aiEnglishVocab002) },
+            { id: 'ai-english-comprehension-001', data: this.safeImport(aiEnglishComprehension001) },
             // Quick practice tests
             { id: 'ai-quick-practice-001', data: this.safeImport(aiQuickPractice001) },
             // Add more test imports here as files are created

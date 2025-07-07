@@ -3,6 +3,7 @@ import mockTests from '../data/mockTests.json';
 import aiService from '../services/aiService';
 import DynamicTestGenerator from './DynamicTestGenerator';
 import PreGeneratedTestsManager from './PreGeneratedTestsManager';
+import ComprehensionTest from './ComprehensionTest';
 import './MockTest.css';
 
 function MockTest({ studentProgress = {} }) {
@@ -172,6 +173,11 @@ function MockTest({ studentProgress = {} }) {
         setTestResults(null);
         setShowExplanation(false);
         setAiHelp(null);
+    };
+
+    // Helper function to detect if a test is a comprehension test
+    const isComprehensionTest = (test) => {
+        return test && test.passages && Array.isArray(test.passages);
     };
 
     const resetToSelection = () => {
@@ -378,7 +384,35 @@ function MockTest({ studentProgress = {} }) {
         );
     }
 
-    // Test taking view
+    // Test taking view - use ComprehensionTest for comprehension tests
+    if (testMode === 'testing' && selectedTest && isComprehensionTest(selectedTest)) {
+        return (
+            <ComprehensionTest
+                testData={selectedTest}
+                onComplete={(results) => {
+                    setTestResults(results);
+                    setTestCompleted(true);
+                    setShowResults(true);
+
+                    // Save results to localStorage
+                    const testHistory = JSON.parse(localStorage.getItem('mockTestHistory') || '[]');
+                    testHistory.push({
+                        subject: selectedSubject,
+                        testTitle: selectedTest.title,
+                        date: new Date().toISOString(),
+                        score: results.score,
+                        percentage: results.percentage,
+                        timeUsed: selectedTest.timeLimit * 60 - results.timeRemaining,
+                        totalQuestions: selectedTest.totalQuestions
+                    });
+                    localStorage.setItem('mockTestHistory', JSON.stringify(testHistory));
+                }}
+                onExit={resetTest}
+            />
+        );
+    }
+
+    // Test taking view - regular tests
     const currentQ = selectedTest.questions[currentQuestion];
 
     return (

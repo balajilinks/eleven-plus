@@ -1,0 +1,192 @@
+{
+    "id": "ai-english-comprehension-001",
+    "title": "11+ English Reading Comprehension Test",
+    "subject": "english",
+    "description": "Reading comprehension test with passages and questions to test understanding, inference, and analysis skills",
+    "timeLimit": 50,
+    "totalQuestions": 10,
+    "difficulty": "mixed",
+    "topics": [
+        "reading-comprehension",
+        "inference",
+        "character-analysis",
+        "authorial-intent",
+        "literary-devices"
+    ],
+    "generatedBy": "ai-offline",
+    "generatedDate": "2025-07-07",
+    "passages": [
+        {
+            "id": "passage1",
+            "title": "The Last Lighthouse Keeper",
+            "text": "The old lighthouse stood silently on the rocky cliff, its once-bright beacon now dark and forgotten. For fifty years, it had guided ships safely to shore through treacherous storms and foggy nights. The thick stone walls had weathered countless gales, and the spiral staircase had echoed with the footsteps of dedicated keepers who tended the light without fail.\n\nSarah climbed the winding stairs to the top, her footsteps echoing in the empty tower just as her grandfather's had done decades before. From the circular window at the top, she could see the bustling harbour below, where sleek white yachts and modern cargo ships moved with confidence. GPS systems and radar now did the work that her grandfather's lighthouse once performed with its powerful beam cutting through the darkness.\n\nShe touched the cold metal of the lamp housing and smiled sadly, remembering the stories he used to tell about stormy nights when grateful sailors would signal their thanks with flashing lights. He had been the last official lighthouse keeper before automation took over. 'The sea doesn't care about technology,' he used to say. 'It respects only those who understand its moods and treat it with the reverence it deserves.'\n\nNow, the lighthouse was to be converted into a museum. Sarah had been chosen to oversee the project, partly because of her family connection and partly because of her work as a maritime historian. As she stood in the lamp room where her grandfather had spent so many nights watching over ships, she wondered if visitors would truly understand the courage and dedication required of the lighthouse keepers who had served here.\n\nThe wind whistled through the gaps in the old structure, and for a moment, Sarah could almost hear her grandfather's voice carried on the breeze. The lighthouse might no longer serve its original purpose, but perhaps, as a museum, it could keep alive the memory of those who had devoted their lives to the safety of others at sea."
+        },
+        {
+            "id": "passage2",
+            "title": "The Chess Master's Final Game",
+            "text": "The school chess tournament had reached its climactic final. Twelve-year-old Marcus sat across from his opponent, Mr. Chen, the elderly volunteer coach who had taught him everything he knew about the ancient game. The gymnasium was unusually quiet for a Saturday afternoon, with only the soft clicking of pieces on boards and the occasional whisper from spectators.\n\nMarcus had worked for months to reach this point. Every lunch break, every after-school session, had been spent studying chess problems and practising strategies. His mother had even bought him a chess computer, though Mr. Chen always insisted that 'real chess wisdom comes from understanding people, not machines.'\n\nNow, as Marcus stared at the board, his usual confidence was shaken. Mr. Chen's queen's gambit had put him in a difficult position, and sweat beaded on his forehead despite the cool air conditioning. The old man sat patiently, his weathered hands folded, occasionally glancing up with kind but determined eyes.\n\n'Remember, young man,' Mr. Chen said softly, 'chess is not won by speed, but by wisdom. Think not just about your next move, but about the story the game is telling.' Marcus looked up, surprised by the gentle guidance from his opponent. In that moment, he realized that Mr. Chen was still teaching him, even in competition.\n\nAs Marcus considered his options, he began to see the position differently. What had seemed like a hopeless situation suddenly revealed hidden possibilities. He moved his knight, and Mr. Chen's eyebrows rose slightly in appreciation. The game continued for another twenty minutes, with both players demonstrating skill and respect for each other.\n\nWhen the final move was played, Marcus had won, but the victory felt different from what he had expected. Mr. Chen stood and shook his hand warmly. 'You have learned the most important lesson of all,' the old master said with a smile. 'True victory comes not from defeating others, but from becoming the best version of yourself.'"
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "passageId": "passage1",
+            "question": "What can we infer about Sarah's relationship to the lighthouse?",
+            "type": "multiple-choice",
+            "options": [
+                "She is a tourist visiting for the first time",
+                "She works for the coast guard",
+                "She has a personal family connection to it",
+                "She is planning to demolish it"
+            ],
+            "correct": 2,
+            "explanation": "The text mentions 'her grandfather's lighthouse' and that she remembers his stories, indicating a family connection",
+            "topic": "Inference",
+            "difficulty": "medium"
+        },
+        {
+            "id": 2,
+            "passageId": "passage1",
+            "question": "Why was the lighthouse no longer needed for its original purpose?",
+            "type": "multiple-choice",
+            "options": [
+                "It was too old and dangerous",
+                "Modern technology like GPS had replaced it",
+                "There were no more ships in the area",
+                "The lighthouse keeper had retired"
+            ],
+            "correct": 1,
+            "explanation": "The passage states that 'GPS systems and radar now did the work that her grandfather's lighthouse once performed'",
+            "topic": "Reading Comprehension",
+            "difficulty": "easy"
+        },
+        {
+            "id": 3,
+            "passageId": "passage1",
+            "question": "What does the grandfather's quote 'The sea doesn't care about technology' suggest about his attitude?",
+            "type": "multiple-choice",
+            "options": [
+                "He was afraid of new technology",
+                "He believed experience and respect for nature were more important than gadgets",
+                "He thought all technology was useless",
+                "He wanted to stop progress"
+            ],
+            "correct": 1,
+            "explanation": "The quote emphasizes understanding the sea's moods and treating it with reverence, showing he valued experience and respect over technology",
+            "topic": "Character Analysis",
+            "difficulty": "medium"
+        },
+        {
+            "id": 4,
+            "passageId": "passage1",
+            "question": "What is the main purpose of converting the lighthouse into a museum?",
+            "type": "multiple-choice",
+            "options": [
+                "To make money from tourists",
+                "To preserve the memory of lighthouse keepers",
+                "To display maritime artifacts",
+                "To provide Sarah with a job"
+            ],
+            "correct": 1,
+            "explanation": "The passage suggests the museum would 'keep alive the memory of those who had devoted their lives to the safety of others at sea'",
+            "topic": "Authorial Intent",
+            "difficulty": "medium"
+        },
+        {
+            "id": 5,
+            "passageId": "passage1",
+            "question": "Which literary device is used in 'Sarah could almost hear her grandfather's voice carried on the breeze'?",
+            "type": "multiple-choice",
+            "options": [
+                "Metaphor",
+                "Simile",
+                "Personification",
+                "Imagery"
+            ],
+            "correct": 3,
+            "explanation": "This creates a vivid sensory image, appealing to the reader's sense of hearing to convey Sarah's emotional connection",
+            "topic": "Literary Devices",
+            "difficulty": "hard"
+        },
+        {
+            "id": 6,
+            "passageId": "passage2",
+            "question": "How does Marcus feel at the beginning of the chess match?",
+            "type": "multiple-choice",
+            "options": [
+                "Confident and relaxed",
+                "Nervous and under pressure",
+                "Angry and frustrated",
+                "Bored and distracted"
+            ],
+            "correct": 1,
+            "explanation": "The text mentions his 'usual confidence was shaken' and 'sweat beaded on his forehead', showing nervousness",
+            "topic": "Character Analysis",
+            "difficulty": "easy"
+        },
+        {
+            "id": 7,
+            "passageId": "passage2",
+            "question": "What does Mr. Chen mean by 'chess is not won by speed, but by wisdom'?",
+            "type": "multiple-choice",
+            "options": [
+                "Slow players always win at chess",
+                "Thinking carefully is more important than moving quickly",
+                "Older players are better than younger ones",
+                "Chess computers are not useful"
+            ],
+            "correct": 1,
+            "explanation": "Mr. Chen is emphasizing the importance of thoughtful consideration over hasty moves",
+            "topic": "Inference",
+            "difficulty": "medium"
+        },
+        {
+            "id": 8,
+            "passageId": "passage2",
+            "question": "Why does Marcus's victory feel 'different from what he had expected'?",
+            "type": "multiple-choice",
+            "options": [
+                "He won too easily",
+                "He realized the game taught him something more valuable than just winning",
+                "Mr. Chen let him win",
+                "He was disappointed with his performance"
+            ],
+            "correct": 1,
+            "explanation": "The victory felt different because Marcus learned about personal growth and respect, which was more valuable than just winning",
+            "topic": "Theme Analysis",
+            "difficulty": "hard"
+        },
+        {
+            "id": 9,
+            "passageId": "passage2",
+            "question": "What role does Mr. Chen play in Marcus's development?",
+            "type": "multiple-choice",
+            "options": [
+                "A strict opponent trying to defeat him",
+                "A mentor who continues teaching even during competition",
+                "A friend who doesn't care about the game",
+                "A judge who makes the rules"
+            ],
+            "correct": 1,
+            "explanation": "Even as his opponent, Mr. Chen continues to guide Marcus with wisdom and encouragement, showing his role as a mentor",
+            "topic": "Character Analysis",
+            "difficulty": "medium"
+        },
+        {
+            "id": 10,
+            "passageId": "passage2",
+            "question": "What is the main theme of the chess story?",
+            "type": "multiple-choice",
+            "options": [
+                "Young people are better at chess than old people",
+                "Technology is more important than human wisdom",
+                "Personal growth and learning are more valuable than winning",
+                "Chess is a difficult game to master"
+            ],
+            "correct": 2,
+            "explanation": "The story emphasizes that 'true victory comes not from defeating others, but from becoming the best version of yourself'",
+            "topic": "Theme Analysis",
+            "difficulty": "medium"
+        }
+    ]
+}
