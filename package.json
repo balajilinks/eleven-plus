@@ -44,5 +44,6 @@
     "html-webpack-plugin": "^5.6.3",
     "inline-source": "^8.0.3",
     "webpack-bundle-analyzer": "^4.10.2"
-  }
+  },
+  "homepage": "https://balajilinks.github.io/eleven-plus"
 }
