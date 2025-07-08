@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Cube in 3D perspective -->
+  <defs>
+    <style>
+      .face { fill: #e8f4fd; stroke: #2563eb; stroke-width: 2; }
+      .front { fill: #bfdbfe; }
+      .top { fill: #dbeafe; }
+      .right { fill: #93c5fd; }
+      .edge { stroke: #1d4ed8; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+  
+  <!-- Back faces (hidden edges as dashed) -->
+  <line x1="40" y1="50" x2="120" y2="50" class="edge" stroke-dasharray="5,5" opacity="0.5"/>
+  <line x1="40" y1="50" x2="40" y2="130" class="edge" stroke-dasharray="5,5" opacity="0.5"/>
+  <line x1="40" y1="130" x2="120" y2="130" class="edge" stroke-dasharray="5,5" opacity="0.5"/>
+  <line x1="120" y1="50" x2="120" y2="130" class="edge" stroke-dasharray="5,5" opacity="0.5"/>
+  
+  <!-- Front face -->
+  <rect x="80" y="90" width="80" height="80" class="face front"/>
+  
+  <!-- Top face -->
+  <polygon points="80,90 120,50 200,50 160,90" class="face top"/>
+  
+  <!-- Right face -->
+  <polygon points="160,90 200,50 200,130 160,170" class="face right"/>
+  
+  <!-- Visible edges -->
+  <line x1="80" y1="90" x2="120" y2="50" class="edge"/>
+  <line x1="160" y1="90" x2="200" y2="50" class="edge"/>
+  <line x1="160" y1="170" x2="200" y2="130" class="edge"/>
+  
+  <!-- Labels -->
+  <text x="100" y="185" text-anchor="middle" font-family="Arial" font-size="14" fill="#1d4ed8">Cube</text>
+  <text x="100" y="20" text-anchor="middle" font-family="Arial" font-size="12" fill="#4b5563">6 faces, 8 vertices, 12 edges</text>
+</svg>
