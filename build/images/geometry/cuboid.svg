@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 200" width="250" height="200">
+  <defs>
+    <style>
+      .face { fill: #fef3c7; stroke: #f59e0b; stroke-width: 2; }
+      .front { fill: #fed7aa; }
+      .top { fill: #fde68a; }
+      .right { fill: #fbbf24; }
+      .edge { stroke: #d97706; stroke-width: 2; fill: none; }
+      .label { font-family: Arial; font-size: 12; fill: #374151; text-anchor: middle; }
+      .dimension { font-family: Arial; font-size: 10; fill: #ef4444; }
+    </style>
+  </defs>
+  
+  <!-- Cuboid in 3D perspective -->
+  <!-- Back edges (hidden/dashed) -->
+  <line x1="30" y1="40" x2="90" y2="40" class="edge" stroke-dasharray="4,4" opacity="0.4"/>
+  <line x1="30" y1="40" x2="30" y2="100" class="edge" stroke-dasharray="4,4" opacity="0.4"/>
+  <line x1="30" y1="100" x2="90" y2="100" class="edge" stroke-dasharray="4,4" opacity="0.4"/>
+  <line x1="90" y1="40" x2="90" y2="100" class="edge" stroke-dasharray="4,4" opacity="0.4"/>
+  
+  <!-- Front face (rectangle) -->
+  <rect x="70" y="80" width="120" height="80" class="face front"/>
+  
+  <!-- Top face (parallelogram) -->
+  <polygon points="70,80 110,40 230,40 190,80" class="face top"/>
+  
+  <!-- Right face (rectangle) -->
+  <polygon points="190,80 230,40 230,120 190,160" class="face right"/>
+  
+  <!-- Visible edges -->
+  <line x1="70" y1="80" x2="110" y2="40" class="edge"/>
+  <line x1="190" y1="80" x2="230" y2="40" class="edge"/>
+  <line x1="190" y1="160" x2="230" y2="120" class="edge"/>
+  
+  <!-- Dimension labels -->
+  <text x="130" y="175" class="dimension">Length: 6cm</text>
+  <text x="210" y="100" class="dimension" transform="rotate(90 210 100)">Height: 4cm</text>
+  <text x="150" y="35" class="dimension">Width: 3cm</text>
+  
+  <!-- Title and properties -->
+  <text x="125" y="20" class="label" font-size="14" fill="#d97706">Cuboid (Rectangular Prism)</text>
+  <text x="125" y="190" class="label" font-size="11">6 faces • 8 vertices • 12 edges</text>
+</svg>
