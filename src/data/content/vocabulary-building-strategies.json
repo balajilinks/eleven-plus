@@ -1,0 +1,136 @@
+{
+    "concept": "Vocabulary Building Strategies",
+    "subject": "english",
+    "category": "Language Tools",
+    "skillType": "developmental",
+    "explanation": "A rich vocabulary is your secret weapon in Sutton 11+ English exams. It's not just about knowing big words - it's about choosing the precise word that conveys exactly what you mean. Examiners can immediately spot students with sophisticated vocabulary, and it elevates every aspect of your English performance from comprehension to creative writing.",
+    "keyTechniques": [
+        {
+            "technique": "The Context Mastery Method",
+            "description": "Learn words through meaningful contexts rather than isolated lists",
+            "steps": [
+                "Encounter words in real reading contexts",
+                "Create multiple example sentences using the new word",
+                "Connect new words to words you already know",
+                "Practice using words in both formal and informal contexts",
+                "Build word families (related words with same roots)"
+            ],
+            "practicalTip": "Use the 'word web' technique: put the new word in the center, then add synonyms, antonyms, related words, and example sentences around it."
+        },
+        {
+            "technique": "The Precision Upgrade System",
+            "description": "Replace basic words with more sophisticated alternatives",
+            "steps": [
+                "Identify overused words in your writing (good, bad, nice, big)",
+                "Create a personal 'upgrade list' of better alternatives",
+                "Practice substitution in your daily writing",
+                "Consider connotations and subtle meaning differences",
+                "Test new words in practice essays before using in exams"
+            ],
+            "practicalTip": "Instead of 'very + adjective' try single powerful words: 'very tired' becomes 'exhausted', 'very happy' becomes 'ecstatic'."
+        },
+        {
+            "technique": "The Etymology Detective Approach",
+            "description": "Use word origins to understand and remember meanings",
+            "steps": [
+                "Learn common prefixes (un-, re-, pre-, anti-)",
+                "Recognize common suffixes (-tion, -able, -ment, -ly)",
+                "Study Greek and Latin roots (bio = life, geo = earth)",
+                "Make connections between related words",
+                "Use etymology to guess meanings of unfamiliar words"
+            ],
+            "practicalTip": "When you learn 'biography', also learn 'biology', 'autobiography', 'biodegradable' - they all share the 'bio' (life) root."
+        }
+    ],
+    "examStrategies": {
+        "description": "Sutton 11+ vocabulary questions test both breadth and depth of word knowledge. Success requires strategic learning and smart application of vocabulary in all exam contexts.",
+        "timeManagement": {
+            "vocabularyQuestions": "30-45 seconds per question",
+            "contextClues": "1 minute to find surrounding clues",
+            "synonymAntonym": "Quick decision making - don't overthink",
+            "writingApplication": "2-3 sophisticated words per paragraph in creative writing"
+        },
+        "questionTypes": [
+            {
+                "type": "Synonym and Antonym Questions",
+                "approach": "Consider subtle differences in meaning, not just basic similarity",
+                "example": "'Confident' and 'arrogant' are similar but have different connotations - one positive, one negative.",
+                "trickToAvoid": "Don't choose the first word that seems related - consider context and connotation carefully."
+            },
+            {
+                "type": "Context Vocabulary Questions",
+                "approach": "Use surrounding words and overall passage meaning to determine word meaning",
+                "example": "If 'meticulous' appears in a passage about a careful scientist, use context clues to understand it means 'extremely careful and precise'.",
+                "trickToAvoid": "Don't rely solely on word parts - context is often more reliable than etymology alone."
+            },
+            {
+                "type": "Word Formation Questions",
+                "approach": "Understand how prefixes, suffixes, and roots combine to create meaning",
+                "example": "'Misconception' = mis (wrong) + concept (idea) + ion (noun ending) = wrong idea or understanding.",
+                "trickToAvoid": "Don't assume all word parts work the same way - some combinations have special meanings."
+            }
+        ]
+    },
+    "practicalExercises": [
+        {
+            "title": "The Precision Challenge",
+            "instruction": "Replace the underlined words with more sophisticated vocabulary:",
+            "text": "The big storm was really bad and caused a lot of damage to the small town. People were very scared and many houses were completely destroyed. The good news is that everyone worked together to help each other.",
+            "questions": [
+                "What are more precise alternatives to 'big storm'?",
+                "How could you replace 'really bad' more effectively?",
+                "What sophisticated words could replace 'very scared'?",
+                "How might you elevate 'worked together'?"
+            ],
+            "modelAnswer": {
+                "bigStorm": "Devastating tempest, fierce hurricane, violent cyclone, powerful typhoon",
+                "reallyBad": "Catastrophic, destructive, devastating, ruinous, calamitous",
+                "veryScared": "Terrified, petrified, horrified, panic-stricken, traumatized",
+                "workedTogether": "Collaborated, united, cooperated, rallied together, demonstrated solidarity"
+            }
+        },
+        {
+            "title": "The Etymology Explorer",
+            "instruction": "Use word parts to determine meanings of these unfamiliar words:",
+            "text": "Words to decode: photograph, telephone, biography, geology, microscope",
+            "questions": [
+                "What do the word parts 'photo', 'graph', 'phone' mean?",
+                "How do 'bio', 'geo', 'micro', 'scope' contribute to meaning?",
+                "Can you create new words using these same parts?",
+                "How does understanding parts help with exam vocabulary?"
+            ],
+            "modelAnswer": {
+                "basicParts": "Photo = light, graph = write/draw, phone = sound, tele = distant",
+                "advancedParts": "Bio = life, geo = earth, micro = small, scope = see/watch",
+                "newWords": "Telescope (distant + see), microphone (small + sound), geography (earth + write)",
+                "examHelp": "When you see unfamiliar words, break them into parts to guess meaning - often gets you close enough for context questions."
+            }
+        }
+    ],
+    "realWorldConnections": [
+        "Enhanced communication in all school subjects",
+        "Better performance in university interviews and applications",
+        "Professional communication and writing skills",
+        "Improved reading comprehension of complex texts",
+        "Greater appreciation of literature and poetry",
+        "Confidence in academic and social discussions"
+    ],
+    "skillProgression": {
+        "beginner": [
+            "Learn 10-15 new words per week through reading",
+            "Replace basic adjectives with more descriptive alternatives",
+            "Recognize common prefixes and suffixes"
+        ],
+        "intermediate": [
+            "Build themed vocabulary sets (emotions, settings, character traits)",
+            "Use sophisticated vocabulary accurately in writing",
+            "Understand connotations and word choice impact"
+        ],
+        "advanced": [
+            "Master subtle distinctions between similar words",
+            "Use etymology to decode unfamiliar vocabulary independently",
+            "Adapt vocabulary register for different audiences and purposes",
+            "Create sophisticated metaphors and word combinations"
+        ]
+    }
+}

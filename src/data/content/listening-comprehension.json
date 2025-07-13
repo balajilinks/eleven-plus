@@ -1,0 +1,34 @@
+{
+    "concept": "Listening Comprehension",
+    "subject": "english",
+    "category": "Communication Skills",
+    "explanation": "This is the Listening Comprehension concept in english. This module helps students understand and practice listening comprehension through interactive exercises and examples.",
+    "examples": [
+        {
+            "question": "Sample question about listening comprehension",
+            "solution": "Sample answer",
+            "explanation": "Step-by-step explanation for listening comprehension"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Practice question about listening comprehension",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is not correct. Try again.",
+                "Correct! Well done.",
+                "This is not the right answer.",
+                "Incorrect. Review the concept and try again."
+            ]
+        }
+    ]
+}

@@ -2,17 +2,13 @@
   "mathematics": {
     "Quick Wins": [
       "Mental Math Shortcuts",
-      "Percentage Quick Tricks",
-      "Fraction Speed Methods",
-      "Time-Saving Multiplication",
-      "Division Fast Techniques",
-      "Area and Perimeter Hacks",
       "Word Problem Quick Strategies",
-      "Estimation Power Tools"
+      "Estimation Power Tools",
+      "Time Management Tips"
     ],
     "Arithmetic": [
       "Whole Numbers Operations",
-      "Decimals and Fractions",
+      "Decimals, Fractions & Percentages",
       "Mixed Operations",
       "Order of Operations (BODMAS)",
       "Negative Numbers",
@@ -31,7 +27,6 @@
     ],
     "Percentages and Fractions": [
       "Calculating Percentages",
-      "Fraction-Decimal-Percent Conversions",
       "Fractions of Quantities",
       "Percentage Increase and Decrease",
       "Simple Interest",
@@ -39,11 +34,10 @@
       "Direct and Inverse Proportion"
     ],
     "Algebra": [
-      "Solving Equations",
+      "Solving Linear Equations",
       "Algebraic Expressions",
       "nth Term Sequences",
       "Substitution in Formulas",
-      "Linear Equations",
       "Inequalities",
       "Simultaneous Equations",
       "Quadratic Expressions"
@@ -84,43 +78,76 @@
     "Data Interpretation": [
       "Pie Charts",
       "Bar Graphs",
-      "Scatter Graphs",
       "Line Graphs",
-      "Histograms",
       "Frequency Tables",
-      "Cumulative Frequency",
       "Statistical Measures"
     ],
     "Advanced Topics": [
       "Trigonometry Basics",
-      "Logarithms",
-      "Exponential Functions",
-      "Polynomial Operations",
-      "Graphing Functions",
-      "Matrix Operations",
-      "Calculus Introduction"
+      "Combinatorics",
+      "Compound Interest"
     ]
   },
   "english": {
-    "Spelling": [
-      "Common Tricky Words",
-      "Spelling Patterns and Rules"
-    ],
-    "Reading Comprehension": [
-      "Direct Retrieval",
-      "Inference",
+    "Reading & Comprehension": [
+      "Fiction Analysis Techniques",
+      "Non-Fiction Strategies",
+      "Poetry Appreciation",
+      "Inference and Deduction",
       "Character Analysis",
-      "Authorial Intent",
-      "Vocabulary in Context"
+      "Theme Identification",
+      "Context Clues Mastery",
+      "Critical Reading Skills"
     ],
-    "Language Analysis": [
-      "Literary Techniques",
-      "Synonyms and Antonyms",
-      "Homophones"
+    "Creative Writing": [
+      "Story Structure Techniques",
+      "Character Development",
+      "Setting and Atmosphere",
+      "Dialogue Mastery",
+      "Descriptive Writing Power",
+      "Narrative Voice Styles",
+      "Plot Development",
+      "Creative Story Elements"
     ],
-    "Comparison of Texts": [
-      "Theme and Character Comparison",
-      "Style and Setting Comparison"
+    "Technical Writing": [
+      "Essay Structure Mastery",
+      "Persuasive Writing Techniques",
+      "Report Writing Skills",
+      "Formal Letter Formats",
+      "Argument Development",
+      "Evidence and Examples",
+      "Academic Writing Style",
+      "Proofreading Systems"
+    ],
+    "Exam Strategies": [
+      "Reading Exam Strategies",
+      "Writing Exam Techniques",
+      "Time Management English",
+      "Question Analysis Skills",
+      "Mark Maximization",
+      "Speed Reading Techniques",
+      "Test-Taking Strategies",
+      "Exam Question Types"
+    ],
+    "Language Tools": [
+      "Vocabulary Building Strategies",
+      "Grammar in Context",
+      "Sentence Variety Techniques",
+      "Punctuation Mastery",
+      "Spelling Strategies",
+      "Style and Tone",
+      "Word Formation",
+      "Language Precision"
+    ],
+    "Genre Mastery": [
+      "Adventure Story Techniques",
+      "Mystery Writing Skills",
+      "Historical Fiction Approach",
+      "Biographical Text Analysis",
+      "Scientific Text Strategies",
+      "Newspaper Article Skills",
+      "Poetry Analysis",
+      "Drama and Scripts"
     ]
   }
 }

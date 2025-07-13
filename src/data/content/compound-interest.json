@@ -1,6 +1,69 @@
 {
-    "title": "Compound Interest",
+    "concept": "Compound Interest",
+    "subject": "mathematics",
+    "category": "Percentages and Fractions",
     "explanation": "Compound interest is interest calculated on the initial principal plus all previously earned interest. The formula is A = P(1 + r/n)^(nt), where A is the final amount, P is the principal, r is the annual interest rate (as a decimal), n is the number of times interest is compounded per year, and t is the number of years. For simple annual compounding, A = P(1 + r)^t.",
+    "questionFormations": {
+        "description": "Compound interest questions can be presented in various challenging formats in 11+ exams:",
+        "types": [
+            {
+                "type": "Direct Calculation",
+                "examples": [
+                    "£1000 at 5% compound interest for 2 years. Find the final amount.",
+                    "Calculate the compound interest earned on £500 at 8% for 3 years."
+                ],
+                "strategy": "Use the formula A = P(1 + r)^t directly, ensure rate is as decimal"
+            },
+            {
+                "type": "Finding Missing Rate",
+                "examples": [
+                    "£2000 becomes £2420 in 2 years. Find the annual compound interest rate.",
+                    "An investment doubles in 4 years. What was the compound interest rate?"
+                ],
+                "strategy": "Rearrange formula to solve for r: (A/P)^(1/t) - 1 = r"
+            },
+            {
+                "type": "Finding Missing Time",
+                "examples": [
+                    "How long for £1000 to become £1200 at 6% compound interest?",
+                    "Time needed for an investment to triple at 12% compound interest?"
+                ],
+                "strategy": "Use logarithms or trial method: t = log(A/P) ÷ log(1 + r)"
+            },
+            {
+                "type": "Comparison with Simple Interest",
+                "examples": [
+                    "Find the difference between compound and simple interest on £800 at 5% for 3 years.",
+                    "Which gives more: compound or simple interest on £1500 at 4% for 2 years?"
+                ],
+                "strategy": "Calculate both separately, then find the difference"
+            },
+            {
+                "type": "Real-World Applications",
+                "examples": [
+                    "Population grows by 3% annually. If current population is 50,000, what will it be in 5 years?",
+                    "House price increases by 4% yearly. £200,000 house value after 3 years?"
+                ],
+                "strategy": "Recognize compound growth patterns in real contexts"
+            },
+            {
+                "type": "Multi-Step Problems",
+                "examples": [
+                    "£500 invested for 2 years at 6%, then reinvested for 1 year at 8%. Final amount?",
+                    "After paying 20% tax on interest, what's the effective return on £1000 at 10% for 2 years?"
+                ],
+                "strategy": "Break into stages, use result of first calculation as input for second"
+            }
+        ],
+        "examTips": [
+            "Always convert percentage to decimal (5% = 0.05)",
+            "Check if compounding is annual, quarterly, or monthly",
+            "For backwards problems, use inverse operations carefully",
+            "Distinguish clearly between interest earned and final amount",
+            "Round final monetary answers to 2 decimal places",
+            "Show clear substitution into the formula for method marks"
+        ]
+    },
     "examples": [
         {
             "question": "£1000 is invested at 5% compound interest annually. What is the amount after 2 years?",

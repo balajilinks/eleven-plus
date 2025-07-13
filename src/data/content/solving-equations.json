@@ -1,8 +1,60 @@
 {
-    "concept": "Solving Equations",
+    "concept": "Solving Linear Equations",
     "subject": "mathematics",
     "category": "Algebra",
-    "explanation": "Solving equations means finding the value of a variable that makes the equation true. Key strategies: 1) Use inverse operations (opposite operations) to isolate the variable, 2) Whatever you do to one side, do to the other, 3) Work systematically: first remove any terms from the variable side, then remove numbers from the variable side, 4) Always check your answer by substituting back. Common types include one-step, two-step, and multi-step equations.",
+    "explanation": "Solving equations means finding the value of a variable that makes the equation true. Linear equations have variables to the power of 1 only. Key strategies: 1) Use inverse operations (opposite operations) to isolate the variable, 2) Whatever you do to one side, do to the other, 3) Work systematically: expand brackets, collect like terms, get variables on one side, numbers on the other, 4) Always check your answer by substituting back. These form the foundation for all algebraic problem-solving.",
+    "questionFormations": {
+        "description": "Equation solving questions can be presented in various formats that test systematic algebraic thinking:",
+        "types": [
+            {
+                "type": "One-Step Equations",
+                "examples": [
+                    "Solve: x + 7 = 15",
+                    "Find y: 3y = 21"
+                ],
+                "strategy": "Use single inverse operation to isolate the variable"
+            },
+            {
+                "type": "Two-Step Equations",
+                "examples": [
+                    "Solve: 2x + 5 = 17",
+                    "Find a: 4a - 9 = 11"
+                ],
+                "strategy": "Remove the constant first, then remove the coefficient"
+            },
+            {
+                "type": "Equations with Variables on Both Sides",
+                "examples": [
+                    "Solve: 3x + 2 = x + 10",
+                    "Find y: 5y - 3 = 2y + 9"
+                ],
+                "strategy": "Collect all variables on one side, constants on the other, then solve"
+            },
+            {
+                "type": "Equations with Brackets",
+                "examples": [
+                    "Solve: 3(x + 4) = 21",
+                    "Find t: 2(3t - 1) = 16"
+                ],
+                "strategy": "Expand brackets first, then use standard solving techniques"
+            },
+            {
+                "type": "Real-World Applications",
+                "examples": [
+                    "A number increased by 8 equals 23. Find the number.",
+                    "Tom's age plus 5 years equals his sister's age of 18. How old is Tom?"
+                ],
+                "strategy": "Translate words into algebraic equation, solve, then check in context"
+            }
+        ],
+        "examTips": [
+            "Always do the same operation to both sides to maintain equality",
+            "Work backwards from the order of operations when undoing",
+            "Check your answer by substituting back into the original equation",
+            "Use inverse operations: addition ↔ subtraction, multiplication ↔ division",
+            "Show all working steps clearly"
+        ]
+    },
     "examples": [
         {
             "question": "Solve: 2x + 4 = 4x + 2",

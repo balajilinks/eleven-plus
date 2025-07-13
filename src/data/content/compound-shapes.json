@@ -3,6 +3,65 @@
     "subject": "mathematics",
     "category": "Geometry",
     "explanation": "Compound shapes are made from two or more simple shapes joined together. To find area: break the shape into rectangles, triangles, circles, etc., find each area separately, then add them up. To find perimeter: add up all the outside edges. Draw lines to help you see the simple shapes!",
+    "questionFormations": {
+        "description": "Compound shape questions test ability to break complex shapes into simpler components:",
+        "types": [
+            {
+                "type": "Addition of Areas",
+                "examples": [
+                    "Rectangle + triangle on top",
+                    "Two rectangles forming L-shape"
+                ],
+                "strategy": "Calculate each simple shape's area separately, then add together"
+            },
+            {
+                "type": "Subtraction of Areas",
+                "examples": [
+                    "Rectangle with circular hole cut out",
+                    "Large square with smaller square removed"
+                ],
+                "strategy": "Calculate larger area, subtract smaller area that's removed"
+            },
+            {
+                "type": "Mixed Shape Combinations",
+                "examples": [
+                    "House shape (rectangle + triangle)",
+                    "Stadium (rectangle + 2 semicircles)"
+                ],
+                "strategy": "Identify each component shape, use appropriate formula for each"
+            },
+            {
+                "type": "Perimeter of Compound Shapes",
+                "examples": [
+                    "Find perimeter of L-shaped garden",
+                    "Perimeter including curved sections"
+                ],
+                "strategy": "Trace around outside edge, add all external lengths including curves"
+            },
+            {
+                "type": "Real-World Applications",
+                "examples": [
+                    "Floor area for carpet calculation",
+                    "Paint needed for irregular wall space"
+                ],
+                "strategy": "Break into practical sections, calculate area, apply cost per unit"
+            },
+            {
+                "type": "Missing Dimension Problems",
+                "examples": [
+                    "Compound area = 50m², part has area 30m², find remaining area",
+                    "L-shape with some measurements missing"
+                ],
+                "strategy": "Use known areas to find unknown parts, or use overall dimensions"
+            }
+        ],
+        "examTips": [
+            "Always draw lines to clearly separate simple shapes",
+            "Label each section with its dimensions",
+            "Double-check which areas to add and which to subtract",
+            "For perimeters, only count the outside edges, not internal divisions"
+        ]
+    },
     "examples": [
         {
             "question": "Find the area of an L-shape made from a 6×4 rectangle with a 2×2 square cut from one corner.",
@@ -56,5 +115,88 @@
                 "Check your calculation - 20 - 4 = 16, not 14"
             ]
         }
-    ]
+    ],
+    "examinerInsights": {
+        "description": "Compound shapes questions test spatial visualization and systematic problem-solving - skills essential for architecture, engineering, and advanced geometry.",
+        "questionConstruction": [
+            {
+                "pattern": "Familiar-Unfamiliar Shape Combinations",
+                "purpose": "Test flexible thinking beyond memorized basic formulas",
+                "example": "L-shapes, T-shapes, or shapes with circular cutouts requiring creative breakdown"
+            },
+            {
+                "pattern": "Addition vs Subtraction Decision Making",
+                "purpose": "Test logical reasoning about what to include or exclude",
+                "example": "Garden with flower bed removed, or building with courtyard subtracted"
+            },
+            {
+                "pattern": "Missing Dimension Reverse Engineering",
+                "purpose": "Test working backwards from known totals",
+                "example": "Total area = 50 cm², shape dimensions partially given, find missing length"
+            },
+            {
+                "pattern": "Real-World Construction Applications",
+                "purpose": "Test practical geometry in meaningful contexts",
+                "example": "Flooring calculations, garden planning, building blueprints"
+            },
+            {
+                "pattern": "Perimeter Complexity Testing",
+                "purpose": "Test understanding of external vs internal boundaries",
+                "example": "Distinguish between total perimeter and usable edge length"
+            }
+        ],
+        "commonTraps": [
+            {
+                "trap": "Adding areas when should subtract (holes, cutouts)",
+                "avoidance": "Ask: Is this shape removed (subtract) or added (add)? Visualize the final shape."
+            },
+            {
+                "trap": "Forgetting to break compound shapes into simple components",
+                "avoidance": "Draw lines to divide into rectangles, triangles, circles. Calculate each separately."
+            },
+            {
+                "trap": "Including internal edges in perimeter calculations",
+                "avoidance": "Perimeter = outside edge only. Trace around the shape boundary with your finger."
+            },
+            {
+                "trap": "Using wrong dimensions for each component shape",
+                "avoidance": "Label all dimensions clearly. Check each shape has the measurements you think it does."
+            },
+            {
+                "trap": "Not checking if answer makes sense for the context",
+                "avoidance": "Does your area seem reasonable? Is perimeter longer than any single side?"
+            }
+        ],
+        "timeManagement": {
+            "quickWins": [
+                "Practice spotting standard combinations: house shape, L-shape, shape with hole",
+                "Master rectangle area calculation first - appears in most compound shapes",
+                "Sketch and label the breakdown before calculating"
+            ],
+            "timeManagement": [
+                {
+                    "timeAllocation": "3-4 min",
+                    "phase": "Simple compound shapes (2 component shapes)"
+                },
+                {
+                    "timeAllocation": "5-6 min",
+                    "phase": "Complex compound shapes (3+ component shapes)"
+                },
+                {
+                    "timeAllocation": "6-7 min",
+                    "phase": "Word problems with real-world contexts"
+                },
+                {
+                    "timeAllocation": "30s",
+                    "phase": "Check area is reasonable and all components accounted for"
+                }
+            ]
+        },
+        "markingFocus": [
+            "Clear breakdown into component shapes shown",
+            "Correct area formula applied to each component",
+            "Proper addition/subtraction of areas",
+            "Units correctly stated in final answer"
+        ]
+    }
 }

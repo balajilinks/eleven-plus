@@ -3,6 +3,65 @@
     "subject": "mathematics",
     "category": "Geometry",
     "explanation": "A circle is a round shape where every point is the same distance from the center. The radius is the distance from center to edge. Diameter = 2 × radius. Circumference (perimeter) = π × diameter = 2 × π × radius. Area = π × radius². Use π ≈ 3.14 or 22/7 for calculations.",
+    "questionFormations": {
+        "description": "Circle questions test understanding of relationships between radius, diameter, circumference, and area:",
+        "types": [
+            {
+                "type": "Finding Circumference",
+                "examples": [
+                    "Circle with radius 7cm, find circumference",
+                    "Wheel diameter 50cm, how far in one rotation?"
+                ],
+                "strategy": "Use C = 2πr or C = πd. Choose π = 3.14 or 22/7 based on numbers given"
+            },
+            {
+                "type": "Finding Area",
+                "examples": [
+                    "Circular pond radius 4m, find area",
+                    "Pizza diameter 30cm, find area"
+                ],
+                "strategy": "Use A = πr². If diameter given, halve it first to get radius"
+            },
+            {
+                "type": "Reverse Calculations",
+                "examples": [
+                    "Circumference 44cm, find radius",
+                    "Area 154m², find diameter"
+                ],
+                "strategy": "Rearrange formulas: r = C÷(2π) or r = √(A÷π), then d = 2r"
+            },
+            {
+                "type": "Real-World Applications",
+                "examples": [
+                    "Athletic track with circular ends",
+                    "Cost of circular carpet at £20 per m²"
+                ],
+                "strategy": "Identify what needs calculating (area for covering, circumference for edging)"
+            },
+            {
+                "type": "Comparing Circles",
+                "examples": [
+                    "Circle A radius 5cm, Circle B diameter 12cm, which larger?",
+                    "How much greater is area of 8cm radius vs 6cm radius?"
+                ],
+                "strategy": "Calculate both areas/circumferences, then compare or find difference"
+            },
+            {
+                "type": "Sectors and Segments",
+                "examples": [
+                    "Quarter circle area",
+                    "Semi-circular window perimeter"
+                ],
+                "strategy": "Calculate full circle, then find fraction needed (½, ¼, etc.)"
+            }
+        ],
+        "examTips": [
+            "Remember: diameter = 2 × radius, so radius = diameter ÷ 2",
+            "Use π = 22/7 when radius/diameter is multiple of 7, otherwise use π = 3.14",
+            "For area, always square the radius: A = π × r²",
+            "Check if answer asks for exact form (with π) or decimal approximation"
+        ]
+    },
     "examples": [
         {
             "question": "A circular pizza has radius 15cm. What is its circumference?",
@@ -54,5 +113,88 @@
                 "This is 2πr, which is circumference, not area"
             ]
         }
-    ]
+    ],
+    "examinerInsights": {
+        "description": "Circle properties questions test understanding of π relationships and the ability to select appropriate formulas - fundamental for geometry and trigonometry.",
+        "questionConstruction": [
+            {
+                "pattern": "Formula Selection Testing",
+                "purpose": "Test ability to choose correct formula based on given information",
+                "example": "Given radius → find area; given diameter → find circumference; given circumference → find radius"
+            },
+            {
+                "pattern": "π Value Flexibility",
+                "purpose": "Test understanding of π as both exact and approximate value",
+                "example": "Use π = 3.14 for approximations, π = 22/7 for exact calculations"
+            },
+            {
+                "pattern": "Real-World Circle Applications",
+                "purpose": "Test practical application of circular measurements",
+                "example": "Wheel rotations, circular gardens, pizza sizes, clock faces"
+            },
+            {
+                "pattern": "Reverse Engineering Problems",
+                "purpose": "Test algebraic manipulation and working backwards",
+                "example": "Given area = 49π cm², find radius; or given circumference, find diameter"
+            },
+            {
+                "pattern": "Multi-Circle Comparisons",
+                "purpose": "Test organization skills and proportional reasoning",
+                "example": "Compare areas of circles with different radii, or find which wheel makes more rotations"
+            }
+        ],
+        "commonTraps": [
+            {
+                "trap": "Using diameter instead of radius in area formula A = πr²",
+                "avoidance": "Always check if you're given radius or diameter. If diameter, divide by 2 first!"
+            },
+            {
+                "trap": "Confusing circumference and area formulas",
+                "avoidance": "Remember: circumference is 'around' (linear), area is 'inside' (squared). C = 2πr, A = πr²"
+            },
+            {
+                "trap": "Forgetting to use π or using wrong value of π",
+                "avoidance": "Use π = 22/7 when radius is multiple of 7, π = 3.14 otherwise. Don't forget π entirely!"
+            },
+            {
+                "trap": "Not simplifying fractions with π calculations",
+                "avoidance": "With π = 22/7, look for factors of 7 to cancel. Example: 22/7 × 14 = 22 × 2 = 44"
+            },
+            {
+                "trap": "Giving answers in wrong units (especially area in linear units)",
+                "avoidance": "Circumference is in cm, area is in cm². Always check the question asks for correct units."
+            }
+        ],
+        "timeManagement": {
+            "quickWins": [
+                "Memorize perfect square radii: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36, 7²=49",
+                "Practice 22/7 × common squares: 22/7 × 49 = 154, 22/7 × 4 = 88/7",
+                "Recognize when to use 22/7 vs 3.14 instantly"
+            ],
+            "timeManagement": [
+                {
+                    "timeAllocation": "2-3 min",
+                    "phase": "Basic circumference/area calculations"
+                },
+                {
+                    "timeAllocation": "3-4 min",
+                    "phase": "Reverse calculations (finding radius from area/circumference)"
+                },
+                {
+                    "timeAllocation": "4-5 min",
+                    "phase": "Word problems with real-world contexts"
+                },
+                {
+                    "timeAllocation": "30s",
+                    "phase": "Check units and reasonableness of answer"
+                }
+            ]
+        },
+        "markingFocus": [
+            "Correct formula selection and application",
+            "Appropriate value of π used",
+            "Units correctly stated in final answer",
+            "Clear working showing radius/diameter conversion if needed"
+        ]
+    }
 }

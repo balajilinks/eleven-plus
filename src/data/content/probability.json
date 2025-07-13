@@ -1,6 +1,69 @@
 {
-    "title": "Probability",
+    "concept": "Probability",
+    "subject": "mathematics",
+    "category": "Statistics and Probability",
     "explanation": "Probability is the chance or likelihood that something will happen. It's measured on a scale from 0 to 1, where 0 means impossible and 1 means certain. Probability = Number of favorable outcomes ÷ Total number of possible outcomes. It can also be expressed as a fraction, percentage, or decimal.",
+    "questionFormations": {
+        "description": "Probability questions can be presented in various formats that test understanding of chance and likelihood:",
+        "types": [
+            {
+                "type": "Simple Single Events",
+                "examples": [
+                    "What's the probability of rolling a 4 on a dice?",
+                    "Probability of picking a heart from a deck of cards?"
+                ],
+                "strategy": "Count favorable outcomes, count total outcomes, divide and simplify fraction"
+            },
+            {
+                "type": "Multiple Item Collections",
+                "examples": [
+                    "Bag has 3 red, 2 blue, 5 green balls. Probability of picking blue?",
+                    "Box contains 12 chocolates: 4 milk, 3 dark, 5 white. Probability of dark?"
+                ],
+                "strategy": "Add up all items for total, identify favorable items, form fraction"
+            },
+            {
+                "type": "Compound Probability",
+                "examples": [
+                    "Probability of rolling an even number on a dice?",
+                    "Probability of picking a red card or a face card from a deck?"
+                ],
+                "strategy": "List all favorable outcomes, count them, divide by total possibilities"
+            },
+            {
+                "type": "Probability Scales and Language",
+                "examples": [
+                    "Is rolling a 7 on a dice impossible, unlikely, even chance, likely, or certain?",
+                    "Event has probability 0.75. Express as fraction and percentage."
+                ],
+                "strategy": "Understand probability language: 0=impossible, 0.5=even chance, 1=certain"
+            },
+            {
+                "type": "Two-Stage Events",
+                "examples": [
+                    "Roll a dice twice. Probability of getting two 6s?",
+                    "Pick two cards without replacement. Probability both are aces?"
+                ],
+                "strategy": "Multiply probabilities for independent events, adjust for dependent events"
+            },
+            {
+                "type": "Complementary Events",
+                "examples": [
+                    "If probability of rain is 0.3, what's probability of no rain?",
+                    "Probability of NOT rolling a 6 on a dice?"
+                ],
+                "strategy": "Use P(not A) = 1 - P(A), or count unfavorable outcomes directly"
+            }
+        ],
+        "examTips": [
+            "Always simplify fractions to lowest terms",
+            "Check if answer makes sense (between 0 and 1)",
+            "Count carefully - list outcomes if needed",
+            "Convert between fractions, decimals, and percentages as required",
+            "For 'or' events, check if they can happen together",
+            "For two events, identify if they're independent or dependent"
+        ]
+    },
     "examples": [
         {
             "question": "What's the probability of rolling a 6 on a fair dice?",

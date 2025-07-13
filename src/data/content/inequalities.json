@@ -3,6 +3,57 @@
     "subject": "mathematics",
     "category": "Algebra",
     "explanation": "Inequalities compare values using >, <, ≥, ≤ symbols. > means 'greater than', < means 'less than', ≥ means 'greater than or equal to', ≤ means 'less than or equal to'. Solve like equations, but if you multiply or divide by a negative number, flip the inequality sign!",
+    "questionFormations": {
+        "description": "Inequality questions test understanding of symbols, solving techniques, and interpreting solutions:",
+        "types": [
+            {
+                "type": "Simple Linear Inequalities",
+                "examples": [
+                    "Solve: x + 3 > 7",
+                    "Find x when: 2x ≤ 10"
+                ],
+                "strategy": "Solve like an equation: add, subtract, multiply, divide both sides by same amount"
+            },
+            {
+                "type": "Interpreting Inequality Symbols",
+                "examples": [
+                    "What does x ≥ 5 mean?",
+                    "Draw x < 3 on a number line"
+                ],
+                "strategy": "≥ means 'greater than OR equal to', use solid dot. > means 'strictly greater', use open circle"
+            },
+            {
+                "type": "Word Problem Inequalities",
+                "examples": [
+                    "At least 5 people, at most 20 people",
+                    "Speed limit is 30 mph (x ≤ 30)"
+                ],
+                "strategy": "'At least' means ≥, 'at most' means ≤, 'more than' means >, 'less than' means <"
+            },
+            {
+                "type": "Compound Inequalities",
+                "examples": [
+                    "5 < x ≤ 10 (x is between 5 and 10)",
+                    "x < 2 or x > 8"
+                ],
+                "strategy": "Break into parts: x > 5 AND x ≤ 10, or solve each part separately"
+            },
+            {
+                "type": "Flipping Inequality Signs",
+                "examples": [
+                    "Solve: -2x > 6",
+                    "If -3x ≤ 12, find x"
+                ],
+                "strategy": "When multiplying/dividing by negative number, flip the sign: -2x > 6 becomes x < -3"
+            }
+        ],
+        "examTips": [
+            "Remember: > points to smaller number, < points to larger number",
+            "When dividing/multiplying by negative, flip the inequality sign",
+            "Check your answer: pick a test value and see if it satisfies the inequality",
+            "≤ and ≥ include the boundary value, < and > do not"
+        ]
+    },
     "examples": [
         {
             "question": "Solve: x + 5 > 12",

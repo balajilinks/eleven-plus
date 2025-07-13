@@ -3,6 +3,67 @@
     "subject": "mathematics",
     "category": "Problem Solving",
     "explanation": "Multi-step calculations require several operations to reach the answer. Key strategies: 1) Break the problem into smaller steps, 2) Work through each step carefully, 3) Use the answer from one step in the next step, 4) Check each step makes sense, 5) Verify your final answer. Remember the order of operations (BODMAS) and consider whether to work with exact values or round at the end.",
+    "questionFormations": {
+        "description": "Multi-step calculation questions can appear in various complex formats that test logical thinking and sequential problem-solving:",
+        "types": [
+            {
+                "type": "Sequential Operations",
+                "examples": [
+                    "Start with 50. Add 25, multiply by 3, subtract 15, then divide by 4. What's the result?",
+                    "Calculate: (12 + 8) × 5 - 30 ÷ 6"
+                ],
+                "strategy": "Follow order of operations (BODMAS), work step by step, show intermediate results"
+            },
+            {
+                "type": "Money and Shopping Problems",
+                "examples": [
+                    "Buy 3 items at £4.50 each, pay with two £10 notes. How much change?",
+                    "Cinema tickets: 2 adults (£8.50 each), 3 children (£5.25 each). Total cost and change from £50?"
+                ],
+                "strategy": "Break into: calculate total cost, calculate payment, find difference"
+            },
+            {
+                "type": "Area and Scale Factor Problems",
+                "examples": [
+                    "Rectangle 6×4 cm enlarged to area 150 cm². Find the scale factor.",
+                    "Square has area 64 cm². If enlarged by scale factor 1.5, what's the new perimeter?"
+                ],
+                "strategy": "Calculate original measurement, apply scale factor correctly (area scales by factor²)"
+            },
+            {
+                "type": "Average Speed and Distance",
+                "examples": [
+                    "Travel 180 km in 2.5 hours, then 120 km in 1.5 hours. Find average speed.",
+                    "Journey: 80 km at 40 km/h, then 60 km at 30 km/h. Total time and average speed?"
+                ],
+                "strategy": "Find total distance and total time separately, then divide for average"
+            },
+            {
+                "type": "Fraction and Percentage Combinations",
+                "examples": [
+                    "240 students: 3/5 are girls, 40% of girls wear glasses. How many girls wear glasses?",
+                    "£800 increased by 25%, then decreased by 20%. What's the final amount?"
+                ],
+                "strategy": "Work step by step, convert between fractions and percentages as needed"
+            },
+            {
+                "type": "Time and Rate Problems",
+                "examples": [
+                    "Tap A fills pool in 6 hours, Tap B in 4 hours. How long if both taps open?",
+                    "Worker A completes job in 8 days, Worker B in 12 days. How long working together?"
+                ],
+                "strategy": "Find individual rates first, then combine rates"
+            }
+        ],
+        "examTips": [
+            "Read the whole question first to understand what's required",
+            "Identify each step before starting calculations",
+            "Show working clearly for each intermediate step",
+            "Check each step makes logical sense before proceeding",
+            "Verify final answer is reasonable for the context",
+            "Look for shortcuts only after understanding the full method"
+        ]
+    },
     "examples": [
         {
             "question": "A box contains 144 chocolates arranged in 12 rows. If 3/4 of the chocolates are milk chocolate, how many white chocolates are there?",

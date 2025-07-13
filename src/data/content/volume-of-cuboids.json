@@ -3,6 +3,49 @@
     "subject": "mathematics",
     "category": "Geometry",
     "explanation": "Volume is the amount of space inside a 3D shape, measured in cubic units (cm³, m³). For a cuboid (rectangular prism), Volume = length × width × height. For a cube, Volume = side³. Always check the units in your answer - if measurements are in cm, volume will be in cm³. Volume tells you how much liquid or material could fit inside the shape.",
+    "questionFormations": {
+        "description": "Volume questions in 11+ exams test understanding of 3D space and practical applications:",
+        "types": [
+            {
+                "type": "Basic Volume Calculation",
+                "examples": [
+                    "Find volume of cuboid: length 8cm, width 5cm, height 3cm",
+                    "Calculate volume of cube with side length 6cm"
+                ],
+                "strategy": "Use V = l × w × h for cuboids, V = s³ for cubes. Include units (cm³, m³)"
+            },
+            {
+                "type": "Missing Dimension Problems",
+                "examples": [
+                    "Cuboid volume is 120 cm³, length 8cm, width 5cm. Find height",
+                    "Cube volume is 64 cm³. What is the side length?"
+                ],
+                "strategy": "Rearrange formula: missing dimension = volume ÷ (other dimensions)"
+            },
+            {
+                "type": "Real-World Applications",
+                "examples": [
+                    "How much water fits in rectangular tank 2m × 1.5m × 0.8m?",
+                    "Storage box measures 40cm × 30cm × 25cm. Find volume in litres"
+                ],
+                "strategy": "Calculate volume, then convert units if needed (1000 cm³ = 1 litre)"
+            },
+            {
+                "type": "Comparison Questions",
+                "examples": [
+                    "Which has greater volume: 4×4×4 cube or 8×3×2 cuboid?",
+                    "How many 2cm cubes fit in 10×6×4 cuboid?"
+                ],
+                "strategy": "Calculate both volumes and compare, or divide larger volume by smaller"
+            }
+        ],
+        "examTips": [
+            "Always include units in your final answer (cm³, m³, etc.)",
+            "Check if units need converting (cm to m, cm³ to litres)",
+            "For missing dimensions, rearrange the volume formula",
+            "Remember: 1000 cm³ = 1 litre"
+        ]
+    },
     "examples": [
         {
             "question": "What is the volume of a cuboid with length 6 cm, width 4 cm, and height 3 cm?",

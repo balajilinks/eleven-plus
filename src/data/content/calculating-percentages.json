@@ -3,6 +3,65 @@
     "subject": "mathematics",
     "category": "Percentages and Fractions",
     "explanation": "A percentage is a way of expressing a number as a part of 100. To find a percentage of a number, you can use two methods: 1) Convert the percentage to a decimal by dividing by 100, then multiply by the number. 2) Use the formula: (percentage ÷ 100) × number. Remember: 'percent' means 'per hundred', so 25% means 25 out of every 100.",
+    "questionFormations": {
+        "description": "Percentage questions test calculation skills and real-world application in various contexts:",
+        "types": [
+            {
+                "type": "Basic Percentage Calculations",
+                "examples": [
+                    "Find 25% of 80",
+                    "What is 15% of £240?"
+                ],
+                "strategy": "Convert to decimal (25% = 0.25) and multiply, or use (25÷100) × 80"
+            },
+            {
+                "type": "Percentage Increase/Decrease",
+                "examples": [
+                    "Price increased from £50 to £60, what percentage increase?",
+                    "Population fell from 2000 to 1800, what percentage decrease?"
+                ],
+                "strategy": "Find difference, then (difference ÷ original) × 100"
+            },
+            {
+                "type": "Finding the Original Amount",
+                "examples": [
+                    "After 20% discount, cost is £80, what was original price?",
+                    "15% of a number is 45, what is the number?"
+                ],
+                "strategy": "Work backwards: If 80% = £80, then 100% = £80 ÷ 0.8 = £100"
+            },
+            {
+                "type": "VAT and Sales Tax",
+                "examples": [
+                    "Item costs £60 plus 20% VAT, find total",
+                    "Total bill £144 including 20% VAT, find pre-VAT amount"
+                ],
+                "strategy": "Add VAT: multiply by 1.2. Remove VAT: divide by 1.2"
+            },
+            {
+                "type": "Profit and Loss",
+                "examples": [
+                    "Bought for £120, sold for £150, what percentage profit?",
+                    "Made 25% profit selling for £75, what was cost price?"
+                ],
+                "strategy": "Profit % = (profit ÷ cost price) × 100"
+            },
+            {
+                "type": "Interest Calculations",
+                "examples": [
+                    "£500 at 4% simple interest for 2 years",
+                    "What rate needed for £200 to earn £24 interest in 3 years?"
+                ],
+                "strategy": "Simple Interest = (Principal × Rate × Time) ÷ 100"
+            }
+        ],
+        "examTips": [
+            "Convert percentages to decimals: 25% = 0.25, 7% = 0.07",
+            "For increases: new amount = original × (1 + percentage/100)",
+            "For decreases: new amount = original × (1 - percentage/100)",
+            "When finding percentage change: (difference ÷ original) × 100"
+        ]
+    },
     "examples": [
         {
             "question": "What is 35% of £8.00?",
@@ -74,5 +133,66 @@
                 "This would give 3000, which is far too large."
             ]
         }
-    ]
+    ],
+    "examinerInsights": {
+        "description": "Percentage questions are examiner favorites because they test mathematical reasoning, decimal understanding, and real-world application skills simultaneously.",
+        "questionConstruction": [
+            {
+                "pattern": "Multiple Method Testing",
+                "purpose": "See if students understand different approaches to the same problem",
+                "example": "Find 25% of 80 - can be solved as ×0.25, ÷4, or ¼ of 80"
+            },
+            {
+                "pattern": "Real-World Contexts",
+                "purpose": "Test application skills and relevance understanding",
+                "example": "VAT calculations, discount problems, interest rates, test scores"
+            },
+            {
+                "pattern": "Reverse Engineering",
+                "purpose": "Check deeper understanding of percentage relationships",
+                "example": "After 20% discount, item costs £60. What was original price?"
+            },
+            {
+                "pattern": "Percentage of Percentage",
+                "purpose": "Test advanced conceptual understanding",
+                "example": "Find 15% of 40% of 200"
+            }
+        ],
+        "commonTraps": [
+            {
+                "trap": "Confusing percentage with decimal",
+                "explanation": "25% = 0.25, not 0.025 or 2.5. Always divide by 100"
+            },
+            {
+                "trap": "Adding percentage directly to original",
+                "explanation": "20% increase on £50 is £50 × 1.2 = £60, not £50 + 20 = £70"
+            },
+            {
+                "trap": "Using wrong base for percentage calculations",
+                "explanation": "For percentage increase, always use the ORIGINAL amount as the base"
+            },
+            {
+                "trap": "Mixing up 'of' and 'more than'",
+                "explanation": "'15% of 80' vs '15% more than 80' give different answers (12 vs 92)"
+            }
+        ],
+        "timeManagement": [
+            {
+                "timeAllocation": "15s",
+                "phase": "Identify what type of percentage problem it is"
+            },
+            {
+                "timeAllocation": "30s",
+                "phase": "Choose method: decimal multiplication, fraction, or mental shortcuts"
+            },
+            {
+                "timeAllocation": "60s",
+                "phase": "Perform calculation carefully, checking decimal point placement"
+            },
+            {
+                "timeAllocation": "15s",
+                "phase": "Verify answer makes sense (percentage should be smaller than whole)"
+            }
+        ]
+    }
 }

@@ -1,0 +1,34 @@
+{
+    "concept": "Literary Themes",
+    "subject": "english",
+    "category": "Poetry and Literary Analysis",
+    "explanation": "This is the Literary Themes concept in english. This module helps students understand and practice literary themes through interactive exercises and examples.",
+    "examples": [
+        {
+            "question": "Sample question about literary themes",
+            "solution": "Sample answer",
+            "explanation": "Step-by-step explanation for literary themes"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Practice question about literary themes",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is not correct. Try again.",
+                "Correct! Well done.",
+                "This is not the right answer.",
+                "Incorrect. Review the concept and try again."
+            ]
+        }
+    ]
+}

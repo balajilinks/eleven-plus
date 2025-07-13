@@ -3,6 +3,57 @@
     "subject": "mathematics",
     "category": "Percentages and Fractions",
     "explanation": "To calculate percentage increase: New value - Original value, then divide by original value and multiply by 100. For percentage decrease: Original value - New value, then divide by original value and multiply by 100. To find the new value after a percentage change: multiply the original by (100 ± percentage)/100.",
+    "questionFormations": {
+        "description": "Percentage increase and decrease questions are common in real-world contexts and require careful calculation:",
+        "types": [
+            {
+                "type": "Calculating Percentage Increase",
+                "examples": [
+                    "Price rose from £50 to £60. Find percentage increase",
+                    "Population grew from 800 to 1000. What's the increase percentage?"
+                ],
+                "strategy": "Formula: ((new - old) ÷ old) × 100. Always divide by the ORIGINAL value"
+            },
+            {
+                "type": "Calculating Percentage Decrease",
+                "examples": [
+                    "Temperature fell from 20°C to 15°C. Find percentage decrease",
+                    "Sales dropped from 500 to 400. What's the decrease percentage?"
+                ],
+                "strategy": "Formula: ((old - new) ÷ old) × 100. Always divide by the ORIGINAL value"
+            },
+            {
+                "type": "Finding New Value After Increase",
+                "examples": [
+                    "£120 increased by 15%. Find new amount",
+                    "Salary of £30,000 rises by 8%. What's the new salary?"
+                ],
+                "strategy": "Multiply by 1.15 for 15% increase, or calculate 15% and add to original"
+            },
+            {
+                "type": "Finding New Value After Decrease",
+                "examples": [
+                    "£80 reduced by 25%. Find new amount",
+                    "Price of £500 has 12% discount. What's the sale price?"
+                ],
+                "strategy": "Multiply by 0.75 for 25% decrease, or calculate 25% and subtract from original"
+            },
+            {
+                "type": "Finding Original Value",
+                "examples": [
+                    "After 20% increase, price is £60. What was original price?",
+                    "After 30% decrease, value is £35. Find original value"
+                ],
+                "strategy": "If new value is 120% of original, then original = new ÷ 1.2"
+            }
+        ],
+        "examTips": [
+            "Always identify which is the original (starting) value",
+            "For increases: multiply by (100 + percentage)÷100",
+            "For decreases: multiply by (100 - percentage)÷100",
+            "Check answers are reasonable: increases should be bigger, decreases smaller"
+        ]
+    },
     "examples": [
         {
             "question": "A price increases from £80 to £96. What is the percentage increase?",

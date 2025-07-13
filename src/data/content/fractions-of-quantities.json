@@ -3,6 +3,57 @@
     "subject": "mathematics",
     "category": "Percentages and Fractions",
     "explanation": "To find a fraction of a quantity, multiply the quantity by the fraction. For example, 1/4 of 20 = 20 × 1/4 = 5. You can also divide by the denominator and multiply by the numerator. For more complex fractions like 'a fraction of a fraction', multiply the fractions together first, then multiply by the quantity.",
+    "questionFormations": {
+        "description": "Fraction of quantity questions test understanding of multiplication with fractions and real-world applications:",
+        "types": [
+            {
+                "type": "Simple Fraction of Whole Number",
+                "examples": [
+                    "Find 3/4 of 20",
+                    "What is 2/5 of 15?"
+                ],
+                "strategy": "Multiply: quantity × fraction, or divide by denominator then multiply by numerator"
+            },
+            {
+                "type": "Unit Fractions (1/n)",
+                "examples": [
+                    "Find 1/3 of 24",
+                    "What is 1/8 of 56?"
+                ],
+                "strategy": "Divide the quantity by the denominator: 24 ÷ 3 = 8"
+            },
+            {
+                "type": "Fraction of a Fraction",
+                "examples": [
+                    "Find 1/2 of 3/4",
+                    "What is 2/3 of 3/5?"
+                ],
+                "strategy": "Multiply the fractions: 1/2 × 3/4 = 3/8"
+            },
+            {
+                "type": "Word Problems",
+                "examples": [
+                    "3/4 of the class of 28 students are girls. How many girls?",
+                    "2/5 of £45 was spent. How much was spent?"
+                ],
+                "strategy": "Identify the fraction and the total, then calculate fraction × total"
+            },
+            {
+                "type": "Finding the Whole",
+                "examples": [
+                    "2/3 of a number is 18. What is the number?",
+                    "3/5 of students is 15. How many students in total?"
+                ],
+                "strategy": "If 2/3 = 18, then 1/3 = 9, so whole = 3 × 9 = 27"
+            }
+        ],
+        "examTips": [
+            "For unit fractions (1/n), just divide by the denominator",
+            "Check answers make sense: fraction of quantity should be smaller than original",
+            "Convert mixed numbers to improper fractions first",
+            "When finding the whole from a fraction, divide by the fraction"
+        ]
+    },
     "examples": [
         {
             "question": "What is 3/4 of 60?",
@@ -75,5 +126,66 @@
                 "Incorrect. This would give 64, not 9."
             ]
         }
-    ]
+    ],
+    "examinerInsights": {
+        "description": "Fraction of quantities questions test fundamental understanding of multiplication with fractions and proportional reasoning - essential skills for advanced mathematics.",
+        "questionConstruction": [
+            {
+                "pattern": "Method Flexibility Testing",
+                "purpose": "Check if students understand multiple approaches to same problem",
+                "example": "3/4 of 20 can be solved as 20×3/4, (20÷4)×3, or 20×0.75"
+            },
+            {
+                "pattern": "Contextual Word Problems",
+                "purpose": "Test ability to identify fraction situations in real scenarios",
+                "example": "2/3 of class are girls, 3/5 of budget spent, 1/4 of journey completed"
+            },
+            {
+                "pattern": "Fraction of Fraction Complexity",
+                "purpose": "Assess deeper conceptual understanding",
+                "example": "Find 1/2 of 3/4, or 2/3 of 3/5 of 30"
+            },
+            {
+                "pattern": "Reverse Engineering",
+                "purpose": "Test understanding of inverse operations",
+                "example": "If 3/5 of a number is 18, what is the number?"
+            }
+        ],
+        "commonTraps": [
+            {
+                "trap": "Adding instead of multiplying",
+                "explanation": "3/4 of 20 means 20 × 3/4 = 15, not 20 + 3/4 = 20.75"
+            },
+            {
+                "trap": "Forgetting to multiply by numerator",
+                "explanation": "For 3/4 of 20: divide by 4 to get 5, then multiply by 3 to get 15"
+            },
+            {
+                "trap": "Confusing 'of' with 'more than'",
+                "explanation": "'3/4 of 20' gives 15, but '3/4 more than 20' gives 20 + 15 = 35"
+            },
+            {
+                "trap": "Mixed number confusion",
+                "explanation": "Convert mixed numbers to improper fractions before calculating"
+            }
+        ],
+        "timeManagement": [
+            {
+                "timeAllocation": "15s",
+                "phase": "Identify the fraction and the quantity it's applied to"
+            },
+            {
+                "timeAllocation": "45s",
+                "phase": "Choose method: direct multiplication or divide-then-multiply"
+            },
+            {
+                "timeAllocation": "45s",
+                "phase": "Calculate carefully, simplifying fractions where possible"
+            },
+            {
+                "timeAllocation": "15s",
+                "phase": "Check answer is smaller than original (unless >1 fraction)"
+            }
+        ]
+    }
 }

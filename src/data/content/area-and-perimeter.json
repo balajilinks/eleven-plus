@@ -3,6 +3,65 @@
     "subject": "mathematics",
     "category": "Geometry",
     "explanation": "Area is the amount of space inside a shape (measured in square units like cm²). Perimeter is the distance around the outside of a shape (measured in linear units like cm). For rectangles: Area = length × width, Perimeter = 2 × (length + width). For irregular shapes, break them into simpler shapes or use the given measurements carefully.",
+    "questionFormations": {
+        "description": "Area and Perimeter questions test understanding of formulas and ability to apply them to various shapes:",
+        "types": [
+            {
+                "type": "Basic Rectangle/Square",
+                "examples": [
+                    "Find area and perimeter of 8m × 5m rectangle",
+                    "Square garden with side 12m, find area and perimeter"
+                ],
+                "strategy": "Use basic formulas: Area = l × w, Perimeter = 2(l + w) for rectangles"
+            },
+            {
+                "type": "Compound/L-Shaped Areas",
+                "examples": [
+                    "L-shaped room made of two rectangles",
+                    "Swimming pool with rectangular sections"
+                ],
+                "strategy": "Break into simple rectangles, calculate each area separately, then add together"
+            },
+            {
+                "type": "Missing Dimension Problems",
+                "examples": [
+                    "Rectangle area 24m², width 4m, find length",
+                    "Perimeter 20cm, length 6cm, find width"
+                ],
+                "strategy": "Rearrange formulas: length = area ÷ width, or width = (perimeter ÷ 2) - length"
+            },
+            {
+                "type": "Real-World Applications",
+                "examples": [
+                    "Cost of carpet for room at £15 per m²",
+                    "Fencing needed around garden at £8 per metre"
+                ],
+                "strategy": "Calculate area/perimeter first, then multiply by cost per unit"
+            },
+            {
+                "type": "Comparison Questions",
+                "examples": [
+                    "Which garden has larger area: 8×6 or 9×5?",
+                    "How much more fencing needed for 10×8 than 7×6?"
+                ],
+                "strategy": "Calculate both areas/perimeters, then compare or find the difference"
+            },
+            {
+                "type": "Mixed Units",
+                "examples": [
+                    "Length 2.5m, width 180cm, find area in m²",
+                    "Perimeter given in mm, answer required in cm"
+                ],
+                "strategy": "Convert all measurements to same units before calculating"
+            }
+        ],
+        "examTips": [
+            "Always check units - area in square units, perimeter in linear units",
+            "For L-shapes, draw lines to split into rectangles",
+            "Double-check formula: Area = length × width, Perimeter = 2(length + width)",
+            "When finding missing dimensions, rearrange the formula carefully"
+        ]
+    },
     "examples": [
         {
             "question": "A rectangle has length 8 cm and width 5 cm. What is its area and perimeter?",
@@ -74,5 +133,66 @@
                 "Incorrect. This is the area, not the perimeter."
             ]
         }
-    ]
+    ],
+    "examinerInsights": {
+        "description": "Area and perimeter questions test spatial reasoning, formula application, and problem-solving. Examiners often combine these with real-world scenarios to assess practical understanding.",
+        "questionConstruction": [
+            {
+                "pattern": "Formula Confusion Testing",
+                "purpose": "Check if students confuse area and perimeter formulas",
+                "example": "Deliberately ask for both in same question to test knowledge distinction"
+            },
+            {
+                "pattern": "L-Shaped and Compound Figures",
+                "purpose": "Test ability to break complex shapes into simpler components",
+                "example": "Swimming pool designs, garden layouts, floor plans"
+            },
+            {
+                "pattern": "Missing Dimension Problems",
+                "purpose": "Test algebraic thinking and formula manipulation",
+                "example": "Given area and one dimension, find the other dimension"
+            },
+            {
+                "pattern": "Cost Calculation Applications",
+                "purpose": "Assess real-world application and multiplication skills",
+                "example": "Carpet costs £15 per m², fencing costs £8 per meter"
+            }
+        ],
+        "commonTraps": [
+            {
+                "trap": "Confusing area and perimeter units",
+                "explanation": "Area uses square units (cm², m²), perimeter uses linear units (cm, m)"
+            },
+            {
+                "trap": "Wrong formula application",
+                "explanation": "Area = length × width, Perimeter = 2(length + width) - don't mix them up"
+            },
+            {
+                "trap": "Incomplete L-shape calculations",
+                "explanation": "Make sure to find ALL dimensions needed, including the hidden internal lengths"
+            },
+            {
+                "trap": "Unit conversion errors",
+                "explanation": "Convert all measurements to same units before calculating (e.g., cm to m)"
+            }
+        ],
+        "timeManagement": [
+            {
+                "timeAllocation": "20s",
+                "phase": "Identify what's being asked (area or perimeter) and note units"
+            },
+            {
+                "timeAllocation": "30s",
+                "phase": "For complex shapes: sketch and break into rectangles"
+            },
+            {
+                "timeAllocation": "60s",
+                "phase": "Apply formulas carefully, showing working for partial marks"
+            },
+            {
+                "timeAllocation": "10s",
+                "phase": "Check units are correct and answer is reasonable"
+            }
+        ]
+    }
 }

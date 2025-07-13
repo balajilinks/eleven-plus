@@ -3,6 +3,57 @@
     "subject": "mathematics",
     "category": "Time and Money",
     "explanation": "Money calculations involve addition, subtraction, multiplication, and division with decimal numbers. Key skills: calculating total costs, finding change, working with different prices, and handling discounts. Remember: pounds have 100 pence, always work to 2 decimal places for money, and check your answers make sense in real-world contexts.",
+    "questionFormations": {
+        "description": "Money problems test real-world application skills and decimal arithmetic in practical contexts:",
+        "types": [
+            {
+                "type": "Total Cost Calculations",
+                "examples": [
+                    "5 items at £3.45 each, find total cost",
+                    "3 adults at £8.50, 2 children at £4.25, total?"
+                ],
+                "strategy": "Multiply quantities by prices, then add all costs together"
+            },
+            {
+                "type": "Change Calculations",
+                "examples": [
+                    "Buy items costing £7.35, pay with £10, find change",
+                    "Shopping bill £23.67, pay £25, how much change?"
+                ],
+                "strategy": "Subtract total cost from amount paid: Change = Paid - Cost"
+            },
+            {
+                "type": "Unit Price Problems",
+                "examples": [
+                    "6 pens cost £4.50, find cost per pen",
+                    "Price per kg if 3kg costs £7.20"
+                ],
+                "strategy": "Divide total cost by quantity: Unit price = Total ÷ Quantity"
+            },
+            {
+                "type": "Mixed Operations",
+                "examples": [
+                    "Buy 4 items at £2.75 each, pay £15, find change",
+                    "Best value: 3 for £5 or 5 for £8?"
+                ],
+                "strategy": "Break into steps: calculate totals, then compare or find change"
+            },
+            {
+                "type": "Discount and Offers",
+                "examples": [
+                    "20% off £35 item, find sale price",
+                    "Buy 2 get 1 free offer, calculate savings"
+                ],
+                "strategy": "Apply percentage discounts or calculate offer savings step by step"
+            }
+        ],
+        "examTips": [
+            "Always work to 2 decimal places for money (£5.60, not £5.6)",
+            "Check answers are realistic - no negative change, sensible prices",
+            "Convert between pounds and pence carefully: £3.45 = 345p",
+            "For unit prices, smaller price per unit = better value"
+        ]
+    },
     "examples": [
         {
             "question": "7 books cost £2.99 each. What is the total cost?",
@@ -76,5 +127,66 @@
                 "Correct! This is the answer to the calculation."
             ]
         }
-    ]
+    ],
+    "examinerInsights": {
+        "description": "Money problems are examiner favorites because they combine arithmetic skills with real-world relevance and test students' practical numeracy.",
+        "questionConstruction": [
+            {
+                "pattern": "Multi-Step Calculations",
+                "purpose": "Test ability to break complex problems into manageable steps",
+                "example": "Buy multiple items with different prices, then calculate change from payment"
+            },
+            {
+                "pattern": "Real-World Contexts",
+                "purpose": "Assess practical application and problem-solving in familiar situations",
+                "example": "Shopping scenarios, ticket pricing, restaurant bills, transport costs"
+            },
+            {
+                "pattern": "Value for Money Comparisons",
+                "purpose": "Test proportional reasoning and decision-making skills",
+                "example": "Which is better value: 3 for £5 or 5 for £8?"
+            },
+            {
+                "pattern": "Mixed Currency Units",
+                "purpose": "Check understanding of pounds and pence relationship",
+                "example": "Costs given in both £3.45 and 345p formats"
+            }
+        ],
+        "commonTraps": [
+            {
+                "trap": "Decimal point errors in money",
+                "explanation": "£3.5 should be written as £3.50. Money always needs 2 decimal places"
+            },
+            {
+                "trap": "Forgetting to calculate change",
+                "explanation": "Question asks for change but student gives total cost instead"
+            },
+            {
+                "trap": "Mixed units confusion",
+                "explanation": "Adding £3.50 + 45p = £3.95, not £3.95p or £390p"
+            },
+            {
+                "trap": "Unrealistic answers",
+                "explanation": "Getting negative change or impossibly high prices without checking"
+            }
+        ],
+        "timeManagement": [
+            {
+                "timeAllocation": "15s",
+                "phase": "Read problem carefully, identify what's being asked"
+            },
+            {
+                "timeAllocation": "45s",
+                "phase": "Calculate total costs, apply any discounts or special offers"
+            },
+            {
+                "timeAllocation": "30s",
+                "phase": "Calculate change or unit prices as required"
+            },
+            {
+                "timeAllocation": "10s",
+                "phase": "Check answer format (£X.XX) and reasonableness"
+            }
+        ]
+    }
 }

@@ -1,0 +1,136 @@
+{
+    "concept": "Poetry Appreciation",
+    "subject": "english",
+    "category": "Reading & Comprehension",
+    "skillType": "analytical",
+    "explanation": "Poetry in the 11+ exam requires special reading skills. Unlike prose, poetry uses concentrated language, rhythm, and imagery to create meaning. Sutton examiners look for students who can understand both the literal meaning and the deeper emotional or thematic content. Success comes from recognizing poetic devices and understanding how they create effects.",
+    "keyTechniques": [
+        {
+            "technique": "The SMILE Analysis Method",
+            "description": "Systematic approach to analyzing poetry",
+            "steps": [
+                "Structure: How is the poem organized? (verses, rhyme scheme, line length)",
+                "Meaning: What is the poem about on the surface and deeper levels?",
+                "Imagery: What pictures does the poet create in your mind?",
+                "Language: What specific word choices and techniques are used?",
+                "Emotion/Effect: How does the poem make you feel? What's the overall mood?"
+            ],
+            "practicalTip": "Use SMILE as a checklist when reading any poem - it ensures you cover all the important elements examiners look for."
+        },
+        {
+            "technique": "The Sound and Rhythm Detector",
+            "description": "Understanding how poems use sound to create meaning",
+            "steps": [
+                "Read the poem aloud (or in your head) to hear the rhythm",
+                "Notice rhyme patterns and repeated sounds",
+                "Identify alliteration, assonance, and onomatopoeia",
+                "Feel where the rhythm speeds up or slows down",
+                "Consider how sound effects match the poem's meaning"
+            ],
+            "practicalTip": "Poetry is meant to be heard. Even in silent reading, 'listen' to the poem in your mind - the sound often reveals meaning."
+        },
+        {
+            "technique": "The Figurative Language Translator",
+            "description": "Decoding metaphors, similes, and symbolic language",
+            "steps": [
+                "Identify comparisons (metaphors and similes)",
+                "Look for symbols that represent bigger ideas",
+                "Notice personification (giving human qualities to non-human things)",
+                "Find examples of hyperbole (deliberate exaggeration)",
+                "Consider what these devices add to the poem's meaning"
+            ],
+            "practicalTip": "Ask 'What is the poet really talking about?' Often poems use concrete images to discuss abstract ideas like love, loss, or time."
+        }
+    ],
+    "examStrategies": {
+        "description": "Poetry questions in Sutton 11+ exams test your ability to understand both literal meaning and poetic techniques. They expect sophisticated analysis of how poets create effects.",
+        "timeManagement": {
+            "firstReading": "2 minutes reading for general understanding",
+            "technicalAnalysis": "2-3 minutes identifying poetic devices and structure",
+            "meaningAnalysis": "2-3 minutes understanding deeper themes and emotions",
+            "questionResponse": "3-4 minutes crafting answers with evidence"
+        },
+        "questionTypes": [
+            {
+                "type": "Poetic Device Questions",
+                "approach": "Identify the technique and explain its effect on the reader",
+                "example": "'How does the poet use alliteration in line 5?' Find the repeated sounds and explain how they enhance meaning.",
+                "trickToAvoid": "Don't just identify the device - always explain WHY the poet used it and what effect it creates."
+            },
+            {
+                "type": "Mood and Atmosphere Questions",
+                "approach": "Look at word choice, imagery, and rhythm to determine the emotional tone",
+                "example": "'What mood does the poet create in the first verse?' Consider all the language choices that contribute to feeling.",
+                "trickToAvoid": "Don't confuse the poet's mood with the speaker's mood - they might be different."
+            },
+            {
+                "type": "Theme and Meaning Questions",
+                "approach": "Consider what the poem is really about beyond the surface story",
+                "example": "'What is the poet's message about friendship?' Look beyond the literal events to the deeper meaning.",
+                "trickToAvoid": "Don't over-interpret - the meaning should be supported by evidence from the poem."
+            }
+        ]
+    },
+    "practicalExercises": [
+        {
+            "title": "The Device Detective",
+            "instruction": "Identify and explain the poetic devices in this verse:",
+            "text": "The wind whispered secrets through the trees,\nDancing leaves like golden coins in flight,\nWhile shadows stretched their fingers with such ease,\nPainting pictures in the fading light.",
+            "questions": [
+                "What examples of personification can you find?",
+                "Identify a simile and explain its effect.",
+                "What is the overall mood created by these images?",
+                "How do the sound patterns contribute to the meaning?"
+            ],
+            "modelAnswer": {
+                "personification": "'Wind whispered' (wind given human ability to whisper), 'shadows stretched their fingers' (shadows given human body parts)",
+                "simile": "'leaves like golden coins' - suggests the leaves are precious and valuable, creating a sense of beauty and worth",
+                "mood": "Peaceful, magical, and contemplative - the gentle personification and beautiful imagery create a calm, almost mystical atmosphere",
+                "soundPatterns": "Soft consonants (w, s, f) and flowing rhythm mirror the gentle movement described in the images"
+            }
+        },
+        {
+            "title": "The Theme Explorer",
+            "instruction": "Read this poem excerpt and identify its deeper meaning:",
+            "text": "I built a wall of words around my heart,\nEach brick a silence, mortar made of fear.\nNo bridge could span this fortress I'd create,\nUntil you spoke, and walls just disappeared.",
+            "questions": [
+                "What is this poem literally about?",
+                "What does the 'wall' represent metaphorically?",
+                "What does the final line suggest about human connection?",
+                "What theme is the poet exploring?"
+            ],
+            "modelAnswer": {
+                "literal": "Someone building a wall and then having it disappear when someone speaks",
+                "metaphor": "The wall represents emotional barriers, self-protection, and fear of being hurt or rejected",
+                "finalLine": "That genuine communication and connection can break down even the strongest emotional barriers",
+                "theme": "The power of human connection to overcome fear and isolation - how love or friendship can heal emotional wounds"
+            }
+        }
+    ],
+    "realWorldConnections": [
+        "Appreciating song lyrics and their deeper meanings",
+        "Understanding emotional expression in art and literature",
+        "Developing sensitivity to language and its effects",
+        "Enhanced creativity in personal writing",
+        "Better appreciation of cultural and historical contexts",
+        "Improved emotional intelligence and empathy"
+    ],
+    "skillProgression": {
+        "beginner": [
+            "Identify basic rhyme schemes and simple poetic devices",
+            "Understand literal meaning of straightforward poems",
+            "Recognize different types of poems (sonnets, free verse, ballads)"
+        ],
+        "intermediate": [
+            "Analyze how poetic devices create specific effects",
+            "Understand symbolism and metaphorical meanings",
+            "Recognize how structure supports meaning"
+        ],
+        "advanced": [
+            "Evaluate complex themes and multiple interpretations",
+            "Analyze how historical and cultural contexts influence meaning",
+            "Compare and contrast different poets' treatments of similar themes",
+            "Create sophisticated personal responses to poetry"
+        ]
+    }
+}

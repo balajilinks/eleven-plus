@@ -1,0 +1,293 @@
+{
+    "id": "ai-english-comprehension-002",
+    "title": "11+ English Reading Comprehension Test - Adventure & Science",
+    "subject": "english",
+    "description": "Advanced reading comprehension test featuring adventure fiction and scientific non-fiction passages with challenging analytical questions",
+    "timeLimit": 45,
+    "totalQuestions": 16,
+    "difficulty": "mixed",
+    "topics": [
+        "reading-comprehension",
+        "inference",
+        "vocabulary-in-context",
+        "character-analysis",
+        "authorial-intent",
+        "literary-devices",
+        "theme-analysis",
+        "scientific-literacy"
+    ],
+    "generatedBy": "ai-offline",
+    "generatedDate": "2025-01-15",
+    "passages": [
+        {
+            "id": "passage1",
+            "title": "The Secret of Moonrise Island",
+            "genre": "fiction",
+            "text": "The small rowing boat creaked ominously as Maya and her younger brother Sam approached the mysterious island that had haunted their dreams for weeks. Local fishermen spoke of it only in whispers, claiming that strange lights danced across its rocky shores on moonless nights. Maya gripped the oars more tightly, her knuckles white with determination. She had discovered the island's location in her grandmother's yellowed diary, hidden beneath layers of dust in the attic.\n\n'Are you absolutely certain about this?' Sam's voice trembled slightly as he peered through the gathering twilight. The island loomed before them like a sleeping giant, its jagged cliffs crowned with ancient pine trees that swayed in the evening breeze.\n\n'Grandmother wrote that the island holds the key to our family's greatest mystery,' Maya replied, her voice steady despite the butterflies dancing in her stomach. 'The treasure isn't gold or jewels, Sam. It's something far more valuable—the truth about why Great-Uncle Edmund disappeared fifty years ago.'\n\nAs their boat scraped against the pebbled shore, both children felt the weight of generations pressing upon their shoulders. The island seemed to pulse with secrets, and Maya couldn't shake the feeling that they were being watched by unseen eyes. Ancient carved symbols on the rocks caught the last rays of sunlight, and Maya realized that their adventure was about to become something far more significant than either of them had imagined."
+        },
+        {
+            "id": "passage2",
+            "title": "The Incredible Journey of Arctic Terns",
+            "genre": "non-fiction",
+            "text": "Every year, one of nature's most remarkable migrations unfolds as Arctic terns embark on an extraordinary journey that spans from Arctic to Antarctic and back again. These seemingly delicate seabirds, weighing no more than a small bag of sugar, undertake the longest migration in the animal kingdom—a round trip of approximately 70,000 kilometers.\n\nWhat makes this journey even more astonishing is the terns' incredible navigation system. Scientists have discovered that these birds possess an internal compass that responds to the Earth's magnetic field, allowing them to navigate with pinpoint accuracy across vast expanses of ocean. Young terns, making their first migration, somehow know exactly which route to follow despite never having traveled it before.\n\nThe Arctic tern's migration strategy is ingeniously timed to take advantage of summer in both polar regions. When winter approaches the Arctic, the birds begin their southward journey, arriving in Antarctica just as summer begins there. This means that Arctic terns experience more daylight than any other creature on Earth—they literally chase the summer sun across the globe.\n\nRecent research using tiny GPS tracking devices has revealed that these remarkable birds don't simply fly in straight lines. Instead, they follow complex routes that take advantage of favorable wind patterns and rich feeding areas. Some terns make detours of thousands of kilometers to exploit temporary food sources, demonstrating an intelligence and adaptability that continues to amaze scientists worldwide."
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "passageId": "passage1",
+            "question": "What can we infer about Maya's character from her actions and dialogue?",
+            "type": "multiple-choice",
+            "options": [
+                "She is reckless and doesn't consider the dangers",
+                "She is determined and driven by a desire for truth",
+                "She is easily influenced by local superstitions",
+                "She is more interested in treasure than family history"
+            ],
+            "correct": 1,
+            "explanation": "Maya shows determination through her grip on the oars and steady voice despite being nervous. Her focus on finding 'the truth about Great-Uncle Edmund' rather than material treasure shows she is driven by a desire for understanding.",
+            "topic": "Character Analysis",
+            "difficulty": "medium"
+        },
+        {
+            "id": 2,
+            "passageId": "passage1",
+            "question": "How does the author create an atmosphere of mystery in the opening paragraph?",
+            "type": "multiple-choice",
+            "options": [
+                "By describing the boat's condition in detail",
+                "By using words like 'ominously', 'haunted', and 'whispers'",
+                "By explaining the island's exact location",
+                "By focusing on the children's rowing technique"
+            ],
+            "correct": 1,
+            "explanation": "The author uses atmospheric language choices: 'creaked ominously', 'haunted their dreams', and 'spoke of it only in whispers' to create a sense of mystery and foreboding.",
+            "topic": "Literary Devices",
+            "difficulty": "medium"
+        },
+        {
+            "id": 3,
+            "passageId": "passage1",
+            "question": "What does the phrase 'the weight of generations pressing upon their shoulders' suggest?",
+            "type": "multiple-choice",
+            "options": [
+                "The children are carrying heavy family possessions",
+                "They feel the responsibility of family history and expectations",
+                "The island is physically weighing them down",
+                "They are tired from their long journey"
+            ],
+            "correct": 1,
+            "explanation": "This metaphorical phrase suggests the children feel the burden of family history and the responsibility to solve a long-standing family mystery that has affected multiple generations.",
+            "topic": "Literary Devices",
+            "difficulty": "hard"
+        },
+        {
+            "id": 4,
+            "passageId": "passage1",
+            "question": "Which word best describes the mood created in this passage?",
+            "type": "multiple-choice",
+            "options": [
+                "Joyful and celebratory",
+                "Mysterious and suspenseful",
+                "Sad and melancholic",
+                "Angry and confrontational"
+            ],
+            "correct": 1,
+            "explanation": "The combination of unknown mysteries, family secrets, strange island phenomena, and the feeling of being watched creates a mysterious and suspenseful mood throughout the passage.",
+            "topic": "Mood and Atmosphere",
+            "difficulty": "easy"
+        },
+        {
+            "id": 5,
+            "passageId": "passage1",
+            "question": "What role does the grandmother's diary play in the story?",
+            "type": "multiple-choice",
+            "options": [
+                "It provides entertainment for the children",
+                "It serves as a catalyst that initiates their adventure",
+                "It contains magical spells for the island",
+                "It warns them about the dangers they will face"
+            ],
+            "correct": 1,
+            "explanation": "The grandmother's diary is the catalyst—it contains the island's location and information about Great-Uncle Edmund, which motivates Maya to undertake this journey to uncover family secrets.",
+            "topic": "Plot and Structure",
+            "difficulty": "medium"
+        },
+        {
+            "id": 6,
+            "passageId": "passage2",
+            "question": "What makes the Arctic tern's migration particularly remarkable?",
+            "type": "multiple-choice",
+            "options": [
+                "They travel faster than any other bird",
+                "They cover the longest distance of any animal migration",
+                "They are the largest migratory birds",
+                "They only migrate during winter months"
+            ],
+            "correct": 1,
+            "explanation": "The passage explicitly states that Arctic terns 'undertake the longest migration in the animal kingdom—a round trip of approximately 70,000 kilometers.'",
+            "topic": "Direct Retrieval",
+            "difficulty": "easy"
+        },
+        {
+            "id": 7,
+            "passageId": "passage2",
+            "question": "How do young Arctic terns know which migration route to follow on their first journey?",
+            "type": "multiple-choice",
+            "options": [
+                "They follow older, experienced birds",
+                "They use their internal magnetic compass system",
+                "They are taught the route by their parents",
+                "They follow landmarks they memorized as chicks"
+            ],
+            "correct": 1,
+            "explanation": "The passage explains that terns have 'an internal compass that responds to the Earth's magnetic field' and that young birds 'somehow know exactly which route to follow despite never having traveled it before.'",
+            "topic": "Scientific Comprehension",
+            "difficulty": "medium"
+        },
+        {
+            "id": 8,
+            "passageId": "passage2",
+            "question": "What does the phrase 'they literally chase the summer sun across the globe' mean?",
+            "type": "multiple-choice",
+            "options": [
+                "They fly directly toward the sun at all times",
+                "They follow warm weather patterns between polar regions",
+                "They navigate using the sun's position",
+                "They only travel during daylight hours"
+            ],
+            "correct": 1,
+            "explanation": "This metaphor means the terns time their migration to experience summer in both Arctic and Antarctic regions, effectively following warm seasons and maximum daylight around the world.",
+            "topic": "Vocabulary in Context",
+            "difficulty": "hard"
+        },
+        {
+            "id": 9,
+            "passageId": "passage2",
+            "question": "What advantage do Arctic terns gain from their complex migration routes?",
+            "type": "multiple-choice",
+            "options": [
+                "They avoid predators more effectively",
+                "They can rest more frequently during the journey",
+                "They utilize favorable winds and rich feeding areas",
+                "They encounter other bird species for protection"
+            ],
+            "correct": 2,
+            "explanation": "The passage states that terns 'follow complex routes that take advantage of favorable wind patterns and rich feeding areas' and make detours to 'exploit temporary food sources.'",
+            "topic": "Inference",
+            "difficulty": "medium"
+        },
+        {
+            "id": 10,
+            "passageId": "passage2",
+            "question": "Which technological advancement has provided new insights into Arctic tern behavior?",
+            "type": "multiple-choice",
+            "options": [
+                "Satellite photography",
+                "Underwater cameras",
+                "Tiny GPS tracking devices",
+                "Weather radar systems"
+            ],
+            "correct": 2,
+            "explanation": "The passage specifically mentions 'tiny GPS tracking devices' as the technology that has revealed new information about the birds' complex migration routes.",
+            "topic": "Direct Retrieval",
+            "difficulty": "easy"
+        },
+        {
+            "id": 11,
+            "passageId": "passage2",
+            "question": "What can we infer about the author's attitude toward Arctic terns?",
+            "type": "multiple-choice",
+            "options": [
+                "The author is concerned about their survival",
+                "The author finds them admirable and fascinating",
+                "The author considers them ordinary seabirds",
+                "The author questions the accuracy of scientific research"
+            ],
+            "correct": 1,
+            "explanation": "The author uses admiring language throughout: 'remarkable,' 'extraordinary,' 'astonishing,' 'ingeniously timed,' showing fascination with these birds' capabilities.",
+            "topic": "Authorial Intent",
+            "difficulty": "medium"
+        },
+        {
+            "id": 12,
+            "passageId": "passage1",
+            "question": "In the context of the passage, what does 'loomed' most likely mean?",
+            "type": "multiple-choice",
+            "options": [
+                "Appeared small and distant",
+                "Rose up threateningly or impressively",
+                "Moved quickly across the water",
+                "Glowed brightly in the darkness"
+            ],
+            "correct": 1,
+            "explanation": "'Loomed' in this context means to appear large, threatening, or impressive, especially when describing how the island appeared before them 'like a sleeping giant.'",
+            "topic": "Vocabulary in Context",
+            "difficulty": "medium"
+        },
+        {
+            "id": 13,
+            "passageId": "passage2",
+            "question": "Why is the timing of Arctic tern migration described as 'ingeniously timed'?",
+            "type": "multiple-choice",
+            "options": [
+                "It allows them to avoid harsh weather completely",
+                "It maximizes their exposure to daylight and favorable conditions",
+                "It prevents competition with other migratory birds",
+                "It ensures they always travel with favorable ocean currents"
+            ],
+            "correct": 1,
+            "explanation": "The timing is ingenious because it allows terns to experience summer in both polar regions, meaning they get 'more daylight than any other creature on Earth' by following optimal conditions.",
+            "topic": "Scientific Analysis",
+            "difficulty": "hard"
+        },
+        {
+            "id": 14,
+            "passageId": "passage1",
+            "question": "Which statement best describes the relationship between Maya and Sam?",
+            "type": "multiple-choice",
+            "options": [
+                "They are equals who make decisions together",
+                "Maya is the leader while Sam is more hesitant",
+                "Sam is braver and more adventurous than Maya",
+                "They frequently argue about their plans"
+            ],
+            "correct": 1,
+            "explanation": "Maya demonstrates leadership by gripping the oars, making decisions, and explaining their mission, while Sam's 'trembling voice' and questioning show he is more hesitant but willing to follow.",
+            "topic": "Character Relationships",
+            "difficulty": "medium"
+        },
+        {
+            "id": 15,
+            "passageId": "passage2",
+            "question": "What comparison does the author use to help readers understand the Arctic tern's weight?",
+            "type": "multiple-choice",
+            "options": [
+                "A small bag of sugar",
+                "A delicate flower",
+                "A large seabird",
+                "A tiny hummingbird"
+            ],
+            "correct": 0,
+            "explanation": "The passage states that Arctic terns weigh 'no more than a small bag of sugar,' which helps readers visualize how remarkably light these birds are for such epic migrants.",
+            "topic": "Literary Techniques",
+            "difficulty": "easy"
+        },
+        {
+            "id": 16,
+            "passageId": "passage1",
+            "question": "What theme is most prominently developed in this passage?",
+            "type": "multiple-choice",
+            "options": [
+                "The importance of physical courage in dangerous situations",
+                "The power of family bonds and the quest for truth",
+                "The conflict between tradition and modern life",
+                "The value of material wealth over personal relationships"
+            ],
+            "correct": 1,
+            "explanation": "The passage centers on Maya's determination to uncover family truth about Great-Uncle Edmund, emphasizing that 'the truth' is more valuable than material treasure, highlighting family bonds and the quest for understanding.",
+            "topic": "Theme Analysis",
+            "difficulty": "hard"
+        }
+    ]
+}

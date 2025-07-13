@@ -3,6 +3,65 @@
     "subject": "mathematics",
     "category": "Number Properties",
     "explanation": "Factors are numbers that divide exactly into another number. Multiples are the result of multiplying a number by integers. To find the Lowest Common Multiple (LCM), list multiples of each number until you find the smallest one they share. To find the Highest Common Factor (HCF), list factors of each number and find the largest one they share.",
+    "questionFormations": {
+        "description": "Factor and multiple questions test systematic thinking and understanding of number relationships:",
+        "types": [
+            {
+                "type": "Finding All Factors",
+                "examples": [
+                    "List all factors of 18",
+                    "How many factors does 36 have?"
+                ],
+                "strategy": "Test division systematically: 1, 2, 3... Stop at √n to avoid repeating"
+            },
+            {
+                "type": "Finding Multiples",
+                "examples": [
+                    "List the first 5 multiples of 7",
+                    "Which multiples of 4 are less than 30?"
+                ],
+                "strategy": "Multiply by 1, 2, 3, 4... until you reach the required amount or limit"
+            },
+            {
+                "type": "Lowest Common Multiple (LCM)",
+                "examples": [
+                    "Find LCM of 6 and 9",
+                    "What's the LCM of 4, 6, and 8?"
+                ],
+                "strategy": "List multiples of each number until you find the smallest common one"
+            },
+            {
+                "type": "Highest Common Factor (HCF)",
+                "examples": [
+                    "Find HCF of 12 and 18",
+                    "What's the HCF of 24, 36, and 48?"
+                ],
+                "strategy": "List factors of each number, find the largest one that appears in all lists"
+            },
+            {
+                "type": "Factor/Multiple Properties",
+                "examples": [
+                    "Is 24 a multiple of 6?",
+                    "Is 7 a factor of 42?"
+                ],
+                "strategy": "For factors: does it divide exactly? For multiples: is it in the times table?"
+            },
+            {
+                "type": "Real-World Applications",
+                "examples": [
+                    "Tiles come in packs of 8, needed 50 tiles. How many packs to buy?",
+                    "Events repeat every 12 and 18 days. When do they coincide?"
+                ],
+                "strategy": "Identify if you need LCM (when events coincide) or factors/multiples (packaging)"
+            }
+        ],
+        "examTips": [
+            "Factor pairs often come together: if 3 is a factor, check 18÷3=6",
+            "All numbers have 1 and themselves as factors",
+            "For LCM of large numbers, try the larger number's multiples first",
+            "HCF is never larger than the smallest number being compared"
+        ]
+    },
     "examples": [
         {
             "question": "What are the factors of 12?",

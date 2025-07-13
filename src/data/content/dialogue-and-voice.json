@@ -1,0 +1,34 @@
+{
+    "concept": "Dialogue and Voice",
+    "subject": "english",
+    "category": "Writing Skills",
+    "explanation": "This is the Dialogue and Voice concept in english. This module helps students understand and practice dialogue and voice through interactive exercises and examples.",
+    "examples": [
+        {
+            "question": "Sample question about dialogue and voice",
+            "solution": "Sample answer",
+            "explanation": "Step-by-step explanation for dialogue and voice"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Practice question about dialogue and voice",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is not correct. Try again.",
+                "Correct! Well done.",
+                "This is not the right answer.",
+                "Incorrect. Review the concept and try again."
+            ]
+        }
+    ]
+}

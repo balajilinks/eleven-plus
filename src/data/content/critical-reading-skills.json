@@ -1,0 +1,136 @@
+{
+    "concept": "Critical Reading Skills",
+    "subject": "english",
+    "category": "Reading & Comprehension",
+    "skillType": "analytical",
+    "explanation": "Critical reading goes beyond understanding what a text says to evaluating how and why it says it. In Sutton 11+ exams, this skill separates exceptional students from good ones. Critical readers question assumptions, evaluate evidence, recognize bias, and form independent judgments. This sophisticated approach to reading is exactly what grammar schools value most in their students.",
+    "keyTechniques": [
+        {
+            "technique": "The Question Everything Approach",
+            "description": "Develop a questioning mindset while reading",
+            "steps": [
+                "Ask 'Who wrote this and why?'",
+                "Question 'What evidence supports these claims?'",
+                "Consider 'What viewpoints are missing?'",
+                "Evaluate 'How reliable is this information?'",
+                "Reflect 'How does this connect to what I already know?'"
+            ],
+            "practicalTip": "Keep a mental list of questions as you read: Who? What? Why? How? When? What if? This keeps your mind actively engaged."
+        },
+        {
+            "technique": "The Evidence Evaluation System",
+            "description": "Assess the quality and reliability of information presented",
+            "steps": [
+                "Identify what type of evidence is presented (statistics, expert opinions, examples)",
+                "Consider the source's credibility and potential bias",
+                "Look for gaps or missing information",
+                "Evaluate whether evidence actually supports the conclusions",
+                "Notice persuasive techniques that might influence judgment"
+            ],
+            "practicalTip": "Strong evidence is specific, verifiable, and comes from credible sources. Weak evidence is vague, unverifiable, or biased."
+        },
+        {
+            "technique": "The Multiple Perspectives Method",
+            "description": "Consider different viewpoints and interpretations",
+            "steps": [
+                "Identify the main perspective presented in the text",
+                "Consider what other viewpoints might exist on this topic",
+                "Look for any acknowledgment of opposing views",
+                "Evaluate how fairly different perspectives are represented",
+                "Form your own balanced view based on the evidence"
+            ],
+            "practicalTip": "Ask 'Who might disagree with this?' and 'What would they say?' This helps you think beyond the author's perspective."
+        }
+    ],
+    "examStrategies": {
+        "description": "Sutton 11+ critical reading questions test your ability to analyze texts objectively, evaluate arguments, and form independent judgments. These are the highest-level thinking skills.",
+        "timeManagement": {
+            "criticalAnalysis": "4-5 minutes reading with analytical questioning",
+            "evidenceEvaluation": "2-3 minutes assessing claims and support",
+            "perspectiveAnalysis": "2-3 minutes considering multiple viewpoints",
+            "responseFormulation": "3-4 minutes crafting balanced, critical responses"
+        },
+        "questionTypes": [
+            {
+                "type": "Author's Credibility Questions",
+                "approach": "Evaluate the author's expertise, bias, and reliability",
+                "example": "'How reliable is this author as a source on this topic?' Consider their qualifications, potential bias, and use of evidence.",
+                "trickToAvoid": "Don't assume all published writing is equally reliable - evaluate each source critically."
+            },
+            {
+                "type": "Argument Evaluation Questions",
+                "approach": "Assess the strength of reasoning and evidence presented",
+                "example": "'How convincing is the author's argument?' Look at evidence quality, logical reasoning, and acknowledgment of counterarguments.",
+                "trickToAvoid": "Don't confuse interesting information with strong arguments - focus on logical support for claims."
+            },
+            {
+                "type": "Bias and Perspective Questions",
+                "approach": "Identify potential bias and consider alternative viewpoints",
+                "example": "'What bias might the author have?' Consider their background, purpose, and what perspectives are excluded.",
+                "trickToAvoid": "Don't assume bias automatically makes information wrong - but recognize how it might influence presentation."
+            }
+        ]
+    },
+    "practicalExercises": [
+        {
+            "title": "The Argument Analyzer",
+            "instruction": "Evaluate the strength of this argument:",
+            "text": "School uniforms should be mandatory in all schools because they reduce bullying. A study by Dr. Sarah Wilson found that schools with uniforms reported 30% fewer bullying incidents. Additionally, uniforms help students focus on learning rather than fashion. Many successful schools around the world require uniforms, proving their effectiveness.",
+            "questions": [
+                "What is the main claim being made?",
+                "What evidence is provided to support this claim?",
+                "How strong is this evidence?",
+                "What questions would you ask to evaluate this argument further?"
+            ],
+            "modelAnswer": {
+                "mainClaim": "School uniforms should be mandatory in all schools because they reduce bullying",
+                "evidence": "One study showing 30% reduction in bullying, claim about focus on learning, statement about successful schools using uniforms",
+                "strength": "Mixed - one study is limited evidence, the 'focus' claim is unsupported, and 'successful schools' is vague correlation, not causation",
+                "questions": "Who is Dr. Wilson? How large was the study? Were there control groups? What defines 'successful schools'? Are there studies showing different results?"
+            }
+        },
+        {
+            "title": "The Perspective Detector",
+            "instruction": "Identify bias and missing perspectives:",
+            "text": "The new shopping center will bring tremendous benefits to our community. It will create 500 jobs and generate significant tax revenue. Modern facilities will attract visitors from neighboring towns, boosting our local economy. This development represents progress and prosperity for everyone.",
+            "questions": [
+                "Who might have written this text?",
+                "What perspective is presented?",
+                "What viewpoints might be missing?",
+                "What language suggests bias rather than objectivity?"
+            ],
+            "modelAnswer": {
+                "author": "Likely someone who supports the development - perhaps developers, local government, or business interests",
+                "perspective": "Strongly pro-development, focusing only on economic benefits",
+                "missingViews": "Environmental concerns, traffic impacts, effects on small local businesses, community character changes, residents who prefer current state",
+                "biasLanguage": "'Tremendous benefits', 'progress and prosperity for everyone' - emotional, absolute language rather than balanced analysis"
+            }
+        }
+    ],
+    "realWorldConnections": [
+        "Evaluating news sources for reliability and bias",
+        "Making informed decisions about products, services, and policies",
+        "Analyzing political claims and campaign promises",
+        "Academic research and critical thinking skills",
+        "Identifying misinformation and propaganda",
+        "Developing independent, well-reasoned opinions"
+    ],
+    "skillProgression": {
+        "beginner": [
+            "Distinguish between facts and opinions in texts",
+            "Identify obviously biased language and one-sided presentations",
+            "Ask basic questions about information presented"
+        ],
+        "intermediate": [
+            "Evaluate the credibility of sources and evidence",
+            "Recognize subtle bias and persuasive techniques",
+            "Consider multiple perspectives on controversial topics"
+        ],
+        "advanced": [
+            "Analyze complex arguments with multiple layers of reasoning",
+            "Synthesize information from multiple sources to form balanced views",
+            "Recognize sophisticated propaganda and manipulation techniques",
+            "Create well-reasoned critiques of texts and arguments"
+        ]
+    }
+}

@@ -1,19 +1,19 @@
 {
-    "concept": "Cumulative Frequency",
-    "subject": "mathematics",
-    "category": "Data Interpretation",
-    "explanation": "This is the Cumulative Frequency concept in mathematics. This module helps students understand and practice cumulative frequency through interactive exercises and examples.",
+    "concept": "Prefix and Suffix Spelling",
+    "subject": "english",
+    "category": "Spelling and Phonics",
+    "explanation": "This is the Prefix and Suffix Spelling concept in english. This module helps students understand and practice prefix and suffix spelling through interactive exercises and examples.",
     "examples": [
         {
-            "question": "Sample question about cumulative frequency",
+            "question": "Sample question about prefix and suffix spelling",
             "solution": "Sample answer",
-            "explanation": "Step-by-step explanation for cumulative frequency"
+            "explanation": "Step-by-step explanation for prefix and suffix spelling"
         }
     ],
     "exercises": [
         {
             "type": "multiple-choice",
-            "question": "Practice question about cumulative frequency",
+            "question": "Practice question about prefix and suffix spelling",
             "options": [
                 "Option A",
                 "Option B",

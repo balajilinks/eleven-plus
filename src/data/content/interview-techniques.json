@@ -1,19 +1,19 @@
 {
-    "concept": "Calculus Introduction",
-    "subject": "mathematics",
-    "category": "Advanced Topics",
-    "explanation": "This is the Calculus Introduction concept in mathematics. This module helps students understand and practice calculus introduction through interactive exercises and examples.",
+    "concept": "Interview Techniques",
+    "subject": "english",
+    "category": "Communication Skills",
+    "explanation": "This is the Interview Techniques concept in english. This module helps students understand and practice interview techniques through interactive exercises and examples.",
     "examples": [
         {
-            "question": "Sample question about calculus introduction",
+            "question": "Sample question about interview techniques",
             "solution": "Sample answer",
-            "explanation": "Step-by-step explanation for calculus introduction"
+            "explanation": "Step-by-step explanation for interview techniques"
         }
     ],
     "exercises": [
         {
             "type": "multiple-choice",
-            "question": "Practice question about calculus introduction",
+            "question": "Practice question about interview techniques",
             "options": [
                 "Option A",
                 "Option B",

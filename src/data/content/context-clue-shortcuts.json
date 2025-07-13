@@ -1,0 +1,34 @@
+{
+    "concept": "Context Clue Shortcuts",
+    "subject": "english",
+    "category": "Quick Wins",
+    "explanation": "This is the Context Clue Shortcuts concept in english. This module helps students understand and practice context clue shortcuts through interactive exercises and examples.",
+    "examples": [
+        {
+            "question": "Sample question about context clue shortcuts",
+            "solution": "Sample answer",
+            "explanation": "Step-by-step explanation for context clue shortcuts"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Practice question about context clue shortcuts",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is not correct. Try again.",
+                "Correct! Well done.",
+                "This is not the right answer.",
+                "Incorrect. Review the concept and try again."
+            ]
+        }
+    ]
+}

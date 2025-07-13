@@ -3,6 +3,65 @@
     "subject": "mathematics",
     "category": "Geometry",
     "explanation": "The angles in any triangle always add up to 180°. Special triangles include: Equilateral (all angles 60°), Isosceles (two equal angles), Right-angled (one 90° angle), and Scalene (all angles different). In an isosceles triangle, the two base angles are equal. In a right-angled triangle, the other two angles add up to 90°.",
+    "questionFormations": {
+        "description": "Triangle angle questions test understanding of angle sum properties and special triangle types:",
+        "types": [
+            {
+                "type": "Finding Missing Angles",
+                "examples": [
+                    "Two angles are 50° and 70°, find the third",
+                    "Angles are x°, 2x°, and 3x°, find x"
+                ],
+                "strategy": "Use angle sum = 180°. Set up equation and solve for unknown"
+            },
+            {
+                "type": "Isosceles Triangle Problems",
+                "examples": [
+                    "Isosceles triangle with vertex angle 40°, find base angles",
+                    "Base angle is 65°, find vertex angle"
+                ],
+                "strategy": "Two angles are equal. Use this fact with angle sum = 180°"
+            },
+            {
+                "type": "Right-Angled Triangles",
+                "examples": [
+                    "Right triangle with one angle 35°, find the other",
+                    "Two acute angles in right triangle are equal, find them"
+                ],
+                "strategy": "One angle is 90°, other two sum to 90°"
+            },
+            {
+                "type": "Equilateral Triangles",
+                "examples": [
+                    "All sides equal, what are the angles?",
+                    "One angle is 60°, is this equilateral?"
+                ],
+                "strategy": "All angles in equilateral triangle are 60°"
+            },
+            {
+                "type": "Exterior Angles",
+                "examples": [
+                    "Exterior angle equals sum of opposite interior angles",
+                    "Find exterior angle given two interior angles"
+                ],
+                "strategy": "Exterior angle = sum of two non-adjacent interior angles"
+            },
+            {
+                "type": "Angle Classification",
+                "examples": [
+                    "Triangle with angles 30°, 60°, 90° - classify",
+                    "What type of triangle has angles 45°, 45°, 90°?"
+                ],
+                "strategy": "Check if any angle is 90° (right), if two equal (isosceles), all equal (equilateral)"
+            }
+        ],
+        "examTips": [
+            "Always check: do the three angles add to 180°?",
+            "In isosceles triangles, identify which two angles are equal",
+            "Right triangles: the two acute angles always sum to 90°",
+            "Use algebra when angles are given as expressions (like 2x, 3x)"
+        ]
+    },
     "examples": [
         {
             "question": "In a triangle, two angles are 45° and 65°. What is the third angle?",
@@ -75,5 +134,88 @@
                 "This is equilateral, not just isosceles (though equilateral triangles are also isosceles)."
             ]
         }
-    ]
+    ],
+    "examinerInsights": {
+        "description": "Angles in triangles questions test fundamental geometric reasoning and algebraic problem-solving - essential for trigonometry and advanced geometry.",
+        "questionConstruction": [
+            {
+                "pattern": "Angle Sum with Algebra Integration",
+                "purpose": "Test both geometric rules and algebraic manipulation",
+                "example": "Triangle with angles x, 2x, and 60° - find x using 180° sum rule"
+            },
+            {
+                "pattern": "Special Triangle Recognition",
+                "purpose": "Test understanding of isosceles, equilateral, and right triangle properties",
+                "example": "Given two equal sides, find the third angle; or identify triangle type from angles"
+            },
+            {
+                "pattern": "Multi-Triangle Diagrams",
+                "purpose": "Test ability to apply different rules to different triangles",
+                "example": "Complex figure with multiple triangles requiring different approaches"
+            },
+            {
+                "pattern": "Exterior Angle Applications",
+                "purpose": "Test deeper understanding beyond basic angle sum",
+                "example": "Use exterior angle theorem: exterior angle equals sum of two non-adjacent interior angles"
+            },
+            {
+                "pattern": "Real-World Triangle Applications",
+                "purpose": "Test practical geometry understanding",
+                "example": "Roof trusses, ladder problems, navigation triangles"
+            }
+        ],
+        "commonTraps": [
+            {
+                "trap": "Forgetting that angles in a triangle sum to 180°, not 360°",
+                "avoidance": "Always remember: triangle = 180°, quadrilateral = 360°. Different shapes, different sums."
+            },
+            {
+                "trap": "In isosceles triangles, confusing which angles are equal",
+                "avoidance": "Equal sides create equal angles. The vertex angle (between equal sides) is different from base angles."
+            },
+            {
+                "trap": "Not recognizing special triangles from given information",
+                "avoidance": "If two angles are equal → isosceles. If one angle is 90° → right-angled. If all 60° → equilateral."
+            },
+            {
+                "trap": "Making arithmetic errors when solving angle equations",
+                "avoidance": "Double-check: do your angles add to 180°? Are they all positive and less than 180°?"
+            },
+            {
+                "trap": "Confusing interior and exterior angles",
+                "avoidance": "Interior angles are inside the triangle. Exterior angle + adjacent interior angle = 180°"
+            }
+        ],
+        "timeManagement": {
+            "quickWins": [
+                "Memorize special triangles: equilateral (60°, 60°, 60°), right isosceles (45°, 45°, 90°)",
+                "Quick check: your three angles should always sum to exactly 180°",
+                "Recognize isosceles from equal side markings or equal angle markings instantly"
+            ],
+            "timeManagement": [
+                {
+                    "timeAllocation": "1-2 min",
+                    "phase": "Basic missing angle calculations"
+                },
+                {
+                    "timeAllocation": "2-3 min",
+                    "phase": "Isosceles triangle problems"
+                },
+                {
+                    "timeAllocation": "3-4 min",
+                    "phase": "Algebraic angle problems (angles as variables)"
+                },
+                {
+                    "timeAllocation": "30s",
+                    "phase": "Check all angles sum to 180° and are reasonable"
+                }
+            ]
+        },
+        "markingFocus": [
+            "Clear equation showing angle sum = 180°",
+            "Correct identification of triangle type (if applicable)",
+            "Accurate arithmetic and algebraic manipulation",
+            "All angles correctly calculated and labeled"
+        ]
+    }
 }

@@ -1,0 +1,34 @@
+{
+    "concept": "Clauses and Phrases",
+    "subject": "english",
+    "category": "Grammar and Language",
+    "explanation": "This is the Clauses and Phrases concept in english. This module helps students understand and practice clauses and phrases through interactive exercises and examples.",
+    "examples": [
+        {
+            "question": "Sample question about clauses and phrases",
+            "solution": "Sample answer",
+            "explanation": "Step-by-step explanation for clauses and phrases"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Practice question about clauses and phrases",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is not correct. Try again.",
+                "Correct! Well done.",
+                "This is not the right answer.",
+                "Incorrect. Review the concept and try again."
+            ]
+        }
+    ]
+}

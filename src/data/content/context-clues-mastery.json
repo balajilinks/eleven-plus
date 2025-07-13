@@ -1,0 +1,136 @@
+{
+    "concept": "Context Clues Mastery",
+    "subject": "english",
+    "category": "Reading & Comprehension",
+    "skillType": "strategic",
+    "explanation": "Context clues are your secret weapon when encountering unfamiliar words in Sutton 11+ exams. Rather than panicking or guessing randomly, skilled readers use surrounding information to deduce meaning. This skill is essential because exams often include challenging vocabulary to test your ability to understand meaning from context - a crucial academic skill for grammar school success.",
+    "keyTechniques": [
+        {
+            "technique": "The Five Clue Types System",
+            "description": "Recognize different types of context clues and how to use them",
+            "steps": [
+                "Definition clues: Look for direct explanations or synonyms nearby",
+                "Example clues: Find specific instances that illustrate the word's meaning",
+                "Contrast clues: Notice words that show opposite meanings",
+                "Inference clues: Use logic and general context to deduce meaning",
+                "Grammar clues: Use part of speech and sentence structure as hints"
+            ],
+            "practicalTip": "Use the acronym DECIG (Definition, Example, Contrast, Inference, Grammar) to remember all five types of context clues."
+        },
+        {
+            "technique": "The Circle and Connect Method",
+            "description": "Systematic approach to finding and using context clues",
+            "steps": [
+                "Circle the unfamiliar word",
+                "Read the entire sentence containing the word",
+                "Look at the sentences before and after for additional clues",
+                "Connect all clues to form a logical meaning",
+                "Test your meaning by substituting it in the sentence"
+            ],
+            "practicalTip": "Don't just look at the sentence with the unknown word - the clues might be scattered across several sentences."
+        },
+        {
+            "technique": "The Substitution Test Strategy",
+            "description": "Verify your context clue deductions",
+            "steps": [
+                "Make your best guess about the word's meaning",
+                "Substitute your guess into the original sentence",
+                "Check if the sentence still makes logical sense",
+                "If not, look for additional clues and try again",
+                "Choose the meaning that makes the most sense in context"
+            ],
+            "practicalTip": "Your substitution doesn't need to be perfect - it just needs to make the sentence logical and maintain the author's intended meaning."
+        }
+    ],
+    "examStrategies": {
+        "description": "Sutton 11+ exams deliberately include unfamiliar vocabulary to test context clue skills. Success comes from systematic searching and logical deduction rather than random guessing.",
+        "timeManagement": {
+            "wordAnalysis": "30-45 seconds analyzing each unfamiliar word",
+            "contextScanning": "30 seconds looking for surrounding clues",
+            "meaningDeduction": "30 seconds forming logical hypothesis",
+            "verification": "15 seconds testing meaning in context"
+        },
+        "questionTypes": [
+            {
+                "type": "Vocabulary in Context Questions",
+                "approach": "Use surrounding text to determine the most appropriate meaning",
+                "example": "'What does 'meticulous' mean in line 12?' Look for clues about how the character behaves or what they do.",
+                "trickToAvoid": "Don't rely on a word's general meaning - use the specific context to determine what it means in this passage."
+            },
+            {
+                "type": "Word Meaning Multiple Choice",
+                "approach": "Eliminate options that don't fit the context, even if they're real definitions of the word",
+                "example": "Choose the meaning that makes the most sense given the situation and tone of the passage.",
+                "trickToAvoid": "Don't pick the first definition you recognize - the correct answer must fit this specific context."
+            },
+            {
+                "type": "Phrase Meaning Questions",
+                "approach": "Consider the entire phrase or expression within the context of the passage",
+                "example": "'Burning bridges' might literally mean setting fire to structures, but contextually might mean 'destroying relationships.'",
+                "trickToAvoid": "Don't interpret idioms and expressions literally - consider their figurative meaning in context."
+            }
+        ]
+    },
+    "practicalExercises": [
+        {
+            "title": "The Context Detective Challenge",
+            "instruction": "Use context clues to determine the meaning of the underlined words:",
+            "text": "The cacophony from the construction site was unbearable. Unlike the melodious sounds of the nearby park, this harsh mixture of drilling, hammering, and shouting drove everyone away. Maria quickly moved to a more tranquil location where she could work in peace.",
+            "questions": [
+                "What does 'cacophony' mean?",
+                "What context clues helped you determine this?",
+                "What does 'tranquil' mean in this context?",
+                "How do the contrasts in the passage help reveal meaning?"
+            ],
+            "modelAnswer": {
+                "cacophony": "Harsh, unpleasant mixture of loud sounds or noise",
+                "clues": "Contrast with 'melodious sounds', described as 'unbearable' and 'harsh mixture of drilling, hammering, and shouting'",
+                "tranquil": "Peaceful, quiet, calm",
+                "contrasts": "The passage contrasts noisy/harsh with quiet/peaceful, and unbearable with peaceful, helping define both words through opposition"
+            }
+        },
+        {
+            "title": "The Substitution Tester",
+            "instruction": "Test different meanings to find the best fit:",
+            "text": "The scientist's hypothesis was quite plausible, given the extensive evidence she had gathered. Her colleagues found her theory convincing and logical, unlike the previous researcher's wild speculation.",
+            "questions": [
+                "What could 'plausible' mean based on context?",
+                "Test your meaning by substituting it in the sentence.",
+                "What other context clues support your choice?",
+                "How does the contrast with 'wild speculation' help?"
+            ],
+            "modelAnswer": {
+                "meaning": "Believable, reasonable, likely to be true",
+                "substitution": "'The scientist's hypothesis was quite believable/reasonable' - this makes perfect sense in context",
+                "supportingClues": "'convincing and logical', 'extensive evidence' - all suggest something believable and well-supported",
+                "contrast": "'Wild speculation' is the opposite of well-reasoned, evidence-based thinking, confirming that plausible means reasonable/believable"
+            }
+        }
+    ],
+    "realWorldConnections": [
+        "Understanding unfamiliar terms in academic texts",
+        "Making sense of technical documents and instructions",
+        "Following news articles with specialized vocabulary",
+        "Learning new subjects with confidence",
+        "Effective reading of legal, medical, or scientific materials",
+        "Building vocabulary naturally through reading"
+    ],
+    "skillProgression": {
+        "beginner": [
+            "Identify definition clues where words are directly explained",
+            "Use simple example clues to understand word meanings",
+            "Recognize basic contrast clues with obvious opposites"
+        ],
+        "intermediate": [
+            "Use multiple clue types together to deduce meaning",
+            "Make logical inferences about word meaning from context",
+            "Recognize figurative and non-literal word usage"
+        ],
+        "advanced": [
+            "Determine subtle meaning differences based on context",
+            "Use context to understand technical and specialized vocabulary",
+            "Recognize when authors deliberately use ambiguous language",
+            "Apply context clue skills to complex, multi-layered texts"
+        ]
+    }
+}

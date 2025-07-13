@@ -143,8 +143,19 @@
 
 .category-card p {
     color: #666;
-    margin: 0 0 1rem 0;
+    margin: 0.5rem 0;
     font-size: 0.9rem;
+}
+
+.enhanced-indicator {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    display: inline-block;
 }
 
 .concept-progress {
@@ -172,9 +183,41 @@
 
 .concept-selection h2 {
     color: white;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     text-align: center;
+}
+
+.exam-features-guide {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.exam-features-guide h4 {
+    color: #333;
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.features-legend {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.legend-item .feature-badge {
+    flex-shrink: 0;
 }
 
 .concept-list {
@@ -207,8 +250,51 @@
 
 .concept-info h3 {
     color: #333;
-    margin: 0;
+    margin: 0 0 0.5rem 0;
     font-size: 1.1rem;
+}
+
+.concept-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature-badge {
+    padding: 0.25rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    transition: all 0.3s ease;
+}
+
+.feature-badge.question-strategies {
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    color: white;
+}
+
+.feature-badge.examiner-insights {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: white;
+}
+
+.feature-badge.common-traps {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    color: white;
+}
+
+.feature-badge.time-management {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+}
+
+.feature-badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .completion-badge {
@@ -233,9 +319,127 @@
     transform: translateX(5px);
 }
 
-/* Learning Module */
-.learning-module {
-    padding: 1rem;
+/* Skill-based learning styles */
+.skill-based {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.skill-based .category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.skill-badge {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.3rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+}
+
+.category-description {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin: 0.5rem 0;
+    line-height: 1.4;
+}
+
+.skill-based .category-description {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.item-count {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.category-intro {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.category-intro h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.category-intro .category-description {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Skill-specific feature badges */
+.skill-features-guide {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.skill-features-guide h4 {
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.skill-features-guide .features-legend {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.skill-features-guide .legend-item {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.skill-item {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-left: 4px solid #667eea;
+}
+
+.skill-item h3 {
+    color: #495057;
+}
+
+/* Skill-specific feature badges */
+.feature-badge.skill-techniques {
+    background: linear-gradient(135deg, #28a745, #20c997);
+    color: white;
+}
+
+.feature-badge.skill-examples {
+    background: linear-gradient(135deg, #17a2b8, #6f42c1);
+    color: white;
+}
+
+.feature-badge.skill-practice {
+    background: linear-gradient(135deg, #fd7e14, #dc3545);
+    color: white;
+}
+
+.feature-badge.skill-mastery {
+    background: linear-gradient(135deg, #ffc107, #fd7e14);
+    color: white;
+}
+
+/* Enhanced category cards for skill-based learning */
+.concept-based {
+    border-left: 5px solid #4CAF50;
+}
+
+.skill-based:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(102, 126, 234, 0.3);
 }
 
 /* Responsive Design */

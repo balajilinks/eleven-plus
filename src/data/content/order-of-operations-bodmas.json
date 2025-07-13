@@ -1,6 +1,69 @@
 {
-    "title": "Order of Operations (BODMAS)",
+    "concept": "Order of Operations (BODMAS)",
+    "subject": "mathematics",
+    "category": "Number Operations",
     "explanation": "BODMAS is the order in which mathematical operations should be performed. It stands for Brackets, Orders (powers/indices), Division and Multiplication (left to right), Addition and Subtraction (left to right). This ensures everyone gets the same answer when solving complex mathematical expressions.",
+    "questionFormations": {
+        "description": "Order of operations questions can be presented in various formats that test understanding of calculation sequence:",
+        "types": [
+            {
+                "type": "Basic Mixed Operations",
+                "examples": [
+                    "Calculate: 3 + 4 × 5",
+                    "Find: 20 - 2 × 6"
+                ],
+                "strategy": "Do multiplication/division before addition/subtraction, work left to right for same priority"
+            },
+            {
+                "type": "Expressions with Brackets",
+                "examples": [
+                    "Calculate: (8 + 2) × 3",
+                    "Find: 4 × (15 - 7) + 6"
+                ],
+                "strategy": "Always do brackets first, then follow BODMAS for the rest"
+            },
+            {
+                "type": "Powers and Indices",
+                "examples": [
+                    "Calculate: 2 + 3²",
+                    "Find: (4 + 1)² × 2"
+                ],
+                "strategy": "Do brackets first, then powers/indices, then multiplication/division, finally addition/subtraction"
+            },
+            {
+                "type": "Complex Mixed Expressions",
+                "examples": [
+                    "Calculate: 24 ÷ 3 + 4 × 2 - 5",
+                    "Find: 2 × (6 + 4) - 3²"
+                ],
+                "strategy": "Break down step by step: brackets first, then orders, then division/multiplication (left to right), finally addition/subtraction (left to right)"
+            },
+            {
+                "type": "Multiple Brackets and Nested Operations",
+                "examples": [
+                    "Calculate: (12 - 4) ÷ (3 + 1)",
+                    "Find: 3 × [(8 + 2) - 4]"
+                ],
+                "strategy": "Work from innermost brackets outward, apply BODMAS at each level"
+            },
+            {
+                "type": "Common Error Identification",
+                "examples": [
+                    "What's wrong with: 2 + 3 × 4 = 5 × 4 = 20?",
+                    "Identify the error: (6 + 2)² = 6² + 2² = 36 + 4 = 40"
+                ],
+                "strategy": "Understand common mistakes like doing operations left to right without considering priority"
+            }
+        ],
+        "examTips": [
+            "Write down BODMAS if you need to remember: Brackets, Orders, Division/Multiplication, Addition/Subtraction",
+            "Do operations of equal priority (like × and ÷) from left to right",
+            "Show each step clearly in your working",
+            "Double-check by working through the expression again",
+            "When in doubt, use extra brackets to make the order clear",
+            "Remember that powers/indices come before multiplication"
+        ]
+    },
     "examples": [
         {
             "question": "Calculate: 2 + 3 × 4",

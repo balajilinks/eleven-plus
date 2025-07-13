@@ -1,0 +1,320 @@
+{
+    "id": "ai-english-vocabulary-003",
+    "title": "11+ English Advanced Vocabulary Test",
+    "subject": "english",
+    "description": "Challenging vocabulary test focusing on sophisticated word knowledge, word relationships, and contextual understanding",
+    "timeLimit": 30,
+    "totalQuestions": 20,
+    "difficulty": "mixed",
+    "topics": [
+        "vocabulary",
+        "synonyms-antonyms",
+        "word-formation",
+        "language-techniques",
+        "vocabulary-in-context"
+    ],
+    "generatedBy": "ai-offline",
+    "generatedDate": "2025-01-15",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which word is the best synonym for 'perspicacious'?",
+            "type": "multiple-choice",
+            "options": [
+                "Confused",
+                "Perceptive",
+                "Stubborn",
+                "Generous"
+            ],
+            "correct": 1,
+            "explanation": "Perspicacious means having keen insight or the ability to notice and understand things clearly, making 'perceptive' the best synonym.",
+            "topic": "Advanced Vocabulary",
+            "difficulty": "hard"
+        },
+        {
+            "id": 2,
+            "question": "The scientist's theory was so _______ that even experts struggled to understand it.",
+            "type": "multiple-choice",
+            "options": [
+                "abstruse",
+                "obvious",
+                "simple",
+                "popular"
+            ],
+            "correct": 0,
+            "explanation": "Abstruse means difficult to understand or comprehend, which fits the context of a theory that even experts find challenging.",
+            "topic": "Vocabulary in Context",
+            "difficulty": "hard"
+        },
+        {
+            "id": 3,
+            "question": "What is the antonym of 'sanguine'?",
+            "type": "multiple-choice",
+            "options": [
+                "Optimistic",
+                "Cheerful",
+                "Pessimistic",
+                "Confident"
+            ],
+            "correct": 2,
+            "explanation": "Sanguine means optimistic or cheerfully confident, so its antonym would be pessimistic, meaning having a negative outlook.",
+            "topic": "Synonyms and Antonyms",
+            "difficulty": "medium"
+        },
+        {
+            "id": 4,
+            "question": "Which prefix would create a word meaning 'to write again'?",
+            "type": "multiple-choice",
+            "options": [
+                "pre-",
+                "re-",
+                "un-",
+                "mis-"
+            ],
+            "correct": 1,
+            "explanation": "The prefix 're-' means 'again' or 'back,' so 're-write' means to write again.",
+            "topic": "Word Formation",
+            "difficulty": "easy"
+        },
+        {
+            "id": 5,
+            "question": "The artist's work was truly _______, showing original thinking and creativity.",
+            "type": "multiple-choice",
+            "options": [
+                "derivative",
+                "innovative",
+                "traditional",
+                "copied"
+            ],
+            "correct": 1,
+            "explanation": "Innovative means featuring new methods or ideas, which aligns with showing original thinking and creativity.",
+            "topic": "Vocabulary in Context",
+            "difficulty": "medium"
+        },
+        {
+            "id": 6,
+            "question": "Which word has the same root as 'biography'?",
+            "type": "multiple-choice",
+            "options": [
+                "Biology",
+                "Geography",
+                "Photograph",
+                "Paragraph"
+            ],
+            "correct": 0,
+            "explanation": "Biography (bio + graphy) and biology (bio + logy) both contain the Greek root 'bio' meaning life.",
+            "topic": "Word Formation",
+            "difficulty": "medium"
+        },
+        {
+            "id": 7,
+            "question": "What does the word 'magnanimous' most likely mean?",
+            "type": "multiple-choice",
+            "options": [
+                "Very large in size",
+                "Noble and generous in spirit",
+                "Extremely intelligent",
+                "Highly magnetic"
+            ],
+            "correct": 1,
+            "explanation": "Magnanimous comes from Latin 'magnus' (great) + 'animus' (spirit/soul), meaning generous and forgiving, especially toward a rival or less powerful person.",
+            "topic": "Etymology and Word Origins",
+            "difficulty": "hard"
+        },
+        {
+            "id": 8,
+            "question": "In the sentence 'The cacophony of car horns filled the busy street,' what does 'cacophony' mean?",
+            "type": "multiple-choice",
+            "options": [
+                "A pleasant melody",
+                "Complete silence",
+                "A harsh, discordant mixture of sounds",
+                "A rhythmic pattern"
+            ],
+            "correct": 2,
+            "explanation": "Cacophony means a harsh, discordant mixture of sounds. The context of car horns on a busy street supports this meaning.",
+            "topic": "Vocabulary in Context",
+            "difficulty": "medium"
+        },
+        {
+            "id": 9,
+            "question": "Which word best describes someone who is 'loquacious'?",
+            "type": "multiple-choice",
+            "options": [
+                "Very talkative",
+                "Extremely quiet",
+                "Highly intelligent",
+                "Rather stubborn"
+            ],
+            "correct": 0,
+            "explanation": "Loquacious means tending to talk a great deal; talkative. It comes from the Latin 'loqui' meaning 'to speak.'",
+            "topic": "Advanced Vocabulary",
+            "difficulty": "medium"
+        },
+        {
+            "id": 10,
+            "question": "What is the meaning of the suffix '-ology'?",
+            "type": "multiple-choice",
+            "options": [
+                "The study of",
+                "Fear of",
+                "Love of",
+                "Against"
+            ],
+            "correct": 0,
+            "explanation": "The suffix '-ology' comes from Greek and means 'the study of' or 'science of,' as seen in words like biology, psychology, and geology.",
+            "topic": "Word Formation",
+            "difficulty": "easy"
+        },
+        {
+            "id": 11,
+            "question": "The detective's _______ investigation revealed the truth behind the mystery.",
+            "type": "multiple-choice",
+            "options": [
+                "superficial",
+                "cursory",
+                "meticulous",
+                "careless"
+            ],
+            "correct": 2,
+            "explanation": "Meticulous means showing great attention to detail; very careful and precise. This fits with a thorough investigation that reveals truth.",
+            "topic": "Vocabulary in Context",
+            "difficulty": "medium"
+        },
+        {
+            "id": 12,
+            "question": "Which word is most similar in meaning to 'ephemeral'?",
+            "type": "multiple-choice",
+            "options": [
+                "Permanent",
+                "Temporary",
+                "Ancient",
+                "Magnificent"
+            ],
+            "correct": 1,
+            "explanation": "Ephemeral means lasting for a very short time; temporary or fleeting.",
+            "topic": "Synonyms and Antonyms",
+            "difficulty": "hard"
+        },
+        {
+            "id": 13,
+            "question": "In the phrase 'a plethora of options,' what does 'plethora' suggest?",
+            "type": "multiple-choice",
+            "options": [
+                "A lack or shortage",
+                "An abundance or excess",
+                "A careful selection",
+                "A random mixture"
+            ],
+            "correct": 1,
+            "explanation": "Plethora means a large or excessive amount of something; superabundance.",
+            "topic": "Vocabulary in Context",
+            "difficulty": "medium"
+        },
+        {
+            "id": 14,
+            "question": "What does the prefix 'circum-' mean in words like 'circumnavigate'?",
+            "type": "multiple-choice",
+            "options": [
+                "Above",
+                "Around",
+                "Below",
+                "Through"
+            ],
+            "correct": 1,
+            "explanation": "The prefix 'circum-' means around or about, as in circumnavigate (to sail around) or circumference (the distance around a circle).",
+            "topic": "Word Formation",
+            "difficulty": "easy"
+        },
+        {
+            "id": 15,
+            "question": "Someone who is 'fastidious' would most likely be described as:",
+            "type": "multiple-choice",
+            "options": [
+                "Very quick and speedy",
+                "Extremely hungry",
+                "Paying great attention to detail",
+                "Moving very slowly"
+            ],
+            "correct": 2,
+            "explanation": "Fastidious means very attentive to and concerned about accuracy and detail; meticulous.",
+            "topic": "Advanced Vocabulary",
+            "difficulty": "medium"
+        },
+        {
+            "id": 16,
+            "question": "Which literary technique involves giving human characteristics to non-human things?",
+            "type": "multiple-choice",
+            "options": [
+                "Metaphor",
+                "Alliteration",
+                "Personification",
+                "Simile"
+            ],
+            "correct": 2,
+            "explanation": "Personification is the literary technique of giving human characteristics, emotions, or behaviors to non-human entities.",
+            "topic": "Language Techniques",
+            "difficulty": "easy"
+        },
+        {
+            "id": 17,
+            "question": "The word 'ubiquitous' means:",
+            "type": "multiple-choice",
+            "options": [
+                "Very rare and unusual",
+                "Present everywhere at once",
+                "Extremely expensive",
+                "Difficult to understand"
+            ],
+            "correct": 1,
+            "explanation": "Ubiquitous means present, appearing, or found everywhere; omnipresent.",
+            "topic": "Advanced Vocabulary",
+            "difficulty": "hard"
+        },
+        {
+            "id": 18,
+            "question": "In 'The old oak tree stood sentinel over the garden,' the word 'sentinel' suggests the tree is:",
+            "type": "multiple-choice",
+            "options": [
+                "Very tall and old",
+                "Standing guard and watching",
+                "About to fall down",
+                "Covered in leaves"
+            ],
+            "correct": 1,
+            "explanation": "A sentinel is a guard or watchman, so describing the tree as a sentinel suggests it stands guard and watches over the garden protectively.",
+            "topic": "Metaphorical Language",
+            "difficulty": "medium"
+        },
+        {
+            "id": 19,
+            "question": "What is the opposite of 'gregarious'?",
+            "type": "multiple-choice",
+            "options": [
+                "Friendly",
+                "Sociable",
+                "Solitary",
+                "Outgoing"
+            ],
+            "correct": 2,
+            "explanation": "Gregarious means sociable and enjoying the company of others. Its opposite would be solitary, meaning preferring to be alone.",
+            "topic": "Synonyms and Antonyms",
+            "difficulty": "medium"
+        },
+        {
+            "id": 20,
+            "question": "The suffix '-phobia' in words like 'claustrophobia' indicates:",
+            "type": "multiple-choice",
+            "options": [
+                "Love of something",
+                "Study of something",
+                "Fear of something",
+                "Sound of something"
+            ],
+            "correct": 2,
+            "explanation": "The suffix '-phobia' comes from Greek and means an extreme or irrational fear of something, as in claustrophobia (fear of enclosed spaces).",
+            "topic": "Word Formation",
+            "difficulty": "easy"
+        }
+    ]
+}

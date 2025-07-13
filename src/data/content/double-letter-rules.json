@@ -1,0 +1,34 @@
+{
+    "concept": "Double Letter Rules",
+    "subject": "english",
+    "category": "Spelling and Phonics",
+    "explanation": "This is the Double Letter Rules concept in english. This module helps students understand and practice double letter rules through interactive exercises and examples.",
+    "examples": [
+        {
+            "question": "Sample question about double letter rules",
+            "solution": "Sample answer",
+            "explanation": "Step-by-step explanation for double letter rules"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Practice question about double letter rules",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is not correct. Try again.",
+                "Correct! Well done.",
+                "This is not the right answer.",
+                "Incorrect. Review the concept and try again."
+            ]
+        }
+    ]
+}

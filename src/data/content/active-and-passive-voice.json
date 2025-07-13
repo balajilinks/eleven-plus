@@ -1,0 +1,34 @@
+{
+    "concept": "Active and Passive Voice",
+    "subject": "english",
+    "category": "Grammar and Language",
+    "explanation": "This is the Active and Passive Voice concept in english. This module helps students understand and practice active and passive voice through interactive exercises and examples.",
+    "examples": [
+        {
+            "question": "Sample question about active and passive voice",
+            "solution": "Sample answer",
+            "explanation": "Step-by-step explanation for active and passive voice"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Practice question about active and passive voice",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is not correct. Try again.",
+                "Correct! Well done.",
+                "This is not the right answer.",
+                "Incorrect. Review the concept and try again."
+            ]
+        }
+    ]
+}

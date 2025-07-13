@@ -3,6 +3,57 @@
     "subject": "mathematics",
     "category": "Data Interpretation",
     "explanation": "Bar graphs (or bar charts) use rectangular bars to show data. The height or length of each bar represents the value or frequency. Key features: title, axis labels, scale, and bars. To read: find the bar, read across to the scale. To compare: look at bar heights. Pay attention to the scale - it might not start at zero or might go up in steps other than 1.",
+    "questionFormations": {
+        "description": "Bar graph questions in 11+ exams test data reading and comparison skills:",
+        "types": [
+            {
+                "type": "Reading Single Values",
+                "examples": [
+                    "How many people chose chocolate as their favorite flavor?",
+                    "What was the rainfall in June?"
+                ],
+                "strategy": "Find the correct bar, read across to the scale value"
+            },
+            {
+                "type": "Comparing Two Values",
+                "examples": [
+                    "How many more votes did football get than tennis?",
+                    "Which month had twice as much rainfall as May?"
+                ],
+                "strategy": "Read both values, calculate the difference or ratio"
+            },
+            {
+                "type": "Finding Totals",
+                "examples": [
+                    "What was the total number of votes cast?",
+                    "How much rainfall was there in the first quarter?"
+                ],
+                "strategy": "Add up all relevant bar values"
+            },
+            {
+                "type": "Ordering and Ranking",
+                "examples": [
+                    "List the sports in order of popularity",
+                    "Which was the third most popular choice?"
+                ],
+                "strategy": "Compare bar heights and arrange from highest to lowest"
+            },
+            {
+                "type": "Scale Interpretation",
+                "examples": [
+                    "If each square represents 5 people, how many chose swimming?",
+                    "The scale goes up in steps of 10. What does the middle of a bar represent?"
+                ],
+                "strategy": "Multiply bar height by scale value, estimate for partial squares"
+            }
+        ],
+        "examTips": [
+            "Check what the scale represents and what units are used",
+            "Pay attention to scale intervals - they might not be 1s",
+            "Read bar heights carefully - use the top of the bar",
+            "For estimates, position between grid lines carefully"
+        ]
+    },
     "examples": [
         {
             "question": "A bar graph shows pet ownership. The bar for dogs reaches 15 on the vertical scale. If the scale represents 'number of children', how many children have dogs?",

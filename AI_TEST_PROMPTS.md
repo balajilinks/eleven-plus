@@ -362,6 +362,52 @@ Generate the complete JSON now for: [SPECIFY SUBJECT]
 
 ---
 
+## ENHANCED ENGLISH COMPREHENSION PROMPTS
+
+### High-Quality Reading Comprehension Generator
+
+Use the comprehensive prompts in `AI_ENGLISH_COMPREHENSION_PROMPTS.md` for generating superior English content that matches 11+ examination standards.
+
+### Quick English Test Types
+
+**For Reading Comprehension:**
+```
+Generate a 11+ English reading comprehension test with 2 passages (1 fiction, 1 non-fiction) and 15-18 questions testing inference, character analysis, vocabulary in context, and literary devices. Include detailed explanations and make questions challenging but age-appropriate.
+```
+
+**For Advanced Vocabulary:**
+```
+Create a 11+ vocabulary test with 20 questions covering synonyms, antonyms, word formation, vocabulary in context, and etymology. Include sophisticated words appropriate for 10-11 year olds but at examination level difficulty.
+```
+
+**For Grammar and Language Skills:**
+```
+Generate a 11+ grammar test with 15 questions covering complex sentence structures, advanced punctuation, writing techniques, and error identification. Focus on sophisticated language use suitable for independent school entrance.
+```
+
+## UPDATED QUALITY STANDARDS
+
+### Content Quality Requirements:
+- **Passages must be original and engaging**
+- **Questions should test genuine understanding, not memory**
+- **All distractors must be plausible**
+- **Explanations should be educational**
+- **Language should challenge appropriately**
+- **Content should be culturally inclusive**
+
+### Difficulty Distribution:
+- **Easy**: 20-25% (basic comprehension)
+- **Medium**: 50-60% (inference and analysis)  
+- **Hard**: 20-25% (sophisticated analysis)
+
+### File Updates:
+- ✅ ai-english-comprehension-002.json - Enhanced adventure/science passages
+- ✅ ai-english-vocabulary-003.json - Advanced vocabulary test
+- 🔄 Enhanced content service for ChatGPT integration
+- 🔄 Improved learning modules with passage support
+
+---
+
 ## USAGE INSTRUCTIONS
 
 ### Step 1: Generate Tests

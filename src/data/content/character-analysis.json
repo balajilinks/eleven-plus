@@ -1,8 +1,76 @@
 {
     "concept": "Character Analysis",
     "subject": "english",
-    "category": "Reading Comprehension",
-    "explanation": "Character analysis involves examining what characters are like, how they feel, and why they act the way they do. Look for: direct descriptions by the author, character actions and dialogue, how other characters react to them, and the character's thoughts and feelings. Authors often show character traits through actions rather than telling us directly.",
+    "category": "Reading & Comprehension",
+    "skillType": "analytical",
+    "explanation": "Character analysis is a cornerstone skill for Sutton 11+ success. It goes beyond knowing what a character looks like to understanding their psychology, motivations, and how they drive the story forward. Examiners look for students who can demonstrate sophisticated understanding of human nature through textual analysis. This skill separates elementary readers from advanced analytical thinkers.",
+    "keyTechniques": [
+        {
+            "technique": "The SPACE Framework",
+            "description": "Systematic character analysis method",
+            "steps": [
+                "Speech: What they say and how they say it",
+                "Physical appearance: How they look and dress",
+                "Actions: What they do and choices they make",
+                "Character development: How they change throughout the story",
+                "Environment: How setting and other characters affect them"
+            ],
+            "practicalTip": "Create a character profile using SPACE - this gives you concrete evidence to support any analysis point in your answers."
+        },
+        {
+            "technique": "The Contrast and Compare Method",
+            "description": "Understanding characters through relationships",
+            "steps": [
+                "Compare characters' responses to similar situations",
+                "Notice how characters treat each other",
+                "Identify what makes each character unique",
+                "Look for character foils (opposites that highlight traits)",
+                "Analyze power dynamics and social relationships"
+            ],
+            "practicalTip": "Draw a character relationship map showing connections, conflicts, and influences - visual patterns often reveal hidden story dynamics."
+        },
+        {
+            "technique": "The Internal vs External Conflict Analysis",
+            "description": "Understanding character psychology through conflicts",
+            "steps": [
+                "Identify external conflicts (character vs other people, nature, society)",
+                "Recognize internal conflicts (character vs themselves)",
+                "See how external pressures reveal internal character",
+                "Notice moments of character decision-making",
+                "Track character growth through conflict resolution"
+            ],
+            "practicalTip": "Ask 'What does this character want most?' and 'What's stopping them?' - the answers reveal both motivation and conflict."
+        }
+    ],
+    "examStrategies": {
+        "description": "Sutton 11+ character analysis questions test your ability to understand human psychology through literature. Success requires moving beyond surface description to deep psychological insight.",
+        "timeManagement": {
+            "textReading": "3-4 minutes for thorough character observation",
+            "evidenceMapping": "2 minutes identifying key character moments",
+            "analysisFormulation": "2-3 minutes developing insights",
+            "answerWriting": "2-3 minutes crafting precise response"
+        },
+        "questionTypes": [
+            {
+                "type": "Character Motivation Questions",
+                "approach": "Focus on underlying reasons for character behavior, not just what they do",
+                "example": "'Why does Mrs. Chen become increasingly anxious as the story progresses?' Look for external pressures and internal fears.",
+                "trickToAvoid": "Don't confuse symptoms with causes - anxiety is the symptom, find the underlying fear or pressure causing it."
+            },
+            {
+                "type": "Character Development Questions",
+                "approach": "Track how characters change from beginning to end, identifying turning points",
+                "example": "'How does James's attitude toward his brother change during the story?' Compare early and late interactions.",
+                "trickToAvoid": "Don't assume all characters change - some remain static, and that's also significant for analysis."
+            },
+            {
+                "type": "Character Relationship Analysis",
+                "approach": "Examine how characters influence and affect each other",
+                "example": "'What does the friendship between Anna and Sophie reveal about both characters?' Look for mutual influence.",
+                "trickToAvoid": "Don't analyze characters in isolation - relationships often reveal the most important character traits."
+            }
+        ]
+    },
     "examples": [
         {
             "question": "Read this passage: 'When Jake saw the new student sitting alone at lunch, he immediately got up from his table of friends and walked over. \"Mind if I sit here?\" he asked with a warm smile. \"I'm Jake. What's your name?\"' What does this tell us about Jake's character?",

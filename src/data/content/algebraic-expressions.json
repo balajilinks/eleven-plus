@@ -3,6 +3,67 @@
     "subject": "mathematics",
     "category": "Algebra",
     "explanation": "An algebraic expression contains numbers, variables (like x or y), and operations. To simplify expressions: 1) Remove brackets by multiplying out (expanding), 2) Collect like terms (terms with the same variable), 3) Add or subtract coefficients of like terms. Remember: when multiplying by a negative number, change all the signs inside the brackets. Variables represent unknown numbers that can change. Coefficients are the numbers in front of variables (in 3x, the coefficient is 3).",
+    "questionFormations": {
+        "description": "Algebraic expression questions can be presented in various challenging formats that test understanding of variables and operations:",
+        "types": [
+            {
+                "type": "Simplification",
+                "examples": [
+                    "Simplify: 3x + 5 + 2x - 3",
+                    "Collect like terms: 7y - 2y + 4 - 1"
+                ],
+                "strategy": "Group like terms together, add/subtract coefficients, keep variables unchanged"
+            },
+            {
+                "type": "Expanding Brackets",
+                "examples": [
+                    "Expand: 4(2x - 3)",
+                    "Expand and simplify: 3(x + 2) - 2(x - 1)"
+                ],
+                "strategy": "Multiply everything inside brackets by the number outside, then simplify"
+            },
+            {
+                "type": "Substitution",
+                "examples": [
+                    "Find the value of 3a + 2b when a = 4 and b = 5",
+                    "If x = -2 and y = 3, calculate 2x + 5y"
+                ],
+                "strategy": "Replace variables with given values, then calculate using order of operations"
+            },
+            {
+                "type": "Complex Expressions",
+                "examples": [
+                    "Simplify: 2(3x + 1) - 3(x - 2)",
+                    "Expand and collect: 4(2y - 3) + 3(y + 1)"
+                ],
+                "strategy": "Expand all brackets first, then collect like terms systematically"
+            },
+            {
+                "type": "Word to Algebra Translation",
+                "examples": [
+                    "Write an expression for 'five more than twice a number n'",
+                    "Express 'three less than four times a number x'"
+                ],
+                "strategy": "Identify the operations and order: 'more than' = +, 'times' = ×, 'less than' = -"
+            },
+            {
+                "type": "Coefficient and Variable Identification",
+                "examples": [
+                    "In the expression 7x - 3y + 2, identify the coefficient of x",
+                    "What is the constant term in 5a + 2b - 8?"
+                ],
+                "strategy": "Coefficient is the number multiplying the variable, constant has no variable"
+            }
+        ],
+        "examTips": [
+            "Always expand brackets before collecting like terms",
+            "Keep track of positive and negative signs carefully",
+            "Only add/subtract terms with the same variable part",
+            "When substituting, use brackets around negative numbers",
+            "Check final answer by substituting simple values",
+            "Show each step clearly for method marks"
+        ]
+    },
     "examples": [
         {
             "question": "Simplify: 4y + 2 - 3(y - 2)",
@@ -148,5 +209,88 @@
                 "This represents 'five less than twice a number'."
             ]
         }
-    ]
+    ],
+    "examinerInsights": {
+        "description": "Algebraic expressions questions test the transition from arithmetic to abstract mathematical thinking - the foundation for all advanced mathematics.",
+        "questionConstruction": [
+            {
+                "pattern": "Multi-Skill Layering",
+                "purpose": "Test multiple algebraic concepts in one question",
+                "example": "Expand 3(x-2) + 2(x+4) - combines expanding, signs, and collecting like terms"
+            },
+            {
+                "pattern": "Bracket Expansion with Negatives",
+                "purpose": "Test careful attention to sign changes",
+                "example": "-(2x + 3) or 3 - 2(x + 1) where all signs must change correctly"
+            },
+            {
+                "pattern": "Word-to-Algebra Translation",
+                "purpose": "Test mathematical language understanding",
+                "example": "'Five more than twice a number' → 2n + 5, testing language precision"
+            },
+            {
+                "pattern": "Substitution with Complex Values",
+                "purpose": "Test order of operations with variables",
+                "example": "Find 3x² - 2x when x = -2, testing negative number handling"
+            },
+            {
+                "pattern": "Like vs Unlike Terms Traps",
+                "purpose": "Test understanding of what can/cannot be combined",
+                "example": "Simplify 3x + 2y + 5x - showing only like terms combine"
+            }
+        ],
+        "commonTraps": [
+            {
+                "trap": "Sign errors when expanding brackets with negative numbers",
+                "avoidance": "When multiplying by negative: -(3x + 2) = -3x - 2. ALL signs change."
+            },
+            {
+                "trap": "Adding unlike terms (e.g., adding 3x and 5y)",
+                "avoidance": "Only add/subtract terms with identical variable parts. 3x + 5y cannot be simplified further."
+            },
+            {
+                "trap": "Forgetting to multiply ALL terms inside brackets",
+                "avoidance": "3(x + 2) = 3x + 6, not 3x + 2. The 3 multiplies both x AND 2."
+            },
+            {
+                "trap": "Order of operations errors in substitution",
+                "avoidance": "When x = -2, 3x² = 3 × (-2)² = 3 × 4 = 12, not (3 × -2)² = 36"
+            },
+            {
+                "trap": "Misinterpreting word problems ('five more than' vs 'five times')",
+                "avoidance": "Read carefully: 'more than' means +, 'times' means ×, 'less than' means -"
+            }
+        ],
+        "timeManagement": {
+            "quickWins": [
+                "Master basic like term collection first - it appears in most questions",
+                "Practice bracket expansion with negative numbers until automatic",
+                "Memorize common word-to-algebra translations"
+            ],
+            "timeManagement": [
+                {
+                    "timeAllocation": "1-2 min",
+                    "phase": "Simple like term collection"
+                },
+                {
+                    "timeAllocation": "2-3 min",
+                    "phase": "Bracket expansion questions"
+                },
+                {
+                    "timeAllocation": "3-4 min",
+                    "phase": "Complex expressions with multiple brackets"
+                },
+                {
+                    "timeAllocation": "4-5 min",
+                    "phase": "Word-to-algebra translation problems"
+                }
+            ]
+        },
+        "markingFocus": [
+            "Systematic working shown for expansion and collection",
+            "Correct handling of positive and negative signs",
+            "Like terms properly identified and combined",
+            "Clear final answer in simplest form"
+        ]
+    }
 }

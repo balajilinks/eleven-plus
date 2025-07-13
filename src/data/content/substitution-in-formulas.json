@@ -3,6 +3,67 @@
     "subject": "mathematics",
     "category": "Algebra",
     "explanation": "Substitution means replacing letters (variables) with numbers in formulas and expressions. This is essential for using mathematical formulas in real life. Follow the order of operations (BODMAS/PEMDAS): Brackets, Orders (powers), Division/Multiplication (left to right), Addition/Subtraction (left to right). Be careful with negative numbers, use brackets when substituting negatives, and always show your working step by step. Common formulas include area, perimeter, speed, and algebraic expressions.",
+    "questionFormations": {
+        "description": "Substitution in formulas questions can be presented in various formats that test understanding of variables and mathematical operations:",
+        "types": [
+            {
+                "type": "Simple Algebraic Substitution",
+                "examples": [
+                    "If a = 3 and b = 5, find 2a + 3b",
+                    "Given x = 4 and y = -2, calculate x² - 3y"
+                ],
+                "strategy": "Replace each variable with its value, use brackets for negatives, follow BODMAS"
+            },
+            {
+                "type": "Geometric Formula Substitution",
+                "examples": [
+                    "Area of triangle A = ½bh. Find A when b = 10, h = 6",
+                    "Perimeter of rectangle P = 2(l + w). Find P when l = 8, w = 5"
+                ],
+                "strategy": "Identify the formula structure, substitute values carefully, calculate step by step"
+            },
+            {
+                "type": "Physics Formula Applications",
+                "examples": [
+                    "Using v = u + at, find v when u = 5, a = 3, t = 4",
+                    "Distance formula s = ut + ½at². Find s when u = 10, a = 2, t = 3"
+                ],
+                "strategy": "Understand what each variable represents, substitute in correct order"
+            },
+            {
+                "type": "Complex Expressions with Powers",
+                "examples": [
+                    "If s = 4t² + 3t, find s when t = 3",
+                    "Given E = mc², find E when m = 5, c = 3"
+                ],
+                "strategy": "Calculate powers first, then multiplication, finally addition/subtraction"
+            },
+            {
+                "type": "Financial and Compound Formulas",
+                "examples": [
+                    "Compound interest A = P(1 + r)ⁿ. Find A when P = 1000, r = 0.05, n = 2",
+                    "Using S = n(a + l)/2, find S when n = 8, a = 3, l = 17"
+                ],
+                "strategy": "Work inside brackets first, calculate powers, then multiply/divide"
+            },
+            {
+                "type": "Negative Number Substitution",
+                "examples": [
+                    "If x = -3 and y = 2, find x² + xy",
+                    "Given a = -4, b = 5, calculate a² - 2ab"
+                ],
+                "strategy": "Use brackets around negative values, remember (-number)² is positive"
+            }
+        ],
+        "examTips": [
+            "Always write down what each variable equals before starting",
+            "Use brackets when substituting negative numbers: (-3)² not -3²",
+            "Follow BODMAS order: Brackets, Orders, Division/Multiplication, Addition/Subtraction",
+            "Show each step of your working clearly",
+            "Check your answer makes sense in the context",
+            "Double-check power calculations - they're easy to get wrong"
+        ]
+    },
     "examples": [
         {
             "question": "If a = 3 and b = 5, find the value of 2a + 3b",

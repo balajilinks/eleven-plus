@@ -1,0 +1,22 @@
+{
+    "concept": "Simultaneous Equations",
+    "subject": "mathematics",
+    "category": "Algebra",
+    "explanation": "Simultaneous equations are two or more equations that must be satisfied at the same time.",
+    "examples": [
+        {
+            "question": "Solve: x + y = 5 and x - y = 1",
+            "solution": "x = 3, y = 2",
+            "explanation": "Using elimination method."
+        }
+    ],
+    "exercises": [
+        {
+            "question": "Test question",
+            "type": "multiple-choice",
+            "options": ["A", "B", "C", "D"],
+            "correct": [0],
+            "feedback": ["Correct", "Wrong", "Wrong", "Wrong"]
+        }
+    ]
+}

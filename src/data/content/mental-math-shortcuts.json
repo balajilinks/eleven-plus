@@ -3,6 +3,65 @@
     "subject": "mathematics",
     "category": "Quick Wins",
     "explanation": "Master these lightning-fast mental math tricks to solve 11+ problems in seconds! These shortcuts work because they use number patterns and properties. Practice them until they become automatic - you'll save precious exam time and impress everyone with your speed. Remember: the goal is accuracy FIRST, then speed!",
+    "questionFormations": {
+        "description": "Mental math shortcut questions test speed, pattern recognition, and strategic thinking:",
+        "types": [
+            {
+                "type": "Multiplication by 11",
+                "examples": [
+                    "Calculate 34 × 11",
+                    "Find 67 × 11 quickly"
+                ],
+                "strategy": "Add adjacent digits: 34 → 3(3+4)4 = 374. If sum ≥10, carry: 67 → 6(6+7)7 = 6(13)7 = 737"
+            },
+            {
+                "type": "Multiplying by 9, 99, 999",
+                "examples": [
+                    "23 × 9 using shortcuts",
+                    "45 × 99 mental calculation"
+                ],
+                "strategy": "Use (n-1) method: 23×9 = 23×(10-1) = 230-23 = 207"
+            },
+            {
+                "type": "Percentage Shortcuts",
+                "examples": [
+                    "Find 25% of 84 instantly",
+                    "Calculate 50% of any number"
+                ],
+                "strategy": "25% = ÷4, 50% = ÷2, 75% = ÷4 then ×3, 10% = ÷10"
+            },
+            {
+                "type": "Squaring Numbers Ending in 5",
+                "examples": [
+                    "Find 25² quickly",
+                    "Calculate 85² mentally"
+                ],
+                "strategy": "For n5²: multiply n×(n+1), then add 25. Example: 25² = 2×3 = 6, so 625"
+            },
+            {
+                "type": "Adding/Subtracting Near Multiples",
+                "examples": [
+                    "47 + 29 (think 47 + 30 - 1)",
+                    "156 - 98 (think 156 - 100 + 2)"
+                ],
+                "strategy": "Round to nearest 10/100, then adjust. Makes mental calculation much easier"
+            },
+            {
+                "type": "Doubling and Halving",
+                "examples": [
+                    "16 × 25 (think 8 × 50)",
+                    "24 × 15 (think 48 × 7.5 or 12 × 30)"
+                ],
+                "strategy": "If one number doubles easily and other halves easily, use this property"
+            }
+        ],
+        "examTips": [
+            "Practice shortcuts until they're automatic - speed comes from familiarity",
+            "Always check answers using estimation (round numbers to check reasonableness)",
+            "Look for patterns: numbers ending in 5, multiples of 10, near-multiples",
+            "Use shortcuts selectively - some problems are faster with standard methods"
+        ]
+    },
     "examples": [
         {
             "question": "Calculate 47 × 11 quickly",

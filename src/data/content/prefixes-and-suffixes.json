@@ -1,0 +1,34 @@
+{
+    "concept": "Prefixes and Suffixes",
+    "subject": "english",
+    "category": "Advanced Vocabulary",
+    "explanation": "This is the Prefixes and Suffixes concept in english. This module helps students understand and practice prefixes and suffixes through interactive exercises and examples.",
+    "examples": [
+        {
+            "question": "Sample question about prefixes and suffixes",
+            "solution": "Sample answer",
+            "explanation": "Step-by-step explanation for prefixes and suffixes"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Practice question about prefixes and suffixes",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is not correct. Try again.",
+                "Correct! Well done.",
+                "This is not the right answer.",
+                "Incorrect. Review the concept and try again."
+            ]
+        }
+    ]
+}

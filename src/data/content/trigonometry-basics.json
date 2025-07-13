@@ -1,6 +1,69 @@
 {
-    "title": "Trigonometry Basics",
+    "concept": "Trigonometry Basics",
+    "subject": "mathematics",
+    "category": "Geometry",
     "explanation": "Trigonometry is the study of triangles and the relationships between their angles and sides. The three main trigonometric ratios are sine (sin), cosine (cos), and tangent (tan). In a right triangle: sin θ = opposite/hypotenuse, cos θ = adjacent/hypotenuse, tan θ = opposite/adjacent. Remember SOH-CAH-TOA!",
+    "questionFormations": {
+        "description": "Trigonometry questions can be presented in various formats that test understanding of triangle relationships:",
+        "types": [
+            {
+                "type": "Basic Ratio Calculation",
+                "examples": [
+                    "In a right triangle, opposite = 3, hypotenuse = 5. Find sin θ.",
+                    "Adjacent = 12, hypotenuse = 13. Calculate cos θ."
+                ],
+                "strategy": "Identify which sides are given, choose correct ratio (SOH-CAH-TOA), substitute values"
+            },
+            {
+                "type": "Finding Missing Sides",
+                "examples": [
+                    "If sin θ = 0.6 and hypotenuse = 10, find the opposite side.",
+                    "cos θ = 4/5, hypotenuse = 15. What is the adjacent side?"
+                ],
+                "strategy": "Rearrange the ratio formula to solve for the unknown side"
+            },
+            {
+                "type": "SOH-CAH-TOA Identification",
+                "examples": [
+                    "What does CAH stand for in SOH-CAH-TOA?",
+                    "Which ratio would you use to find the opposite side when you know the angle and hypotenuse?"
+                ],
+                "strategy": "Memorize the acronym: SOH (sin), CAH (cos), TOA (tan)"
+            },
+            {
+                "type": "Triangle Setup and Labeling",
+                "examples": [
+                    "Label the opposite, adjacent, and hypotenuse for angle θ in this triangle.",
+                    "Given angle A in a right triangle, identify which side is opposite to it."
+                ],
+                "strategy": "Understand that opposite/adjacent depends on which angle you're considering"
+            },
+            {
+                "type": "Mixed Trigonometric Problems",
+                "examples": [
+                    "In triangle ABC, angle C = 90°, opposite = 8, adjacent = 6. Find sin A, cos A, and tan A.",
+                    "Right triangle has sides 5, 12, 13. Find all three trigonometric ratios for the smallest angle."
+                ],
+                "strategy": "First identify the triangle type, then calculate each ratio systematically"
+            },
+            {
+                "type": "Real-World Applications",
+                "examples": [
+                    "A ladder leans against a wall. Given the angle and ladder length, find the height reached.",
+                    "From the top of a building, the angle of depression to a point is 30°. Find the distance."
+                ],
+                "strategy": "Draw the triangle, identify the angle and sides, choose appropriate trigonometric ratio"
+            }
+        ],
+        "examTips": [
+            "Always check you're using the right angle (usually the right angle is NOT the one you're measuring)",
+            "Draw and label the triangle clearly before starting calculations",
+            "SOH-CAH-TOA: write it down if you need to remember which ratio to use",
+            "Check your answer makes sense (ratios should be between 0 and 1)",
+            "When finding sides, rearrange the formula before substituting",
+            "Express answers as fractions in simplest form unless asked for decimals"
+        ]
+    },
     "examples": [
         {
             "question": "In a right triangle, if the opposite side is 3 and the hypotenuse is 5, what is sin θ?",

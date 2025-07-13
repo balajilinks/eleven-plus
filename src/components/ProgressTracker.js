@@ -1,6 +1,9 @@
 import React from 'react';
 
 const ProgressTracker = ({ subject, concepts, progress }) => {
+    const isSkillBased = subject === 'english';
+    const itemType = isSkillBased ? 'skills' : 'concepts';
+
     const getTotalConcepts = () => {
         return Object.values(concepts).reduce((total, categoryList) => total + categoryList.length, 0);
     };
@@ -31,7 +34,7 @@ const ProgressTracker = ({ subject, concepts, progress }) => {
                 />
             </div>
             <div className="progress-text">
-                {completedConcepts} / {totalConcepts} concepts completed ({percentage}%)
+                {completedConcepts} / {totalConcepts} {itemType} completed ({percentage}%)
             </div>
         </div>
     );

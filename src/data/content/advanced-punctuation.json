@@ -1,0 +1,34 @@
+{
+    "concept": "Advanced Punctuation",
+    "subject": "english",
+    "category": "Grammar and Language",
+    "explanation": "This is the Advanced Punctuation concept in english. This module helps students understand and practice advanced punctuation through interactive exercises and examples.",
+    "examples": [
+        {
+            "question": "Sample question about advanced punctuation",
+            "solution": "Sample answer",
+            "explanation": "Step-by-step explanation for advanced punctuation"
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Practice question about advanced punctuation",
+            "options": [
+                "Option A",
+                "Option B",
+                "Option C",
+                "Option D"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This is not correct. Try again.",
+                "Correct! Well done.",
+                "This is not the right answer.",
+                "Incorrect. Review the concept and try again."
+            ]
+        }
+    ]
+}

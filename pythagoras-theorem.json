@@ -1,0 +1,22 @@
+{
+    "concept": "Pythagoras Theorem",
+    "subject": "mathematics",
+    "category": "Geometry",
+    "explanation": "Pythagoras Theorem states that in a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides.",
+    "examples": [
+        {
+            "question": "Find the hypotenuse of a right triangle with sides 3 and 4",
+            "solution": "c = 5",
+            "explanation": "Using a + b = c: 3 + 4 = 9 + 16 = 25, so c = 25 = 5."
+        }
+    ],
+    "exercises": [
+        {
+            "question": "Test question",
+            "type": "multiple-choice",
+            "options": ["A", "B", "C", "D"],
+            "correct": [0],
+            "feedback": ["Correct", "Wrong", "Wrong", "Wrong"]
+        }
+    ]
+}

@@ -3,6 +3,65 @@
     "subject": "mathematics",
     "category": "Percentages and Fractions",
     "explanation": "Direct proportion: as one quantity increases, the other increases at the same rate (y = kx). Inverse proportion: as one quantity increases, the other decreases (y = k/x). Examples: Direct - more workers, more work done. Inverse - more speed, less time taken. Look for constant ratios (direct) or constant products (inverse).",
+    "questionFormations": {
+        "description": "Proportion questions test understanding of relationships between quantities and scaling:",
+        "types": [
+            {
+                "type": "Direct Proportion Problems",
+                "examples": [
+                    "4 books cost £12, how much do 7 books cost?",
+                    "Car travels 150 miles in 3 hours, distance in 5 hours?"
+                ],
+                "strategy": "Find unit rate: cost per book, speed per hour. Then multiply by new quantity"
+            },
+            {
+                "type": "Inverse Proportion Problems",
+                "examples": [
+                    "8 workers complete job in 6 days, time for 12 workers?",
+                    "At 60mph journey takes 4 hours, time at 80mph?"
+                ],
+                "strategy": "Find constant product: workers × time, speed × time. Divide by new value"
+            },
+            {
+                "type": "Identifying Proportion Type",
+                "examples": [
+                    "More fuel used, further distance traveled",
+                    "More people sharing pizza, smaller slice each"
+                ],
+                "strategy": "Direct: both increase/decrease together. Inverse: one up, other down"
+            },
+            {
+                "type": "Graph Interpretation",
+                "examples": [
+                    "Straight line through origin indicates...",
+                    "Curved graph (hyperbola) shows..."
+                ],
+                "strategy": "Direct proportion: straight line through (0,0). Inverse: curved hyperbola"
+            },
+            {
+                "type": "Formula Applications",
+                "examples": [
+                    "If y is directly proportional to x, and y=20 when x=4...",
+                    "y varies inversely with x, y=12 when x=3, find y when x=9"
+                ],
+                "strategy": "Direct: find k in y=kx. Inverse: find k in y=k/x"
+            },
+            {
+                "type": "Mixed Proportion Problems",
+                "examples": [
+                    "Cost proportional to weight, time inversely proportional to workers",
+                    "Distinguish between different types in same context"
+                ],
+                "strategy": "Identify each relationship separately, apply appropriate method"
+            }
+        ],
+        "examTips": [
+            "Direct proportion: ratio stays constant (y₁/x₁ = y₂/x₂)",
+            "Inverse proportion: product stays constant (x₁ × y₁ = x₂ × y₂)",
+            "Check if both quantities increase together (direct) or oppositely (inverse)",
+            "Units help: same units suggest direct, different units often inverse"
+        ]
+    },
     "examples": [
         {
             "question": "If 4 apples cost £2, how much do 10 apples cost? (Direct proportion)",

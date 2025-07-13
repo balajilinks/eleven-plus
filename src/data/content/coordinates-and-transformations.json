@@ -3,6 +3,65 @@
     "subject": "mathematics",
     "category": "Geometry",
     "explanation": "Coordinates show position on a grid using (x, y) format where x is horizontal and y is vertical. Transformations change the position or orientation of shapes: Translation (sliding), Reflection (flipping over a line), Rotation (turning around a point), and Enlargement (changing size). When reflecting, the shape flips over the mirror line and distances from the line stay the same.",
+    "questionFormations": {
+        "description": "Coordinate and transformation questions test spatial reasoning and systematic application of rules:",
+        "types": [
+            {
+                "type": "Reading and Plotting Coordinates",
+                "examples": [
+                    "Plot point A at (4, -2)",
+                    "What are the coordinates of point B on the grid?"
+                ],
+                "strategy": "Remember: (x, y) means x steps right, y steps up. Negative means left or down"
+            },
+            {
+                "type": "Reflections",
+                "examples": [
+                    "Reflect triangle in y-axis",
+                    "Reflect point (3, 5) in line y = x"
+                ],
+                "strategy": "y-axis: change x sign. x-axis: change y sign. y=x: swap coordinates"
+            },
+            {
+                "type": "Translations",
+                "examples": [
+                    "Translate shape by vector (3, -2)",
+                    "Move triangle 4 units left, 5 units up"
+                ],
+                "strategy": "Add translation vector to each coordinate: (x, y) + (a, b) = (x+a, y+b)"
+            },
+            {
+                "type": "Rotations",
+                "examples": [
+                    "Rotate 90° clockwise about origin",
+                    "Rotate 180° about point (1, 1)"
+                ],
+                "strategy": "90° clockwise: (x, y) → (y, -x). 180°: (x, y) → (-x, -y)"
+            },
+            {
+                "type": "Enlargements",
+                "examples": [
+                    "Enlarge triangle by scale factor 2 from origin",
+                    "Enlarge by factor 3 from center (1, 1)"
+                ],
+                "strategy": "Multiply coordinates by scale factor, considering center of enlargement"
+            },
+            {
+                "type": "Combined Transformations",
+                "examples": [
+                    "Reflect then translate",
+                    "Describe transformation that maps shape A to shape B"
+                ],
+                "strategy": "Apply transformations in order. Compare original and final positions"
+            }
+        ],
+        "examTips": [
+            "Always read coordinates as (x, y) - across first, then up",
+            "For reflections, check distances from mirror line are equal",
+            "Use tracing paper for rotations to visualize the turn",
+            "In enlargements, all lengths multiply by scale factor"
+        ]
+    },
     "examples": [
         {
             "question": "Point A is at (3, 2). What are its coordinates after reflection in the y-axis?",
@@ -54,5 +113,88 @@
                 "This applies the wrong vector."
             ]
         }
-    ]
+    ],
+    "examinerInsights": {
+        "description": "Coordinates and transformations questions test spatial reasoning and precise application of mathematical rules - essential for computer graphics, engineering, and advanced geometry.",
+        "questionConstruction": [
+            {
+                "pattern": "Multi-Step Transformation Sequences",
+                "purpose": "Test systematic application of multiple transformation rules",
+                "example": "Reflect triangle in x-axis, then translate 3 units right, then enlarge scale factor 2"
+            },
+            {
+                "pattern": "Four-Quadrant Navigation",
+                "purpose": "Test understanding of negative coordinates and spatial orientation",
+                "example": "Points in all quadrants, transformations crossing axes"
+            },
+            {
+                "pattern": "Reflection Line Recognition",
+                "purpose": "Test understanding of symmetry and mirror properties",
+                "example": "Reflect in y = x, y-axis, x-axis, or diagonal lines like y = -x"
+            },
+            {
+                "pattern": "Scale Factor Flexibility",
+                "purpose": "Test understanding that enlargements can make shapes smaller",
+                "example": "Scale factor 1/2 or 0.5 makes shapes half the size"
+            },
+            {
+                "pattern": "Real-World Applications",
+                "purpose": "Show practical uses of coordinate geometry",
+                "example": "Map coordinates, computer game movements, architectural planning"
+            }
+        ],
+        "commonTraps": [
+            {
+                "trap": "Confusing x and y coordinates when plotting or reading points",
+                "avoidance": "Remember: (x, y) = (across, up). Say 'along the corridor, up the stairs'"
+            },
+            {
+                "trap": "Wrong signs in reflections (especially in y = x)",
+                "avoidance": "Practice key reflections: y-axis flips x sign, x-axis flips y sign, y=x swaps coordinates"
+            },
+            {
+                "trap": "Adding instead of subtracting in translations, or vice versa",
+                "avoidance": "Translation vector (a, b) means move a right, b up. Negative means opposite direction."
+            },
+            {
+                "trap": "Forgetting to consider center of enlargement",
+                "avoidance": "If center isn't origin, distances from center are multiplied by scale factor"
+            },
+            {
+                "trap": "Rotation direction confusion (clockwise vs anticlockwise)",
+                "avoidance": "Practice standard rotations: 90° clockwise from origin: (x, y) → (y, -x)"
+            }
+        ],
+        "timeManagement": {
+            "quickWins": [
+                "Master basic coordinate plotting first - foundation for all transformations",
+                "Memorize key transformation rules for origin-centered operations",
+                "Use tracing paper for complex rotation/reflection if allowed"
+            ],
+            "timeManagement": [
+                {
+                    "timeAllocation": "1-2 min",
+                    "phase": "Coordinate plotting and reading"
+                },
+                {
+                    "timeAllocation": "2-3 min",
+                    "phase": "Single transformation (reflection, translation, rotation)"
+                },
+                {
+                    "timeAllocation": "4-5 min",
+                    "phase": "Combined transformations"
+                },
+                {
+                    "timeAllocation": "30s",
+                    "phase": "Check coordinates are in correct quadrants and properly labeled"
+                }
+            ]
+        },
+        "markingFocus": [
+            "Accurate coordinate identification and plotting",
+            "Correct application of transformation rules",
+            "Clear labeling of transformed points/shapes",
+            "Proper handling of negative coordinates and all quadrants"
+        ]
+    }
 }
