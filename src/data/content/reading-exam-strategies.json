@@ -3,169 +3,338 @@
     "subject": "english",
     "category": "Exam Strategies",
     "skillType": "strategic",
-    "explanation": "Reading comprehension exams aren't just about understanding text - they're about working efficiently under time pressure, identifying what examiners want, and demonstrating your understanding clearly. These strategic approaches help you maximize your score by working smarter, not just harder.",
+    "explanation": "Reading comprehension for 11+ exams requires strategic mental models that transform how you approach texts. These aren't just reading techniques - they're systematic thinking frameworks that help you process information efficiently, identify examiner expectations, and demonstrate sophisticated understanding. Mental models give you a competitive advantage by making complex reading tasks feel manageable and systematic.",
+    "comprehensionMentalModels": [
+        {
+            "model": "The DETECTIVE Investigation Framework",
+            "description": "Systematic approach to uncovering text meanings like solving a mystery",
+            "components": {
+                "dataGathering": "What facts and clues are presented?",
+                "evidenceEvaluation": "Which details are most significant?",
+                "theoriesFormation": "What hypotheses can you develop?",
+                "explanationTesting": "Do your theories fit all the evidence?",
+                "conclusionsDrawing": "What can you confidently determine?",
+                "truthVerification": "Does your answer address what's actually asked?",
+                "insightsArticulation": "How do you express your understanding clearly?",
+                "validationChecking": "Have you supported claims with text evidence?",
+                "excellenceEnsuring": "Is this your best possible response?"
+            },
+            "applicationProcess": [
+                "Gather DATA from questions and text systematically",
+                "Evaluate EVIDENCE to identify most relevant information",
+                "Form THEORIES about meanings, motivations, and messages",
+                "Test EXPLANATIONS against all available evidence",
+                "Draw logical CONCLUSIONS based on your analysis",
+                "Verify your understanding matches the TRUTH of the text",
+                "Articulate INSIGHTS clearly and persuasively",
+                "VALIDATE all claims with specific text evidence",
+                "Ensure EXCELLENCE through careful review and refinement"
+            ],
+            "practicalTip": "Think like Sherlock Holmes - every detail is a potential clue, and the best detective considers all evidence before reaching conclusions."
+        },
+        {
+            "model": "The COMPASS Navigation System",
+            "description": "Mental model for navigating through complex texts with clear direction",
+            "components": {
+                "centralPurpose": "What's the main destination/theme?",
+                "objectiveIdentification": "What specific goals must you achieve?",
+                "mapCreation": "What's the structure and organization?",
+                "pathPlanning": "What route will you take through the text?",
+                "attentionFocusing": "What deserves your mental energy?",
+                "signpostRecognition": "What markers guide your journey?",
+                "successMeasurement": "How will you know you've arrived?"
+            },
+            "applicationProcess": [
+                "Identify the CENTRAL purpose of the text and questions",
+                "Clarify your OBJECTIVES for each question type",
+                "Create a mental MAP of text structure and content",
+                "Plan your PATH through reading and answering strategically",
+                "Focus ATTENTION on information relevant to your objectives",
+                "Recognize SIGNPOSTS like transition words and topic sentences",
+                "Measure SUCCESS by checking comprehension and answer quality"
+            ],
+            "practicalTip": "Just as a compass always points north, let your questions guide your reading direction - never lose sight of what you're looking for."
+        },
+        {
+            "model": "The TELESCOPE Magnification Method",
+            "description": "Systematic zooming from overview to detailed analysis",
+            "components": {
+                "wideAngle": "Broad text overview - genre, topic, tone, structure",
+                "mediumFocus": "Paragraph-level analysis - main ideas and development",
+                "sharpFocus": "Sentence-level examination - word choice and techniques",
+                "microFocus": "Detail analysis - specific evidence and examples",
+                "synthesis": "Zoom out to see how details support broader meanings"
+            },
+            "applicationProcess": [
+                "Start with WIDE ANGLE view of entire text structure",
+                "Use MEDIUM FOCUS to understand paragraph relationships",
+                "Apply SHARP FOCUS to analyze specific language choices",
+                "Employ MICRO FOCUS for detailed evidence gathering",
+                "SYNTHESIZE by connecting specific details to big picture understanding"
+            ],
+            "practicalTip": "Astronomers use different magnifications to study space - you need different 'reading magnifications' for different aspects of texts."
+        }
+    ],
     "keyTechniques": [
         {
-            "technique": "Strategic Pre-Reading",
-            "description": "Gathering intelligence before diving into the text",
+            "technique": "The RADAR Reading System",
+            "description": "Mental model for systematic text analysis using detection principles",
+            "mentalModel": "Think like an air traffic controller using radar - scanning systematically to detect and track important information",
             "steps": [
-                "Read ALL questions first to know what to look for",
-                "Identify question types (literal, inferential, analytical)",
-                "Note which questions ask for specific details vs general understanding",
-                "Predict where answers might be found (beginning, middle, end)",
-                "Look for any graphics, charts, or special formatting"
+                "Read questions first to set your 'radar frequency' for relevant information",
+                "Activate scanning mode to detect key information patterns",
+                "Distinguish between primary signals (main ideas) and background noise (minor details)",
+                "Analyze signal strength - which evidence is most compelling?",
+                "Report findings systematically using text evidence"
             ],
-            "practicalTip": "Spend 2-3 minutes reading questions first. This creates a 'mental map' that guides your reading."
+            "practicalTip": "Your questions are your radar settings - they tell you what frequency to scan for. Don't waste energy detecting everything, focus on your targets."
         },
         {
-            "technique": "Active Annotation System",
-            "description": "Strategic marking to capture key information while reading",
+            "technique": "The LENS Focus Strategy",
+            "description": "Systematic magnification approach for different comprehension levels",
+            "mentalModel": "Think like a scientist adjusting microscope lenses - different questions require different magnification levels",
             "steps": [
-                "Underline or circle key names, dates, and important facts",
-                "Put question marks next to confusing parts to revisit",
-                "Star or highlight information that answers specific questions",
-                "Write brief margin notes about main ideas of each paragraph",
-                "Mark emotional language that reveals character feelings or author attitude"
+                "Low magnification: Overall text structure, genre, and tone",
+                "Medium magnification: Paragraph organization and main idea development",
+                "High magnification: Sentence structure and word choice analysis",
+                "Ultra magnification: Specific details, evidence, and examples",
+                "Integrated view: How all levels work together to create meaning"
             ],
-            "practicalTip": "Develop your own shorthand: ! for important, ? for unclear, → for cause/effect, vs for contrasts."
+            "practicalTip": "Match your 'lens setting' to the question type - overview questions need wide view, analysis questions need close focus."
         },
         {
-            "technique": "Question Type Recognition",
-            "description": "Identifying what each question type requires for full marks",
+            "technique": "The BRIDGE Connection Method",
+            "description": "Mental model for linking text evidence to question requirements",
+            "mentalModel": "Think like an engineer building bridges - you need strong foundations (evidence) and clear spans (explanations) to connect ideas",
             "steps": [
-                "Literal questions: Find exact information stated in text",
-                "Inference questions: Use clues + your knowledge to read between lines",
-                "Language effect questions: Explain HOW word choices create specific impacts",
-                "Character questions: Support personality analysis with text evidence",
-                "Theme questions: Connect specific events to broader life lessons"
+                "Foundation laying: Identify solid text evidence for your point",
+                "Span design: Plan how to connect evidence to your argument",
+                "Bridge construction: Write clear explanations linking evidence to conclusions",
+                "Load testing: Check that your reasoning can support the weight of the question",
+                "Safety inspection: Ensure your bridge leads where the question wants to go"
             ],
-            "practicalTip": "Look for command words: 'Find' = literal, 'Suggest' = inference, 'How does...' = analysis."
+            "practicalTip": "A bridge without strong foundations collapses - always anchor your answers in specific text evidence before making interpretive leaps."
         },
         {
-            "technique": "Evidence Integration Strategy",
-            "description": "Using text evidence effectively to support your answers",
+            "technique": "The FILTER Analysis Framework",
+            "description": "Systematic sorting of information by relevance and importance",
+            "mentalModel": "Think like a water treatment plant with multiple filters - information must pass through different screens to emerge clean and useful",
             "steps": [
-                "Always quote or reference specific parts of the text",
-                "Explain HOW your evidence supports your point",
-                "Use evidence sandwich: Point + Evidence + Explanation",
-                "Choose the BEST evidence, not just the first you find",
-                "Integrate quotes smoothly into your own sentences"
+                "Coarse filter: Remove obviously irrelevant information",
+                "Medium filter: Sort information by question relevance",
+                "Fine filter: Evaluate quality and strength of evidence",
+                "Precision filter: Select the most compelling support for your answers",
+                "Quality check: Ensure filtered information directly addresses questions"
             ],
-            "practicalTip": "Think: Point (what you're arguing) + Proof (text evidence) + Explain (why this proves your point)."
+            "practicalTip": "Don't include everything that passes through your first filter - the best answers use only the highest quality, most relevant evidence."
         }
     ],
     "examStrategies": {
-        "description": "Time management and scoring strategies specific to reading comprehension exams",
+        "description": "Mental model applications for strategic exam performance under time pressure. These frameworks transform challenging comprehension tasks into systematic, manageable processes that demonstrate sophisticated analytical thinking.",
+        "mentalModelApplication": {
+            "timeManagement": "Use COMPASS navigation to allocate time based on question complexity and importance",
+            "questionAnalysis": "Apply DETECTIVE framework to understand what examiners really want",
+            "textAnalysis": "Use TELESCOPE method to analyze at appropriate depth for each question",
+            "answerConstruction": "Apply BRIDGE method to connect evidence with clear explanations"
+        },
         "timeManagement": {
-            "questionPreview": "2-3 minutes reading all questions first",
-            "firstReading": "8-10 minutes for careful, active reading",
-            "answerDrafting": "20-25 minutes answering questions systematically",
-            "reviewAndImprove": "4-5 minutes checking answers and adding detail",
-            "finalCheck": "1-2 minutes for spelling and clarity"
+            "questionPreview": "3 minutes using RADAR system to scan all questions and set reading priorities",
+            "firstReading": "10 minutes using TELESCOPE wide-angle and medium-focus for overall comprehension",
+            "answerDrafting": "22 minutes applying DETECTIVE framework systematically to each question",
+            "reviewAndImprove": "4 minutes using FILTER analysis to refine and strengthen answers",
+            "finalCheck": "1 minute COMPASS check to ensure all objectives met"
         },
         "questionTypes": [
             {
                 "type": "Multiple Choice Questions",
-                "approach": "Eliminate obviously wrong answers first, then choose the BEST remaining option",
-                "example": "If asked about character motivation, eliminate answers that contradict the text before choosing",
-                "trickToAvoid": "Don't choose the first answer that seems right - all options might be partially correct"
+                "mentalModel": "Elimination Detective - systematically rule out impossible suspects before identifying the culprit",
+                "approach": "Use FILTER method: eliminate obviously wrong options, then apply DETECTIVE framework to remaining choices",
+                "example": "Character motivation question: Filter out contradictory options, then detective-analyze remaining choices for strongest text evidence",
+                "trickToAvoid": "Don't choose first plausible answer - the 'detective' must consider all evidence before concluding."
             },
             {
                 "type": "Short Answer Questions",
-                "approach": "Be precise and focused - answer exactly what's asked in 1-2 sentences",
-                "example": "'How does the author create suspense?' Focus on specific techniques, not general plot summary",
-                "trickToAvoid": "Don't write everything you know - answer the specific question concisely"
+                "mentalModel": "Precision Sniper - one well-aimed shot is better than scattered attempts",
+                "approach": "Use TELESCOPE sharp-focus to identify exact information needed, then BRIDGE method to connect evidence clearly",
+                "example": "'How does the author create suspense?' TELESCOPE focus on specific techniques, BRIDGE evidence to explanation",
+                "trickToAvoid": "Don't spray information hoping something hits - the 'sniper' model requires precise targeting of what's asked."
             },
             {
                 "type": "Extended Response Questions",
-                "approach": "Structure your answer with clear points, each supported by text evidence",
-                "example": "Use paragraph structure: Point 1 + evidence, Point 2 + evidence, Point 3 + evidence",
-                "trickToAvoid": "Don't just retell the story - analyze and explain using specific examples"
+                "mentalModel": "Master Architect - design strong structure with multiple supporting pillars",
+                "approach": "Use COMPASS for overall planning, DETECTIVE for evidence gathering, BRIDGE for connecting ideas",
+                "example": "Character analysis: COMPASS (central argument), DETECTIVE (evidence gathering), multiple BRIDGES (connecting evidence to points)",
+                "trickToAvoid": "Don't build without blueprints - the 'architect' model requires systematic planning before construction."
             }
         ]
     },
     "practicalExercises": [
         {
-            "title": "Strategic Reading Practice",
-            "instruction": "Practice the pre-reading strategy with this scenario: You have a passage about climate change with 8 questions. How would you approach it strategically?",
-            "text": "Questions: 1) What are three causes of climate change mentioned? 2) How does the author feel about current government action? 3) Why does the author use the phrase 'ticking time bomb'? 4) What evidence suggests the problem is getting worse? 5) What solutions does the passage recommend? 6) How does the final paragraph connect to the opening? 7) What is the author's main argument? 8) What persuasive techniques does the author use?",
-            "questions": [
-                "Which questions require you to find specific facts?",
-                "Which questions ask for your interpretation or analysis?",
-                "What should you look for while reading to answer question 3?",
-                "How would you organize your time for this task?"
+            "title": "DETECTIVE Framework in Action",
+            "instruction": "Apply the DETECTIVE mental model to this reading scenario: A passage about space exploration with 6 questions ranging from factual to analytical.",
+            "mentalModelFocus": "Systematic investigation approach to comprehension",
+            "text": "Questions: 1) When was the first moon landing? 2) What challenges do astronauts face in space? 3) Why does the author call space exploration 'humanity's greatest adventure'? 4) How does the author use imagery to describe the vastness of space? 5) What evidence suggests space exploration benefits life on Earth? 6) What is the author's overall attitude toward future space missions?",
+            "tasks": [
+                "Apply DATA gathering: What types of information will you need?",
+                "Use EVIDENCE evaluation: Which questions require strongest textual support?",
+                "Form THEORIES: What patterns do you predict in the text?",
+                "Plan VALIDATION: How will you check your answers meet requirements?"
             ],
             "modelAnswer": {
-                "factualQuestions": "Questions 1, 4, and 5 ask for specific information that will be directly stated in the text.",
-                "analysisQuestions": "Questions 2, 3, 6, 7, and 8 require interpretation of language, structure, and techniques.",
-                "question3Strategy": "Look for the exact phrase 'ticking time bomb' and the surrounding context - what comparison is being made and why?",
-                "timeOrganization": "2 mins reading questions, 8 mins active reading (marking evidence for each question), 25 mins answering systematically, 5 mins reviewing."
+                "dataGathering": "Question 1 needs factual date, 2&5 need specific examples, 3&4&6 need interpretation of author's language choices",
+                "evidenceEvaluation": "Questions 3, 4, and 6 require strongest analysis with direct quotations and explanation of word choice impact",
+                "theoriesFormation": "Likely text structure: historical facts → current challenges → future possibilities with persuasive, optimistic tone",
+                "validationStrategy": "Check factual answers against text directly, ensure analytical answers connect specific evidence to clear explanations"
+            }
+        },
+        {
+            "title": "TELESCOPE Magnification Practice",
+            "instruction": "Use different 'magnification levels' to analyze this opening paragraph:",
+            "text": "The ancient oak stood sentinel in the schoolyard, its gnarled branches reaching toward storm clouds that promised an afternoon of chaos. Sarah pressed her face against the cold classroom window, watching younger children scatter like autumn leaves when the first drops began to fall. She had always found comfort in storms - they matched the turbulence that seemed to follow her everywhere.",
+            "mentalModelFocus": "Systematic depth analysis from overview to specific details",
+            "magnificationTasks": [
+                "WIDE ANGLE: What's the overall mood and setting?",
+                "MEDIUM FOCUS: How do the sentences build the atmosphere?",
+                "SHARP FOCUS: What specific words create emotional impact?",
+                "MICRO FOCUS: What does the comparison 'scatter like autumn leaves' suggest?",
+                "SYNTHESIS: How do all elements work together to reveal character?"
+            ],
+            "modelAnswer": {
+                "wideAngle": "Atmospheric, moody setting with impending storm creating tension and introspection",
+                "mediumFocus": "Three sentences build from external setting → character observation → internal revelation",
+                "sharpFocus": "'Sentinel', 'gnarled', 'chaos', 'turbulence' - words suggesting protection, age, disorder, internal conflict",
+                "microFocus": "Simile suggests children are fragile, scattered by forces beyond control - like Sarah herself",
+                "synthesis": "All elements reveal Sarah as someone who feels isolated but finds kinship with powerful, disruptive forces"
+            }
+        },
+        {
+            "title": "BRIDGE Construction Challenge",
+            "instruction": "Build strong 'bridges' connecting this evidence to analytical conclusions:",
+            "evidence": "Text states: 'Marcus slammed his locker shut with unnecessary force, the metallic clang echoing down the empty hallway like a gunshot. He had studied for weeks, memorized every formula, every theorem. Yet when the test results were announced, his name wasn't among the top scorers.'",
+            "question": "How does the author show Marcus's emotional state without directly stating his feelings?",
+            "mentalModelFocus": "Connecting textual evidence to interpretive conclusions with clear reasoning",
+            "bridgeBuilding": [
+                "FOUNDATION: What specific textual evidence will support your point?",
+                "SPAN DESIGN: What logical connections link evidence to emotional state?",
+                "CONSTRUCTION: How will you articulate these connections clearly?",
+                "LOAD TESTING: Does your reasoning fully support the conclusion?"
+            ],
+            "modelAnswer": {
+                "foundation": "Specific evidence: 'unnecessary force', 'metallic clang', 'like a gunshot', contrast between effort and results",
+                "spanDesign": "Physical actions reveal internal emotions; sound imagery intensifies impact; irony shows disappointment",
+                "construction": "The author uses Marcus's violent action with the locker to externalize internal frustration, while the simile 'like a gunshot' suggests explosive anger, and the contrast between his preparation and poor results explains the source of his emotional turmoil",
+                "loadTesting": "This reasoning fully explains HOW the author reveals emotion through action, sound, and irony rather than direct statement"
             }
         }
     ],
     "skillProgression": {
         "beginner": [
-            "Read questions before reading the passage",
-            "Underline or highlight key information while reading",
-            "Answer questions in order, referring back to text"
+            "Apply RADAR reading system to identify relevant information",
+            "Use TELESCOPE wide-angle view for basic text comprehension",
+            "Build simple BRIDGES connecting obvious evidence to conclusions",
+            "Apply FILTER coarse screening to eliminate irrelevant information"
         ],
         "intermediate": [
-            "Categorize questions by type before reading",
-            "Use margin notes to track main ideas",
-            "Structure extended answers with clear points and evidence",
-            "Manage time effectively across all questions"
+            "Integrate multiple mental models within single reading tasks",
+            "Use DETECTIVE framework for systematic analytical thinking",
+            "Apply TELESCOPE multiple magnifications for layered analysis",
+            "Construct sophisticated BRIDGES with complex reasoning",
+            "Manage time effectively using COMPASS navigation principles"
         ],
         "advanced": [
-            "Predict likely question patterns from text type and topic",
-            "Adapt reading speed and focus based on question requirements",
-            "Synthesize information across different parts of text",
-            "Write sophisticated analyses that show deep text understanding"
+            "Seamlessly adapt mental models to complex and novel text types",
+            "Use meta-cognitive awareness to select optimal mental model combinations",
+            "Demonstrate sophisticated analytical thinking that impresses examiners",
+            "Apply systematic frameworks under extreme time pressure",
+            "Mentor others in mental model application for reading comprehension"
         ]
     },
     "realWorldConnections": [
-        "Research skills for academic and professional work",
-        "Critical evaluation of news articles and online information",
-        "Effective communication in meetings and presentations",
-        "Problem-solving by gathering and analyzing relevant information",
-        "Time management skills for any deadline-driven task"
+        "Strategic research skills using systematic investigation frameworks",
+        "Critical evaluation of news and media using FILTER analysis",
+        "Professional communication using BRIDGE connection methods",
+        "Problem-solving using DETECTIVE systematic thinking",
+        "Time management using COMPASS navigation in any complex task",
+        "Academic success through systematic analytical approaches",
+        "Leadership decision-making using evidence-based reasoning frameworks"
     ],
     "exercises": [
         {
             "type": "multiple-choice",
-            "question": "What should you do FIRST when starting a reading comprehension exam?",
+            "question": "When applying the DETECTIVE mental model to reading comprehension, what should you do FIRST?",
             "options": [
-                "Read the passage very carefully from beginning to end",
-                "Answer the easiest questions first to build confidence",
-                "Read all the questions to understand what you're looking for",
-                "Write a summary of the main ideas in your own words"
+                "Form theories about what the text might contain",
+                "Gather data systematically from questions and text structure",
+                "Draw conclusions based on your initial impressions",
+                "Validate your understanding against text evidence"
             ],
             "correct": [
-                2
+                1
             ],
             "feedback": [
-                "Reading without knowing what questions you'll face wastes time and mental energy.",
-                "You can't identify easy questions until you understand what's being asked.",
-                "Correct! Reading questions first creates a mental framework that guides your reading efficiently.",
-                "Summarizing takes time and may not address what the questions actually ask about."
+                "Theory formation comes after data gathering - detectives collect evidence before forming hypotheses.",
+                "Correct! Like real detectives, you must gather DATA systematically before proceeding to analysis and theory formation.",
+                "Drawing conclusions first leads to confirmation bias - gather evidence before concluding.",
+                "Validation is important but comes after gathering data and forming evidence-based theories."
             ]
         },
         {
             "type": "multiple-choice",
-            "question": "When answering inference questions, you should:",
+            "question": "Which TELESCOPE magnification level would be most appropriate for answering: 'What is the author's overall message about friendship'?",
             "options": [
-                "Only use information directly stated in the text",
-                "Rely entirely on your own knowledge and opinions",
-                "Combine text clues with logical reasoning",
-                "Choose the most creative or unusual interpretation"
+                "Micro focus - examining specific word choices",
+                "Sharp focus - analyzing individual sentences",
+                "Wide angle - understanding overall text structure and themes",
+                "Medium focus - examining paragraph development"
             ],
             "correct": [
                 2
             ],
             "feedback": [
-                "Inference questions require reading 'between the lines,' not just literal information.",
-                "Your answer must be supported by the text, not just personal opinions.",
-                "Correct! Inference combines text evidence with logical thinking to understand implied meanings.",
-                "Inference should be logical and text-based, not creative or far-fetched."
+                "Micro focus is too detailed for understanding overall messages - you'd miss the big picture.",
+                "Sharp focus on sentences misses the broader thematic development across the entire text.",
+                "Correct! Overall messages require WIDE ANGLE view to see how themes develop throughout the entire text structure.",
+                "Medium focus on paragraphs helps but isn't broad enough to capture the complete thematic message."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which elements are essential for building strong BRIDGES in reading comprehension answers?",
+            "options": [
+                "Solid foundation of specific text evidence",
+                "Clear logical connections between evidence and conclusions",
+                "Detailed plot summary of the entire text",
+                "Explicit explanation of how evidence supports your point"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ],
+            "feedback": [
+                "Correct! Strong bridges need solid FOUNDATIONS of specific textual evidence to support analytical weight.",
+                "Correct! The SPAN of your bridge must show clear logical connections between evidence and conclusions.",
+                "Incorrect. Plot summaries don't build analytical bridges - they're just retelling, not reasoning.",
+                "Correct! You must explicitly EXPLAIN how your evidence supports your point - don't assume readers will make the connection."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "In the COMPASS navigation system, what does 'signpost recognition' help you identify?",
+            "options": [
+                "The main characters in the story",
+                "Transition words and organizational markers that guide understanding",
+                "Difficult vocabulary that needs definition",
+                "The author's biographical background"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Character identification is important but not what signposts specifically guide - that's content, not structure.",
+                "Correct! SIGNPOSTS are organizational markers like 'however,' 'furthermore,' 'in contrast' that guide readers through the text's logical structure.",
+                "Vocabulary is important but signposts specifically refer to organizational guides, not word definitions.",
+                "Author background isn't what signposts reveal - they show text organization and logical flow."
             ]
         }
     ]

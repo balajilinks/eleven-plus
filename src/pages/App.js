@@ -3,6 +3,7 @@ import concepts from "../data/concepts.json";
 import LearningModule from "../components/LearningModule";
 import ProgressTracker from "../components/ProgressTracker";
 import Navigation from "../components/Navigation";
+import Breadcrumb from "../components/Breadcrumb";
 import Settings from "../components/Settings";
 import Chat from "../components/Chat";
 import MockTest from "../components/MockTest";
@@ -18,6 +19,110 @@ function App() {
   const [showChat, setShowChat] = useState(false);
   const [aiConnected, setAiConnected] = useState(false);
   const [conceptFeatures, setConceptFeatures] = useState({});
+  const [navigationHistory, setNavigationHistory] = useState([]);
+
+  // Browser history management for SPA navigation
+  useEffect(() => {
+    // Push initial state
+    const initialState = { page: 'home', subject: null, category: null, concept: null };
+    window.history.replaceState(initialState, '', window.location.href);
+
+    // Handle browser back/forward buttons
+    const handlePopState = (event) => {
+      if (event.state) {
+        // Navigate to the state from history
+        const { page, subject: histSubject, category: histCategory, concept: histConcept } = event.state;
+        setCurrentPage(page);
+        setSubject(histSubject);
+        setCategory(histCategory);
+        setConcept(histConcept);
+        if (page === 'home' && !histSubject) {
+          setSubject(null);
+          setCategory(null);
+          setConcept(null);
+        }
+      } else {
+        // If no state, go back to home to prevent leaving the app
+        setCurrentPage('home');
+        setSubject(null);
+        setCategory(null);
+        setConcept(null);
+        window.history.pushState(
+          { page: 'home', subject: null, category: null, concept: null },
+          '',
+          window.location.href
+        );
+      }
+    };
+
+    // Prevent accidental page refresh/close when user has made progress
+    const handleBeforeUnload = (event) => {
+      const hasProgress = Object.keys(progress).length > 0;
+      if (hasProgress && (subject || category || concept)) {
+        event.preventDefault();
+        event.returnValue = 'You have learning progress that may be lost. Are you sure you want to leave?';
+        return event.returnValue;
+      }
+    };
+
+    // Warn about external links
+    const handleClick = (event) => {
+      const link = event.target.closest('a');
+      if (link && link.href && !link.href.startsWith(window.location.origin)) {
+        event.preventDefault();
+        const confirmLeave = window.confirm(
+          'This link will take you away from the 11+ Tutor app. Are you sure you want to continue?'
+        );
+        if (confirmLeave) {
+          window.open(link.href, '_blank');
+        }
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    document.addEventListener('click', handleClick);
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+      document.removeEventListener('click', handleClick);
+    };
+  }, [progress, subject, category, concept]);
+
+  // Update browser history when navigation state changes
+  useEffect(() => {
+    const state = { page: currentPage, subject, category, concept };
+    const stateChanged = !window.history.state ||
+      window.history.state.page !== currentPage ||
+      window.history.state.subject !== subject ||
+      window.history.state.category !== category ||
+      window.history.state.concept !== concept;
+
+    if (stateChanged) {
+      window.history.pushState(state, '', window.location.href);
+    }
+  }, [currentPage, subject, category, concept]);
+
+  // Track navigation history for internal back functionality
+  const pushToNavigationHistory = (newState) => {
+    setNavigationHistory(prev => [...prev, newState]);
+  };
+
+  const goBackInHistory = () => {
+    if (navigationHistory.length > 0) {
+      const previousState = navigationHistory[navigationHistory.length - 1];
+      setNavigationHistory(prev => prev.slice(0, -1));
+
+      setCurrentPage(previousState.page);
+      setSubject(previousState.subject);
+      setCategory(previousState.category);
+      setConcept(previousState.concept);
+    } else {
+      // If no internal history, go to home
+      handlePageChange('home');
+    }
+  };
 
   // Load progress from localStorage
   useEffect(() => {
@@ -109,27 +214,72 @@ function App() {
     }
   }, [subject, category]);
 
-  // Reset deeper selections if subject/category changes
+  // Reset deeper selections if subject/category changes with history tracking
   const handleSubject = (subj) => {
+    if (subject !== null) {
+      pushToNavigationHistory({ page: currentPage, subject, category, concept });
+    }
     setSubject(subj);
     setCategory(null);
     setConcept(null);
   };
 
   const handleCategory = (cat) => {
+    if (category !== null) {
+      pushToNavigationHistory({ page: currentPage, subject, category, concept });
+    }
     setCategory(cat);
     setConcept(null);
   };
 
-  const handleConcept = (cpt) => setConcept(cpt);
+  const handleConcept = (cpt) => {
+    if (concept !== null) {
+      pushToNavigationHistory({ page: currentPage, subject, category, concept });
+    }
+    setConcept(cpt);
+  };
 
   const handlePageChange = (page) => {
+    if (currentPage !== page) {
+      pushToNavigationHistory({ page: currentPage, subject, category, concept });
+    }
     setCurrentPage(page);
     if (page === 'home') {
       setSubject(null);
       setCategory(null);
       setConcept(null);
     }
+  };
+
+  // Enhanced back navigation functions
+  const goBackToSubjects = () => {
+    pushToNavigationHistory({ page: currentPage, subject, category, concept });
+    setSubject(null);
+    setCategory(null);
+    setConcept(null);
+  };
+
+  const goBackToCategories = () => {
+    pushToNavigationHistory({ page: currentPage, subject, category, concept });
+    setCategory(null);
+    setConcept(null);
+  };
+
+  const goBackToConcepts = () => {
+    pushToNavigationHistory({ page: currentPage, subject, category, concept });
+    setConcept(null);
+  };
+
+  // Breadcrumb navigation handler
+  const handleBreadcrumbNavigation = (page, subj = null, cat = null, cpt = null) => {
+    if (currentPage !== page || subject !== subj || category !== cat || concept !== cpt) {
+      pushToNavigationHistory({ page: currentPage, subject, category, concept });
+    }
+
+    setCurrentPage(page);
+    setSubject(subj);
+    setCategory(cat);
+    setConcept(cpt);
   };
 
   const handleChatToggle = () => {
@@ -233,7 +383,7 @@ function App() {
     if (subject && !category) {
       return (
         <div className="category-selection">
-          <button className="back-button" onClick={() => setSubject(null)}>
+          <button className="back-button" onClick={goBackToSubjects}>
             ← Back to Subjects
           </button>
           <h2>{subject.charAt(0).toUpperCase() + subject.slice(1)} {isSkillBased(subject) ? 'Skills' : 'Categories'}</h2>
@@ -280,7 +430,7 @@ function App() {
 
     if (subject && category && !concept) {
       return (<div className="concept-selection">
-        <button className="back-button" onClick={() => setCategory(null)}>
+        <button className="back-button" onClick={goBackToCategories}>
           ← Back to {isSkillBased(subject) ? 'Skills' : 'Categories'}
         </button>
         <div className="category-intro">
@@ -407,7 +557,7 @@ function App() {
     if (subject && category && concept) {
       return (
         <div className="learning-module">
-          <button className="back-button" onClick={() => setConcept(null)}>
+          <button className="back-button" onClick={goBackToConcepts}>
             ← Back to Concepts
           </button>
           <LearningModule
@@ -438,6 +588,13 @@ function App() {
       )}
 
       <div className="app-content">
+        <Breadcrumb
+          currentPage={currentPage}
+          subject={subject}
+          category={category}
+          concept={concept}
+          onNavigate={handleBreadcrumbNavigation}
+        />
         {renderContent()}
       </div>
 

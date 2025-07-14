@@ -2,32 +2,115 @@
     "concept": "Advanced Punctuation",
     "subject": "english",
     "category": "Grammar and Language",
-    "explanation": "This is the Advanced Punctuation concept in english. This module helps students understand and practice advanced punctuation through interactive exercises and examples.",
+    "skillType": "technical",
+    "explanation": "Advanced punctuation goes beyond basic full stops and commas to include sophisticated marks that enhance meaning, create style, and demonstrate writing maturity. In Sutton 11+ exams, correct use of semicolons, colons, dashes, and other advanced punctuation shows linguistic sophistication and helps students express complex ideas clearly and elegantly.",
+    "keyTechniques": [
+        {
+            "technique": "Semicolon Mastery",
+            "description": "Use semicolons to connect related independent clauses",
+            "steps": [
+                "Connect two complete sentences that are closely related in meaning",
+                "Use before conjunctive adverbs (however, therefore, nevertheless, meanwhile)",
+                "Separate complex list items that already contain commas",
+                "Create elegant pause between balanced ideas",
+                "Avoid using with coordinating conjunctions (and, but, or)"
+            ],
+            "practicalTip": "Test semicolon use: if you can replace it with a full stop and the sentences still make sense, the semicolon is correct."
+        },
+        {
+            "technique": "Colon Control",
+            "description": "Use colons to introduce and emphasize what follows",
+            "steps": [
+                "Introduce lists, explanations, or examples after a complete sentence",
+                "Signal that what follows explains or expands the preceding statement",
+                "Introduce quotations formally in academic writing",
+                "Create dramatic emphasis before important revelations",
+                "Use in titles to separate main title from subtitle"
+            ],
+            "practicalTip": "The text before a colon must be a complete sentence that can stand alone - the colon promises that what follows will explain or expand it."
+        },
+        {
+            "technique": "Dash Dynamics",
+            "description": "Use dashes for emphasis, interruption, and parenthetical information",
+            "steps": [
+                "Em dashes (—) for strong breaks, emphasis, or sudden changes in thought",
+                "Pair of dashes to set off parenthetical information with more emphasis than commas",
+                "Single dash to introduce explanatory information with dramatic effect",
+                "Use sparingly - overuse reduces impact",
+                "En dashes (–) for ranges and compound adjectives"
+            ],
+            "practicalTip": "Dashes are the boldest punctuation mark - use them when you want to grab the reader's attention or create dramatic pause."
+        }
+    ],
     "examples": [
         {
-            "question": "Sample question about advanced punctuation",
-            "solution": "Sample answer",
-            "explanation": "Step-by-step explanation for advanced punctuation"
+            "question": "Choose the correct punctuation: 'The exam had three sections (a) reading comprehension (b) creative writing (c) grammar analysis.'",
+            "solution": "The exam had three sections: reading comprehension, creative writing, and grammar analysis.",
+            "explanation": "A colon introduces the list because the first part is a complete sentence. The list items are simple enough for comma separation rather than the awkward (a), (b), (c) format."
+        },
+        {
+            "question": "Explain the effect of the dash in: 'She opened the letter slowly — her entire future depended on its contents.'",
+            "solution": "The dash creates dramatic pause and builds suspense, emphasizing the importance of the letter's contents.",
+            "explanation": "The dash is more emphatic than a comma would be, creating tension and highlighting the life-changing nature of the moment."
         }
     ],
     "exercises": [
         {
             "type": "multiple-choice",
-            "question": "Practice question about advanced punctuation",
+            "question": "Which sentence uses a semicolon correctly?",
             "options": [
-                "Option A",
-                "Option B",
-                "Option C",
-                "Option D"
+                "I love reading; especially mystery novels.",
+                "The weather was terrible; however, we went hiking anyway.",
+                "She bought apples; oranges; and bananas.",
+                "Because it was raining; we stayed inside."
             ],
             "correct": [
                 1
             ],
             "feedback": [
-                "This is not correct. Try again.",
-                "Correct! Well done.",
-                "This is not the right answer.",
-                "Incorrect. Review the concept and try again."
+                "Incorrect. The part after the semicolon isn't a complete sentence - use a comma instead.",
+                "Correct! This properly uses a semicolon before the conjunctive adverb 'however' to connect two related complete sentences.",
+                "Incorrect. Use commas in simple lists, not semicolons (unless list items contain commas).",
+                "Incorrect. This is a dependent clause starting with 'because' - use a comma, not a semicolon."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "When should you use a colon?",
+            "options": [
+                "To separate two complete sentences that are related",
+                "To introduce a list, explanation, or example after a complete sentence",
+                "To create a dramatic pause in the middle of a sentence",
+                "To connect a dependent clause to an independent clause"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "This describes semicolon usage, not colon usage.",
+                "Correct! Colons introduce what follows when the introductory part is a complete sentence.",
+                "This describes dash usage - dashes create dramatic pauses, not colons.",
+                "This describes comma usage for complex sentences, not colon usage."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which are appropriate uses of em dashes?",
+            "options": [
+                "To set off parenthetical information with strong emphasis",
+                "To introduce lists after incomplete sentences",
+                "To create dramatic interruption or sudden change in thought",
+                "To replace periods at the end of sentences"
+            ],
+            "correct": [
+                0,
+                2
+            ],
+            "feedback": [
+                "Correct! Dashes provide stronger emphasis than commas or parentheses for parenthetical information.",
+                "Dashes can introduce explanatory information, but the sentence should be complete or the dash should create dramatic effect.",
+                "Correct! Dashes are excellent for showing sudden shifts, interruptions, or dramatic revelations.",
+                "Dashes never replace periods - they're used within sentences, not at the end."
             ]
         }
     ]

@@ -30,20 +30,58 @@
 }
 
 .back-button {
-    background: #fff;
-    border: none;
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    border: 2px solid #667eea;
     padding: 0.75rem 1.5rem;
     border-radius: 25px;
     cursor: pointer;
     margin-bottom: 1rem;
     font-size: 1rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    color: #667eea;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
     transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .back-button:hover {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+.back-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+/* Add visual feedback for navigation state */
+.navigation-container {
+    position: relative;
+    min-height: 80vh;
+}
+
+/* Loading state for navigation transitions */
+.navigation-loading {
+    opacity: 0.7;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+/* Breadcrumb integration spacing */
+.app-content>.breadcrumb+* {
+    margin-top: 0;
+}
+
+.app-content>.breadcrumb {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+    background: rgba(248, 249, 250, 0.95);
 }
 
 /* Subject Selection */

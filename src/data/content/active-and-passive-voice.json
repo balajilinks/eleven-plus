@@ -2,32 +2,145 @@
     "concept": "Active and Passive Voice",
     "subject": "english",
     "category": "Grammar and Language",
-    "explanation": "This is the Active and Passive Voice concept in english. This module helps students understand and practice active and passive voice through interactive exercises and examples.",
+    "skillType": "technical",
+    "explanation": "Active and passive voice are fundamental grammatical structures that dramatically affect writing style and clarity. In Sutton 11+ exams, understanding voice helps students both analyze sophisticated texts and improve their own writing. Active voice creates direct, engaging prose, while passive voice can emphasize actions over actors or create formal, academic tone when used skillfully.",
+    "keyTechniques": [
+        {
+            "technique": "Voice Identification Method",
+            "description": "Quickly recognize active vs passive voice in any sentence",
+            "steps": [
+                "Find the subject (who/what is doing the action)",
+                "Find the verb (the action word)",
+                "Active: Subject performs the action (The cat chased the mouse)",
+                "Passive: Subject receives the action (The mouse was chased by the cat)",
+                "Look for 'by' phrases - often indicate passive voice"
+            ],
+            "practicalTip": "Ask 'Who is doing what?' If the sentence structure makes this clear and direct, it's likely active. If the doer is hidden or unclear, it's probably passive."
+        },
+        {
+            "technique": "Strategic Voice Selection",
+            "description": "Choose the most effective voice for your purpose",
+            "steps": [
+                "Use active voice for clarity, energy, and direct communication",
+                "Use passive voice when the action is more important than the actor",
+                "Choose passive when you don't know or want to hide who did something",
+                "Use active voice for creative writing and personal narratives",
+                "Consider passive voice for formal academic or scientific writing"
+            ],
+            "practicalTip": "Active voice usually makes writing more engaging, but passive voice isn't wrong - it's a tool with specific purposes."
+        },
+        {
+            "technique": "Voice Transformation Technique",
+            "description": "Convert between active and passive voice effectively",
+            "steps": [
+                "Active to Passive: Move the object to subject position, add 'be' + past participle, add 'by' + original subject",
+                "Passive to Active: Move the 'by' phrase to subject position, change verb form, move original subject to object position",
+                "Check that the new sentence makes sense and serves your purpose",
+                "Ensure verb tenses remain consistent",
+                "Remove unnecessary 'by' phrases in passive voice"
+            ],
+            "practicalTip": "Practice with simple sentences first: 'The dog bit the man' ↔ 'The man was bitten by the dog' until the pattern becomes automatic."
+        }
+    ],
+    "examStrategies": {
+        "description": "Sutton 11+ grammar questions test voice recognition and transformation skills. Understanding voice also improves reading comprehension by revealing author choices and text emphasis.",
+        "timeManagement": {
+            "voiceIdentification": "30 seconds per sentence to identify voice",
+            "transformation": "1 minute to convert between voices",
+            "purposeAnalysis": "1-2 minutes explaining why an author chose specific voice",
+            "writingApplication": "Consider voice choices throughout composition"
+        },
+        "questionTypes": [
+            {
+                "type": "Voice Identification Questions",
+                "approach": "Look for sentence structure patterns and 'by' phrases",
+                "example": "'Identify whether this sentence uses active or passive voice: The results were analyzed by the research team.'",
+                "trickToAvoid": "Don't confuse passive voice with past tense - passive voice needs a form of 'be' plus past participle."
+            },
+            {
+                "type": "Voice Transformation Tasks",
+                "approach": "Systematically move sentence elements while maintaining meaning",
+                "example": "'Rewrite this sentence in active voice: The ball was thrown by Sarah.' → 'Sarah threw the ball.'",
+                "trickToAvoid": "Make sure the new sentence keeps the same meaning and tense as the original."
+            },
+            {
+                "type": "Purpose and Effect Questions",
+                "approach": "Consider why authors choose specific voice for particular effects",
+                "example": "'Why might a scientist write \"The experiment was conducted\" rather than \"We conducted the experiment\"?'",
+                "trickToAvoid": "Think about formality, emphasis, and whether the actor matters to the message."
+            }
+        ]
+    },
     "examples": [
         {
-            "question": "Sample question about active and passive voice",
-            "solution": "Sample answer",
-            "explanation": "Step-by-step explanation for active and passive voice"
+            "question": "Convert this active voice sentence to passive voice: 'The brilliant detective solved the mysterious case quickly.'",
+            "solution": "The mysterious case was solved quickly by the brilliant detective.",
+            "explanation": "Move 'the mysterious case' to subject position, change 'solved' to 'was solved', move 'the brilliant detective' after 'by', keep the adverb 'quickly' in its logical position."
+        },
+        {
+            "question": "Why might a news report use passive voice in this sentence: 'The witness was threatened before the trial'?",
+            "solution": "Passive voice is used because the identity of who made the threats is unknown, unimportant, or deliberately withheld for legal or safety reasons.",
+            "explanation": "Passive voice allows focus on the victim and the action without revealing or emphasizing the perpetrator, which may be appropriate for ongoing investigations."
         }
     ],
     "exercises": [
         {
             "type": "multiple-choice",
-            "question": "Practice question about active and passive voice",
+            "question": "Which sentence uses passive voice?",
             "options": [
-                "Option A",
-                "Option B",
-                "Option C",
-                "Option D"
+                "The students completed their homework assignments.",
+                "The homework assignments were completed by the students.",
+                "The students will complete their homework tonight.",
+                "The students are completing their homework now."
             ],
             "correct": [
                 1
             ],
             "feedback": [
-                "This is not correct. Try again.",
-                "Correct! Well done.",
-                "This is not the right answer.",
-                "Incorrect. Review the concept and try again."
+                "This is active voice - the students (subject) are performing the action (completed).",
+                "Correct! This is passive voice - the homework assignments (subject) receive the action, and the doer is in the 'by' phrase.",
+                "This is active voice in future tense - the students will perform the action.",
+                "This is active voice in present continuous tense - the students are currently performing the action."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "When might passive voice be the better choice?",
+            "options": [
+                "When you want to make writing more exciting and energetic",
+                "When the action is more important than who performed it",
+                "When you want to make sentences as short as possible",
+                "When writing personal stories about your own experiences"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Active voice generally creates more energy and excitement in writing.",
+                "Correct! Passive voice is useful when the action or result matters more than the actor, such as in scientific or formal writing.",
+                "Passive voice often makes sentences longer, not shorter, than active voice.",
+                "Personal stories usually benefit from active voice to create direct, engaging narratives."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Which are characteristics of passive voice sentences?",
+            "options": [
+                "The subject receives the action rather than performing it",
+                "Often include a form of the verb 'to be' plus a past participle",
+                "May include a 'by' phrase indicating who performed the action",
+                "Always create more excitement than active voice sentences"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ],
+            "feedback": [
+                "Correct! In passive voice, the subject is acted upon rather than acting.",
+                "Correct! Passive voice typically uses forms like 'was completed,' 'were chosen,' 'is being analyzed.'",
+                "Correct! Though the 'by' phrase is often optional and sometimes omitted entirely.",
+                "Passive voice tends to be more formal and less energetic than active voice, not more exciting."
             ]
         }
     ]
