@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import aiService from '../services/aiService';
+import DataVisualization from './DataVisualization';
 import './LearningModule.css';
 
 function LearningModule({ subject, category, concept, onProgress }) {
@@ -343,6 +344,15 @@ function LearningModule({ subject, category, concept, onProgress }) {
                                     />
                                 </div>
                             )}
+                            {example.chart && (
+                                <DataVisualization
+                                    data={example.chart.data}
+                                    type={example.chart.type}
+                                    title={example.chart.title}
+                                    xKey={example.chart.xKey}
+                                    yKey={example.chart.yKey}
+                                />
+                            )}
                             <div className="example-question">
                                 <strong>Question:</strong> {example.question}
                             </div>
@@ -538,6 +548,15 @@ function LearningModule({ subject, category, concept, onProgress }) {
                                     className="geometry-image"
                                 />
                             </div>
+                        )}
+                        {currentEx.chart && (
+                            <DataVisualization
+                                data={currentEx.chart.data}
+                                type={currentEx.chart.type}
+                                title={currentEx.chart.title}
+                                xKey={currentEx.chart.xKey}
+                                yKey={currentEx.chart.yKey}
+                            />
                         )}
                         <div className="exercise-question">
                             {currentEx.question}

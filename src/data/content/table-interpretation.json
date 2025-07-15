@@ -1,0 +1,385 @@
+{
+    "concept": "Table Interpretation",
+    "subject": "mathematics",
+    "category": "Data Interpretation",
+    "explanation": "Tables organize data in rows and columns for easy comparison and analysis. Key skills: reading values from specific cells, comparing rows/columns, calculating totals, finding averages, identifying patterns, and solving multi-step problems using table data. Always check row and column headers carefully.",
+    "questionFormations": {
+        "description": "Table interpretation questions in 11+ exams test data analysis and problem-solving skills:",
+        "types": [
+            {
+                "type": "Reading Specific Values",
+                "examples": [
+                    "How many books did Sarah read in March?",
+                    "What was the temperature on Tuesday?"
+                ],
+                "strategy": "Find the correct row and column intersection, read the value carefully"
+            },
+            {
+                "type": "Comparing Data",
+                "examples": [
+                    "Who read the most books in total?",
+                    "Which day had the highest temperature?"
+                ],
+                "strategy": "Compare values across rows or columns, identify maximum/minimum"
+            },
+            {
+                "type": "Calculating Totals and Averages",
+                "examples": [
+                    "What was the total rainfall for the quarter?",
+                    "What is the average score for the class?"
+                ],
+                "strategy": "Add relevant values for totals, divide by count for averages"
+            },
+            {
+                "type": "Finding Differences",
+                "examples": [
+                    "How many more goals did Team A score than Team B?",
+                    "What is the difference between highest and lowest sales?"
+                ],
+                "strategy": "Subtract smaller value from larger value"
+            },
+            {
+                "type": "Multi-step Problems",
+                "examples": [
+                    "If each book costs £3, how much did Tom spend in total?",
+                    "What percentage of total sales came from Store A?"
+                ],
+                "strategy": "Break down into steps, use table data in calculations"
+            },
+            {
+                "type": "Pattern Recognition",
+                "examples": [
+                    "Which month shows the biggest increase?",
+                    "Describe the trend in sales over the year"
+                ],
+                "strategy": "Compare consecutive values, look for increases/decreases"
+            }
+        ],
+        "examTips": [
+            "Always read row and column headers first",
+            "Use your finger to trace rows and columns to avoid mistakes",
+            "Double-check which units are being used",
+            "For totals, add across rows or down columns carefully",
+            "Show your working for multi-step calculations"
+        ]
+    },
+    "examples": [
+        {
+            "question": "Look at the sports club membership table below. How many members does the Tennis club have in total?",
+            "solution": "The Tennis club has 125 members in total",
+            "explanation": "Tennis club: Boys (48) + Girls (52) + Adults (25) = 48 + 52 + 25 = 125 members",
+            "chart": {
+                "type": "table",
+                "title": "Sports Club Membership",
+                "data": [
+                    {
+                        "Sport": "Football",
+                        "Boys": 65,
+                        "Girls": 28,
+                        "Adults": 42
+                    },
+                    {
+                        "Sport": "Tennis",
+                        "Boys": 48,
+                        "Girls": 52,
+                        "Adults": 25
+                    },
+                    {
+                        "Sport": "Swimming",
+                        "Boys": 34,
+                        "Girls": 45,
+                        "Adults": 38
+                    },
+                    {
+                        "Sport": "Basketball",
+                        "Boys": 29,
+                        "Girls": 31,
+                        "Adults": 15
+                    }
+                ]
+            }
+        },
+        {
+            "question": "Using the test scores table below, what is the average Mathematics score for the class?",
+            "solution": "The average Mathematics score is 76.4",
+            "explanation": "Mathematics scores: 82 + 67 + 89 + 74 + 70 = 382. Average = 382 ÷ 5 = 76.4",
+            "chart": {
+                "type": "table",
+                "title": "Class Test Scores",
+                "data": [
+                    {
+                        "Student": "Alex",
+                        "Mathematics": 82,
+                        "English": 78,
+                        "Science": 85
+                    },
+                    {
+                        "Student": "Beth",
+                        "Mathematics": 67,
+                        "English": 84,
+                        "Science": 72
+                    },
+                    {
+                        "Student": "Carl",
+                        "Mathematics": 89,
+                        "English": 76,
+                        "Science": 91
+                    },
+                    {
+                        "Student": "Dana",
+                        "Mathematics": 74,
+                        "English": 88,
+                        "Science": 79
+                    },
+                    {
+                        "Student": "Emma",
+                        "Mathematics": 70,
+                        "English": 82,
+                        "Science": 86
+                    }
+                ]
+            }
+        },
+        {
+            "question": "Look at the monthly sales table below. Which store had the biggest increase from January to March?",
+            "solution": "Store B had the biggest increase of £15,000",
+            "explanation": "Store A: £45k to £48k = £3k increase. Store B: £32k to £47k = £15k increase. Store C: £38k to £41k = £3k increase. Store B has the biggest increase.",
+            "chart": {
+                "type": "table",
+                "title": "Monthly Sales (£1000s)",
+                "data": [
+                    {
+                        "Store": "Store A",
+                        "January": 45,
+                        "February": 46,
+                        "March": 48
+                    },
+                    {
+                        "Store": "Store B",
+                        "January": 32,
+                        "February": 39,
+                        "March": 47
+                    },
+                    {
+                        "Store": "Store C",
+                        "January": 38,
+                        "February": 40,
+                        "March": 41
+                    }
+                ]
+            }
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Using the library book borrowing table below, how many books were borrowed in total during February?",
+            "chart": {
+                "type": "table",
+                "title": "Library Book Borrowing",
+                "data": [
+                    {
+                        "Genre": "Fiction",
+                        "January": 145,
+                        "February": 162,
+                        "March": 158
+                    },
+                    {
+                        "Genre": "Non-Fiction",
+                        "January": 89,
+                        "February": 95,
+                        "March": 102
+                    },
+                    {
+                        "Genre": "Children's",
+                        "January": 234,
+                        "February": 248,
+                        "March": 251
+                    },
+                    {
+                        "Genre": "Reference",
+                        "January": 56,
+                        "February": 67,
+                        "March": 72
+                    }
+                ]
+            },
+            "options": [
+                "525 books",
+                "572 books",
+                "583 books",
+                "595 books"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Check your addition: 162 + 95 + 248 + 67 = 572.",
+                "Correct! February total: Fiction (162) + Non-Fiction (95) + Children's (248) + Reference (67) = 572 books.",
+                "This might be March's total, not February's.",
+                "Double-check which column you're adding up."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Look at the temperature table below. What is the difference between the highest and lowest temperatures recorded?",
+            "chart": {
+                "type": "table",
+                "title": "Daily Maximum Temperatures (°C)",
+                "data": [
+                    {
+                        "Day": "Monday",
+                        "Week 1": 18,
+                        "Week 2": 22,
+                        "Week 3": 25
+                    },
+                    {
+                        "Day": "Tuesday",
+                        "Week 1": 20,
+                        "Week 2": 19,
+                        "Week 3": 27
+                    },
+                    {
+                        "Day": "Wednesday",
+                        "Week 1": 15,
+                        "Week 2": 24,
+                        "Week 3": 23
+                    },
+                    {
+                        "Day": "Thursday",
+                        "Week 1": 17,
+                        "Week 2": 21,
+                        "Week 3": 26
+                    },
+                    {
+                        "Day": "Friday",
+                        "Week 1": 19,
+                        "Week 2": 23,
+                        "Week 3": 24
+                    }
+                ]
+            },
+            "options": [
+                "10°C",
+                "12°C",
+                "15°C",
+                "18°C"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "The difference between 27°C and 15°C is more than 10°C.",
+                "Correct! Highest temperature: 27°C (Tuesday Week 3), Lowest: 15°C (Wednesday Week 1). Difference: 27 - 15 = 12°C.",
+                "This is too high - check the highest and lowest values again.",
+                "This is too high - the range is smaller than 18°C."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Using the school supplies table below, if each pencil costs 50p, how much would Class 3B spend on pencils?",
+            "chart": {
+                "type": "table",
+                "title": "School Supplies Needed",
+                "data": [
+                    {
+                        "Class": "3A",
+                        "Pencils": 32,
+                        "Rulers": 28,
+                        "Erasers": 35
+                    },
+                    {
+                        "Class": "3B",
+                        "Pencils": 29,
+                        "Rulers": 31,
+                        "Erasers": 27
+                    },
+                    {
+                        "Class": "3C",
+                        "Pencils": 35,
+                        "Rulers": 29,
+                        "Erasers": 33
+                    },
+                    {
+                        "Class": "3D",
+                        "Pencils": 28,
+                        "Rulers": 34,
+                        "Erasers": 30
+                    }
+                ]
+            },
+            "options": [
+                "£14.00",
+                "£14.50",
+                "£15.50",
+                "£17.50"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Class 3B needs 29 pencils, not 28. 29 × £0.50 = £14.50.",
+                "Correct! Class 3B needs 29 pencils. 29 × £0.50 = £14.50.",
+                "This would be for 31 pencils, which is their ruler count.",
+                "This is too high - check the calculation again."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Looking at the school meal choices table below, which statements are true?",
+            "chart": {
+                "type": "table",
+                "title": "Weekly School Meal Choices",
+                "data": [
+                    {
+                        "Day": "Monday",
+                        "Hot Meals": 156,
+                        "Sandwiches": 89,
+                        "Salads": 34
+                    },
+                    {
+                        "Day": "Tuesday",
+                        "Hot Meals": 142,
+                        "Sandwiches": 95,
+                        "Salads": 41
+                    },
+                    {
+                        "Day": "Wednesday",
+                        "Hot Meals": 168,
+                        "Sandwiches": 82,
+                        "Salads": 28
+                    },
+                    {
+                        "Day": "Thursday",
+                        "Hot Meals": 134,
+                        "Sandwiches": 105,
+                        "Salads": 39
+                    },
+                    {
+                        "Day": "Friday",
+                        "Hot Meals": 178,
+                        "Sandwiches": 76,
+                        "Salads": 25
+                    }
+                ]
+            },
+            "options": [
+                "Friday had the most hot meal choices",
+                "Thursday had the most sandwich choices",
+                "Wednesday had the fewest salad choices",
+                "Hot meals were most popular every day"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ],
+            "feedback": [
+                "Correct! Friday had 178 hot meals, the highest number.",
+                "Correct! Thursday had 105 sandwiches, more than any other day.",
+                "Friday had 25 salads, which is fewer than Wednesday's 28.",
+                "Correct! Hot meals had the highest numbers each day compared to sandwiches and salads."
+            ]
+        }
+    ]
+}

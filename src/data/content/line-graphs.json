@@ -58,51 +58,262 @@
         {
             "question": "A line graph shows temperature during the day. At 2pm it was 20°C, at 4pm it was 25°C. What was the rate of temperature increase per hour?",
             "solution": "2.5°C per hour",
-            "explanation": "Temperature increase = 25°C - 20°C = 5°C. Time = 4pm - 2pm = 2 hours. Rate = 5°C ÷ 2 hours = 2.5°C per hour"
+            "explanation": "Temperature increase = 25°C - 20°C = 5°C. Time = 4pm - 2pm = 2 hours. Rate = 5°C ÷ 2 hours = 2.5°C per hour",
+            "chart": {
+                "type": "line",
+                "title": "Temperature Throughout the Day",
+                "xKey": "time",
+                "yKey": "temperature",
+                "data": [
+                    {
+                        "time": "12pm",
+                        "temperature": 18
+                    },
+                    {
+                        "time": "1pm",
+                        "temperature": 19
+                    },
+                    {
+                        "time": "2pm",
+                        "temperature": 20
+                    },
+                    {
+                        "time": "3pm",
+                        "temperature": 22.5
+                    },
+                    {
+                        "time": "4pm",
+                        "temperature": 25
+                    },
+                    {
+                        "time": "5pm",
+                        "temperature": 27
+                    },
+                    {
+                        "time": "6pm",
+                        "temperature": 24
+                    }
+                ]
+            }
         },
         {
             "question": "A graph shows a football team's goals scored each month. January: 8, February: 12, March: 6. What's the trend from January to March?",
             "solution": "Increase then decrease",
-            "explanation": "Jan to Feb: increased by 4 goals. Feb to Mar: decreased by 6 goals. Overall trend: up then down."
+            "explanation": "Jan to Feb: increased by 4 goals. Feb to Mar: decreased by 6 goals. Overall trend: up then down.",
+            "chart": {
+                "type": "line",
+                "title": "Goals Scored Per Month",
+                "xKey": "month",
+                "yKey": "goals",
+                "data": [
+                    {
+                        "month": "January",
+                        "goals": 8
+                    },
+                    {
+                        "month": "February",
+                        "goals": 12
+                    },
+                    {
+                        "month": "March",
+                        "goals": 6
+                    },
+                    {
+                        "month": "April",
+                        "goals": 9
+                    },
+                    {
+                        "month": "May",
+                        "goals": 14
+                    }
+                ]
+            }
+        },
+        {
+            "question": "Look at the plant growth chart below. During which week did the plant grow the most?",
+            "solution": "Week 2 to Week 3 - the plant grew 4cm",
+            "explanation": "Week 1-2: grew 2cm (5 to 7), Week 2-3: grew 4cm (7 to 11), Week 3-4: grew 3cm (11 to 14). Week 2-3 had the biggest growth.",
+            "chart": {
+                "type": "line",
+                "title": "Plant Height Over Time",
+                "xKey": "week",
+                "yKey": "height",
+                "data": [
+                    {
+                        "week": "Week 1",
+                        "height": 5
+                    },
+                    {
+                        "week": "Week 2",
+                        "height": 7
+                    },
+                    {
+                        "week": "Week 3",
+                        "height": 11
+                    },
+                    {
+                        "week": "Week 4",
+                        "height": 14
+                    },
+                    {
+                        "week": "Week 5",
+                        "height": 16
+                    }
+                ]
+            }
         }
     ],
     "exercises": [
         {
             "type": "multiple-choice",
-            "question": "A line graph shows plant height: Week 1: 5cm, Week 2: 8cm, Week 3: 11cm. What's the growth rate per week?",
+            "question": "Look at the student test scores chart below. What was the average score in Week 3?",
+            "chart": {
+                "type": "line",
+                "title": "Average Test Scores by Week",
+                "xKey": "week",
+                "yKey": "score",
+                "data": [
+                    {
+                        "week": "Week 1",
+                        "score": 72
+                    },
+                    {
+                        "week": "Week 2",
+                        "score": 78
+                    },
+                    {
+                        "week": "Week 3",
+                        "score": 85
+                    },
+                    {
+                        "week": "Week 4",
+                        "score": 82
+                    },
+                    {
+                        "week": "Week 5",
+                        "score": 88
+                    }
+                ]
+            },
             "options": [
-                "3cm per week",
-                "2cm per week",
-                "5cm per week",
-                "6cm per week"
-            ],
-            "correct": [
-                0
-            ],
-            "feedback": [
-                "Correct! Growth is steady: 5→8→11, so +3cm each week",
-                "Close, but check: it grows from 5 to 8 (3cm) in one week",
-                "This is the starting height, not the growth rate",
-                "Too high - the plant grows 3cm each week, not 6cm"
-            ]
-        },
-        {
-            "type": "multiple-choice",
-            "question": "A graph shows book sales: Mon: 20, Tue: 30, Wed: 25, Thu: 35. Which day had the biggest increase?",
-            "options": [
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Monday"
+                "78 points",
+                "82 points",
+                "85 points",
+                "88 points"
             ],
             "correct": [
                 2
             ],
             "feedback": [
-                "Tue increased by 10 from Mon, but Thu increased by 10 from Wed",
-                "Wed actually decreased by 5 from Tue",
-                "Correct! Thu increased by 10 (from 25 to 35), the biggest jump",
-                "Monday is the starting point, so no increase to compare"
+                "That's the Week 2 score.",
+                "That's the Week 4 score.",
+                "Correct! The line shows 85 points for Week 3.",
+                "That's the Week 5 score."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Using the sales data chart below, by how much did sales increase from February to April?",
+            "chart": {
+                "type": "line",
+                "title": "Monthly Sales (£1000s)",
+                "xKey": "month",
+                "yKey": "sales",
+                "data": [
+                    {
+                        "month": "Jan",
+                        "sales": 45
+                    },
+                    {
+                        "month": "Feb",
+                        "sales": 52
+                    },
+                    {
+                        "month": "Mar",
+                        "sales": 48
+                    },
+                    {
+                        "month": "Apr",
+                        "sales": 65
+                    },
+                    {
+                        "month": "May",
+                        "sales": 70
+                    }
+                ]
+            },
+            "options": [
+                "£13,000",
+                "£17,000",
+                "£20,000",
+                "£25,000"
+            ],
+            "correct": [
+                0
+            ],
+            "feedback": [
+                "Correct! February: £52k, April: £65k, so increase = 65 - 52 = £13k.",
+                "This would be if you compared January to April.",
+                "Check your subtraction: 65 - 52 = 13, not 20.",
+                "Too high - double-check the values on the chart."
+            ]
+        },
+        {
+            "type": "select-all",
+            "question": "Looking at the weather temperature chart below, which statements are true?",
+            "chart": {
+                "type": "line",
+                "title": "Daily Maximum Temperature (°C)",
+                "xKey": "day",
+                "yKey": "temp",
+                "data": [
+                    {
+                        "day": "Mon",
+                        "temp": 18
+                    },
+                    {
+                        "day": "Tue",
+                        "temp": 22
+                    },
+                    {
+                        "day": "Wed",
+                        "temp": 25
+                    },
+                    {
+                        "day": "Thu",
+                        "temp": 23
+                    },
+                    {
+                        "day": "Fri",
+                        "temp": 20
+                    },
+                    {
+                        "day": "Sat",
+                        "temp": 24
+                    },
+                    {
+                        "day": "Sun",
+                        "temp": 26
+                    }
+                ]
+            },
+            "options": [
+                "Sunday had the highest temperature",
+                "Temperature decreased from Wednesday to Friday",
+                "Tuesday to Wednesday had the biggest daily increase",
+                "The average weekly temperature was above 22°C"
+            ],
+            "correct": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "feedback": [
+                "Correct! Sunday reached 26°C, the highest point.",
+                "Correct! Wed: 25°C, Thu: 23°C, Fri: 20°C - a clear downward trend.",
+                "Correct! Tue to Wed increased by 3°C (22 to 25), the biggest jump.",
+                "Correct! Average = (18+22+25+23+20+24+26)÷7 = 22.6°C."
             ]
         }
     ]

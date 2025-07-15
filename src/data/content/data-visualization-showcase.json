@@ -1,0 +1,246 @@
+{
+    "concept": "Data Visualization Showcase",
+    "subject": "mathematics",
+    "category": "Data Interpretation",
+    "explanation": "This module demonstrates all types of interactive data visualizations available in the 11+ learning system. Students can now practice with real charts, graphs, and tables instead of just text descriptions. This addresses the critical gap in data interpretation practice for exam preparation.",
+    "examples": [
+        {
+            "question": "Bar Chart Example: Look at the library book borrowing data below. Which genre was borrowed most frequently?",
+            "solution": "Fiction was borrowed most with 85 books",
+            "explanation": "By comparing the heights of all bars, Fiction shows the tallest bar at 85 books borrowed.",
+            "chart": {
+                "type": "bar",
+                "title": "Library Books Borrowed This Month",
+                "xKey": "genre",
+                "yKey": "books",
+                "data": [
+                    {
+                        "genre": "Fiction",
+                        "books": 85
+                    },
+                    {
+                        "genre": "Science",
+                        "books": 42
+                    },
+                    {
+                        "genre": "History",
+                        "books": 38
+                    },
+                    {
+                        "genre": "Biography",
+                        "books": 25
+                    },
+                    {
+                        "genre": "Poetry",
+                        "books": 15
+                    }
+                ]
+            }
+        },
+        {
+            "question": "Line Graph Example: Study the temperature trend below. What was the temperature change from 10am to 2pm?",
+            "solution": "The temperature increased by 8°C (from 15°C to 23°C)",
+            "explanation": "At 10am the temperature was 15°C, at 2pm it was 23°C. Change = 23 - 15 = 8°C increase.",
+            "chart": {
+                "type": "line",
+                "title": "Temperature Throughout the Day",
+                "xKey": "time",
+                "yKey": "temperature",
+                "data": [
+                    {
+                        "time": "8am",
+                        "temperature": 12
+                    },
+                    {
+                        "time": "10am",
+                        "temperature": 15
+                    },
+                    {
+                        "time": "12pm",
+                        "temperature": 19
+                    },
+                    {
+                        "time": "2pm",
+                        "temperature": 23
+                    },
+                    {
+                        "time": "4pm",
+                        "temperature": 25
+                    },
+                    {
+                        "time": "6pm",
+                        "temperature": 22
+                    }
+                ]
+            }
+        },
+        {
+            "question": "Pie Chart Example: Analyze the transportation survey below. What fraction of students walk to school?",
+            "solution": "1/4 of students walk to school",
+            "explanation": "40 out of 160 total students walk to school. 40/160 = 1/4 or 25% of all students.",
+            "chart": {
+                "type": "pie",
+                "title": "How Students Travel to School (160 total)",
+                "data": [
+                    {
+                        "name": "School Bus",
+                        "value": 80
+                    },
+                    {
+                        "name": "Walk",
+                        "value": 40
+                    },
+                    {
+                        "name": "Car",
+                        "value": 32
+                    },
+                    {
+                        "name": "Bicycle",
+                        "value": 8
+                    }
+                ]
+            }
+        },
+        {
+            "question": "Data Table Example: Review the test scores below. What is the class average for Mathematics?",
+            "solution": "The class average for Mathematics is 78.2",
+            "explanation": "Adding all Mathematics scores: 85+72+88+76+70 = 391. Average = 391 ÷ 5 = 78.2",
+            "chart": {
+                "type": "table",
+                "title": "Class Test Scores",
+                "data": [
+                    {
+                        "Student": "Alice",
+                        "Mathematics": 85,
+                        "English": 92,
+                        "Science": 78
+                    },
+                    {
+                        "Student": "Bob",
+                        "Mathematics": 72,
+                        "English": 68,
+                        "Science": 85
+                    },
+                    {
+                        "Student": "Carol",
+                        "Mathematics": 88,
+                        "English": 90,
+                        "Science": 82
+                    },
+                    {
+                        "Student": "David",
+                        "Mathematics": 76,
+                        "English": 75,
+                        "Science": 79
+                    },
+                    {
+                        "Student": "Emma",
+                        "Mathematics": 70,
+                        "English": 88,
+                        "Science": 91
+                    }
+                ]
+            }
+        }
+    ],
+    "exercises": [
+        {
+            "type": "multiple-choice",
+            "question": "Using the sports popularity chart below, how many students chose Swimming and Basketball combined?",
+            "chart": {
+                "type": "bar",
+                "title": "Sports Popularity Survey",
+                "xKey": "sport",
+                "yKey": "students",
+                "data": [
+                    {
+                        "sport": "Football",
+                        "students": 65
+                    },
+                    {
+                        "sport": "Swimming",
+                        "students": 42
+                    },
+                    {
+                        "sport": "Basketball",
+                        "students": 38
+                    },
+                    {
+                        "sport": "Tennis",
+                        "students": 25
+                    },
+                    {
+                        "sport": "Cricket",
+                        "students": 30
+                    }
+                ]
+            },
+            "options": [
+                "70 students",
+                "75 students",
+                "80 students",
+                "85 students"
+            ],
+            "correct": [
+                2
+            ],
+            "feedback": [
+                "Swimming (42) + Basketball (38) = 80, not 70.",
+                "Close, but Swimming (42) + Basketball (38) = 80.",
+                "Correct! Swimming: 42 students, Basketball: 38 students. 42 + 38 = 80 students.",
+                "Swimming (42) + Basketball (38) = 80, not 85."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Look at the sales trend chart below. During which month did sales decrease the most?",
+            "chart": {
+                "type": "line",
+                "title": "Monthly Sales Performance (£1000s)",
+                "xKey": "month",
+                "yKey": "sales",
+                "data": [
+                    {
+                        "month": "Jan",
+                        "sales": 120
+                    },
+                    {
+                        "month": "Feb",
+                        "sales": 135
+                    },
+                    {
+                        "month": "Mar",
+                        "sales": 155
+                    },
+                    {
+                        "month": "Apr",
+                        "sales": 140
+                    },
+                    {
+                        "month": "May",
+                        "sales": 125
+                    },
+                    {
+                        "month": "Jun",
+                        "sales": 110
+                    }
+                ]
+            },
+            "options": [
+                "February to March",
+                "March to April",
+                "April to May",
+                "May to June"
+            ],
+            "correct": [
+                3
+            ],
+            "feedback": [
+                "February to March shows an increase, not a decrease.",
+                "March to April decreased by £15k (155 to 140).",
+                "April to May decreased by £15k (140 to 125).",
+                "Correct! May to June decreased by £15k (125 to 110), the biggest drop shown."
+            ]
+        }
+    ]
+}

@@ -58,72 +58,210 @@
         {
             "question": "In a pie chart showing favorite colors, blue takes up 90° of the circle. If 200 children were surveyed, how many chose blue?",
             "solution": "50 children",
-            "explanation": "90° out of 360° = 90/360 = 1/4 of the circle. 1/4 of 200 children = 50 children chose blue."
+            "explanation": "90° out of 360° = 90/360 = 1/4 of the circle. 1/4 of 200 children = 50 children chose blue.",
+            "chart": {
+                "type": "pie",
+                "title": "Favorite Colors Survey (200 children)",
+                "data": [
+                    {
+                        "name": "Blue",
+                        "value": 50
+                    },
+                    {
+                        "name": "Red",
+                        "value": 60
+                    },
+                    {
+                        "name": "Green",
+                        "value": 40
+                    },
+                    {
+                        "name": "Yellow",
+                        "value": 30
+                    },
+                    {
+                        "name": "Purple",
+                        "value": 20
+                    }
+                ]
+            }
         },
         {
             "question": "A pie chart shows that 3/8 of students like math. What angle does this represent?",
             "solution": "135°",
-            "explanation": "3/8 of 360° = 3/8 × 360° = 135°"
+            "explanation": "3/8 of 360° = 3/8 × 360° = 135°",
+            "chart": {
+                "type": "pie",
+                "title": "Subject Preferences",
+                "data": [
+                    {
+                        "name": "Math",
+                        "value": 3
+                    },
+                    {
+                        "name": "English",
+                        "value": 2
+                    },
+                    {
+                        "name": "Science",
+                        "value": 2
+                    },
+                    {
+                        "name": "History",
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        {
+            "question": "Look at the transportation chart below. If 240 students were surveyed, how many walk to school?",
+            "solution": "60 students walk to school",
+            "explanation": "Walking takes up 1/4 of the pie chart (90°), so 1/4 of 240 = 60 students walk to school.",
+            "chart": {
+                "type": "pie",
+                "title": "How Students Get to School (240 total)",
+                "data": [
+                    {
+                        "name": "Bus",
+                        "value": 120
+                    },
+                    {
+                        "name": "Car",
+                        "value": 60
+                    },
+                    {
+                        "name": "Walk",
+                        "value": 60
+                    }
+                ]
+            }
         }
     ],
     "exercises": [
         {
             "type": "multiple-choice",
-            "question": "In a pie chart, a sector has an angle of 72°. What fraction of the whole does this represent?",
+            "question": "Look at the hobby preferences chart below. What percentage of students chose Reading?",
+            "chart": {
+                "type": "pie",
+                "title": "Student Hobby Preferences",
+                "data": [
+                    {
+                        "name": "Sports",
+                        "value": 120
+                    },
+                    {
+                        "name": "Reading",
+                        "value": 60
+                    },
+                    {
+                        "name": "Gaming",
+                        "value": 90
+                    },
+                    {
+                        "name": "Music",
+                        "value": 30
+                    }
+                ]
+            },
             "options": [
-                "1/5",
-                "1/4",
-                "1/3",
-                "2/5"
-            ],
-            "correct": [
-                0
-            ],
-            "feedback": [
-                "Correct! 72° ÷ 360° = 1/5 of the whole circle.",
-                "1/4 would be 90°, not 72°.",
-                "1/3 would be 120°, not 72°.",
-                "2/5 would be 144°, not 72°."
-            ]
-        },
-        {
-            "type": "multiple-choice",
-            "question": "A pie chart shows data for 180 students. If a sector represents 60°, how many students does it represent?",
-            "options": [
-                "20",
-                "30",
-                "45",
-                "60"
+                "15%",
+                "20%",
+                "25%",
+                "30%"
             ],
             "correct": [
                 1
             ],
             "feedback": [
-                "60° ÷ 360° = 1/6, and 1/6 of 180 = 30, not 20.",
-                "Correct! 60° ÷ 360° = 1/6, and 1/6 of 180 = 30 students.",
-                "This would be 1/4 of 180, but 60° is 1/6 of 360°.",
-                "This is just the angle measure, not the number of students."
+                "60 out of 300 total is more than 15%.",
+                "Correct! 60 out of 300 = 60/300 = 1/5 = 20%.",
+                "This would be 75 out of 300, not 60.",
+                "This would be 90 out of 300, which is Gaming."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Using the pizza topping chart below, how many more students chose Pepperoni than Mushroom?",
+            "chart": {
+                "type": "pie",
+                "title": "Favorite Pizza Toppings (180 students)",
+                "data": [
+                    {
+                        "name": "Pepperoni",
+                        "value": 72
+                    },
+                    {
+                        "name": "Cheese",
+                        "value": 54
+                    },
+                    {
+                        "name": "Mushroom",
+                        "value": 36
+                    },
+                    {
+                        "name": "Veggie",
+                        "value": 18
+                    }
+                ]
+            },
+            "options": [
+                "30 students",
+                "36 students",
+                "42 students",
+                "72 students"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Check your subtraction: 72 - 36 = 36, not 30.",
+                "Correct! Pepperoni: 72, Mushroom: 36, so 72 - 36 = 36 more students.",
+                "This would be if Mushroom had 30, not 36.",
+                "This is just the Pepperoni total, not the difference."
             ]
         },
         {
             "type": "select-all",
-            "question": "A pie chart shows favorite pets. Which statements could be true?",
+            "question": "Looking at the seasonal activity chart below, which statements are true?",
+            "chart": {
+                "type": "pie",
+                "title": "Preferred Seasonal Activities",
+                "data": [
+                    {
+                        "name": "Swimming",
+                        "value": 90
+                    },
+                    {
+                        "name": "Skiing",
+                        "value": 60
+                    },
+                    {
+                        "name": "Hiking",
+                        "value": 120
+                    },
+                    {
+                        "name": "Indoor Sports",
+                        "value": 90
+                    }
+                ]
+            },
             "options": [
-                "Dogs: 180°, Cats: 90°, Birds: 90°",
-                "Dogs: 50%, Cats: 30%, Birds: 20%",
-                "Dogs: 120°, Cats: 120°, Birds: 60°, Fish: 60°",
-                "Dogs: 40%, Cats: 40%, Birds: 30%"
+                "Hiking is the most popular activity",
+                "Swimming and Indoor Sports are equally popular",
+                "Skiing is chosen by 1/6 of people",
+                "More than half prefer outdoor activities"
             ],
             "correct": [
                 0,
                 1,
-                2
+                2,
+                3
             ],
             "feedback": [
-                "Correct! 180° + 90° + 90° = 360° ✓",
-                "Correct! 50% + 30% + 20% = 100% ✓",
-                "Correct! 120° + 120° + 60° + 60° = 360° ✓",
-                "Incorrect. 40% + 40% + 30% = 110%, which is more than 100%."
+                "Correct! Hiking has 120, the largest value.",
+                "Correct! Both Swimming and Indoor Sports have 90 people.",
+                "Correct! Skiing: 60 out of 360 total = 60/360 = 1/6.",
+                "Correct! Outdoor (Swimming + Skiing + Hiking) = 90+60+120 = 270, which is more than half of 360."
             ]
         }
     ]

@@ -58,53 +58,250 @@
         {
             "question": "A bar graph shows pet ownership. The bar for dogs reaches 15 on the vertical scale. If the scale represents 'number of children', how many children have dogs?",
             "solution": "15 children",
-            "explanation": "Read directly from the scale where the bar ends. The bar reaches 15, so 15 children have dogs."
+            "explanation": "Read directly from the scale where the bar ends. The bar reaches 15, so 15 children have dogs.",
+            "chart": {
+                "type": "bar",
+                "title": "Pet Ownership in Year 6",
+                "xKey": "pet",
+                "yKey": "children",
+                "data": [
+                    {
+                        "pet": "Dogs",
+                        "children": 15
+                    },
+                    {
+                        "pet": "Cats",
+                        "children": 12
+                    },
+                    {
+                        "pet": "Fish",
+                        "children": 8
+                    },
+                    {
+                        "pet": "Rabbits",
+                        "children": 5
+                    },
+                    {
+                        "pet": "Birds",
+                        "children": 3
+                    }
+                ]
+            }
         },
         {
             "question": "In a bar graph of favorite colors, blue has 12 votes and red has 8 votes. How many more children chose blue than red?",
             "solution": "4 more children",
-            "explanation": "Difference = 12 - 8 = 4 more children chose blue than red."
+            "explanation": "Difference = 12 - 8 = 4 more children chose blue than red.",
+            "chart": {
+                "type": "bar",
+                "title": "Favorite Colors Survey",
+                "xKey": "color",
+                "yKey": "votes",
+                "data": [
+                    {
+                        "color": "Blue",
+                        "votes": 12
+                    },
+                    {
+                        "color": "Red",
+                        "votes": 8
+                    },
+                    {
+                        "color": "Green",
+                        "votes": 10
+                    },
+                    {
+                        "color": "Yellow",
+                        "votes": 6
+                    },
+                    {
+                        "color": "Purple",
+                        "votes": 4
+                    }
+                ]
+            }
+        },
+        {
+            "question": "Look at the weather data below. Which month had the highest rainfall?",
+            "solution": "March had the highest rainfall with 85mm",
+            "explanation": "By comparing the heights of all bars, March shows the tallest bar at 85mm of rainfall.",
+            "chart": {
+                "type": "bar",
+                "title": "Monthly Rainfall (mm)",
+                "xKey": "month",
+                "yKey": "rainfall",
+                "data": [
+                    {
+                        "month": "Jan",
+                        "rainfall": 45
+                    },
+                    {
+                        "month": "Feb",
+                        "rainfall": 60
+                    },
+                    {
+                        "month": "Mar",
+                        "rainfall": 85
+                    },
+                    {
+                        "month": "Apr",
+                        "rainfall": 70
+                    },
+                    {
+                        "month": "May",
+                        "rainfall": 55
+                    },
+                    {
+                        "month": "Jun",
+                        "rainfall": 30
+                    }
+                ]
+            }
         }
     ],
     "exercises": [
         {
             "type": "multiple-choice",
-            "question": "A bar graph shows heights of children in cm. If the scale goes up in steps of 5, and a bar reaches the 6th mark, what height does this represent?",
+            "question": "Look at the chart below showing book sales at a school fair. How many adventure books were sold?",
+            "chart": {
+                "type": "bar",
+                "title": "Book Sales at School Fair",
+                "xKey": "genre",
+                "yKey": "sold",
+                "data": [
+                    {
+                        "genre": "Adventure",
+                        "sold": 25
+                    },
+                    {
+                        "genre": "Mystery",
+                        "sold": 18
+                    },
+                    {
+                        "genre": "Comedy",
+                        "sold": 22
+                    },
+                    {
+                        "genre": "Fantasy",
+                        "sold": 30
+                    },
+                    {
+                        "genre": "Romance",
+                        "sold": 12
+                    }
+                ]
+            },
             "options": [
-                "6 cm",
-                "25 cm",
-                "30 cm",
-                "35 cm"
+                "18 books",
+                "22 books",
+                "25 books",
+                "30 books"
             ],
             "correct": [
                 2
             ],
             "feedback": [
-                "This doesn't account for the scale going up in steps of 5.",
-                "This would be if the scale started at 0 and went up in 5s, but 6th mark would be 30.",
-                "Correct! 6th mark with steps of 5: 0, 5, 10, 15, 20, 25, 30. The 6th mark is 30 cm.",
-                "This would be the 7th mark, not the 6th."
+                "That's the number of Mystery books sold.",
+                "That's the number of Comedy books sold.",
+                "Correct! The Adventure bar reaches 25 on the scale.",
+                "That's the number of Fantasy books sold."
+            ]
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Using the sports participation chart below, how many more students play football than tennis?",
+            "chart": {
+                "type": "bar",
+                "title": "Sports Participation in Year 6",
+                "xKey": "sport",
+                "yKey": "students",
+                "data": [
+                    {
+                        "sport": "Football",
+                        "students": 45
+                    },
+                    {
+                        "sport": "Tennis",
+                        "students": 28
+                    },
+                    {
+                        "sport": "Swimming",
+                        "students": 35
+                    },
+                    {
+                        "sport": "Basketball",
+                        "students": 32
+                    },
+                    {
+                        "sport": "Cricket",
+                        "students": 26
+                    }
+                ]
+            },
+            "options": [
+                "13 students",
+                "17 students",
+                "19 students",
+                "21 students"
+            ],
+            "correct": [
+                1
+            ],
+            "feedback": [
+                "Check your subtraction: 45 - 28 = 17.",
+                "Correct! Football has 45 students, Tennis has 28, so 45 - 28 = 17 more.",
+                "This would be if you added instead of subtracted.",
+                "Double-check the values from the chart."
             ]
         },
         {
             "type": "select-all",
-            "question": "Looking at a bar graph of favorite subjects, which information can you find directly?",
+            "question": "Looking at the ice cream sales chart below, which statements are true?",
+            "chart": {
+                "type": "bar",
+                "title": "Ice Cream Sales This Week",
+                "xKey": "flavor",
+                "yKey": "scoops",
+                "data": [
+                    {
+                        "flavor": "Vanilla",
+                        "scoops": 42
+                    },
+                    {
+                        "flavor": "Chocolate",
+                        "scoops": 38
+                    },
+                    {
+                        "flavor": "Strawberry",
+                        "scoops": 24
+                    },
+                    {
+                        "flavor": "Mint",
+                        "scoops": 16
+                    },
+                    {
+                        "flavor": "Cookie",
+                        "scoops": 20
+                    }
+                ]
+            },
             "options": [
-                "Which subject is most popular",
-                "How many children chose each subject",
-                "The total number of children surveyed",
-                "The percentage who chose math"
+                "Vanilla was the most popular flavor",
+                "More than 100 scoops were sold in total",
+                "Strawberry sold more than Cookie flavor",
+                "Chocolate and Mint together sold 54 scoops"
             ],
             "correct": [
                 0,
                 1,
-                2
+                2,
+                3
             ],
             "feedback": [
-                "Correct! The tallest bar shows the most popular subject.",
-                "Correct! Read the height of each bar against the scale.",
-                "Correct! Add up all the bars to get the total.",
-                "You need to calculate this from the numbers - it's not directly shown."
+                "Correct! Vanilla has the highest bar at 42 scoops.",
+                "Correct! Total = 42+38+24+16+20 = 140 scoops.",
+                "Correct! Strawberry sold 24, Cookie sold 20.",
+                "Correct! Chocolate (38) + Mint (16) = 54 scoops."
             ]
         }
     ]
